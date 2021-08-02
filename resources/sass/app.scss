@@ -1,0 +1,134 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "vue-select/src/scss/vue-select.scss";
+@import "~@coreui/coreui/scss/coreui";
+
+body {
+  background: $color-gray-light-12;
+}
+
+.text-sentence-case {
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+.table {
+  margin-bottom: 0;
+
+  thead th {
+    vertical-align: top;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: $table-header-color;
+    border-bottom: 1px solid $color-gray-light-5;
+  }
+
+  thead tr, tbody tr {
+    &:hover {
+      background-color: $table-hover-bg-color;
+    }
+  }
+
+  th, td {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid $line-color;
+    color: $text-color;
+  }
+}
+
+.c-app {
+  background-color: $color-gray-light-10;
+  color: $text-color;
+}
+
+.c-main {
+  padding-top: 1.25rem;
+}
+
+.u-pointer {
+  cursor: pointer;
+}
+
+.card-header > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.bg-gray-light {
+  background-color: #EAECEE;
+}
+
+.bg-gray-super-light {
+  background-color: #F8F9F9;
+}
+
+.page-item {
+  &.active {
+    .page-link {
+      background-color: $success;
+      border-color: $success;
+    }
+  }
+}
+
+.clickable-block {
+  cursor: pointer;
+  transition: box-shadow 0.15s ease-in;
+
+  &:hover {
+    box-shadow: 0 0 15px $color-gray !important;
+  }
+}
+
+.vs {
+    &__dropdown-toggle {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        background-clip: padding-box;
+        border: 1px solid;
+        color: #768192;
+        background-color: #fff;
+        border-color: #d8dbe0;
+        border-radius: 4px;
+    }
+
+    &__selected-options {
+        padding: 0;
+    }
+
+    &__selected-options &__selected {
+        margin: 0 2px 0 0;
+        background-color: transparent;
+    }
+
+    &--single &__selected {
+        margin: 0;
+        padding: 0;
+        color: #768192;
+    }
+
+    &__search, &__search:focus {
+        margin: 0;
+        padding: 0 7px 0 0;
+        color: #768192;
+    }
+
+    &__dropdown-option {
+        padding: 0.375rem 0.75rem;
+    }
+
+    &__actions {
+        padding: 0;
+    }
+}
+
+

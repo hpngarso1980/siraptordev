@@ -1,0 +1,714 @@
+[
+    {
+        "name": "Maturity Level - Aspek Manajemen Kinerja",
+        "weight": 0.25,
+        "areas": [
+            {
+                "name": "Perencanaan",
+                "sub_areas": [
+                    {
+                        "name": "Penyusunan Program Kerja Tahunan",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Belum dilakukan perencanaan program kerja tahunan. Pekerjaan yang dilakukan hanya dijalankan mengikuti rutinitas yang ada atau sebaliknya bersifat sporadis"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Sudah disusun program kerja selama setahun. Program kerja disusun tanpa ada pertimbangan yang akuntabel, tidak mempertimbangkan sasaran\/tema strategis tahun kerja, SWOT analysis, dan mempertimbangkan profil risiko yang ada. Evaluasi atas pelaksanaan program kerja tahun sebelumnya juga belum dilakukan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Program Kerja Tahunan disusun dengan memperhatikan : - Evaluasi pelaksanaan program kerja tahun sebelumnya - Sasaran dan tema strategis pada tahun kerja - Profil risiko pada tahun kerja - SWOT analysis dalam menjalankan program Quality Assurance Selanjutnya dalam program kerja tahunan tersebut termuat : - Daftar program pada tahun kerja yang dilengkapi dengan jadwal dan penanggung jawab pada masing-masing program - Kebutuhan sumber daya Program Kerja Tahunan telah mendapat persetujuan GM unit, telah didistribusikan ke masing-masing bidang meski kadang didistribusikan terlambat (setelah tahun kerja berjalan). Kendati demikian, program ini belum sepenuhnya dipahami oleh bidang-bidang lain di unit"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Program Kerja Tahunan telah disusun sesuai kriteria level sebelumnya. Program Kerja telah didistribusikan ke semua bidang di unit dan bidang\/divisi terkait di Kantor Pusat dengan tepat waktu (sebelum tahun kerja dimulai). Bidang-bidang sepenuhnya juga telah memahami program kerja yang akan dijalankan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Proses pada kriteria sebelumnya telah dijalankan konsisten minimal 3 tahun dan nampak continual improvement pada proses tersebut."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pemenuhan Kompetensi Personil",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Proses penempatan karyawan di fungsi MMRK\/QA tidak memperhatikan kebutuhan kompetensi jabatan sehingga kadang diisi karyawan yang kurang kompeten"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Karyawan yang mengisi formasi fungsi MMRK\/QA memenuhi kualifikasi berikut : Supervisor Senior - Promosi dari bidang lain dengan masa kerja di bidang sebelumnya kurang 3 tahun DAN - Memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management (setidaknya 1 sertifikat) yang masih berlaku Pelaksana - Rerata masa kerja di MMRK\/QA < 1 tahun - Rerata masa kerja di PJB adalah : 2-3 tahun - Masing-masing personil memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management (setidaknya 1 sertifkat) yang masih berlaku"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Karyawan yang mengisi formasi fungsi MMRK\/QA memenuhi kualifikasi berikut : Supervisor Senior - Rotasi : Sebelumnya pernah menjabat sebagai SPVS di bidang operasional lain, atau - Promosi dari internal MMRK\/QRM dengan masa kerja di MMRK\/QRM : 1-2 tahun, atau - Promosi dari bidang lain dengan masa kerja di bidang sebelumnya : 3-4 tahun DAN - Memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management (setidaknya 2 sertifikat) yang masih berlaku Pelaksana - Rerata masa kerja di MMRK\/QA : 1-2 tahun - Rerata masa kerja di PJB adalah : 3-4 tahun - Masing-masing personil memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management (setidaknya 2 sertifkat) yang masih berlaku"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Karyawan yang mengisi formasi fungsi MMRK\/QA memenuhi kualifikasi berikut : Supervisor Senior - Rotasi : Sebelumnya pernah menjabat sebagai SPVS di bidang operasional lain, atau - Promosi dari internal MMRK\/QRM dengan masa kerja di MMRK\/QRM : 2-3 tahun, atau - Promosi dari bidang lain dengan masa kerja di bidang sebelumnya : 4-5 tahun DAN - Memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management (setidaknya 3 sertifikat) yang masih berlaku Pelaksana - Rerata masa kerja di MMRK\/QA : 2-3 tahun - Rerata masa kerja di PJB adalah : 4-5 tahun - Masing-masing personil memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management (setidaknya 3 sertifkat) yang masih berlaku"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Karyawan yang mengisi formasi fungsi MMRK\/QA memenuhi kualifikasi berikut : Supervisor Senior - Rotasi : Sebelumnya pernah menjabat sebagai SPVS di bidang operasional lain, atau - Promosi dari internal MMRK\/QRM dengan masa kerja di MMRK\/QRM di atas 3 tahun, atau - Promosi dari bidang lain dengan masa kerja di bidang sebelumnya di atas 5 tahun DAN - Memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management yang masih berlaku Pelaksana - Rerata masa kerja di MMRK\/QA di atas 3 tahun - Rerata masa kerja di PJB adalah di atas 5 tahun - Masing-masing personil memiliki sertifikat kompetensi di bidang audit internal, performance management, sistem manajemen, dan compliance management yang masih berlaku"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pelaksanaan",
+                "sub_areas": [
+                    {
+                        "name": "Pelaksanaan Program Penguatan Kinerja Proses",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Pelaksanaan kinerja proses berjalan sebagaimana biasanya, tidak nampak evaluasi, perencanaan perbaikan dan pelaksanaan program perbaikan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Berdasar potret pencapaian kematangan kinerja proses, fungsi MMRK\/QA mengevaluasi ketidaktercapaian dan mengidentifikasi peluang perbaikan. Dari situ disusun program perbaikan kinerja proses bersama pemilik proses. Namun program kerja masih bersifat umum, sehingga pelaksanaannya belum disiplin dan optimal"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Proses evaluasi dan identikasi permasalahan telah berjalan dengan baik. Program peningkatan kinerja proses telah disusun lebih rinci meliputi scope langkah kerja, jadwal kegiatan, dan resources yang dibutuhkan. Program sudah dilaksanakan dengan baik. Kendati demikian belum dilakukan evaluasi pasca program apakah sudah cukup efektif meleverage kinerja proses yang ada."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Proses pada kriteria level sebelumnya telah dilakukan dengan baik. Program yang dijalankan terbukti akurat dan berkontribusi pada peningkatan kinerja proses dan hasil. Juga dilakukan evaluasi untuk proses perbaikan berkelanjutan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Proses pada kriteria level sebelumnya telah dijalankan konsisten minimal 3 tahun dan nampak continual improvement pada proses tersebut."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengelolaan Data",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Fungsi MMRK\/QRM belum berkontribusi dalam pengelolaan data di unit. Dimensi kualitas data belum terpenuhi dengan baik."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Fungsi MMRK\/QRM mulai berkontribusi dalam pengelolaan data di unit. Dimensi kualitas data sudah banyak yang terpenuhi karena Fungsi MMRK\/QRM mulai ikut melakukan validasi data. Kendati demikian peta pemilik data belum jelas sehingga saat data dibutuhkan masih kerap ditemui loss of control dan keterlambatan penyajian data"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Seluruh dimensi kualitas data terpenuhi dengan baik. Peta penyimpanan dan kepemilikan data telah jelas sehingga memudahkan dalam penggunaan. Data telah diolah menjadi informasi bagi manajemen. Kendati demikian, informasi hanya menceritakan peristiwa yang telah terjadi, sehingga keputusan yang diambil bersifat lagging , belum mampu antisipatif atas risiko di masa depan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Kriteria pada level sebelumnya terpenuhi. Proses pengolahan data sudah lebih baik. Memberikan data analisis yang bersifat prediktif yaitu: 1. trend analysis 2. analisa forecasting Pada kondisi ini, informasi bersifat early warning system bagi manajemen sehingga keputusan yang dihasilkan lebih akurat"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Kriteria pada level sebelumnya terpenuhi telah konsisten dijalankan minimal 3 tahun. Proses pengolahan data sudah lebih baik. Memberikan data analisis yang bersifat prediktif yaitu: 1. trend analysis 2. analisa forecasting 3. RCA dari ketidaktercapaian Pada kondisi ini, informasi bersifat early warning system sehingga dapat digunakan sebagai penentuan kebijakan pada Rencana Program Unit."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Review dan Monitoring",
+                "sub_areas": [
+                    {
+                        "name": "Self Assessment Kontrak Kinerja",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Fungsi MMRK\/QA meminta pemilik proses untuk mengisi form check list self assesment, mengumpulkan evidence, lalu dikcompile tanpa melalui verifikasi apapun"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "- Terhadap data yang diberikan pemilik proses, fungsi MMRK\/QA melakukan assesment dengan pendekatan on desk. Proses verifikasi lebih bersifat pemenuhan dokumen\/evidence tanpa melihat fakta yang sesungguhnya - Laporan self assessment dan rencana tindak lanjut disampaikan ke pemilik proses melalui OA"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Self Assessment dilakukan dengan metode on site assessment. Fungsi MMRK\/QA berdiskusi dengan pemilik proses tentang kematangan proses yang dijalankan, termasuk di dalamnya membuktikan penjelasan yang disampaikan asesi dengan evidence yang relevan. Self assessment manghasilkan OFI, namun OFI lebih bersifat menyelesaikan ketidaksesuaian per pasal - Laporan Self Assessment selain disampaikan melalui OA, juga disampaikan pada forum Rapat Tinjauan Manajemen."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Disamping melakukan diskusi bersama pemilik proses, fungsi MMRK\/QA juga melakukan kroscek dengan fakta-fakta lain ( di luar evidence yang disodorkan), melakukan kunjungan lapangan, atau klarifikasi lintas stream. - Sudah mulai dilakukan root cause analysis atas ketidaksesuaian yang muncul sehingga OFI sudah mulai mengarah kepada penyelesaian akar permasalahan - Laporan Self Assessment selain disampaikan melalui OA, juga disampaikan pada forum Rapat Tinjauan Manajemen."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Praktek self assesment yang baik sudah konsisten dijalankan minimal 3 tahun dan terbukti mampu menjaga kualitas impplementasi proses bisnis yang selaras dengan pencapaian kinerja hasil"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Perbaikan Berkelanjutan",
+                "sub_areas": [
+                    {
+                        "name": "Penyelesaian Rekomendasi Tindak Lanjut",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Tidak ada fungsi monitoring tindak lanjut yang dijalankan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Fungsi MMRK\/QA telah membuat form monitoring tindak lanjut namun bersifat manual. Proses komunikasi dengan pemilik proses belum berjalan baik sehingga pemilik proses sering tidak mengetahui jika ada task yang harus diselesaikan atau melewati batas waktu yang ditetapkan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Fungsi MMRK\/QA telah membuat form monitoring tindak lanjut namun bersifat manual. Proses komunikasi dengan pemilik proses sudah mulai berjalan baik namun masih ditemukan task yang out of control. Dalam hal ini, manajemen unit telah mendukung Fungsi MMRK\/QA dalam menjalankan fungsi monitoring tindak lanjut. Fungsi MMRK\/QA menginisiasi pembahasan apabila ditemui kendala dalam eksekusi."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Fungsi MMRK\/QA sudah mendapat dukungan penuh oleh manajemen unit. Fungsi MMRK\/QA menginisiasi pembahasan apabila ditemui kendala dalam eksekusi. Form monitoring tersimpan dalam sistem yang mudah diakses oleh pihak-pihak yang berkepentingan. Lebih baik terdapat fungsi reminder kepada pemilik proses apabila task telah mendekati tenggat waktu penyelesaian"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Proses pada kriteria level sebelumnya telah konsisten dijalankan minimal 3 tahun dan terbukti menjamin mutu proses bisnis yang dijalankan di unit. MMK Menganalisis keseluruhan temuan berupa RCA sehingga dapat dijadikan dasar dalam program continual improvement"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator - Aspek Manajemen Kinerja",
+        "weight": 0.25,
+        "areas": [
+            {
+                "name": "Pelaksanaan",
+                "sub_areas": [
+                    {
+                        "name": "Persen Pelaksanaan Program Penguatan Kinerja Proses",
+                        "weight": 0.33,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "< 80%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "80% - 90%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "90% - 95%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "95% - 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Perbaikan Berkelanjutan",
+                "sub_areas": [
+                    {
+                        "name": "Penyelesaian Rekomendasi Tindak Lanjut",
+                        "weight": 0.33,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "< 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "70% - 80%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80% - 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90% - 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Program Continual Improvement untuk Peningkatan Kualitas",
+                        "weight": 0.33,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Tidak terdapat continual improvement"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "- Terdapat 2-3 continual improvement baru baru per semester. - Continual improvement lama telah konsisten berjalan 6-12 bulan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Terdapat 4-5 continual improvement baru baru per semester. - Continual improvement lama telah konsisten berjalan 12-18 bulan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Terdapat 4-5 continual improvement baru baru per semester. - Continual improvement lama telah konsisten berjalan 18-24 bulan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "- Terdapat > 5 continual improvement baru baru per semester. - Continual improvement lama telah konsisten berjalan di atas 2 tahun"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Maturity Level - Aspek Kepatuhan",
+        "weight": 0.25,
+        "areas": [
+            {
+                "name": "Pengelolaan kepatuhan terhadap perijinan, sertifikasi personil dan lisensi",
+                "sub_areas": [
+                    {
+                        "name": "Kepatuhan terhadap perijinan, sertifikasi personil dan lisensi",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah dilakukan inventarisir database semua peralatan (obyek) yang di wajibkan ijin sesuai regulasi dan inventarisir perijinan, sertifikasi personil dan lisensi terhadap masa berlaku (dengan status yang berlaku, persiapan (Maksimal 6 bulan sebelum expired) dan expired) termasuk aset di unit yang menjadi tanggung jawab pihak lain (PLN, PJBS dsb)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Level 2 + Monitoring data perijinan, sertifikasi personil dan lisensi dan membuat update progress perpanjangan perizinan yang berstatus expired dan status mendekati expired setiap triwulan pada sistem."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + Monitoring data perijinan, sertifikasi personil dan lisensi pada SISMINDOKUM dan melaporkan progress perpanjangan atas yang berstatus expired dan status mendekati expired"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Melakukan tindak lanjut atas perijinan unit dan sertifikasi personil pada SISMINDOKUM berdasar status persiapan dan expired serta peralatan (obyek) pada point 1 yang belum perizinannya."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Memastikan semua peralatan \/obyek yang diwajibkan izin sesuai dengan regulasi sudah mempunyai sertifikasi perizinan dari pihak regulator yang berwenang sesuai Undang-Undang dan terdokumentasi dengan baik dalam sistem aplikasi SISMINDOKUM."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan Kepatuhan terhadap regulasi",
+                "sub_areas": [
+                    {
+                        "name": "Kepatuhan terhadap regulasi",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah dilakukan inventarisir database regulasi internal yang berlaku di Unit (Peraturan Direksi, SK GM, nota dinas yang bersifat mengatur\/menetapkan), regulasi eksternal yang berimplikasi terhadap Unit (UU dan aturan turunannya termasuk Peraturan Daerah dan aturan PLN)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Sudah dilakukan identifikasi risiko (risk identification), penilaian risiko (risk assessment) kepatuhan terhadap regulasi, melaporkan monitoring regulasi pada Bab Pengelolaan Peraturan Eksternal dan Internal pada Laporan Manajemen Risiko dan Evaluasi Kepatuhan (LMREK) setiap triwulanan dan melakukan upload database monitoring regulasi pada aplikasi SISMINDOKUM"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Sudah dilakukan perlakuan risiko (risk treatment) yaitu mencegah terjadinya pelanggaran regulasi dengan tindakan kontrol (SOP, IK) dan mitigasi (program kerja). Sudah terdapat pengelolaan surat teguran\/ peringatan\/ pengenaan denda."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Sudah dilakukan monitoring & review atas pelaksanaan tindakan kontrol (SOP, IK) dan mitigasi (program kerja). Memperoleh dukungan dari manajemen atas pelaksanaan tindakan kontrol dan mitigasi."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "(i)Tidak terdapat surat teguran. (ii)Jika terdapat surat teguran, dapat menyampaikan hasil tindak lanjut atas surat teguran telah terdokumentasi (dari tahapan pertama upaya pemenuhan sampai dengan close). (iii)Jika surat surat teguran tidak dilaporkan pada Divisi Pembina dan Bidang Kepatuhan maksimal 4 hari kerja setelah penerimaan surat teguran maka penilaian konkin akan dikembalikan pada level (2<x\u22643)."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan kepatuhan terhadap kontrak pelanggan",
+                "sub_areas": [
+                    {
+                        "name": "Kepatuhan terhadap kontrak pelanggan",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah dilakukan inventarisir database kontrak pelanggan yang berlaku di Unit dan melakukan monitoring (terkait waktu pelaksanaan kontrak\/ masa berakhir) atas pengendalian pelaksanaan kontrak setiap bulan berdasarkan kontrak pelanggan yang ada di Unit dan update terhadap perubahan kontrak."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Sudah dilakukan koordinasi dengan Divisi\/Bidang terkait di Kantor Pusat atas kontrak pelanggan dengan status expired"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + Sudah dilakukan pemantauan dengan memberikan kelengkapan informasi terkait pemenuhan lingkup kontrak, nilai kontrak, dokumen penagihan secara manual dan tindak lanjut atas kontrak pelanggan dengan status expired dan status mendekati expired"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + Monitoring pemenuhan dan melakukan update terhadap lingkup kontrak, nilai kontrak dan dokumen penagihan kontrak\/dokumen persyaratan pembayaran (BAPP\/ BAST) yang menjadi persyaratan pembayaran\/penagihan yang dilengkapi oleh Unit dan pemenuhan dokumen penagihan (invoice)."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + Sudah dilakukan tindakan mitigasi untuk menghindari ketidaksesuaian dokumen penagihan."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan LHKPN",
+                "sub_areas": [
+                    {
+                        "name": "Kepatuhan pelaporan wajib LHKPN",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Dilakukan inventarisir database wajib LHKPN (Wajib Lapor dan Non Wajib Lapor) di Unit secara up date"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Sudah menyiapkan dokumen persyaratan registrasi LHKPN (Form aktivasi)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Sudah dilakukan sosialisasi LHKPN secara berkala (setahun 1 kali) kepada wajib LHKPN dan pemberitahuan periodik kepada wajib LHKPN baru termasuk pemberitahuan untuk wajib lapor yang masuk kategori non aktif karena turun jabatan atau pensiun sesuai aturan yg berlaku."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Sudah dilakukan dokumentasi secara lengkap (scan form aktivasi dan scan surat kuasa Wajib LHKPN, foto dan presensi kegiatan sosialisasi, nota dinas pengiriman dokumen LHKPN dari Unit ke Bidang Kepatuhan Kantor Pusat) Sudah menyampaikan pengumuman atas Nomor Harta Kekayaan (NHK) dan status pelaporan bagi wajib LHKPN Unit Sudah dilakukan pengecekan kesesuaian wajib LHKPN berdasar database ellips dan kondisi riil di Unit"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + Sudah Kesesuaian database wajib LHKPN Unit dengan database di web elhkpn.kpk.go.id Sudah dilakukan mitigasi untuk menghindari ketidaksesuaian database wajib LHKPN Unit dengan database di web elhkpn.kpk.go.id"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan dan Pencegahan Gratifikasi",
+                "sub_areas": [
+                    {
+                        "name": "Unit Pengendali Gratifikasi di Unit",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah ada yang ditunjuk sebagai admin UPG di unit dan memahami tatacara pelaporan gratifikasi melalui GOL"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Karyawan unit sudah memahami tata cara pelaporan gratifikasi dan pemakaian aplikasi GOL"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Sudah melakukan berbagai progam pencegahan gratifkasi"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Mengawal dan berkoordinasi dengan UPG KP atas penyelesaian alur verifikasi sampai penetapan status kepemilikan pelaporan gratifikasi"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Melaporkan program pencegahan gratifikasi secara rutin dalam Laporan Manajemen Risiko dan Evaluasi Kepatuhan triwulanan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pelaksaaan Program Pengendalian Internal",
+                "sub_areas": [
+                    {
+                        "name": "Pelaporan ICOFR",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Memastikan bussiness process owner telah mengisi CSA ICOFR sesui kaidah, kebijakan dan waktu yang telah ditentukan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Melaporkan pelaksanaan CSA ICOFR sesuai kaidah, kebijakan dan waktu yang telah ditentukan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Fungsi Kepatuhan Unit melakukan review\/Test of Design (TOD) atas laporan CSA ICOFR oleh bussiness process owner atas setiap segmen terkait di unit dan melakukan tindak lanjut (pengawalan remidiasi) atas hasil yg inefektif"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Menyampaikan kertas kerja remediasi atas pelaksanaan CSA ICOFR yang tidak efektif dan review atas BPM (business process matrix) dan RCM (risk control matrix) terkait di unit."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + Menyampaikan hasil kertas kerja CSA dan TOD secara efektif."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator - Aspek Kepatuhan",
+        "weight": 0.25,
+        "areas": [
+            {
+                "name": "Pemenuhan kepatuhan terhadap regulasi dan perijinan (perijinan, lisensi, sertifikasi)",
+                "sub_areas": [
+                    {
+                        "name": "Pemenuhan sistem manajemen kepatuhan yaitu kepatuhan atas regulasi dan perijinan (perijinan, lisensi, sertifikasi)",
+                        "weight": 0.3,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Jumlah perijinan (perijinan\/peralatan wajib ijin, lisensi, sertifikasi) dengan status aktif (tidak expired) sebesar 0 - 50 %"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah perijinan (perijinan\/peralatan wajib ijin, lisensi, sertifikasi) dengan status aktif (tidak expired) sebesar 51 - 75 % dan terdapat surat denda dari regulator yg sudah ditindaklanjuti"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah perijinan (perijinan\/peralatan wajib ijin, lisensi, sertifikasi) dengan status aktif (tidak expired) sebesar 76 - 100 % dan terdapat surat teguran\/peringatan\/denda dari regulator yg sudah ditindaklanjuti"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah perijinan (perijinan\/peralatan wajib ijin, lisensi, sertifikasi) dengan status aktif (tidak expired) sebesar 100% dan terdapat surat teguran\/peringatan\/denda dari regulator yg sudah ditindaklanjuti"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Jumlah perijinan (perijinan\/peralatan wajib ijin, lisensi, sertifikasi) dengan status aktif (tidak expired) sebesar 100% dan 0% surat teguran\/peringatan\/denda dari regulator"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pemenuhan Kepatuhan terhadap kontrak pelanggan",
+                "sub_areas": [
+                    {
+                        "name": "Pemenuhan sistem manajemen kepatuhan, yaitu kepatuhan terhadap kontrak pelanggan",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Seluruh kontrak pelanggan yang ada diunit telah diinventarisir dan masuk ke dalam databese kontrak pelanggan terkait status kontrak dengan status aktif (tidak expired) sebesar 0 - 50 %"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Kontrak pelanggan dengan status aktif (tidak expired) sebesar 51 - 100 % dan terdapat rekomendasi \/ tindak lanjut yg sudah ditindaklanjuti"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Kontrak pelanggan dengan status aktif (tidak expired) dengan dilengkapi informasi lingkup kontrak, nilai kontrak dan dokumen penagihan\/persyaratan pembayaran sebesar 100 %"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Kesesuaian kontrak pelanggan status aktif sesuai dengan dokumen penagihan kontrak sebesar 100% dan bila ada ketidaksesuaian sudah ditindaklanjuti"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Kontrak pelanggan dengan status aktif (tidak expired) dan Monitoring outstanding piutang (Aging\/ umur piutang usaha) dan pengakuan pendapatan sebesar 100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pelaporan LHKPN",
+                "sub_areas": [
+                    {
+                        "name": "Kepatuhan pelaporan LHKPN",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Dokumen persyaratan LHKPN (Form aktivasi) sudah terkumpul 100% dari keseluruhan total wajib LHKPN di Unit"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Pelaporan LHKPN sudah terkumpul 100 % dengan status proses verifikasi KPK"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pelaporan LHKPN sudah terkumpul 100 % dengan status proses verifikasi KPK dan menindaklanjuti hasil verifikasi KPK (perbaikan)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Pelaporan LHKPN sudah diumumkan lengkap 100 %"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Ketepatan waktu pelaporan wajib LHKPN 100% dengan ketentuan sebagai berikut : a. Sudah dilaporkan dan status proses verifikasi KPK 100% maksimal 31 Maret b. Status verifikasi lengkap oleh KPK dan diumumkan lengkap 100% maksimal 31 Oktober"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pemenuhan Program Pengendalian Internal",
+                "sub_areas": [
+                    {
+                        "name": "Pelaksanaan ICOFR",
+                        "weight": 0.3,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "CSA ICOFR dilaporkan 100% atas semua segmen dan semua proses bisnis terkait di unit"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "CSA ICOFR dilaporkan 100% atas semua segmen dan semua proses bisnis terkait di unit dan dilakukan tindak lanjut atas hasil inefektif"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "CSA ICOFR dilaporkan 100% atas semua segmen dan semua proses bisnis terkait di unit dan dilakukan tindak lanjut atas hasil yang berpotensi inefektif"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "CSA ICOFR dilaporkan dengan hasil 100% efektif dan tersertifikasi di level unit tetapi ditemukan hasil yg inefektif"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "CSA ICOFR dilaporkan dengan hasil 100% efektif dan tersertifikasi di level unit"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

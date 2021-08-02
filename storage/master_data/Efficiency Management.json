@@ -1,0 +1,576 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Pengumpulan data efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Pengumpulan Data Efisiensi",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah dilakukan data collection, secara insidentil ketika ditemukan permasalahan tertentu, tapi belum ada daftar parameter operasi terkait efisiensi. Dibuktikan dengan kondisi berikut, 1. Terdapat PIC yang bertanggungjawab melakukan data collection (dijelaskan dalam job description nota dinas, RASCI atau SK untuk Manajemen Effisiensi) 2. Terdapat sheet data collection ketika melakukan analisa efisiensi (dilengkapi dengan tag ID atau KKS No untuk masing-masing parameter operasi)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Terdapat daftar parameter operasi terkait efisiensi. Sudah dilakukan data collection secara rutin. Terdapat data referensi sebagai komparasi\/pembanding terhadap data yang sudah diambil. Dibuktikan dengan kondisi berikut, 1. Terdapat data referensi yang sudah di rekap dengan baik (sumber data referensi dari : data commisioning, manual book\/Heat Balance Diagram) 2. Terdapat daftar parameter operasi terkait efisiensi dan terdapat range normal operasi (mengacu pada manual book peralatan operasi dan ketika komissioning) 3. Terdapat jadwal dan realisasi data collection minimal 80% dari rencana kecuali jika terdapat unplanned outage."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + Data terdokumentasi dengan baik dan mudah dilacak , serta validitas data terjaga. Dibuktikan dengan kondisi berikut, 1. Terdapat Tindak Lanjut Ketidaksesuaian Data Operasi ( ILS \/ SR ) untuk parameter operasi yang tidak normal \/ mengalami gangguan dan berpengaruh dalam perhitungan efisiensi 2. Terdapat hasil tindak lanjut ILS ketidaksesuain data operasi (WO rise) 3. Terdapat folder atau outner yang khusus digunakan untuk menyimpan data collecting"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + Sudah web based dan data dari web dimanfaatkan sebagai input data software modelling efisiensi. Dibuktikan dengan kondisi berikut, 1. Data Collection bisa melalui web (internet maupun intranet) 2. Terdapat template pada web untuk menarik data sebagai input data pada software modelling"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + Terintegrasi dengan bidang terkait. Dibuktikan dengan kondisi berikut, 1. Terdapat real time data monitoring sistem (real time data parameter operasi, real time data emisi dari operasional unit, real time data analisa kualitas bahan bakar, air, uap, dan real time data monitoring peralatan pendukung) yang bisa diakses oleh bidang lain dan digunakan sebagai inputan stream lain yang terkait. 2. Terdapat bukti tindak lanjut terhadap collecting data yang digunakan oleh pihak terkait (hasil pengambilan real time data \/ historian data digunakan untuk pengolahan dan analisa lebih lanjut seperti RCFA, ECP dan lain sebagainya)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Olah Data Efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Perhitungan Performance Test",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Performance test Plant sudah dilaksanakan secara insidentil. Belum terdapat IK performance test. Dibuktikan dengan kondisi berikut, 1. Terdapat bidang yang berfungsi untuk melaksanakan performance test (dijelaskan dalam job description nota dinas, RASCI atau SK untuk Manajemen Effisiensi) 2. Terdapat Laporan hasil performance test yang sudah dilakukan ketika periode evaluasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Performance test Plant sudah dilaksanakan secara rutin, terdapat data referensi sebagai pembanding, serta terdapat IK Performance test sebagai panduan pelaksanaan, tetapi belum mengacu pada standard uji yang ada"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + Hasil performance test mudah diakses, terdokumentasi dengan baik. IK Performance test sudah mengacu pada standard uji ASME PTC atau standar internasional lainnya yang sudah diakui (ISO, DIN, BS, JIS)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + Terdapat IK Performance Test untuk equipment yang lain (HPH, LPH, Air Heater, Kondensor, Fan Boiler) mengacu pada standard uji ASME PTC atau standar internasional lainnya yang sudah diakui (ISO, DIN, BS, JIS)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + test dilakukan pada seluruh equipment di unit minimal 90% yang terkait dengan efisiensi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Permodelan",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Ada model based normalization system yang digunakan untuk memonitor plant performance, tetapi belum konsisten diimplementasikan. Dibuktikan dengan kondisi berikut, 1. Terdapat model untuk semua entitas pembangkit pada software pemodelan efisiensi (untuk Pembangkit PLTMG menggunakan software pemodelan yang sesuai atau yang direkomendasikan oleh Manufaktur) 2. Terdapat file hasil running pemodelan efisiensi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Model based normalization sudah konsisten diimplementasikan, dan terdapat IK Pengoperasian Model. Dibuktikan dengan kondisi berikut, 1. Terdapat jadwal dan realisasi running model based normalisation lebih dari 80% dari rencana 2. Terdapat file laporan hasil running gate cycle rutin tiap bulan (digabungkan dalam Laporan Efisiensi Bulanan Unit) 3. Terdapat IK Pengoperasian Permodelan Efisiensi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + pemodelan sesuai dengan kondisi equipment aktual dilapangan. Dibuktikan dengan kondisi berikut, 1. Semua list equipment peralatan yang ada di Heat balance diagram sudah masuk ke pemodelan 2. Jumlah equipment yang dimodelkan sudah sesuai dengan Heat Balance Diagram Dimensi yang dimasukan dalam pemodelan sesuai dengan kondisi aktual di lapangan atau sesuai dengan design specification di manual book"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + Model bisa digunakan untuk simulasi pola operasi unit 1. Terdapat bukti model dikembangkan untuk aplikasi lain seperti simulasi pola operasi, process design, operator training, trouble shooting, efficiency improvement dsb. 2. Terdapat bukti laporan dan tindak lanjut dari simulasi pada model tersebut"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + Sudah terdapat pemodelan untuk seluruh equipment di unit. Dibuktikan dengan kondisi berikut, 1. Seluruh equipment unit sudah dimasukan ke dalam pemodelan 2. Pemodelan di unit digunakan sebagai rujukan atau tempat benchmarking unit pembangkit yang lain"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Analisa Data Efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Heatrate Analysis",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Unit melakukan Heat Rate analysis pada sebagian entitas pembangkit, tapi pelaksanaanya belum konsisten. Dibuktikan dengan kondisi berikut, 1. Terdapat bidang yang berfungsi untuk melaksanakan Heat rate analysis (dijelaskan dalam job description nota dinas, RASCI atau SK untuk Manajemen Effisiensi) 2. Terdapat Laporan hasil Heat Rate analysis"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit melakukan heat rate analysis secara konsisten pada seluruh entitas pembangkit. Dibuktikan dengan kondisi berikut, 1. Terdapat laporan heat rate analysis untuk semua entitas pembangkit 2. Terdapat jadwal dan realisasi pelaksanaan heat rate analysis lebih dari 80% dari rencana"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + sudah dilakukan analisa heat loss. Dibuktikan dengan kondisi berikut, 1. Terdapat analisa heat loss untuk penyebab utama kenaikan Heat Rate (minimal 2 analisa heat loss untuk tiap entitas pembangkit) 2. Terdapat folder atau odner khusus untuk mendokumentasikan analisa heat loss yang sudah dilaksanakan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + akurasi analisa Heat Loss 75%. Dibuktikan dengan kondisi berikut, 1. Terdapat analisa heat loss (berdasarkan dari kajian Bidang Enjineering Unit, Analisa Bidang iCORE dan\/atau Enjineering Kantor Pusat terhadap pareto gap Heat Loss yang muncul di laporan effisiensi dan\/atau running model simulasi) untuk penyebab utama kenaikan Heat rate (minimal 50% penyebab utama dari Pareto Heat Rate Performance Test sudah dilakukan analisa heat loss) 2. Tindak lanjut analisa heat loss (idea generation) 75% dilakukan kajian enjinering berupa RCFA, ECP atau dalam improvement yang lain oleh Bidang terkait agar dibuatkan program rencana kerja yang bisa dimasukkan kedalam RKAU & RJPU atau perubahan SOP \/ IK"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + akurasi analisa Heat Loss 95%, Dibuktikan dengan kondisi berikut, 1. Terdapat analisa heat loss (berdasarkan dari kajian Bidang Enjineering, iCORE dan\/atau Enjineering Kantor Pusat terhadap pareto gap Heat Loss yang muncul di laporan effisiensi dan\/atau running model simulasi) untuk penyebab utama kenaikan Heat rate (minimal 75% penyebab utama dari Pareto Heat Rate Performance Test sudah dilakukan analisa heat loss) 2. Tindak lanjut analisa heat loss (idea generation) 95% dilakukan kajian enjinering berupa RCFA, ECP atau dalam improvement yang lain oleh Bidang terkait agar dibuatkan program rencana kerja yang bisa dimasukkan kedalam RKAU & RJPU atau perubahan SOP \/ IK"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Auxilliary Power Analysis",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Unit melakukan Auxilliary Power analysis pada sebagian entitas pembangkit, tapi pelaksanaanya belum konsisten. Dibuktikan dengan kondisi berikut, 1. Terdapat bidang yang berfungsi untuk melaksanakan Auxilliary Power analysis (dijelaskan dalam job description nota dinas, RASCI atau SK untuk Manajemen Effisiensi) 2. Terdapat Laporan hasil Auxilliary power analysis"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit melakukan Auxilliary power analysis secara konsisten pada seluruh entitas pembangkit. Dibuktikan dengan kondisi berikut, 1. Terdapat laporan Auxilliary power analysis untuk semua entitas pembangkit 2. Terdapat jadwal dan realisasi pelaksanaan Auxilliary power analysis lebih dari 80% dari rencana"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + Pareto Auxilliary power untuk seluruh motor dengan daya terbesar atau peringkat ke-1 sudah dibuat (misal : motor 10kV atau 6 kV). Dibuktikan dengan kondisi berikut, 1. Terdapat pareto auxilliary power untuk trafo-trafo utama di unit pembangkit (misal : travo Main transformer, Unit Auxlliary transformer dan Service station transformer) 2. Terdapat pareto auxilliray power untuk seluruh motor daya terbesar atau peringkat ke-1 (misal : 10 kV atau 6 kV)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + Pareto Auxilliary power untuk seluruh motor dengan daya peringkat ke 2 sudah dibuat (misal : motor 3kV atau 1.5kV). Dibuktikan dengan kondisi berikut, 1. Terdapat pareto auxilliary power untuk seluruh motor dengan daya peringkat ke 2 (misal : motor 3 kV) 2. Terdapat pareto auxilliary power untuk pemakaian listrik di admin building"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + pareto auxilliary power untuk semua konsumsi pemakaian sendiri di unit pembangkit sudah dibuat. Dibuktikan dengan kondisi berikut, 1. Terdapat pareto auxilliary power untuk 60% motor peringkat terendah (misal : 380 volt) 2. Terdapat pareto auxilliary power untuk 90% motor 380 volt"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pelaporan & Program Peningkatan Efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Rekomendasi",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah terdapat rekomendasi efisiensi, tapi progress implementasinya belum dikomunikasikan kepada pihak terkait. Dibuktikan dengan kondisi berikut, 1. Terdapat bidang yang bertugas untuk membuat rencana kerja efisiensi (dijelaskan dalam job description nota dinas, RASCI atau SK untuk Manajemen Effisiensi) 2. Terdapat program rencana kerja (rekomendasi) efisiensi unit tahunan yang mencakup waktu pelaksanaan, PIC yang disetujui oleh Manajer Operasi atau Manajer Energi yang bersertifikat"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Sudah terdapat rencana kerja efisiensi dengan menggunakan prisip SMART, yang sudah dikomunikasikan pada bidang lain di unit. Dibuktikan dengan kondisi berikut, 1. Terdapat rencana kerja (rekomendasi) efisiensi unit dengan menggunakan prinsip SMART 2. Jumlah rekomendasi efisiensi unit minimal 2 rekomendasi untuk tiap entitas tiap semester (berasal dari Kajian Enjineering, iCORE dan\/atau Bidang Engineering Kantor Pusat, ECP atau inovasi) 3. Terdapat form untuk monitoring rekomendasi efisiensi unit agar rekomendasi bisa dapat dilaksanakan dan diketahui perkembangan progres eksekusinya"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Sudah terdapat rencana kerja efisiensi dengan menggunakan prisip SMART dan sudah dilakukan perhitungan Cost & benefit analysis. Dibuktikan dengan kondisi berikut, 1. Terdapat perhitungan Cost & Benefit Analysis terhadap rekomendasi efisiensi yang sudah dibuat (berasal dari Kajian Enjineering, iCORE dan\/atau Bidang Engineering Kantor Pusat, ECP atau inovasi) 2. Jumlah rekomendasi efisiensi unit minimal 3 rekomendasi untuk tiap entitas tiap semester (berasal dari Kajian Enjineering, iCORE dan\/atau Bidang Engineering Kantor Pusat , ECP atau inovasi) sudah masuk dalam RKAU atau RJPU 3. Rasio jumlah rekomendasi yang sudah terselesaikan > 50% dari total seluruh rekomendasi efisiensi unit"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + sudah dilakukan prioritisasi program dan sudah masuk program RKAU dan RJPU. Dibuktikan dengan kondisi berikut, 1. Sudah dilakukan prioritisasi terhadap rekomendasi efisiensi unit yang dilakukan oleh tenaga auditor energi yang sudah bersertifikat 2. Rekomendasi efisiensi unit dari permasalahan utama yang menyebabkan kenaikan Plan Heat Rate sudah masuk dalam program RKAU dan RJPU 3. Jumlah rekomendasi efisiensi unit minimal 4 rekomendasi untuk tiap entitas tiap semester (berasal dari Kajian Enjineering, iCORE dan\/atau Bidang Engineering Kantor Pusat, ECP atau inovasi) sudah masuk dalam RKAU atau RJPU dan berhasil meningkatkan pencapaian heat rate sampai dengan 95%. 4. Rasio jumlah rekomendasi yang sudah terselesaikan > 60% dari total seluruh rekomendasi efisiensi unit"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + seluruh program di RKAU dan RJPU sudah terimplementasi dan rekomendasi bisa dilakukan secara otomatis dengan menggunakan pemanfaatan teknologi yang terkini. Dibuktikan dengan kondisi berikut, 1. Jumlah rekomendasi efisiensi unit > 6 rekomendasi untuk tiap entitas tiap semester (berasal dari Kajian Enjineering, iCORE dan\/atau Bidang Engineering Kantor Pusat, ECP atau inovasi) 2. Rasio jumlah rekomendasi yang sudah terselesaikan > 80% dari total seluruh rekomendasi efisiensi unit 3. Seluruh program di RKAU dan RJPU dari rekomendasi efisiensi unit sudah terimplementasi dan berhasil meningkatkan pencapaian heat rate sampai dengan 100%. 4. Rekomendasi dan auto koreksi eksekusi bisa dilakukan secara otomatis dengan menggunakan pemanfaatan teknologi yang terkini (Sistem auto tuning performance peralatan, Sistem intelegent sootblower, atau sistem teknologi yang lain)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pelaporan Efisiensi",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah terdapat Laporan efisiensi bulanan secara rutin, tapi format belum standard, dan belum dikomunikasikan ke bidang lain. Dibuktikan dengan kondisi berikut, 1. Terdapat bidang yang bertugas untuk membuat Laporan Efisiensi (dijelaskan dalam job description nota dinas, RASCI atau SK untuk Manajemen Effisiensi) 2. Terdapat Laporan efisiensi unit rutin setiap bulan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Sudah terdapat laporan efisiensi bulanan, format sudah standrad, sudah dikomunikasikan ke bidang lain di Unit Pembangkit. Dibuktikan dengan kondisi berikut, 1. Sudah terdapat Laporan Efisiensi unit rutin tiap bulan yang mengacu pada standard PJB 2. Terdapat bukti Laporan Efisiensi unit rutin disampaikan ke bidang lain di unit pembangkit (Melalui Nota dinas atau Email)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Sudah terdapat laporan efisiensi bulanan, format sudah standrad, sudah dikomunikasikan ke bidang lain di Unit Pembangkit melaui Nota Dinas, ada tenggang waktu laporan tiap bulannya (sebelum tanggal 10). Dibuktikan dengan kondisi berikut, 1. Terdapat bukti Laporan Efisiensi unit rutin > 90% disampaikan ke bidang lain di Unit sebelum tanggal 10 tiap bulannya 2. Terdapat folder atau outner khusus untuk mendokumentasikan Laporan Efisiensi bulanan yang sudah dibuat"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Sudah ada laporan efisiensi standard yang dikirim ke bidang terkait di Kantor pusat . Dibuktikan dengan kondisi berikut, 1. Terdapat bukti laporan Efisiensi unit disampaikan ke bidang terkait di kantor pusat (melalui Nota Dinas) 2. > 90% Laporan efisiensi unit disampaikan ke bidang terkait di kantor pusat sebelum tanggal 10 tiap bulannya"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 + Terintegrasi dengan bidang lain di PJB serta sudah menjadi inputan program RKAU dan RJPU. Dibuktikan dengan kondisi berikut, 1. Terdapat bukti feedback dari bidang terkait di PJB terhadap Laporan Efisiensi unit bulanan (berupa input program kerja, dasar perencanaan strategi korporat, atau koreksi dan apresiasi terhadap laporan yang dibuat) 2. Seluruh program di RKAU dan RJPU dari rekomendasi efisiensi unit sudah terimplementasi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Efisiensi Kontrol",
+                "sub_areas": [
+                    {
+                        "name": "Monitoring Post Program",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Sudah dilakukan monitoring implementasi program, tetapi belum seluruhnya dan belum konisten. Dibuktikan dengan kondisi berikut, 1. Terdapat bidang yang bertugas untuk melakukan monitoring implementasi program rekomendasi efisiensi unit (dijelaskan dalam job description nota dinas, RASCI atau SK untuk Manajemen Effisiensi) 2. Terdapat bukti monitoring implementasi program rekomendasi efisiensi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Sudah dilakukan monitoring implementasi sebagian program dengan melakukan pengukuran hasil implementasi dan evaluasi gap terhadap target. Dibuktikan dengan kondisi berikut, 1. Terdapat bukti monitoring implementasi program rekomendasi efisiensi dengan menggunakan form monitoring sesuai dengan standard PJB 2. Terdapat bukti pelaksanaan pengukuran hasil implementasi program rekomendasi dibandingkan dengan target 3. Pengukuran hasil implementasi program rekomendasi dilakukan pada > 50% program yang sudah diimplementasikan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 + melakukan analisa root caused terhadap realisasi gap terhadap target. Dibuktikan dengan kondisi berikut, 1. Pengukuran hasil implementasi program rekomendasi dilakukan pada > 60% program yang sudah diimplementasikan 2. Terdapat bukti analisa root cause terhadap realisasi gap terhadap target (jika realisasi hasil tidak sesuai target)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + terdapat rekomendasi post program untuk improvement. Dibuktikan dengan kondisi berikut, 1. Pengukuran hasil implementasi program rekomendasi dilakukan pada > 80% program yang sudah diimplementasikan (terhadap tingkat keberhasilan pelaksanaan program) 2. Terdapat bukti laporan pelaksanaan pengukuran hasil implementasi program rekomendasi dibandingkan dengan target (sebelum dan sesudah rekomendasi di laksanakan) minimal di tandatangani oleh manager terkait."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Seluruh rekomendasi sudah dimonitor hasilnya, dilakukan pengukuran hasil implementasi yang dibuktikan dengan Laporan pelaksanaan pengukuran hasil program rekomendasi, evaluasi dan terdapat rekomendasi post program. Dibuktikan dengan kondisi berikut, 1. Pengukuran hasil implementasi program rekomendasi (termasuk hasil implementasi sistem auto rekomendasi dan auto koreksi) sudah dilaksanakan pada seluruh rekomendasi program yang sudah diimplementasikan 2. Terdapat Laporan bukti rekomendasi post program pada seluruh rekomendasi program yang tidak memenuhi target"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Pengumpulan data efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Kelengkapan data parameter operasi yang bisa diambil sebagai inputan untuk proses perhitungan dan analisa.",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Data Parameter Operasi (memiliki Tag No atau KKS Number) untuk perhitungan efisiensi dan analisa heat rate sudah terecord di DCS < 50% dari total keseluruhan data"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Data Parameter Operasi (memiliki Tag No atau KKS Number) untuk perhitungan efisiensi dan analisa heat rate sudah terecord di DCS < 60% dari total keseluruhan data"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Data Parameter Operasi (memiliki Tag No atau KKS Number) untuk perhitungan efisiensi dan analisa heat rate sudah terecord di DCS < 75% dari total keseluruhan data"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Data Parameter Operasi (memiliki Tag No atau KKS Number) untuk perhitungan efisiensi dan analisa heat rate sudah terecord di DCS < 85% dari total keseluruhan data"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Data Parameter Operasi (memiliki Tag No atau KKS Number) untuk perhitungan efisiensi dan analisa heat rate sudah terecord di DCS 100% dari total keseluruhan data"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Olah Data Efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Realisasi pelaksanaan Performance Test untuk mengetahui kondisi dan unjuk kerja keseluruhan dan atau masing-masing peralatan dibandingkan dengan kondisi ketika komisioning.",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Jumlah pelaksanaan performance tes dalam satu semester sebanyak 1 kali"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pelaksanaan performance tes dalam satu semester sebanyak 2 kali"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pelaksanaan performance tes dalam satu semester sebanyak 3 kali"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pelaksanaan performance tes dalam satu semester sebanyak 4 kali"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Jumlah pelaksanaan performance tes dalam satu semester sebanyak 5 kali atau lebih"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Realisasi running permodelan yang telah dibuat sesuai dengan data parameter operasi yang diambil pada saat itu dibandingkan dengan kondisi tertentu.",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Dilakukan running pemodelan dan analisa rutin bulanan sesuai dengan jadwal pelaksanaan performance tes (6 kali dalam satu semester)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Dilakukan running pemodelan dan analisa rutin 2 kali dalam 1 bulan (12 kali dalam satu semester)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Dilakukan running pemodelan dan analisa rutin mingguan (24 kali dalam satu semester)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Dilakukan running pemodelan dan analisa rutin 2 kali dalam seminggu (48 kali dalam satu semester)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Dilakukan running pemodelan dan analisa rutin harian"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Analisa Data Efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Pelaksanaan kajian Heatrate Analysis lebih mendalam untuk mempertajam analisa.",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Terdapat hasil analisa lanjutan (Analisa Operasi atau dari Laporan Efisiensi) berdasarkan pareto heat loss terbesar"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Terdapat 1 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Bidang Engineering Kantor Pusat) berdasarkan pareto heat loss terbesar"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Terdapat 2 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Bidang Engineering Kantor Pusat) berdasarkan pareto heat loss terbesar"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Terdapat 3 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Bidang Engineering Kantor Pusat) berdasarkan pareto heat loss terbesar"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Terdapat \u2265 4 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Bidang Engineering Kantor Pusat) berdasarkan pareto heat loss terbesar"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pelaksanaan kajian Auxiliary Power Analysis lebih mendalam untuk mempertajam analisa.",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Terdapat hasil analisa lanjutan (Analisa Operasi atau dari Laporan Auxiliary Power Analysis) berdasarkan pareto auxiliary power analysis terbesar"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Terdapat 1 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat) berdasarkan pareto auxiliary power analysis terbesar"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Terdapat 2 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat) berdasarkan pareto auxiliary power analysis terbesar"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Terdapat 3 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat) berdasarkan pareto auxiliary power analysis terbesar"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Terdapat \u00b3 4 hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat berdasarkan pareto auxiliary power analysis terbesar"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pelaporan & Program Peningkatan Efisiensi",
+                "sub_areas": [
+                    {
+                        "name": "Program efiensi \/ rekomendasi masuk dalam program kerja perusahaan dan atau RKAU \/ RJPU",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Terdapat program program efisiensi \/ rekomendasi berdasarkan hasil analisa lanjutan (Analisa Operasi atau dari Laporan Efisiensi) untuk perbaikan heat rate berdasarkan pareto heat loss terbesar yang sudah dimasukkan ke RKAU \/ RJPU"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Terdapat 1 program program efisiensi \/ rekomendasi berdasarkan hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat) untuk perbaikan heat rate berdasarkan pareto heat loss terbesar yang sudah dimasukkan ke RKAU \/ RJPU"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Terdapat 2 program program efisiensi \/ rekomendasi berdasarkan hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat) untuk perbaikan heat rate berdasarkan pareto heat loss terbesar yang sudah dimasukkan ke RKAU \/ RJPU"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Terdapat 3 program program efisiensi \/ rekomendasi berdasarkan hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat) untuk perbaikan heat rate berdasarkan pareto heat loss terbesar yang sudah dimasukkan ke RKAU \/ RJPU"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Terdapat \u00b3 4 program program efisiensi \/ rekomendasi berdasarkan hasil analisa lanjutan (RCFA, ECP, Analisa iCORE dan\/atau Analisa Engineering Kantor Pusat) untuk perbaikan heat rate berdasarkan pareto heat loss terbesar yang sudah dimasukkan ke RKAU \/ RJPU"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Laporan efisiensi \/ auxiliary power terkirim ke pihak terkait (internal dan eksternal)",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Terdapat 1 laporan efisiensi yang dikirim ke pihak lain"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Terdapat 2 laporan efisiensi yang dikirim ke pihak lain"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Terdapat 3 laporan efisiensi yang dikirim ke pihak lain"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Terdapat 4 laporan efisiensi yang dikirim ke pihak lain"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Terdapat 5 laporan efisiensi yang dikirim ke pihak lain"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Efisiensi Kontrol",
+                "sub_areas": [
+                    {
+                        "name": "Hasil pengukuran dan tingkat keberhasilan dari pelaksanaan program efisiensi dan auxiliary power",
+                        "weight": 0.15,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Program efiensi dan auxiliary power yang terlaksana tercapai perbaikan heat rate <25% dari target untuk masing-masing penyebab pareto heat loss atau auxiliary power analysis yang dibuktikan dengan trending before after."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Program efiensi dan auxiliary power yang terlaksana tercapai perbaikan heat rate >25% dari target untuk masing-masing penyebab pareto heat loss atau auxiliary power analysis yang dibuktikan dengan laporan hasil evaluasi program."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Program efiensi dan auxiliary power yang terlaksana tercapai perbaikan heat rate >50% dari target untuk masing-masing penyebab pareto heat loss atau auxiliary power analysis yang dibuktikan dengan laporan hasil evaluasi program."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Program efiensi dan auxiliary power yang terlaksana tercapai perbaikan heat rate >75% dari target untuk masing-masing penyebab pareto heat loss atau auxiliary power analysis yang dibuktikan dengan laporan hasil evaluasi program."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Program efiensi dan auxiliary power yang terlaksana tercapai perbaikan heat rate 100% dari target untuk masing-masing penyebab pareto heat loss atau auxiliary power analysis yang dibuktikan dengan laporan hasil evaluasi program."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

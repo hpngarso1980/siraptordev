@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.8,
+        "areas": [
+            {
+                "name": "KEBIJAKAN & STRATEGI",
+                "sub_areas": [
+                    {
+                        "name": "Apakah terdapat strategi dan kebijakan yang jelas mengenai manajemen risiko?",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "Level1",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Kebutuhan akan kebijakan risiko dan strategi terkait telah diidentifikasi berupa, I. Sosialisasi kontrak kinerja dan GM\/Kepala Unit turut berperan dalam pengelolaan ERM serta memberikan kewenangan yang cukup kepada bidang dan fungsi yang mengelola ERM serta staff dalam mengelola risiko Unit Dokumen yang dibutuhkan : 1. Dokumen materi, notulen dan daftar hadir sosialisasi konkin 2. Dokumen SIMKK yang berisikan tugas dan wewenang dari GM atau Kepala Unit kepada bidang dan fungsi yang mengelola ERM serta staff 3. Pohon KPI Unit yang telah disahkan dan diupload ke dalam SIMKK II. Pembentukan Tim Implementasi ERM di Unit oleh Top Manajemen\/ GM yang berisikan pemberian wewenang dan tanggung jawab pengelolaan risiko yang telah menggambarkan keterwakilan semua fungsi Dokumen yang diperlukan: SK GM yang telah disahkan dan sesuai dengan kondisi terupdate unit III. Dokumen yang berisi program kerja terkait manajemen risiko yang disusun oleh tim manajemen risiko unit dan telah disosialisasikan kepada seluruh karyawan Dokumen yang dibutuhkan : 1. Dokumen program manajemen risiko tahunan yang disahkan oleh GM\/ Kepala Unit 2. Dokumen materi, notulen, daftar hadir sosialisasi program manajemen risiko"
+                            },
+                            {
+                                "score": "Level2",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Strategi dan kebijakan Manajemen Risiko telah disiapkan dan dikomunikasikan dan sedang ditindaklanjuti berupa, I. GM\/Kepala Unit turut berperan dalam pengelolaan ERM serta memberikan kewenangan yang cukup kepada seluruh bidang terkait pengelolaan ERM Dokumen yang dibutuhkan : 1. Dokumen SIMKK yang berisikan tugas dan wewenang dari GM atau Kepala Unit kepada seluruh bidang di unit terkait pengelolaan ERM 2. Pohon KPI Unit yang telah disahkan dan diupload ke dalam SIMKK II. Pelaksanaan dan monitoring program manajemen risiko tahunan Dokumen yang dibutuhkan : 1. Dokumen monitoring program manajemen risiko 2. Eviden terkait seluruh program manajemen risiko yang telah dilaksanakan"
+                            },
+                            {
+                                "score": "Level3",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Strategi dan kebijakan Manajemen Risiko dikomunikasikan secara efektif, dikerjakan, dan dievaluasi berupa, I. GM\/Kepala Unit berperan aktif dalam pengelolaan ERM serta memberikan kewenangan yang cukup kepada seluruh bidang dan fungsi terkait pengelolaan ERM serta dilakukan evaluasi terkait hasil assessment periode sebelumnya Dokumen yang dibutuhkan : 1. Dokumen SIMKK yang berisikan tugas dan wewenang dari GM atau Kepala Unit kepada seluruh bidang dan fungsi di unit terkait pengelolaan ERM 2. Pohon KPI Unit yang telah disahkan dan diupload ke dalam SIMKK 3. Dokumen notulen dan daftar hadir terkait evaluasi hasil assessment (Sebagai contoh notulen RTM yang didalamnya terdapat evaluasi kontrak kinerja) 4. GM\/Kepala Unit dan seluruh manajer mengetahui top 5 risiko Unitnya, dibuktikan dengan rekaman video wawancara II. Evaluasi terkait pelaksanaan program manajemen risiko dan kinerja tim manajemen risiko Dokumen yang dibutuhkan : 1. Dokumen notulen dan daftar hadir evaluasi pelaksanaan program manajemen risiko 2. Dokumen evaluasi kinerja tim manajemen risiko"
+                            },
+                            {
+                                "score": "Level4",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Strategi dan kebijakan Manajemen Risiko dikomunikasikan secara efektif, dikerjakan, dievaluasi, dan ditindaklanjuti berupa, I. GM\/Kepala Unit berperan aktif dalam pengelolaan ERM serta memberikan kewenangan yang cukup kepada seluruh bidang dan fungsi kerja hingga staff terkait pengelolaan ERM serta tindak lanjut evaluasi hasil assessment Dokumen yang dibutuhkan : 1. Dokumen SIMKK yang berisikan tugas dan wewenang dari GM atau Kepala Unit kepada seluruh bidang dan fungsi kerja hingga staff di unit terkait pengelolaan ERM 2. Pohon KPI Unit yang telah disahkan dan diupload ke dalam SIMKK 3. Dokumen realisasi pelaksanaan tindak lanjut evaluasi hasil assessment 4. GM\/Kepala Unit dan seluruh manajer memahami top 5 risiko Unitnya beserta tindakan kontrol dan mitigasi yang signifikan, untuk self asesment dibuktikan dengan rekaman video wawancara kepada GM\/Kepala Unit dan seluruh manajer sedangkan untuk asesment dari kantor pusat akan dilakukan wawancara via telepon\/callback oleh asesor kepada GM\/Kepala Unit dan seluruh manajer. II. Dokumen tindak lanjut evaluasi atas pelaksanaan program manajemen risiko dan kinerja tim Dokumen yang dibutuhkan : Dokumen realisasi tindak lanjut evaluasi atas pelaksanaan program manajemen risiko"
+                            },
+                            {
+                                "score": "Level5",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Strategi dan kebijakan Manajemen Risiko dikomunikasikan secara efektif, dikerjakan, dievaluasi, dan ditindaklanjuti secara konsisten serta sudah dijadikan role model berupa, I. GM\/Kepala Unit berperan aktif dalam pengelolaan ERM serta memberikan kewenangan yang cukup kepada seluruh bidang dan fungsi kerja hingga staff terkait pengelolaan ERM dan telah dilakukan proses perencanaan, sosialisasi, pelaksanaan, evaluasi pengelolaan ERM secara konsisten Dokumen yang dibutuhkan : 1.Dokumen yang berisikan evaluasi efektifitas pendelegasian tugas dan kewenangan dari GM atau Kepala Unit kepada seluruh bidang dan fungsi kerja hingga staff 2. Eviden level 1-4 selama 3 tahun terakhir 3. GM\/Kepala Unit dan seluruh level jabatan hingga staf memahami top 5 risiko Unitnya beserta tindakan kontrol dan mitigasi yang signifikan, untuk self asesment dibuktikan dengan rekaman video wawancara kepada GM\/Kepala Unit dan seluruh manajer serta secara sampling untuk tingkat supervisot dan staf sedangkan untuk asesment dari kantor pusat akan dilakukan wawancara via telepon\/callback oleh asesor kepada GM\/Kepala Unit, seluruh manajer dan secara sampling untuk tingkat supervisor dan staf. II. Dokumen yang menunjukkan bahwa program manajemen risiko telah dilaksanakan secara menyeluruh, efektif dan efisien. Dokumen yang dibutuhkan : 1. Dokumen realisasi seluruh program, alokasi sumber daya dan anggaran 2. on site III. Peran Top Management unit dalam mengelola manajemen risiko dijadikan sebagai role model (internal atau eksternal) Dokumen yang dibutuhkan : 1. Dokumentasi kunjungan ke unit 2. Dokumen yang berisi pernyataan pengakuan dari pihak internal atau eksternal (contoh : Menjadi tempat benchmark ERM dari internal\/eksternal PJB, Mendapatkan Penghargaan terkait pengelolaan ERM dari internal\/eksternal)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "KEPEMIMPINAN",
+                "sub_areas": [
+                    {
+                        "name": "Apakah Manajemen mendukung pengembangan Manajemen Risiko?",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "Level1",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Manajemen peduli akan kebutuhan untuk mengelola risiko berupa, I. Dokumen rapat yang membahas tentang penyusunan profil risiko strategis unit yang dipimpin oleh GM Dokumen yang dibutuhkan : Dokumen materi, notulen yang disahkan oleh GM dan daftar hadir rapat pembahasan penyusunan profil risiko strategis II. Profil risiko strategis yang mempengaruhi sasaran perusahaan\/unit. Dokumen yang diperlukan: Dokumen profil risiko strategis yang telah disahkan oleh GM"
+                            },
+                            {
+                                "score": "Level2",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Manajemen memimpin langsung untuk memastikan bahwa pendekatan terhadap risiko sedang dikomunikasikan berupa, I. Sosialisasi profil risiko strategis minimal dihadiri oleh perwakilan dari masing-masing bidang. Dokumen yang diperlukan: 1. Dokumen Materi Sosialisasi Profil Risiko Strategis 2. Notulen dan Daftar Hadir Sosialisasi Profil Risiko Strategis II. Dokumen profil risiko strategis yang telah disahkan oleh GM dikirimkan ke PJB Kantor Pusat melalui OA dengan format sesuai dengan FMZ-11.1.1.05 Dokumen yang diperlukan : OA dengan lampiran berupa profil risiko strategis yang telah disahkan oleh GM"
+                            },
+                            {
+                                "score": "Level3",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Manajemen mengambil peran dalam monitoring dan review profil risiko strategis berupa, I. Profil risiko strategis yang telah disahkan oleh GM diinputkan ke dalam Aplikasi Manajemen Risiko Dokumen yang dibutuhkan : Kesesuaian antara profil risiko yang telah disahkan oleh GM dengan risk register dalam aplikasi manajemen risiko II. Rapat manajemen yang membahas monitoring dan review profil risiko strategis melalui Aplikasi Manajemen Risiko Dokumen yang dibutuhkan : 1. Notulen Rapat Manajemen yang didalamnya berisi monitoring dan review progress seluruh profil risiko strategis minimal setiap triwulan yang disahkan oleh GM atau PH GM. 2. Daftar Hadir Rapat Manajemen. 3. Print screen \"edit history\" masing-masing risiko strategis yang telah diupdate dalam rapat manajemen yang telah disahkan oleh GM III. Laporan Manajemen Risiko dan Evaluasi Kepatuhan(LMREK) yang disampaikan ke Kantor Pusat setiap triwulan yang telah disahkan oleh GM dan sesuai format Laporan Manajemen Risiko Dokumen yang dibutuhkan: Dokumen laporan manajemen risiko dan evaluasi kepatuhan(LMREK) yang disampaikan ke manajemen Kantor Pusat setiap triwulan sesuai format Laporan Manajemen Risiko. IV. Pertemuan atau rapat yang membahas tentang review profil risiko strategis terhadap isu-isu baru yang muncul dan update MPI untuk risiko aset. Dokumen yang dibutuhkan : 1. Dokumen materi, notulen dan daftar hadir rapat yang membahas tentang review profil risiko strategis terhadap isu-isu baru yang muncul yang disahkan oleh GM 2. Daftar MPI terupdate pada tahun berjalan dan Update risiko terkait equipment dengan minimum top 3 MPI dalam aplikasi manajemen risiko yang terkait dengan profil risiko strategis (risiko aset) yang dilakukan setiap semester"
+                            },
+                            {
+                                "score": "Level4",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Manajemen proaktif dan berkomitmen dalam mendorong serta mengelola manajemen risiko berupa, I. Tindak lanjut dari hasil monitoring dan review profil risiko strategis yang telah dibahas dalam rapat manajemen. Dokumen yang dibutuhkan: 1. Dokumen risk register risiko strategis dalam aplikasi manajemen risiko 2. Dokumen (yang upload\/attachment dalam Aplikasi Manajemen Risiko) yang menunjukkan progress pelaksanaan control dan mitigasi (TOR\/KAK, WO, RO, HPS, PO, BA dll) II. Tindak lanjut dari hasil review ERM per triwulan yang dikirimkan oleh bidang manajemen risiko dan asuransi PJB KP ke unit Dokumen yang dibutuhkan : 1. OA tanggapan terkait feedback LMREK yang disampaikan 2. Tindak lanjut dari feedback LMREK pada triwulan selanjutnya 3. Risk register aplikasi manajemen risiko III. Hasil review profil risiko strategis terhadap isu-isu baru yang muncul dan update Top 5 critical equipment(misal REaP,MPI, RBD, LCCE,OCEA) telah dilakukan untuk risiko aset yang telah disahkan oleh GM dilaporkan kembali ke PJB Kantor Pusat melalui OA Dokumen yang dibutuhkan : 1. OA dengan lampiran berupa review profil risiko strategis yang telah disahkan oleh GM 2. Profil risiko strategis terupdate disampaikan dalam LMREK triwulan selanjutnya 3. Data criticality equipment terupdate pada tahun berjalan dan Update risiko terkait equipment dengan minimum top 5 critical equipment dalam aplikasi manajemen risiko yang terkait dengan profil risiko strategis (risiko aset) yang dilakukan setiap semester"
+                            },
+                            {
+                                "score": "Level5",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Manajemen memperlihatkan kemampuan dalam mengelola risiko terus-menerus secara organisasional, bisnis dan komitmen untuk menjadi unggul berupa, I. Profil risiko strategis yang telah direview, diupdate, dan ditindaklanjuti secara tepat dan konsisten yang diinputkan dalam aplikasi manajemen risiko Dokumen yang dibutuhkan : Profil risiko strategis yang telah direview, diupdate, dan ditindaklanjuti secara tepat dan konsisten yang disampaikan dalam aplikasi manajemen risiko selama 3 tahun berturut-turut II. Hasil review profil risiko strategis terhadap isu-isu baru yang muncul dan update Top 10 critical equipment(misal REaP,MPI.RBD. LCCE,OCEA) untuk risiko aset yang telah disahkan oleh GM dilaporkan kembali ke PJB Kantor Pusat melalui OA secara konsisten Dokumen yang dibutuhkan : 1. Hasil review profil risiko strategis terhadap isu-isu baru yang muncul yang telah disahkan oleh GM dilaporkan atau dikirimkan kembali ke PJB Kantor Pusat melalui OA secara konsisten (proses tersebut dilakukan secara konsisten selama 3 tahun berturut-turut). 2. Data criticality equipment terupdate pada tahun berjalan dan Update risiko terkait equipment dengan minimum top 10 critical equipment dalam aplikasi manajemen risiko yang terkait dengan profil risiko strategis (risiko aset) yang dilakukan setiap semester"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "(Ref : PAS 99 : 2012 Klausa 5.1; MBCfPE 2013-2014 Kat 1.1 a1 Bagaimana pemimpin senior menetapkan, men-deploy visi dan tata nilai melalui sistem kepemimpinan, serta tindakan pribadi yang merefleksikan komitmen terhadap tata nilai;",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": []
+                    }
+                ]
+            },
+            {
+                "name": "SUMBER DAYA MANUSIA",
+                "sub_areas": [
+                    {
+                        "name": "Apakah sumber daya manusia didukung dan dilengkapi (alat, keterampilan) untuk mengelola Manajemen Risiko?",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "Level1",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Tersedia panduan dan program training untuk meningkatkan kapabilitas ERM berupa, I. Evaluasi tingkat kompetensi karyawan Dokumen yang dibutuhkan : Hasil penilaian JCR khususnya pengelolaan ERM II. Terdapat daftar usulan training\/CMC\/penugasan khusus untuk mengelola ERM Dokumen yang dibutuhkan : 1. Dokumen daftar usulan training\/CMC\/penugasan khusus yang telah disahkan minimal setingkat manajer 2. Usulan training\/CMC\/penugasan khusus dari unit kepada PJB Academy terkait pelatihan ERM"
+                            },
+                            {
+                                "score": "Level2",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Tersedia panduan dan program training yang telah diimplementasikan untuk meningkatkan kapabilitas Manajemen Risiko berupa, I. Realisasi usulan training\/CMC\/penugasan khusus Dokumen yang dibutuhkan : 1. Dokumen realisasi training\/CMC\/penugasan khusus pengelolaan ERM yang telah disahkan 2. OA atau surat undangan pelatihan yang berdasarkan usulan training 3. Sertifikat sebagai peserta pelatihan sesuai usulan training (jika ada) II. Fungsi (spv dan minimal 1 orang staff) yang mengelola manajemen risiko telah mengikuti pelatihan Enterprise Risk Management ISO : 31000 dari eksternal Dokumen yang dibutuhkan : 1. OA atau surat undangan pelatihan ERM ISO : 31000 2. Sertifikat sebagai peserta pelatihan ISO : 31000 III. Sosialisasi terkait manajemen risiko ke internal unit (kepada sdm kunci\/tim implementasi ERM) oleh fungsi yang mengelola manajemen risiko (MMRK\/MMR) setelah mendapatkan pelatihan dari internal maupun eksternal Dokumen yang dibutuhkan : Dokumen materi, notulen dan daftar hadir sosialisasi manajemen risiko"
+                            },
+                            {
+                                "score": "Level3",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Beberapa kelompok memiliki keterampilan dan pengetahuan untuk mengelola Manajemen Risiko secara efektif. SDM di dorong dan di dukung untuk berinovasi dan di beri wewenang mengelola risiko secara baik berupa, I. Pelaporan peserta pelatihan sesuai format dan evaluasi impementasi hasil pelatihan dan peningkatan kompetensi pasca pelatihan melalui aplikasi sinatra\/evaluasi dalam google form untuk karyawan non PJB(PJBS\/MKP) Dokumen yang dibutuhkan : 1. Print Screen pelaporan peserta pelatihan melalui aplikasi sinatra\/evaluasi dalam google form untuk karyawan non PJB(PJBS\/MKP) 2. Print Screen evaluasi impementasi hasil pelatihan dan peningkatan kompetensi pasca pelatihan melalui aplikasi sinatra\/evaluasi dalam google form untuk karyawan non PJB(PJBS\/MKP) II. Fungsi (spv) yang mengelola manajemen risiko telah mendapatkan sertifikasi ERM ISO 31000 dari eksternal Dokumen yang dibutuhkan : Dokumen sertifikat kelulusan III. Dokumen Karya Inovasi yang bersumber dari identifikasi risiko atau risk register dan telah diaplikasikan. Dokumen yang dibutuhkan : 1. Dokumen Risk register dalam aplikasi manajemen risiko yang berisi identifikasi risiko yang menjadi sumber dari karya inovasi 2. Dokumen karya inovasi (Karya Inovasi yang disampaikan di semester 1 dan semester 2 merupakan dokumen yang berbeda)"
+                            },
+                            {
+                                "score": "Level4",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "SDM di dorong dan di dukung untuk berinovasi dan di beri wewenang mengelola risiko secara baik. Sebagian besar SDM mempunyai keterampilan dan pengetahuan mengelola risiko secara efektif. Pelatihan secara regular dilakukan untuk meningkatkan keterampilan Manajemen Risiko dan mengisi setiap kesenjangan berupa, I. Unit existing dan UBJOM (spv rendal har, rendal op, dan system owner) sudah mendapatkan sertifikasi ERM ISO 31000 dari eksternal (sertifikat kelulusan) II. SDM kunci\/ anggota tim implementasi ERM (staff) dari fungsi MMRK\/QRM, rendal har, rendal op, dan system owner) telah mendapatkan sertifikasi ERM ISO 31000 dari eksternal (sertifikat kelulusan) III. Karya inovasi yang telah diimplementasikan dapat meningkatkan kinerja Dokumen yang dibutuhkan : 1. Dokumen monitoring karya inovasi 2. Dokumen eviden yang membuktikan adanya peningkatan kinerja selama 1 semester"
+                            },
+                            {
+                                "score": "Level5",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Semua staf diberi wewenang dan bertanggung jawab terhadap pengelolaan risiko dan melihat risiko sebagai bagian yang melekat dalam dirinya. Staf mempunyai catatan baik dalam inovasi dan pengelolaan risiko berupa, I. GM dan manajer semua bidang telah mendapatkan sertifikasi ERM ISO 31000 dari eksternal Dokumen yang dibutuhkan : Dokumen sertifikat kelulusan II. Peningkatan kompetensi SDM serta pelaksanaan sertifikasi ERM ISO 31000 dilakukan secara konsisten selama 3 tahun berturut-turut Dokumen yang dibutuhkan : 1. Dokumen usulan dan realisasi TNA selama 3 tahun berturut-turut 2. Sertifikat sebagai peserta pelatihan ERM ISO 31000 selama 3 tahun berturut-turut 3. Sertifikat kelulusan ERM ISO 31000 selama 3 tahun berturut-turut III. Karya inovasi yang telah diimplementasikan dapat meningkatkan kinerja secara konsisten selama 3 tahun berturut-turut Dokumen yang dibutuhkan : 1. Dokumen monitoring karya inovasi selama 3 tahun berturut-turut 2. Dokumen eviden yang membuktikan adanya peningkatan kinerja selama 1 semester (3 tahun berturut-turut)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "STAKEHOLDERS",
+                "sub_areas": [
+                    {
+                        "name": "Apakah ada pengaturan yang efektif untuk mengelola risiko dengan mitra kerja?",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "Level1",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Risk owner telah melakukan identifikasi dan perencanaan risiko terkait Stakeholders berupa, I. Daftar stakeholders internal dan eksternal Dokumen yang dibutuhkan : 1. Daftar stakeholders internal dan eksternal sesuai dengan standard yg ditetapkan BSHM atau 2. BIA yang didalamnya terdapat daftar stakeholders internal dan eksternal II. Identifikasi risiko yang terkait dan atau berdampak pada stakeholders yang diinputkan dalam aplikasi manajemen risiko Dokumen yang dibutuhkan : Risk register aplikasi manajemen risiko, risiko strategis (include BCP) dan risiko operasional (semua fungsi terkait SMP, fungsi umum terkait CSR, fungsi pengadaan terkait supllier, fungsi sdm terkait risiko hubungan industrial, risiko fungsi rendal ops terkait customer\/P3B, risiko fungsi lingkungan terkait KLH) III. Terdapat rencana pengelolaan risiko (pertemuan atau forum komunikasi) dengan stakeholders sesuai dengan mitigasi risiko dalam aplikasi manajemen risiko Dokumen yang dibutuhkan : Risk register aplikasi manajemen risiko bagian mitigasi yang disertai start date dan due date"
+                            },
+                            {
+                                "score": "Level2",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Penanganan risiko dengan Stakeholders sedang dikembangkan dan diimplementasikan berupa, I. Pelaksanaan rencana pengelolaan risiko dengan stakeholders sesuai dengan mitigasi risiko dalam aplikasi manajemen risiko Dokumen yang dibutuhkan : Dokumen materi, notulen, daftar hadir, dokumentasi atau lembar komitmen pertemuan\/forum komunikasi dengan stakeholders II. Penyusunan dokumen BCP (BIA, ERP, CRP, dan BRP) sesuai skenario masing-masing unit Dokumen : Dokumen BIA, ERP, CRP, dan BRP III. Pelaksanaan simulasi skenario BCP masing-masing unit yang melibatkan stakeholders Dokumen yang dibutuhkan : 1.Dokumen materi, notulen, daftar hadir, dan dokumentasi simulasi BCP 2. Laporan pelaksanaan simulasi BCP"
+                            },
+                            {
+                                "score": "Level3",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Evaluasi terhadap penanganan risiko terkait Stakeholders berupa, I. Evaluasi pelaksanaan pengelolaan risiko dengan stakeholders Dokumen yang dibutuhkan : Dokumen materi, notulen, dan daftar hadir rapat evaluasi II. Evaluasi simulasi dari skenario BCP yang melibatkan stakeholders Dokumen yang dibutuhkan : 1. Dokumen materi, notulen, dan daftar hadir rapat evaluasi simulasi BCP yang melibatkan stakeholders 2. Laporan pelaksanaan simulasi BCP lengkap dengan evaluasi pelaksanaan BCP"
+                            },
+                            {
+                                "score": "Level4",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tindak lanjut terhadap hasil evaluasi penanganan risiko terkait Stakeholders berupa, I. Pelaksanaan tindak lanjut evaluasi pelaksanaan pengelolaan risiko dengan stakeholders Dokumen yang dibutuhkan : 1. Apabila tindak lanjut berupa kegiatan, eviden yang disampaikan berupa dokumentasi tindak lanjut evaluasi, daftar hadir atau 2. Apabila tindak lanjut berupa pertemuan atau forum komunikasi, eviden yang disampaikan berupa materi, notulen dan daftar hadir 3. Print out \"edit history\" aplikasi manajemen risiko II. Pelaksanaan tindak lanjut evaluasi simulasi dari skenario BCP yang melibatkan stakeholders Dokumen yang dibutuhkan : 1.Dokumen materi, notulen, daftar hadir, dan dokumentasi simulasi BCP 2. Pelaksanaan tindak lanjut minimal 75% dari total rekomendasi"
+                            },
+                            {
+                                "score": "Level5",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Bukti yang jelas bahwa manajemen telah mengelola dan mengembangkan risiko terkait stakeholders secara konsisten berupa, I. Pengelolaan risiko terkait tanggap darurat dan BCP dilakukan untuk skenario yang berbeda Dokumen yang dibutuhkan : Eviden terkait tanggap darurat dan BCP dari level 1-4 untuk minimal 2 skenario yang berbeda II. Pengelolaan risiko dengan stakeholders (internal dan eksternal) dilakukan secara konsisten Dokumen yang dibutuhkan : Eviden level 1-4 selama 3 tahun berturut-turut"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "PROSES BISNIS DAN PENANGANAN RISIKO",
+                "sub_areas": [
+                    {
+                        "name": "PROSES BISNIS DAN PENANGANAN RISIKO",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "Level1",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Beberapa proses bisnis telah teridentifikasi risikonya berupa, I. Identifikasi risiko strategis jangka panjang unit yang mengacu kepada sasaran jangka panjang perusahaan Dokumen yang dibutuhkan : Mapping Profil Risiko RJPU yang inline dengan sasaran jangka panjang perusahaan yang disahkan oleh GM II. Breakdown risiko strategis tahunan berdasarkan risiko strategis jangka panjang unit dan risiko strategis tahunan korporat Dokumen yang dibutuhkan : 1. Mapping Profil Risiko tahunan yang inline dengan profil risiko RJPU dan risiko strategis tahunan korporat (Profil Risiko Korporat) dan disahkan oleh GM 2. Risk register aplikasi manajemen risiko scorecard risiko strategis III. Mitigasi dari risiko-risiko strategis tahunan yang telah diidentifikasi yang tertuang dalam RKAU di tahun berjalan Dokumen yang dibutuhkan : 1. Risk register risiko strategis aplikasi manajemen risiko 2. Dokumen RKAU yang telah disahkan IV. Dokumen Manajemen Risiko yang telah disahkan oleh manajemen Dokumen yang dibutuhkan : 1. Dokumen Manajemen Risiko dengan level risiko ekstrem dan tinggi yang telah di sah kan manajemen (Untuk semester 1 DMR program RKAU di tahun berjalan, untuk semester 2 DMR program RKAU di tahun berikutnya). 2. Dokumen yang diupload ke iPlan adalah DMR untuk risiko dengan level ekstrem dan tinggi (termasuk SKI). V. Identifikasi risiko proyek telah dilakukan Dokumen yang dibutuhkan : Risk register aplikasi manajemen risiko scorecard risiko proyek VI. Identifikasi risiko operasional unit (top 3 untuk masing-masing fungsi) telah dilakukan Dokumen yang dibutuhkan : Risk register aplikasi manajemen risiko scorecard risiko operasional"
+                            },
+                            {
+                                "score": "Level2",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Proses Manajemen Risiko yang direkomendasikan sedang dikembangkan berupa, I. Dilakukan monitoring program RKAU Dokumen yang dibutuhkan : 1. Notulen dan daftar hadir rapat monitoring program RKAU 2. Risk register aplikasi manajemen risiko 3. Laporan Manajemen Risiko dan Evaluasi Kepatuhan(LMREK) per triwulan 4. Eviden progress pelaksanaan program RKAU (file attachment dalam aplikasi manajemen risiko) II. Dilakukan monitoring mitigasi dari risiko proyek Dokumen yang dibutuhkan : 1. Risk register aplikasi manajemen risiko 2. Eviden progress pelaksanaan mitigasi risiko proyek (file attachment dalam aplikasi manajemen risiko) III. Dilakukan monitoring mitigasi dari risiko operasional Dokumen yang dibutuhkan : 1. Risk register aplikasi manajemen risiko 2. Eviden progress pelaksanaan mitigasi risiko operasional (file attachment dalam aplikasi manajemen risiko)"
+                            },
+                            {
+                                "score": "Level3",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Risiko di beberapa area kunci dan rekomendasi risk survey (internal dan eksternal) telah diinputkan ke dalam aplikasi manajemen risiko sesuai dengan proses manajemen risiko berupa, I. Risk register aplikasi manajemen risiko telah diisi sesuai dengan proses manajemen risiko (Penetapan konteks, kajian risiko yang terdiri dari identifikasi risiko-analisa risiko-evaluasi risiko, serta perlakuan risiko) Dokumen yang dibutuhkan: Risk register aplikasi manajemen risiko untuk risiko strategis, risiko proyek, dan risiko operasional II. Rekomendasi hasil risk survey internal diinputkan ke dalam aplikasi manajemen risiko Dokumen yang dibutuhkan : 1. Rekomendasi risk survey 2. Risk register aplikasi manajemen risiko sudah memasukkan rekomendasi risk survey internal III. Rekomendasi hasil risk survey eksternal diinputkan ke dalam aplikasi manajemen risiko Dokumen yang dibutuhkan : 1. Rekomendasi underwriter survey 2. Risk register aplikasi manajemen risiko sudah memasukkan rekomendasi risk survey eksternal IV. Dilakukan pemantauan kinerja stream ERM setiap triwulan melalui self assessment Dokumen yang dibutuhkan : Hasil self assessment per triwulan (Semester 1 : TW I dan TW II, Semester 2 : TW III dan TW IV)"
+                            },
+                            {
+                                "score": "Level4",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tindak lanjut terhadap OFI hasil assessment, rekomendasi risk survey internal dan eksternal berupa, I. Dilakukan tindak lanjut dari OFI hasil assessment kontrak kinerja ERM Dokumen yang dibutuhkan : 1. OFI hasil assessment kontrak kinerja ERM 2. Eviden tindak lanjut dari OFI II. Dilakukan tindak lanjut dari rekomendasi risk survey (internal) Dokumen yang dibutuhkan : Dokumen monitoring dan eviden tindak lanjut rekomendasi risk survey III. Dilakukan tindak lanjut dari rekomendasi risk survey (eksternal) Dokumen yang dibutuhkan : Dokumen monitoring dan eviden tindak lanjut rekomendasi underwriter survey"
+                            },
+                            {
+                                "score": "Level5",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Manajemen Risiko merupakan bagian integral dari semua proses bisnis. Pendekatan best practice dijalankan dan dikembangkan berupa, I. Penjelasan : Kualitas risk register pada aplikasi manajemen risiko (strategis, project, operasional) semakin baik dengan ditandai: 1. Konteks yang memenuhi kaidah SMART 2. Identifikasi risiko yang tepat sasaran 3. Penilaian risiko yang tepat 4. Penetapan eksisting kontrol yang memenuhi kaidah 5W-1H 5. Perlakuan risiko yang terus dipantau tahapan pelaksanaannya 6. Monitoring dan review manajemen risiko secara konsisten Dokumen yang dibutuhkan : 1. Risk register aplikasi manajemen risiko 2. Eviden terkait pelaksanaan kontrol dan mitigasi risiko dalam aplikasi manajemen risiko II. Proses manajemen risiko telah melekat pada semua proses bisnis dan dilakukan secara konsisten selama tiga tahun berturut-turut Dokumen yang dibutuhkan : Eviden level 1-4 selama 3 tahun berturut-turut"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "KPI",
+        "weight": 0.2,
+        "areas": [
+            {
+                "name": "HASIL",
+                "sub_areas": [
+                    {
+                        "name": "Apakah Manajemen Risiko berkontribusi untuk mencapai hasil?",
+                        "weight": 1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "Level1",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "- K-3\/Keselamatan Jiwa : Korban Jiwa - Loss Event yang berdampak pada penurunan kesiapan terhadap RDM selama 1 semester sebesar 5% Durasi loss event adalah durasi actual terhitung sejak awal loss hingga normal operasi walaupun status niaganya berubah dari FO menjadi PO. Yang masuk ke dalam loss event adalah kebakaran dan atau MB yang berdampak pada klaim asuransi (dibawah kendali manajemen). Untuk unit yang tidak diasuransikan, yang dikategorikan sebagai loss event adalah yang controlable namun tidak dilakukan identifikasi. Presentase penurunan = ( \u2211RDM yang tidak terealisasi (karena loss event \/\u2211RDM yang terdeclare)*100%"
+                            },
+                            {
+                                "score": "Level2",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "- K-3\/Keselamatan Jiwa : Korban luka berat\/cacat permanen - Loss Event yang berdampak pada penurunan kesiapan terhadap RDM selama 1 semester sebesar 1% Durasi loss event adalah durasi actual terhitung sejak awal loss hingga normal operasi walaupun status niaganya berubah dari FO menjadi PO. Yang masuk ke dalam loss event adalah kebakaran dan atau MB yang berdampak pada klaim asuransi (dibawah kendali manajemen). Untuk unit yang tidak diasuransikan, yang dikategorikan sebagai loss event adalah yang controlable namun tidak dilakukan identifikasi. Presentase penurunan = ( \u2211RDM yang tidak terealisasi (karena loss event \/\u2211RDM yang terdeclare)*100%"
+                            },
+                            {
+                                "score": "Level3",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "- K-3\/Keselamatan Jiwa : Korban luka sedang (rawat inap) - Tidak terdapat Loss Event yang berdampak pada penurunan RDM Durasi loss event adalah durasi actual terhitung sejak awal loss hingga normal operasi walaupun status niaganya berubah dari FO menjadi PO. Yang masuk ke dalam loss event adalah kebakaran dan atau MB yang berdampak pada klaim asuransi (dibawah kendali manajemen). Untuk unit yang tidak diasuransikan, yang dikategorikan sebagai loss event adalah yang controlable namun tidak dilakukan identifikasi. Presentase penurunan = ( \u2211RDM yang tidak terealisasi (karena loss event \/\u2211RDM yang terdeclare)*100%"
+                            },
+                            {
+                                "score": "Level4",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- K-3\/Keselamatan Jiwa : Korban luka ringan (rawat jalan) - Tidak terdapat loss event dan terjadi peningkatan RDM minimal 1 % yang bersumber dari inovasi berdasarkan identifikasi risiko Durasi loss event adalah durasi actual terhitung sejak awal loss hingga normal operasi walaupun status niaganya berubah dari FO menjadi PO. Yang masuk ke dalam loss event adalah kebakaran dan atau MB yang berdampak pada klaim asuransi (dibawah kendali manajemen). Untuk unit yang tidak diasuransikan, yang dikategorikan sebagai loss event adalah yang controlable namun tidak dilakukan identifikasi. Presentase penurunan = ( \u2211RDM yang tidak terealisasi (karena loss event \/\u2211RDM yang terdeclare)*100%"
+                            },
+                            {
+                                "score": "Level5",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "- K-3\/Keselamatan Jiwa : Tidak ada korban jiwa - Tidak terdapat loss event dan terjadi peningkatan target produksi minimal 1 % yang bersumber dari inovasi berdasarkan identifikasi risiko selama 3 tahun berturut-turut Durasi loss event adalah durasi actual terhitung sejak awal loss hingga normal operasi walaupun status niaganya berubah dari FO menjadi PO. Yang masuk ke dalam loss event adalah kebakaran dan atau MB yang berdampak pada klaim asuransi (dibawah kendali manajemen). Untuk unit yang tidak diasuransikan, yang dikategorikan sebagai loss event adalah yang controlable namun tidak dilakukan identifikasi. Presentase penurunan = ( \u2211RDM yang tidak terealisasi (karena loss event \/\u2211RDM yang terdeclare)*100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

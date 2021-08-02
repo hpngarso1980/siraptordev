@@ -1,0 +1,591 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Operation Mgt - Pengendalian Operasi",
+                "sub_areas": [
+                    {
+                        "name": "Patrol Check dan Recording Data Operasi",
+                        "weight": 0.07,
+                        "description": "Aktivitas Patrol check terencana & wajib dilaksanakan untuk memonitor parameter operasi, sesuai jadwal yg tertera utk memastikan kondisi peralatan dan area kerja dalam kondisi aman, Serta menghasilkan data data operasi yang akurat sebagai bahan evaluasi.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Kegiatan patrol checks dijadwalkan sesuai logsheet yang ditetapkan dan dilaksanakan Operator yang tersertifikasi. 1. Formulir patrol check 2. Kelengkapan patrol check dan recording data operasi 3. Pembagian tugas patrol check dan recording data operasi pada masing-masing regu sesuai FTK atau Job Desk masing2 Operator"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Kegiatan patrol checks dilaksanakan sesuai jadual yang ditetapkan dan log sheet hasil patrol check divalidasi oleh Spv prod - Ketidaknormalan hasil patrol cek ditindaklanjuti dengan pembuatan Fault Reporting (ILS\/SR) - melaporkan adanya unsafe action & unsafe condition"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, dan - Mampu mengidentifikasi faktor-faktor yang berpotensi menyebabkan terjadinya gangguan yang menyebabkan unit derating dan trip (berupa resume) yang dituangkan dalam Jurnal gangguan peralatan beserta trouble shootingnya - Membuat resume critical peralatan yang menyebabkan unit derating dan trip dalam bentuk OCEA (Based on Activity, Condition, Equipment) update setiap bulan - Data recording terdokumentasi dengan baik - Tidak ada duplikasi ILS\/SR pada peralatan & periode yang sama"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 dan terdapat bukti tindak lanjut (100% dilaksanakan) jika terjadi kelainan & kerusakan pada peralatan, data recording digunakan sebagai evaluasi efisiensi dan keandalan - data operasi sebagai evaluasi peningkatan keandalan unit - hasil data patrol check dan recording data operasi digunakan sebagai bahan evaluasi untuk peningkatan kehandalan peralatan (misal: PKU) - hasil data patrol check dan recording data operasi harus akurat dan digunakan sebagai input untuk monitoring efisiensi pembangkit dan dimunculkan dalam bentuk trending data"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4 dan menjadi contoh terbaik dalam kegiatan Patrol Check (misalkan: menerapkan sistem paper less patrol chek) Menjadi contoh terbaik dalam kegiatan patrol check - Melakukan improvement dalam patrol check dan recording data operasi menggunakan paperless dan masuk dalam data base. - Menjadi benchmark perusahaan lain (di luar PLN Group) dalam hal patrol cek dan diimplementasikan di perusahaan terkait"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Pengendalian Operasi",
+                "sub_areas": [
+                    {
+                        "name": "Rutin Work",
+                        "weight": 0.07,
+                        "description": "Kegiatan yang dilaksanakan oleh operator untuk memastikan kesiapan dan keandalan peralatan unit sesuai jadwal yang direncanakan (change over, individual test dan Rutin Operasi)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Kegiatan rutin work terjadwal dan mengacu pada manual book untuk menjaga keandalan Unit dan dilaksanakan sesuai IK yang berlaku 1. kelengkapan pelaksanaan change over 2. Schedule dan formulir test peralatan 3. Schedule dan formulir rutin operasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1, dan kegiatan Rutin Work didokumentasikan dan melaporkan adanya kelainan 1. Pengoperasian peralatan common sesuai kaidah baku mutu lingkungan 2. Penerbitan ILS\/SR dan menjadi WO"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, Membuat laporan secara periodik (bulanan), kegiatan rutin work tidak menyebabkan terjadinya gangguan dan terintegrasi dengan bidang terkait 1. Konsistensi rutin work 2. Laporan rutin work disampaikan ke seluruh bidang terkait 3. Tidak terjadi FO\/FD karena kesalahan rutin work 4. Rutin work sudah terintegrasi dengan aktivitas bidang lain (PdM\/CBM, PKU)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 dan terdapat monitoring running hour, terdapat kajian efektifitas rutin work untuk meningkatkan efisiensi dan keandalan unit. 1. Kajian analisa efektivitas pelaksanaan operasi terhadap peningkatan keandalan unit per semester 2. Tidak terjadi kegagalan pada essensial equipment (EDG, Emergency Oil Pump, Aux Boiler, Turbine Valve) 3. Melaksanakan monitoring rutin work secara berkelanjutan (riwayat change over dan running hour)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya)",
+                                "description": "Memenuhi level 4 , terdapat early warning untuk menghindari kelalaian pelaksanaan rutin work dan menjadi benchmark perusahaan lain 1. Terdapat Continuous Improvement rutin work dalam bentuk early warning alarm (berdasarkan running hour\/time based) 2. Menjadi benchmark perusahaan lain (di luar PLN Grup) dalam hal rutin work dan diimplementasikan di perusahaan terkait"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Pengendalian Operasi",
+                "sub_areas": [
+                    {
+                        "name": "Meeting Operasi & Monitoring kesiapan peralatan",
+                        "weight": 0.07,
+                        "description": "Kegiatan teragenda untuk koordinasi internal operasi dan kesinambungan aktifitas shift dan monitoring kesiapan & kondisi peralatan Reff : DOE (Departement Of Energy USA) STANDART ( DOE-STD-1041-93 )\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Routine Meeting belum dilaksanakan secara konsisten dan koordinasi antar shift belum dilaksanakan secara rutin (dibawah 90% total shift meeting antar regu dalam 1 bulan), Realisasi meeting operasi >110% ( Realisasi Waktu meeting = Rata2 realisasi waktu meeting \/ 15 menit) 1. Shif meeting dihadiri oleh 90% anggota shift dan durasi diatas 15 menit 2. Terdapat Form Shift Meeting"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Routine meeting operasi dan koordinasi antar shift dilaksanakan secara konsisten tetapi kurang efektif (Agenda meeting tidak ada tindak lanjut realisasi), Realisasi Shift meeting \u2264 90% ( Realisasi Waktu meeting = Rata2 realisasi waktu meeting \/ 15 menit) Terdapat laporan harian operasi dan scorecard hasil meeting 1. Terdapat waktu serah terima pekerjaan shift sebelumnya minimal 30 menit sebelum pergantian shift 2. Notulen meeting dengan agenda, rencana, aktifitas shift sebelumnya, pembahasan ILS\/SR dan PIC hasil meeting 3. Terdapat laporan harian operasi secara komperhensif 4. Terdapat grafik trend score card hasil shift meeting"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Routine meeting operasi dan koordinasi antar shift dilaksanakan secara konsisten dan efektif Realisasi Shift meeting 100% Memasukkan ceklist Downtime & Uptime Equipment dan mencantumkan status kesiapan peralatan 1. Shift meeting rutin dilaksanakan dengan pencapaian realisasi shift meeting 100 % dan dihadiri oleh 95 - 100% dari anggota regu shift serta dilaksanakan tepat waktu serta durasi meeting 15 menit atau lebih cepat. 2. Memasukan checklist terkait program engineering (down & uptime ) dimana > 75% dari wr\/sr yang diakibatkan gangguan sehingga meyebabkan breakdown peralatan dan dilengkapi failure mode 3. Hasil notulen meeting telah mencantumkan status seluruh peralatan (Stand By dan Not Stand By)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3, dan terdapat ECP dari bidang operasi untuk improvement efisiensi & keandalan unit 1. Notulen Shift meeting dapat diakses oleh bidang terkait (Operasi, Pemeliharaan dan Enjineering) 2. Terdapat monitoring WO untuk progress pemeliharaan peralatan yang Not stand By 3. Hasil shift meeting menghasilkan improvement untuk perbaikan melalui usulan ECP dari bidang operasi 4. Mengupdate data downtime equipment di Ellipse\/Maximo secara periodik"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya)",
+                                "description": "Memenuhi level 4, dan terdapat improvement dalam bentuk aplikasi digital dan sharing knowledge 1. Hasil notulen shift meeting dituangkan dalam bentuk aplikasi digital (Web Base) yang bisa diakses di berbagai tempat. 2. Dilakukan Sharing knowledge setelah pelaksanaan shift meeting minimal 6 kali\/bulan tiap regu terkait sistem pengoperasian pembangkit, Hasil diklat dan program perusahaan dengan narasumber yang berbeda 3. Data downtime equipment telah dijadikan bahan evaluasi untuk Bidang Engineering"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "Start Up dan Penanganan Gangguan",
+                        "weight": 0.08,
+                        "description": "- Kegiatan start up, shutdown Unit mulai dari perencanaan, persiapan, pelaksanaan, pelaporan s.d. evaluasinya dan - Penanganan gangguan meliputi analisa penyebab gangguan, mitigasi, pelaporan s.d. evaluasi yang terintegrasi dengan bidang terkait\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Memiliki Prosedure\/IK\/ Cheklist start up\/shut down\/gangguan unit\/ sebagai guidance pelaksanaannya, terdapat tim start up untuk setiap Overhaul yang memadai dan prosedur komunikasi pelaporan gangguan 1. Memiliki perencanaan start up\/shutdown unit dalam rangkaian kegiatan Overhaul\/MO (Logsheet pengujian, cek list kesiapan peralatan, check list start\/stop unit ) 2. Terdapat IK Start up Unit, IK Shutdown, IK Penanganan gangguan unit, gangguan Blackout, House Load, Run back . 3. Terdapat tim start up untuk setiap kegiatan Overhaul dituangkan dalam struktur organisasi OH dan dibuatkan nota dinas ke bidang terkait. 4. Anggota Tim start up merupakan gabungan operator senior\/Yunior yang memiliki kompetensi dari Lembaga Sertifikasi Kompetensi 5. Memiliki Prosedur Komunikasi Pelaporan Gangguan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Kegiatan start up\/shut down\/penanganan gangguan unit dilaksanakan sesuai dengan prosedure yang sudah di update dan manual Intruction dari manufacture untuk mencegah terjadinya FO melebihi 7 hari 1. Terdapat data hasil pengujian peralatan, test proteksi, persiapan kualitas kimia air, cek list kesiapan peralatan dan leak test boiler 2. Mengisi Ceklist start up\/shutdown unit sesuai sequencenya dan mengisi catatan jika terjadi ketidaknormalan ketika melaksanakan start \/shut down unit. 3. Terdapat pernyataan tertulis dari pelaksana pekerjaan ( UPHAR\/PJBS\/pihak 3 ) bahwa pekerjaan sudah selesai dan unit atau peralatan siap di start. 4. Tidak terjadi kerusakan peralatan saat terjadi gangguan External maupun gangguan Internal yang nengakibatkan unit FO dalam jangka waktu > 7 hari."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, membuat laporan untuk setiap kegiatan start up dan adanya gangguan serta membuat RCFA setiap mengalami FO 1. Mengirimkan Laporan start up yang memuat durasi, sequence, pemakaian Bahan bakar, aux. power & kendala selama start up (ke bidang ROP & TEK) 2. Tidak terjadi Trip Unit pada saat proses start up yang mengakibatkan bertambahnya SdOF 3. Durasi start up memenuhi standar KOK (Karakteristik Operasi di Kontrak) 4. Mengirimkan Laporan gangguan (unit outage) berbasis SOE maksimum 2 X 24 jam (ke bidang ROP & TEK dg tembusan Direktur Operasi ) 5. Tidak Terjadi trip unit berulang disebabkan gangguan yg sama dalam 1 semester. 6. Setiap gangguan yang menyebabkan FO harus membuat RCFA"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3, rutin melakukan simulasi gangguan operasi serta mampu menjaga kesiapan operasi unit 1. Melakukan simulasi penanganan gangguan (black out\/house load\/run back\/Island Operasion\/black start (minimal satu kali tiap shift per semester) 2. Unit mampu segera beroperasi kembali (hot\/warm start) ketika terjadi gangguan pemadaman\/blackout setelah jaringan normal dan diminta start oleh P2B"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya )",
+                                "description": "Memenuhi level 4 dan mampu membuat dokumen expert dan menjadi best practice dalam penanganan gangguan 1. Membuat dokumen expert dalam format Video terkait proses Start up Unit 2. Menjadi Best Practice dalam hal start up unit dan penanganan gangguan serta dapat diterapkan di Unit lain di luar PLN Group"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "Firstline Maintenance (FLM) dan House Keeping (5S)",
+                        "weight": 0.07,
+                        "description": "Kegiatan First Line Maintenance (melumasi, mengencangkan dan membersihkan) sebagai bagian dari menjaga kehandalan peralatan Serta pelaksanaan 5S untuk menjaga kebersihan peralatan dan lingkungannya Reff : POB 5S PJB\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Kegiatan FLM dan 5S pada peralatan dan lingkungannya telah dijadwalkan. Dibuktikan dengan kondisi berikut, 1. Terdapat perencanaan pelaksanaan 5 S (Jadwal, pembagian area, PIC) dalam bentuk Formulir sesuai POB 5S 2. Pembagian PIC untuk 5S Operator telah melibatkan semua individu di setiap Shift dan mengcover seluruh area 3. Terdapat jadwal FLM yang bersifat preventif (bersihkan, kencangkan & lumasi) untuk menjaga keandalan equipment 4. Mempunyai kelengkapan tool dan material untuk pelaksanaan FLM"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1, Kegiatan FLM dan 5S pada peralatan dan lingkungannya telah dilaksanakan sesuai jadwal. Dibuktikan dengan kondisi, 1. Membuat dokumentasi foto sebelum dan sesudah pelaksanaan 5S sesuai skedul 2. Melaksanakan FLM yg bersifat preventif sesuai dengan jadwal yang telah ditetapkan disertai dengan bukti foto sebelum dan sesudah 3. Melakukan entry setiap kegiatan FLM ke dalam Sistem Ellipse\/Maximo"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, dan membuat laporan FLM & 5S serta tidak adanya gangguan Unit akibat kelalaian dalam FLM. Dibuktikan dengan kondisi berikut, 1. Membuat laporan pelaksanaan kegiatan FLM bulanan 2. tidak terjadi gangguan derating\/outage akibat peralatan yang tidak dilaksanakannya FLM ( Plugging chute, Diff Press strainer high, gagal lub oil dll ) 3. Membuat laporan pelaksanaan kegiatan House keeping (5S) bulanan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3, dan membuat evaluasi-rekomendasi serta menjaga continuous improvement dalam kegiatan FLM. Dibuktikan dengan kondisi berikut, 1. Evaluasi dan rekomendasi terkait tindak lanjut Laporan Pelaksanaan kegiatan Cleaning peralatan dan lingkungannya 2. Continous Improvemen terkait temuan FLM berulang dengan pembuatan ECP untuk penormalan equipmen"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya )",
+                                "description": "Menjadi contoh terbaik bagi unit \/ pershaan yang lain dalam kegiatan Cleaning peralatan dan lingkungannya. Dibuktikan dengan kondisi berikut, 1. Mendapatkan penghargaan medali emas lomba 5S untuk bidang operasi 2. Bukti penunjukan dari lembaga terkait sebagai unit benchmark penerapan Cleaning perlatan dan lingkungannya bidang pembangkit untuk perusahaan diluar PLN Group"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "SOP\/IK Comply & SOP\/IK Review",
+                        "weight": 0.07,
+                        "description": "Terdapat SOP\/IK yang mudah di akses dan direview secara periodik apabila terjadi perubahan peralatan, retrofit, reengineering, perubahaan akibat dari ECP yang berhubungan dengan pola operasi untuk menjaga keandalan dan efisiensi pembangkit serta membuat SOP\/IK berbasis Annunciator Window\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "SOP\/IK yang ada telah di update,review per semester 100 % dilaksanakan. Dibuktikan dengan kondisi berikut, 1. Dokumen SOP\/IK tersedia dan mudah diakses oleh semua operator ketika dibutuhkan ( hard copy, soft copy di PC dll ) 2. Terdapat Jadwal review SOP\/IK minimal 3 IK tiap Shift per semester 3. Pelaksanaan review SOP 100% dari rencana 4. Terdapat daftar hadir review SOP\/IK dan dihadiri perwakilan setiap Shift dan bidang terkait (OME)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1 dan Membuat SOP\/IK berbasis Alarm Annunciator Window dan IK emergency. Dibuktikan dengan kondisi berikut, 1. Terdapat review SOP\/IK berbasis Alarm Annunciator Window minimal 4 IK per semester 2. Hasil review SOP\/IK yang sudah final disahkan oleh Manajemen dan selanjutnya didaftarkan ke web pjb-ims 3. Terdapat IK contigency procedure untuk kondisi darurat (kebakaran, banjir, dam jebol, gempa, kekurangan Bahan bakar dll)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, dan seluruh aktifitas operasional Unit terdapat SOP\/IK yang update. Dibuktikan dengan kondisi berikut, 1. Pelaksanaan seluruh aktivitas operasional yang dilakukan oleh operator (100%) tertuang dalam SOP\/IK 2. Bukti Cek list hasil implementasi SOP\/IK berbasis Alarm Annunciator Window didokumentasikan dalam satu buku. 3. SOP\/IK yang dibuat harus detail, mudah difahami dan berbasis resiko (dilengkapi flowchart, diagram\/gambar & identifikasi\/mitigasi resiko)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 Terdapat simulasi SOP\/IK Contigency Procedure serta Dokumen SOP\/IK mudah didapatkan. Sehingga tidak terjadi kesalahan operasi. Dibuktikan dengan kondisi berikut, 1. Terdapat simulasi penerapan SOP \/ IK Contigency Procedure yang terdiri dari skenario sampai penanganan kejadian 2. Dokumen SOP\/IK pengoperasian unit\/equipment ada di dekat peralatan tersebut 3. Tidak ada gangguan Unit yang diakibatkan oleh kesalahan operasi dalam aktifitas Operasional unit."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Memenuhi level 4 SOP\/IK diterapkan dengan melibatkan seluruh Stake holder. Dibuktikan dengan Simulasi penerapan SOP \/ IK Contigency prosedure dengan melibatkan stake Holder unit terkait minimal setahun sekali"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "Komunikasi dgn Dispatcher, pelaporan & pelayanan",
+                        "weight": 0.08,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Terdapat sarana komunikasi dan PIC untuk berkomunikasi dengan Dispatcher dan Ditunjuk salah satu operator yang memahami protap DK-IKP dan kondisi unit sebagai PIC yang berkomunikasi dengan Dispatcher, 1. Terdapat sarana komunikasi (daftar no telepon, faksimail,voice recording ) berfungsi dengan baik dan penempatan sesuai 5S 2. Ditunjuk salah satu operator yang memahami protap DK-IKP dan kondisi unit sebagai PIC yang berkomunikasi dengan Dispatcher 3. Terdapat POB Komunikasi dengan Dispatcher dan telah didistribusikan ke CCR"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1, Bidang Niaga\/Rendal Operasi melakukan Sosialisasi POB Komunikasi Dengan Disptacher di setiap grup produksi minimal 2 grup per semester (dalam satu tahun 100% grup produksi telah mendapat sosialisasi)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, Mencapai target Konkin kepuasan pelanggan dan menindaklanjuti ketidakpuasan pelanggan. Dibuktikan dengan kondisi berikut, 1. Hasil survey kepuasan pelanggan tercapai 100% dari target konkin 2. Terdapat tindak lanjut program penyelesaian ketidakpuasan pelanggan 3. Unit mampu beroperasi sesuai dengan KOK yang berlaku (durasi start, ramping rate, governor free, MVAR, dll) 4. Dokumen interaksi antar keduanya atau diskusi atau adanya kunjungsana dilakukan kedua pihak minimal setahun sekali"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3, Survey Kepuasan Pelanggan dg hasil sangat memuaskan ( nilai CS > 90% & CD >10% ) dan melakukan improvement untuk mengantisipasi timbulnya ketidakpuasan pelanggan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4, Kepuasan pelanggan sudah melebihi ekspektasi dibuktikan dengan kondisi berikut, 1. Hasil kepuasan pelanggan dengan nilai CS > 95% 2. Pernyataan tertulis dari pelanggan (P2B\/APB\/PLN Sektor\/PLN Wilayah) terkait kepuasan pelayanan melebihi ekspektasi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "Sistem Permit To Work (PTW).",
+                        "weight": 0.07,
+                        "description": "Untuk memastikan bahwa sistem pengisolasian (lock out) dan penandaan (tag out) pada peralatan dan mesin yang tidak beroperasi dan\/ atau sedang dalam perbaikan, sehingga aman dan tidak membahayakan bagi pekerja serta menghindarkan kerusakan peralatan\/ mesin.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Terdapat PTW Officer, sarana prasarana LOTO, IK PTW beserta Form PTW"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1, dan semua kegiatan yang memerlukan sistem isolasi peralatan dilakukan LOTO (Lock Out Tag Out). Dibuktikan dengan kondisi berikut, 1. Terdapat daftar isolation guide 2. Monitoring WO yang sudah dibuatkan APTW dengan komunikasi dengan bidang rendal Har 3. Operator melaksanakan pengisolasian\/LOTO terkait pekerjaan pemeliharaan sesuai dengan isolation Guide 4. Terdapat bukti verifikasi lapangan oleh PTW officer pada saat pelaksanaan LOTO oleh Operator 5. Terdapat dokumen monitor PTW yang masih aktif"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, PTW telah dilaksanakan sesuai prosedur dan membuat laporan aktivitas PTW bulanan Tidak terjadi kecelakaan kerja akibat kesalahan dalam pelaksanaan PTW. Dibuktikan dengan kondisi berikut, 1. Laporan kegiatan PTW tiap bulan yang memuat statistik rasio antara WO terbit dan PTW 2. Terdapat pengecakan\/clearence test hasil pekerjaan sebelum restorasi peralatan (pekerjaan dinyatakan selesai) 3. Restorasi peralatan setelah pekerjaan selesai dan close PTW 4. Tidak terjadi kecelakaan kerja yang diakibatkan kesalahan Pengisolasian"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3, Sistem PTW dilengkapi dengan Isolation Guide yang telah terintegrasi dengan Ellips\/Maximo dan terdapat Evaluasi dan tindak lanjut implementasi PTW 1. Blink peralatan yang diisolasi di HMI\/CRT atau penunjukan kondisi peralatan di lokal 2. Isolation guide sudah terintegrasi dalam sistem PTW ( ellips dan maximo) 3. Evaluasi dan tindak lanjut implementasi PTW"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4, Memiliki piagam Zero Accident dan budaya continuous improvement. Dibuktikan dengan penghargaan Zero Accident dan budaya continuous improvement terkait pelaksanaan PTW"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "Perencanaan & Pengendalian Operasi dan Niaga",
+                        "weight": 0.07,
+                        "description": "Merencanakan kesiapan Unit Pembangkit sesuai dengan RDM (Rencana Daya Mampu) tepat waktu dan tepat perencanaan serta Monitoring deklarasi ketidaksiapan unit pembangkit dan memberikan umpan balik sesuai dengan realisasi kondisi operasi unit sehingga tidak merugikan PJB\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Melaksanakan perencanaan Operasi (RDM\/RDB) dan membuat BA Transakasi Energi serta Laporan Pengusahaan 1. Terdapat perencanaan operasi (RDM\/RDB) 2. Bukti entry data di dalam web\/email ( navitas\/lapuskit ) 3. Bukti pengiriman pelaporan lapus bulanan (lapus\/draft) selambat-lambatnya tanggal 2 setiap bulan berjalan 4. Bukti pengiriman pelaporan transaksi energi selambat-lambatnya tanggal 2 setiap bulan berjalan 5. Bukti pengiriman pelaporan (OEE dan PLO) selambat-lambatnya tanggal 8 setiap bulan berjalan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1, Perencanaan operasi tervalidasi dan melibatkan bidang terkait Deviasi EAF rencana-realisasi <5% 1. Terdapat notulen pembahasan antar bidang terkait program pemeliharaan (MD, MO, PO) 2. Cause code gangguan harus akurat sampai level 3 baik untuk entry navitas\/lapuskit\/laporan pengusahaan 3. Trend grafik deviasi kesesuaian realisasi EAF terhadap declare plus minus 5 % per semester 4. Rencana realisasi RDM\/RDB tervalidasi Manajer"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2 dan dilakukan Evaluasi bila terjadi gap\/deviasi perencanaan vs realisasi. Memastikan validitas SLO (Sertifikat Laik Operasi) 1. Trend grafik deviasi kesesuaian realisasi EAF terhadap declare plus minus 2.5 % per semester 2. Terdapat evaluasi gap\/deviasi realisasi terhadap rencana EAF 3. Tidak terjadi keterlambatan permintaan pekerjaan Ekstension (PO, MO) yang mengakibatkan bertambahnya EFOR 4. Terdapat SLO yang masih berlaku untuk setiap mesin pembangkit 5. Waktu pengiriman Lapus melalui OA atau email maksimal tanggal 5 tiap bulan tanpa ada revisi dan Lapus Cetak dikirimkan maksimal tanggal 8 tiap bulan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 Deviasi EAF rencana-realisasi <1% serta membuat program rekomendasi 1. Trend grafik deviasi kesesuaian realisasi EAF terhadap declare plus minus 1 % per semester 2. Terdapat program rekomendasi untuk meminimalisasi gap\/deviasi pencapaian EAF per semester ( jangka pendek )"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Memenuhi level 4 Memenuhi standar Kinerja 10% NERC dan memiliki budaya continuous Improvement"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "Pengelolaan Laboratorium",
+                        "weight": 0.07,
+                        "description": "Deskripsi : Pengelolaan laboratorium mulai dari layout ruangan (ruang pengujian, ruang bahan kimia, ruang staff, ruang timbang dll) dan kelengkapan peralatan, kalibrasi peralatan, kebersihan, ketersediaan bahan kimia, penataan bahan kimia, ketesedian standard (bahan, larutan), jumlah personel, kompetensi personel serta methode yang dijadikan acuan untuk menjamin accuracy & presisi hasil pengujian.\nReferensi : a. ISO\/IEC 17025 Standar Akreditasi Laboratorium Pengujian dan Kalibrasi b. ASTM D1066-11 Standard Practice for Sampling Steam c. ASTM D1193-11 Specification for Reagent Water d. ASTM D1293 Test Methods for pH of Water e. ASTM D1125-14 Test Methods for Electrical Conductivity and Resistivity of Water f. ASTM D5391-14 Test Method for Electrical Conductivity and Resistivity of a Flowing High Purity Water Sample g. ASTM D859 Test Method for Silica in Water h. ASTM D1426-08 Standard Test Methods for Ammonia Nitrogen In Water i. ASTM D512-12 Standard Test Methods for Chloride Ion In Water j. ASTM D1385-13 Standard Test Method for Hydrazine in Water k. ASTM D888-12 Standard Test Methods for Dissolved Oxygen in Water l. ASTM D515 Test for Phosphate Ion In Water m. ASTM D1068-10 Test Methods for Iron in Water n. ASTM D1426-08 Standard Test Methods for Ammonia Nitrogen In Water o. ASTM D1688-12 Standard Test Methods for Copper in Water p. ASTM D4189-07(2014) Standard Test Method for Silt Density Index (SDI) of Water q. ASTM D5907-13 Test Methods for Total Dissolved Solid (TDS) & Total Supended Solid (TSS) in Water r. ASTM D1253-14 Standard Test Method for Residual Chlorine in Water s. ASTM D511-14 Standard Test Methods for Calcium and Magnesium In Water\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Layout ruangan (pengujian, bahan kimia, timbang, staff, lemari asam) belum sesuai standart dan peralatan, sarana pendukung untuk pengujian kualitas air, pengujian kualitas bahan bakar serta bahan kimia\/ reagent, larutan standard untuk pengujian tersedia kurang lengkap, belum dikalibrasi tetapi memiliki SOP\/ IK analisa laboratorium berdasarkan standard\/ manual book 1. Memiliki peralatan pengujian kualitas air dalam kondisi normal coverage < 60% (minimal pH, conductivity, spectro, CL2 analiser) 2. Tersedia stock reagent, standart \/kalibrasi untuk pengujian kualitas air coverage < 60% (minimal reagent & standard untuk pH, Conduc, SiO2, PO4, dan CL2) 3. Terdapat dokumen stock dan pemakaian bahan kimia non operasi\/ reagent & larutan standart\/ bahan untuk kalibrasi 4. Terdapat pembagian tugas\/ jadwal terkait pengendalian kualitas air dan kualitas bahan bakar, m pelumas, m trafo & flue gas pada saat normal operasi, start up, shutdown\/ preservasi dan performace test. 5. Terdapat bukti kegiatan 5S, jadwal 5S di laboratorium mulai dari perlakuan awal sampel, pengujian, pembuangan sisa sampel 6. Memiliki SOP\/IK pengujian kualitas air, bahan bakar, minyak pelumas dan trafo yang mengikuti salah satu standar baku internasional (JIS, ASTM, AWWA)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Layout ruangan (pengujian, bahan kimia, timbang, staff, lemari asam) belum sesuai standart dan peralatan pengujian kualitas air, bahan bakar, minyak pelumas, trafo dan bahan kimia\/ reagent, larutan standart untuk kalibrasi tersedia cukup lengkap, dilakukan kalibrasi tidak rutine, dan mempunyai personel dengan kompetensi yang dipersyaratkan serta melakukan kegiatan 5S\/ House keeping 1. Terdapat layout ruangan laboratorium (ruang pengujian, ruang bahan kimia dan lemari asam) tetapi belum sesuai standart 2. Terdapat peralatan pengujian kualitas air dalam kondisi normal overage 60%-90% (minimal pH, Conduc, Spectro, Cl2 Analyzer, NO2 Analyzer, SDI (u\/RO) ) 3. Tersedia stock reagent, standart \/kalibrasi untuk pengujian kualitas air, coverage 60% - 90% (minimal pH, Conduc, SiO2, Cl, PO4, N2H4, Fe, CL2, NO2, SDI (RO))\/ Turbidity) 4. Memiliki peralatan pengujian kualitas bahan bakar, minyak pelumas dan trafo minimal bomb kalori, viscositas, specific gravity, kadar air, titik nyala, warna, furnace, Orsat dalam kondisi normal 5. Tersedia stock reagent, standart \/kalibrasi untuk pengujian kualitas bahan bakar dan minyak pelumas, trafo dan flue gas minimal benzoic acid, Ignition wire, reagent karl fischer, reagent orsat. 6. Terdapat dokumen bukti sertifikasi kompetensi dan jumlah personil yang mencukupi sesuai dengan lingkup kegiatan pengujian dan kimia operasi lainnya."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Layout ruangan (pengujian, bahan kimia, timbang, staff, lemari asam) yang sesuai standart dan peralatan pengujian kualitas air, bahan bakar, minyak pelumas dan minyak trafo dan bahan kimia\/ reagent, larutan standart untuk kalibrasi tersedia lengkap dan berfungsi dengan baik serta rutine dilakukan kalibrasi . 1. Memiliki layout ruangan (ruang pengujian, ruang bahan kimia, ruang timbang, ruang staff, lemari asam) sesuai standart 2. Memiliki peralatan pengujian kualitas air kondisi normal coverage > 90% (minimal pH, Conduc, Spectro, AAS, DO Analyzer, Cl2 Analyzer, NO2, SDI (u\/RO), Total Organic Carbon (TOC) Analyzer) 3. Tersedia stock reagent, standart \/kalibrasi untuk pengujian kualitas air coverage > 90% (minimal pH, conduc, SiO2, Cl, PO4, N2H4, Na, Fe, Cu, DO2, NO2, CL2, SDI, TOC) 4. Memiliki peralatan pengujian kualitas bahan bakar, pelumas, trafo & flue gas minimal bomb kalori, visco, specific gravity, kadar air, titik nyala,warna, breakdown voltage, NAN, TAN, TBN orsat\/ quintox kondisi normal. 5. Tersedia stock reagent, standart \/kalibrasi untuk pengujian kualitas bahan bakar, pelumas, trafo dan flue gasminimal benzoic acid, Ignition wire, reagent karl fischer, reagent NAN\/TAN\/TBN, reagent orsat. 6. Memiliki catatan hasil rutin kalibrasi peralatan dan verifikasi semua peralatan ukur laboratorium dan memiliki standard refference material bagi keperluan kalibrasi dan verifikasi."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 + verifikasi semua peralatan ukur dan memiliki standard refference material bagi keperluan kalibrasi dan verifikasi. 1. Memiliki catatan hasil kalibrasi rutin semua peralatan, jadwal kalibrasi dan verifikasi semua peralatan ukur laboratorium 2. Memiliki personel laboratorium mempunyai sertifikat kompetensi pengoperasian peralatan ukur dan kalibrasi alat ukur 3. Hasil uji accuracy & presisi dengan bahan acuan untuk mengukur kompetensi laboratorium, metode, kompetensi seorang analis, kehandalan alat dan untuk verifikasi kurva kalibrasi pengujian"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Level 4 + semua peralatan lab sudah dilakukan evaluasi dan terdapat uji banding antar laboratorium (uji profisiensi) 1. Terdapat hasil uji banding antar laboratorium (uji profisiensi) dan metode pengujian, metode kalibrasi serat validasi metode 2. Memiliki dokumen evaluasi penyimpangan terhadap ketidakpastian pengukuran dan tindakan perbaikan & pencegahan\/ tindak lanjut"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Pengolahan Air (Ekternal Treatment)",
+                        "weight": 0.07,
+                        "description": "Deskripsi : Proses pengendalian kualitas & kuantitas produk pengolahan air, mulai dari pengoperasian plant, monitoring parameter kimia operasi sampai evaluasi dan analisa di fasilitas pretreatment, desal\/RO dan demin plant untuk memperoleh air demin yang memenuhi persyaratan sesuai manual book, mulai pada waktu start up, normal operasi, preservasi (layup) dan saat terjadi gangguan.\nReferensi : a. ASME PTC 19.11 Steam and Water Sampling, Conditioning, and Analysis in the Power Cycle b. JIS B 8223 Water condition for boiler feed water and boiler water. c. ASTM D2035 Practice for Coagulation-Flocculation Jar Test of Water d. ASTM D3739 Practice for Calculation and Adjustment of the Langelier Saturation Index for Reverse Osmosis c. ASTM D4453 - 11 Standard Practice for Handling of High Purity Water Samples d. ASTM D6569-14 Standard Test Method for On-Line Measurement of pH e. ASTM D5128-14 Standard Test Method for On-Line pH Measurement of Water of Low Conductivity f. ASTM D2791-13 Test Method for On-line Determination of Sodium in Water g. ASTM D7126-10 Standard Test Method for On-Line Colorimetric Measurement of Silica h. ASTM D6071 Test Method for Low Level Sodium in High Purity Water by Graphite Furnace Atomic Absorption Spectroscopy i. ASTM D6855-12 Standard Test Method for Determination of Turbidity Below 5 NTU in Static Mode j. ASTM D7315-12 Standard Test Method for Determination of Turbidity Above 1 Turbidity Unit (TU) in Static Mode k. ASTM D6301-13 Standard Practice for Collection of On-Line Composite Samples of Suspended Solids and Ionic Solids in Process Water l. EPRI Doc TR-113692 Revised Guidelines for Makeup Water Treatment\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Pelaksanaan monitoring, kontrol kualitas & kuantitas produk pengolahan air (Desalt\/ SWRO, BWRO,WTP), tank (RWT, MUT\/ demin tank) dilakukan kurang konsisten karena online analizer rusak\/ tidak ada dan dosing injeksi kimia kurang terkontrol sehingga sebagaian besar parameter kimia keluar dari batasan manual book - Terdapat peralatan online analyzer coverage < 60% - Memiliki SOP\/IK pengendalian kuantitas, kualitas produk di Pre treatment plant, Desal\/RO plant, Demin Plant dan batasan operasi berdasarkan manual book"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Pelaksanaan monitoring, kontrol kualitas & kuantitas produk pengolahan air (Desalt\/ SWRO, BWRO,WTP) dan tank (RWT, MUT\/ demin tank) dilakukan cukup konsisten dan online analizer sebagaian besar normal serta dosing injeksi kimia cukup terkontrol sehingga hanya sebagian kecil parameter kimia yang keluar batasan manual book - Hasil monitoring, kontrol kualitas dan kuantitas produk (Desalt, SWRO, BWRO, WTP), tank (RWT, MUT) coverage 60 - 90% - Catatan hasil dosing ppm coagulation-flocculation (jar test) untuk pretreatment dan dosing ppm anti scale, anti foam, Na2O5S2 & CL2 untuk desalt\/ SWRO\/BWRO serta kontrol konsentrasi HCl & NaOH pada waktu regeneras resn sesuai dengan manual book - Hasil pemeriksaan kualitas bahan kimia operasi untuk pengolahan air (anti scale, anti foam, Na2O5S2, HCl dan NaOH dll) - Terdapat peralatan online analyzer coverage 60% - 90% - Memiliki catatan injeksi, konsumsi bahan kimia harian\/ mingguan\/ bulanan dan rasio konsumsi b. kimia terhadap jumlah produksi air --> cek formula"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pelaksanaan monitoring, kontrol kualitas & kuantitas produk pengolahan air (Desalt\/ SWRO, BWRO, WTP) dan tanki penampung (RWT, MUT\/ demin tank) dilakukan sangat konsisten dan oline analizer lengkap sesui standard dan telah diverifikasi serta dosing injeksi kimia sangat terkontrol sehingga semua parameter kimia sesuai dengan batasan manual book - Hasil monitoring, kontrol kualitas & kuantitas produk (Desalt\/SWRO, BWRO, WTP), tank (RWT, MUT\/demin tank) coverage > 90% (min pH, Conduc, SiO2, Cl, Fe, Na dan SDI (u\/ RO) sesuai dengan manual book) - Hasil pemeriksaan kualitas bahan kimia operasi untuk unit (N2H4, NH4OH, Na3PO4 dan NaNO2, FeSO4 dll) dan evaluasi\/ tindak lanjut - Terdapat catatan konsumsi bahan Kimia operasi harian\/mingguan\/ bulanan dan ratio biaya bahan kimia terhadap MWH atau KWH produksi dibandingkan manual book dan evaluasi serta tidak lanjut - Hasil monitoring & kontrol preservasi unit pada waktu shut down\/ Overhoul sesuai dengan yang dipersyaratkan\/ manual book - Terdapat peralatan online analyzer > 90% (min pH, Conduc, SiO2, DO2, Na, untuk unit\/ CPP dan condenser leakage detector kondisi normal) - Hasil analisa kualitas kerak internal hotwell, deaerator, drum, turbin dan ekternal kerak fornace boiler dan evaluasi\/ tindak lanjut"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 + terdapat improvement\/ upaya perbaikan kualitas dan optimalisasi pemakaian\/ pengunaan bahan kimia dengan kuantitas air produksi sesuai design manual book - Hasil trending monitoring siklus uap-air dari lab & online analyzer (parameter improvment SiO2 < 15 ppb, Na < 5 ppb di steam) dan dilakukan evaluasi dengan hasil analisa kerak internal - Selisih antara hasil pengujian manual terhadap pengukuran on-line untuk parameter SiO2 & Na produk demin plant \u2264 10% - Memiliki bukti peningkatan efektifitas chemical treatment (update PT, CPT, EPT, AVT, OT) untuk reduce corrosion, deposision dan hasil analisa kerak boiler & turbin serta optimalisasi pengunaan bahan kimia (Rp bahan kimia\/ KWH)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4 + terdapat continous improvement\/ upaya perbaikan kualitas lanjutan dan optimalisasi lanjutan pemakaian\/pengunaan bahan kimia dengan kuantitas air produksi sesuai design manual book - Hasil trending monitoring siklus uap-air dari lab dan online analyzer (parameter improvment SiO2 < 10 ppb, Na < 3 ppb di steam) dan evaluasi dengan hasil RLA boiler dan turbin - Memiliki catatan evaluasi penyimpangan yang terjadi parameter kimia, tindak lanjut rekomendasi dan evaluasi hasil pelaksanaan (coverage > 90% dari penyimpangan yang terjadi) - Memiliki bukti peningkatan efektifitas chemical treatment (update PT, CPT, EPT, AVT, OT) lanjutan untuk reduce corrosion, deposision dan evaluasi hasil RLA boiler & turbin serta optimalisasi lanjutan pengunaan bahan kimia (Rp bahan kimia\/ KWH) dan evaluasinya"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Siklus Air Uap (Internal Treatment)",
+                        "weight": 0.07,
+                        "description": "Deskripsi : Proses pengendalian kualitas air dan dosing injeksi kimia padasistem siklus air-uap (termasuk condensat polishing jika ada) dan cooling water (stator generator cooling, closed cooling water, sea water cooling) sesuai dengan batasan besaran parameter kimia yang dipersyaratkan manual book baik pada waktu start up, normal operasi, preservasi (layup) dan saat terjadi gangguan.\nReferensi : a. ASME PTC 19.11 Steam and Water Sampling, Conditioning, and Analysis in the Power Cycle b. ASTM D1192 Standard Guide for Equipment for Sampling Water and Steam in Closed Conduits c. JIS B 8223 Water condition for boiler feed water and boiler water. c. ASTM D4453 - 11 Standard Practice for Handling of High Purity Water Samples d. ASTM D6569-14 Standard Test Method for On-Line Measurement of pH e. ASTM D5128-14 Standard Test Method for On-Line pH Measurement of Water of Low Conductivity f. ASTM D2791-13 Test Method for On-line Determination of Sodium in Water g. ASTM D7126-10 Standard Test Method for On-Line Colorimetric Measurement of Silica h. ASTM D6071 Test Method for Low Level Sodium in High Purity Water by Graphite Furnace Atomic Absorption Spectroscopy d. EPRI Doc 1004187 Guidelines for the five fossil plant boiler water treatments and three feedwater treatments \u2013 allvolatiletreatment e. EPRI Doc TR-107754 Cycling, Startup, Shutdown, and Layup Fossil Plant Cycle Chemistry Guidelines for Operators and Chemists f. EPRI Doc TR-112819 Condenser In-Leakage Guideline g. EPRI Doc TR-104422 Condensate Polishing h. EPRI Revision 1 to TR-107396 Closed Cooling Water Chemistry Guideline i. IAPWS Technical Guidance Document Volatile treatments for the steam-water circuits of fossil and combined cycle\/HRSG power plants\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Pelaksaan monitoring, kontrol kualitas air pada sistem siklus air-uap (termasuk condensat polishing jika ada) dan cooling water (stator generator cooling, closed cooling water, sea water cooling) dilakukan kurang konsisten dan dosing injeksi kimia kurang terkontrol sehingga mengakibatkan sebagaian besar parameter kimia keluar dari batasan manual Book -Terdapat fasilitas sampling rack di siklus uap-air (termasuk CPP) & cooling water (stator generator cooling, closed cooling water, sea water cooling) yang memenuhi standart ( flow, suhu sample) - Monitoring & kontrol kualitas siklus air-uap (termasuk condensat polishing jika ada) & cooling water tidak dilakuan setiap hari - Hasil monitoring & kontrol kualitas kualitas siklus uap-air dan cooling water sebesar coverage < 60% (min pH, Conduc, SiO2, PO4 & Cl2 sesuai manual book) dan terdapat evaluasi thd penyimpangan. - Terdapat dalam kondisi normal peralatan dosing injeksi N2H4, NH3, PO4 untuk unit, NO2, Cl2, FeSO4 untuk cooling water dan catatan stroke pump, level tank, chemical filling. - Peralatan online analyzer yang kondisi normal < 60% (minimal pH, conduc untuk main unit dan condensat polishing jika ada CPP) - SOP\/IK pengendalian kualiatas air pada sistem siklus air-uap & cooling water pada saat normal operasi, start up, shutdown\/ preservasi dan saat terjadi gangguan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Pelaksaan monitoring, kontrol kualitas air pada sistem siklus air-uap (termasuk condensat polishing jika ada) dan cooling water (stator generator cooling, closed cooling water, sea water cooing) dilakukan cukup konsisten dan dosing injeksi kimia cukup terkontrol tetapi ada beberapa parameter kimia keluar dari batasan manual Book - Catatan & pelaksanaan monitoring, kontrol kualitas siklus uap-air & cooling water dilakuan setiap hari dan tiap startup sampai normal operasi serta verifikasi penunjukan di online dengan lab - Hasil monitoring kualitas siklus air-uap & cooling water dengan coverage 60-90% minimal pH, Conduc, Cl, SiO2, N2H4\/NH3, PO4, DO2, NO2, Cl2 sesuai manual book & evaluasi terhadap penyimpangan. - Catatan monitoring & kontrol pembukaan CBD (Continuous Blowdown) boiler & lainnya, konsumsi make up water dan evaluasi - Hasil monitoring & kontrol pengujian kualitas air saaat shutdown\/ preservasi (layup) & Start up (filling, flashing, silika purging) - Terdapat kegiatan & jadwal flushing sampling rack unit (siklus uap-air) rutine & pada waktu start up unit. - Terdapat catatan stock & pemakaian bahan kimia operasi harian\/ mingguan\/ bulanan dan evaluasi ketidak sesuaian\/ tindak lanjut"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pelaksanaan monitoring, kontrol kualitas air pada sistem siklus air-uap (termasuk condensat polishing jika ada) dan cooling water (stator generator cooling, closed cooling water, sea water cooling) dilakukan sangat konsisten dan dosing injeksi kimia sangat terkontrol dengan baik sehingga semua parameter kimia sesuai dengan batasan manual Book - Hasil monitoring & kontrol kualitas siklus uap-air dan cooling water dengan coverage > 90% (min pH, Conduc, SiO2, Cl, PO4, Fe, Cu, Na dan NO2, Cl2 sesuai manual book), evaluasi terhadap penyimpangan - Hasil pemeriksaan kualitas bahan kimia operasi untuk unit (N2H4, NH4OH, Na3PO4 dan NaNO2, FeSO4 dll) dan evaluasi\/ tindak lanjut - Terdapat catatan konsumsi bahan Kimia operasi harian\/mingguan\/ bulanan dan ratio biaya bahan kimia terhadap MWH atau KWH produksi dibandingkan manual book dan evaluasi serta tidak lanjut - Hasil monitoring & kontrol preservasi unit pada waktu shut down\/ Overhoul sesuai dengan yang dipersyaratkan\/ manual book - Terdapat peralatan online analyzer > 90% (min pH, Conduc, SiO2, DO2, Na, untuk unit\/ CPP dan condenser leakage detector kondisi normal) - Hasil analisa kualitas kerak internal hotwell, deaerator, drum, turbin dan ekternal kerak fornace boiler dan evaluasi\/ tindak lanjut"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 + terdapat improvement\/ upaya peningkatan, perbaikan kualitas air pada siklus uap-air dan cooling water, dan Chemical treatment update untuk optimalisasi pengunaan bahan kimia - Hasil trending monitoring siklus uap-air dari lab & online analyzer (parameter improvment SiO2 < 15 ppb, Na < 5 ppb di steam) dan dilakukan evaluasi dengan hasil analisa kerak internal - Selisih antara hasil pengujian manual terhadap pengukuran on-line untuk parameter SiO2 & Na produk demin plant \u2264 10% - Memiliki bukti peningkatan efektifitas chemical treatment (update PT, CPT, EPT, AVT, OT) untuk reduce corrosion, deposision dan hasil analisa kerak boiler & turbin serta optimalisasi pengunaan bahan kimia (Rp bahan kimia\/ KWH)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4 + terdapat monitoring, pengukuran, evaluasi hasil improvement dan rekomendasi post program (hasil RLA\/ Remain Life Assessment: Boiler, Turbin tidak terdapat kegagalan dari sistem kimia) - Hasil trending monitoring siklus uap-air dari lab dan online analyzer (parameter improvment SiO2 < 10 ppb, Na < 3 ppb di steam) dan evaluasi dengan hasil RLA boiler dan turbin - Memiliki catatan evaluasi penyimpangan yang terjadi parameter kimia, tindak lanjut rekomendasi dan evaluasi hasil pelaksanaan (coverage > 90% dari penyimpangan yang terjadi) - Memiliki bukti peningkatan efektifitas chemical treatment (update PT, CPT, EPT, AVT, OT) lanjutan untuk reduce corrosion, deposision dan evaluasi hasil RLA boiler & turbin serta optimalisasi lanjutan pengunaan bahan kimia (Rp bahan kimia\/ KWH) dan evaluasinya"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Kualitas Bahan Bakar, Pelumas & Trafo serta Flue Gas",
+                        "weight": 0.07,
+                        "description": "Deskripsi : Pelaksanaan pengendalian kualitas bahan bakar, mulai dari penerimaan bahan bakar (fungsi lab imbangan) sampai pengujian bahan bakar & flue gas saat performance test, yang meliputi pelaksanaan pengujian sampai evaluasi hasil pengujian. Pelaksanaan pengujian minyak pelumas & minyak trafo baru pada waktu penerimaan maupun minyak pakai waktu normal operasi maupun overhoul\/ shut down.\nReferensi : a. ASTM D197: Standard Test Method for Sampling and Fineness Test of Pulverized Coal b. ASTM D346: Standard Practice for Collection and Preparation of Coke Samples for Laboratory Analysis. c. ASTM D409: Test Method for Grindability of Coal by the Hardgrove-Machine Method. d. ASTM D3173: Test Method for Moisture in the Analysis Sample of Coal and Coke. e. ASTM D3172: Standard Practice for Proximate Analysis of Coal and Coke f. ASTM D3175: Test Method for Volatile Matter in the Analysis Sample of Coal and Coke. g. ASTM D3176: Standard Practice for Ultimate Analysis of Coal and Coke. h. ASTMD3177: Test Method for Total Sulfur in the Analysis Sample of Coal and Coke. i. ASTM D3178: Test Method for Carbon and Hydrogen in the Analysis Sample of Coal and Coke. j. ASTM D240 Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter k. ASTM D6304 Test Method for Determination of Water in Petroleum Products, Lubricating Oils, and Additives by Coulometric Karl Fischer Titration l. ASTM D1816 Test Method for Dielectric Breakdown Voltage of Insulating Liquids Using VDE Electrodes m. ASTM D7094 Test Method for Flash Point by Modified Continuously Closed Cup (MCCCFP) Tester o. ASTM D445 Test Method for Kinematic Viscosity of Transparent and Opaque Liquids\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Pelaksanaan monitoring & kontrol kualitas bahan bakar, minyak pelumas minyak trafo serta flue gas tidak dilakukan sendiri karena keterbatasan peralatan dan sarana pendukung dan dilakukan kurang konsisten tetapi memiliki SOP\/IK pengendalian kualitas bahan bakar (batubara, Minyak, gas), minyak pelumas dan minyak trafo - Terdapat fasilitas sampling untuk bahan bakar (batubara\/ minyak \/ gas), minyak pelumas, minyak trafo dan flue gas yang memenuhi standard - Terdapat dokumen hasil pengujian (lab ekternal\/ karena keterbatasan peralatan) untuk bahan bakar (batubara\/ minyak\/ gas) setiap kedatangan kapal - Terdapat dokumen hasil pengujian (lab ekternal\/ keterbatasan peralatan) untuk minyak pelumas (MOT, BFP, CP, Fan), minyak trafo (main dan Aux transformer ) minimal 6 bulan - Terdapat dokumen hasil pengujian (lab ekternal\/ karena keterbatasan peralatan lab) flue gas pada saat performane - Memiliki catatan list minyak pelumas, minyak hidrolik dan minyak trafo digunakan diperalatan dan spesifikasinya - Memiliki SOP\/IK pengendalian kualitas bahan bakar (batubara, Minyak, gas), minyak pelumas dan minyak trafo dan flue gas sesuai standard internasional atau sesuai comisioning test"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Pelaksanaan monitoring & kontrol kualitas bahan bakar, minyak pelumas minyak trafo serta flue gas dilakukan sendiri tetapi item parameter kurang lengkap dan dilakukan cukup konsisten dan dilakukan evaluasi hasil pengujian serta durasi pelaksanaan pengujian bahan bakar tidak melebihi waktu yang ditetapkan. - Terdapat fasilitas automatic sampling untuk batubara kondisi normal atau catatan pengambilan sample bahan bakar, minyak pelumas\/ trafo dan flue gas yang akan dilakukan pengujian - Terdapat dokumen hasil pengujian kualitas bahan bakar (minimal nilai kalor, moisture, ash, volatile matter, fixed carbon) setiap kedatangan kapal - Terdapat dokumen hasil pengujian kualitas minyak pelumas (MOT, BFP, CP, Fan) & trafo (main dan Aux )min visco, sg, kadar air, titik nyala, warna, breakdown voltage, NAN, TAN, TBN min 6 bulan sekali - Terdapat dokumen pelaksanaan pengujian kualitas bahan bakar (nilai kalor, moisture, ash, volatile matter, fixed carbon) dan flue gas (minimal CO2, O2, N2) parameter spesific performance test - Memiliki catatan durasi pelaksanaan pengujian bahan bakar (mulai dari penerimaan sampel dari surveyor independen sampai diterima pihak terkait) tidak melebihi batasan waktu yang telah ditetapkan - Memiliki catatan evaluasi penyimpangan yang terjadi, pelaksanaan hasil evaluasi dan evaluasi lanjutan dari tindakan yang diambil --> sd maret saja??"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pelaksanaan monitoring & kontrol kualitas bahan bakar, minyak pelumas minyak trafo serta flue gas dilakukan sendiri tetapi item parameter sangat lengkap dan dilakukan sangat konsisten dan dilakukan evaluasi hasil pengujian serta durasi pelaksanaan pengujian bahan bakar tidak melebihi waktu yang ditetapkan. - Terdapat dokumen pengujian untuk batubara (min nilai kalor, moisture, ash, volatile matter, fixed carbon, Ultimat (C, H, N2, O2, S) SG, HGI, Particle Size, AFT) dan minyak bakar (min nilai kalor, moisture, ash, Ultimat (C, H, N2, O2, S) SG) setiap kedatangan kapal dan performance test - Terdapat dokumen hasil pengujian untuk minyak pelumas (semua peralatan utama) min visco, spesific grafity, kadar air, titik nyala, warna, NAN\/ TAN\/ TBN untuk minyak pakai dan minyak baru. - Terdapat dokumen hasil pengujian untuk minyak trafo min visco, sg, kadar air, titik nyala, warna, breakdown voltage, NAN\/ TAN\/ TBN, DGA (Dissolved Gas Analysis) untuk minyak pakai dan minyak baru (minus DGA) - Terdapat dokumen hasil pengujian flue gas (min CO2, O2, N2) paraameter spesific performance test - Memiliki catatan list minyak pelumas, hidrolik dan minyak trafo yang digunakan di peralatan mulai dari merk minyak, ISO-VG spesifikasi lainya dan histori penambahan dan pengantian minyak. - Memiliki IK pengujian bahan bakar & flue gas spesific performance test (fineness, flue gas composition & temperature) sesuai standard internasional (ASTM, ASME atau EPA) atau sesuai saat commisioning PG test"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 + terdapat hasil uji profisiensi test (untuk bahan bakar) dan evaluasinya serta pengujian kualitas telah dipakai bidang lain - Memiliki catatan hasil uji profisiensi test (yang sudah dilakukan sekarang adalah proficiency test untk batubara) - Memiliki catatan hasil evaluasi hasil uji profisiensi yang dilakukan secara rutin , tindakan pelaksanaan hasil evaluasi dan hasil evaluasi lanjutan yang dilakukan - Hasil pengujian kualitas telah dipakai bidang lain untuk melakukan tindakan atau sebagai salah satu faktor utama penentu pelaksanaan tindakan (pelumas, bahan bakar, performance test)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Level 4 + hasil evaluasi hasil uji profisiensi yang dilakukan secara rutin dan memiliki catatan perbandingan akurasi dan presisi hasil pengujian - Memiliki catatan hasil evaluasi hasil uji profisiensi yang dilakukan secara rutin dengan melibatkan lab ke 3 , tindakan pelaksanaan hasil evaluasi dan hasil evaluasi lanjutan yang dilakukan - Memiliki catatan perbandingan akurasi dan presisi hasil pengujian kualitas bahan bakar saat penerimaan, baik melalui perbandingan rutin pengujian ke lab ketiga (selain lab unit dan lab surveyor independen) maupun berdasarkan hasil retest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operation Mgt - Produksi",
+                "sub_areas": [
+                    {
+                        "name": "Bahan Bakar (BBM)",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Merencanakan kebutuhan BBM, monitoring penerimaan BBM dengan dokumennya dan mendata stock harian - Membuat perencanaan kebutuhan BBM - Memiliki data Stock awal dan stock akhir setiap bulan - Terdapat monitoring realisasi peneriman bulan lalu & konfirmasi kedatangan BBM bulan berjalan (jika ada) - Dokumen penerimaan (nama suplier, volume, waktu pemuatan dll ) - Terdapat Data stock BBM secara harian"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1, dan dilengkapi SOP\/IK, melakukan stock opname dan pembongkaran sesuai prosesur - SOP\/IK (Dokumen, tata cara pembongkaran dan pengelolaan) - Dilakukan stock opname BBM setiap bulan - Entry data pemakaian BBM ke web navitas setiap jam 09.00 (data pemakian dan penerimaan jam 24.00) - Tidak terdapat selisih stock buku dengan stock fisik bahan bakar"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2, dan dokumennya lengkap (dokumen bahan bakar, berita acara serah terima, surat tindak lanjut ketidaksesuaian kuantitas\/kualitas), terdapat trend grafik penerimaan vs realiasi pemakaian bahan bakar, dan monitoring data pengamanan persediaan\/stock BBM - Terdapat dokumen Bahan bakar termasuk berikut : hasil analisa laboratorium, Dokumen berita acara serah terima, jika terdapat ketidak sesuaian kuantitas\/kualitas BBM ada bukti surat tindak lanjut ketidaksesuaian - Trend grafik penerimaan vs realisasi pemakaian bahan bakar"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3, dan melakukan evaluasi dan rekomendasi pelaksanaan Pengelolaan bahan bakar"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4, dan tidak terjadi kebakaran pada sistem penyimpanan BBM yang mengakibatkan gangguan kinerja Unit"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Mengolola data downtime pada aplikasi Ellipse\/Maximo apabila kerusakan suatu peralatan membutuhkan downtime.",
+                "sub_areas": [
+                    {
+                        "name": "Mengolola data downtime pada aplikasi Ellipse\/Maximo apabila kerusakan suatu peralatan membutuhkan downtime.",
+                        "weight": 0.3,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "",
+                                "level": "1",
+                                "description": "Kelengkapan data dowtime < 50 % pada aplikasi Ellipse\/Maximo dibandingkan dengan WR\/SR yang terbit dan membutuhkan downtime"
+                            },
+                            {
+                                "score": "",
+                                "level": "2",
+                                "description": "Kelengkapan data downtime 50%-70% pada aplikasi Ellipse\/Maximo dibandingkan dengan WR\/SR yang terbit dan membutuhkan downtime"
+                            },
+                            {
+                                "score": "",
+                                "level": "3",
+                                "description": "Kelengkapan data downtime 70%-80% pada aplikasi Ellipse\/Maximo dibandingkan dengan WR\/SR yang terbit dan membutuhkan downtime"
+                            },
+                            {
+                                "score": "",
+                                "level": "4",
+                                "description": "Kelengkapan data downtime 80%-90% pada aplikasi Ellipse\/Maximo dibandingkan dengan WR\/SR yang terbit dan membutuhkan downtime"
+                            },
+                            {
+                                "score": "",
+                                "level": "5",
+                                "description": "Kelengkapan data downtime 90-% 100% pada aplikasi Ellipse\/Maximo dibandingkan dengan WR\/SR yang terbit dan membutuhkan downtime"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Konsistensi Durasi Waktu dalam melakukan Start Up Unit",
+                "sub_areas": [
+                    {
+                        "name": "Konsistensi Durasi Waktu dalam melakukan Start Up Unit",
+                        "weight": 0.7,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "",
+                                "level": "1",
+                                "description": "Realisasi waktu start up 150-200 % dari KOK"
+                            },
+                            {
+                                "score": "",
+                                "level": "2",
+                                "description": "Realisasi waktu start up 100-150 % dari KOK"
+                            },
+                            {
+                                "score": "",
+                                "level": "3",
+                                "description": "Realisasi waktu start up sesuai KOK"
+                            },
+                            {
+                                "score": "",
+                                "level": "4",
+                                "description": "Tidak terjadi Trip Unit dalam jangka 2x24 jam pasca sinkron yang mengakibatkan bertambahnya SdOF"
+                            },
+                            {
+                                "score": "",
+                                "level": "5",
+                                "description": "Tidak terjadi Trip Unit dalam jangka 7x24 jam pasca sinkron yang mengakibatkan bertambahnya SdOF"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

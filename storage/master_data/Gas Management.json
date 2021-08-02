@@ -1,0 +1,300 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Perencanaan Bahan Bakar",
+                "sub_areas": [
+                    {
+                        "name": "Perencanaan Pemakaian Gas & LNG",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Memiliki data rencana operasi Unit Tahunan dan Bulanan dari Pengatur Beban"
+                            },
+                            {
+                                "score": "1<X\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1, dan melakukan nominasi mingguan, harian Gas Pipa & LNG (termasuk jadwal kedatangan cargo LNG) berdasarkan kontraktual serta berkordinasi dengan Divisi Pembina (EP1)"
+                            },
+                            {
+                                "score": "2<X\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2 secara konsisten dan mempertimbangkan kemampuan pasok, rencana pemeliharaan, risiko gangguan dari pemasok gas pipa & LNG"
+                            },
+                            {
+                                "score": "3<X\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3, perencanaan pasokan Gas pipa telah memperhitungkan penggunaan gas pipa paling murah yang sesuai dengan batasan kontrak."
+                            },
+                            {
+                                "score": "4<X\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4 dan melakukan optimasi & koordinasi adanya Gas Make Up (GMU), Take Or Pay (TOP), Ship or Pay (SOP), Interrupt Gas, Excess Gas dan Boil of Gas (BOG)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pelaksanaan Pengelolaan Gas & LNG",
+                "sub_areas": [
+                    {
+                        "name": "Pengelolaan infrastruktur",
+                        "weight": 0.13,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "1. Memiliki Pipping and Instrument Diagram (PID) instalasi Gas 2. Memiliki SOP\/IK pemeliharaan Infrastruktur Gas (misal : Separator, Filter, Control Valve dll) 3. Memiliki Jadwal preventive maintenance"
+                            },
+                            {
+                                "score": "1<X\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1 dan 1. Berkordinasi dengan bidang pemeliharaan untuk pelaksanaan pemeliharaan terjadwal untuk infrastruktur gas (misal : separator, filter, dan control valve dll), 2. Melakukan patrol check untuk mengantisipasi terjadinya abnormal operasi penyaluran gas. 3. Terdapat laporan kesiapan peralatan infrastruktur Gas"
+                            },
+                            {
+                                "score": "2<X\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi level 2 dan 1. SDM memahami filosofi operasi peralatan penerimaan gas serta turut serta memastikan pelaksanaan validasi secara bulanan dan kalibrasi peralatan dan atau meter transaksi gas, 2. Memiliki copy Izin penggunaan meter transaksi Gas masing-masing produsen Gas"
+                            },
+                            {
+                                "score": "3<X\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 dan SDM melakukan monitoring dan evaluasi atas simpangan yang mungkin terjadi antara meter penerimaan pembangkit dengan meter transaksi yang telah disepakati."
+                            },
+                            {
+                                "score": "4<X\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4 dan Unit melakukan validasi dan kalibrasi meter gas pembangkit secara rutin."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Kuantitas Gas",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Memiliki SOP\/IK untuk Pengoperasian Mesin menggunakan Bahan Bakar Gas."
+                            },
+                            {
+                                "score": "1<X\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi Level 1 dan memiliki data performance pemakaian gas untuk masing-masing entitas pembangkit, melaksanakan Koordinasi harian dengan Rendal operasi terkait volume pemakaian kumulatif bulanan yang berdasarkan Kontrak Gas."
+                            },
+                            {
+                                "score": "2<X\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi Level 2 dan 1. Memberikan update informasi kesiapan pasokan gas kepada Divisi Pembina (EPI-1) sebagai dasar penerbitan nominasi pasokan gas bulanan 2. Memiliki dokumen nominasi bulanan yang diterbitkan oleh Divisi Pembina (EPI-1) 3. Mengirimkan data bulanan final realisasi pasokan gas beserta evaluasinya (shortfall, decline, Take or pay (TOP), Gas make up (GMU), dan Gas excess\/Surcharge) kepada Divisi Pembina (EPI-1)"
+                            },
+                            {
+                                "score": "3<X\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi Level 3 dan Telah dilakukan pengaturan pemakaian gas yang mencerminkan efisiensi dan keekonomian dimana gas yang murah telah diserap secara optimal"
+                            },
+                            {
+                                "score": "4<X\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi Level 4 dan 1. Telah terpenuhi Take or Pay (TOP) dan Ship or Pay (SOP), dan 2. Tidak terdapat Gas Make Up (GMU), Excess Gas\/Surcharge, dan 3. Boil of Gas (BOG) dibawah batasan maksimum kontrak, dan 4. Mengoptimalkan Interrupt Gas sesuai kebutuhan."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Kualitas Gas",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "1. Memiliki dokumen persyaratan kualitas gas untuk pembangkit 2. Memiliki dokumen kualitas gas kontraktual"
+                            },
+                            {
+                                "score": "1<X\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi level 1dan 1. Melakukan monitoring harian terhadap kualitas gas dari setiap pemasok terutama heating value 2. Mengirimkan Laporan monitoring kapada pihak-pihak terkait termasuk Divisi pembina (EPI-1)"
+                            },
+                            {
+                                "score": "2<X\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi Level 2 dan Melakukan koordinasi dengan pemasok gas apabila terdapat indikasi perubahan kualitas gas dan melaporkan kepada Divisi Pembina (EPI-1)"
+                            },
+                            {
+                                "score": "3<X\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi Level 3 dan Melakukan pengaturan alokasi penyaluran gas untuk setiap engine pembangkit sesuai dengan persyaratan engine pembangkit dan kualitas gas dari pemasok"
+                            },
+                            {
+                                "score": "4<X\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi Level 4 dan 1. Mampu melakukan treatment terhadap pasokan gas sehingga kandungan kondensat, innert gas (CO2 dan N2) dan pengotor padat dapat memenuhi persyaratan pembangkit 2.Melakukan rejection atau penghentian penyerapan gas bilamana spesifikasi gas tidak dapat dilakukan treatment dan tidak sesuai dengan persyaratan pembangkit"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Penyimpanan Gas Untuk Pembangkit yang mengoperasikan CNG Plant",
+                "sub_areas": [
+                    {
+                        "name": "Penyimpanan Gas (CNG Plant)",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Memiliki SOP\/IK pengoperasian CNG Plant dan tersedia logsheet monitoring CNG Plant"
+                            },
+                            {
+                                "score": "1<X\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi Level 1dan Melakukan : 1. Patrol Check Rutin 2. Menyusun laporan kesiapan peralatan 3. Menyusun laporan aktifitas kompresi, release dan pencatatan persediaan CNG harian 4. Melaporkan secara harian aktifitas CNG Plant kepada pihak-pihak terkait termasuk Divisi Pembina (EPI-1)"
+                            },
+                            {
+                                "score": "2<X\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi Level 2 dan Melakukan preventive maintenance secara rutin"
+                            },
+                            {
+                                "score": "3<X\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi Level 3 dan Melakukan pengoperasian CNG Plant secara efisien untuk meminimalkan risiko pemakaian BBM"
+                            },
+                            {
+                                "score": "4<X\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi Level 4 dan Melakukan : 1. Pemeliharaan berkala\/over haul terhadap peralatan CNG Plant 2. Menjaga kesiapan peralatan CNG Plant dengan memaksimalkan preventive maintenance"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Evaluasi Operasi dan Pelaporan",
+                "sub_areas": [
+                    {
+                        "name": "Evaluasi Pengelolaan Gas & Pelaporan",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "1. Memiliki data nominasi gas 2. Memiliki data realisasi penyerapan gas 3. Memiliki Berita Acara pemakaian Gas"
+                            },
+                            {
+                                "score": "1<X\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Memenuhi Level 1 dan SDM mengirimkan Berita Acara pemakaian gas yang ditandatangani GM secara rutin maksimal tanggal 4 setiap bulannya dan laporan pemakaian gas harian kepada Divisi Pembina (EPI-1) serta Pihak-Pihak Terkait"
+                            },
+                            {
+                                "score": "2<X\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memenuhi Level 2 dan SDM melakukan evaluasi data tren nominasi gas dibandingkan dengan realisasi gas, serta memberikan masukan ke rendal Operasi sebagai bahan pertimbangan operasi yang effisien kedepan dengan memperhatikan harga, batasan kontrak dan kemampuan pasokan gas serta karakteristik engine pembangkit"
+                            },
+                            {
+                                "score": "3<X\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Memenuhi level 3 dan masukan dari SDM ditindaklanjuti dengan berkoordinasi dengan PLN UIP2B (Pengatur Beban) sehingga Pengatur Beban dapat mempertimbangkan keekonomian gas dan effisiensi engine pembangkit"
+                            },
+                            {
+                                "score": "4<X\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Memenuhi level 4 dan masukan SDM terkait pola operasi menjadi acuan untuk pembangkit serupa dilingkungan PLN Group"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Gas Pipa harus sesuai Take Or Pay (TOP)",
+                "sub_areas": [
+                    {
+                        "name": "Gas Pipa harus sesuai Take Or Pay (TOP)",
+                        "weight": 0.5,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "",
+                                "level": "1",
+                                "description": "Penyerapan Gas < 75% TOP"
+                            },
+                            {
+                                "score": "",
+                                "level": "2",
+                                "description": "80% > Penyerapan Gas > 75% TOP"
+                            },
+                            {
+                                "score": "",
+                                "level": "3",
+                                "description": "90% > Penyerapan Gas > 80% TOP"
+                            },
+                            {
+                                "score": "",
+                                "level": "4",
+                                "description": "100% > Penyerapan Gas > 90% TOP"
+                            },
+                            {
+                                "score": "",
+                                "level": "5",
+                                "description": "Penyerapan Gas > 100% TOP"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Serapan gas ekonomis harus optimal",
+                "sub_areas": [
+                    {
+                        "name": "Serapan gas ekonomis harus optimal",
+                        "weight": 0.5,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "",
+                                "level": "1",
+                                "description": "Penyerapan Gas < 75% kemampuan pasok"
+                            },
+                            {
+                                "score": "",
+                                "level": "2",
+                                "description": "80% > Penyerapan Gas > 75% kemampuan pasok"
+                            },
+                            {
+                                "score": "",
+                                "level": "3",
+                                "description": "85% > Penyerapan Gas > 80% kemampuan pasok"
+                            },
+                            {
+                                "score": "",
+                                "level": "4",
+                                "description": "90% > Penyerapan Gas > 85% kemampuan pasok"
+                            },
+                            {
+                                "score": "",
+                                "level": "5",
+                                "description": "Penyerapan Gas > 90% kemampuan pasok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

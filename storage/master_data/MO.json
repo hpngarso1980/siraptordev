@@ -1,0 +1,1770 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Outage Long Term Planning",
+                "sub_areas": [
+                    {
+                        "name": "Rencana dan Jadwal Planed Outage Jangka Panjang",
+                        "weight": 0.03,
+                        "description": "Terdapat rencana dan jadwal Planed Outage beserta type Outage dalam Jangka Panjang, berdasarkan estimasi Jam Operasi (OH\/EOH) atau waktu. Rencana Jangka Panjang Outage telah mempertimbangkan major modification\/replace\/repair\/upgrade peralatan dan telah diselaraskan dengan Rencana Jangka Panjang Unit.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Belum ada Rencana Jangka Panjang Outage dan jadwal (tahunan)."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Rencana jangka Panjang sudah dibuat (jadwal dan type OH) mengacu pada estimasi jam (ekivalen) operasi atau waktu, atau pertimbangan strategis lainnya. Belum ada identifikasi major project yang dikaitkan dengan rencana OH."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Rencana jangka Panjang sudah dibuat (jadwal dan type OH) mengacu pada estimasi jam (ekivalen) operasi atau waktu, atau pertimbangan strategis lainnya. Telah ada identifikasi major project yang dikaitkan dengan rencana OH. Belum ada keselarasan dengan RJPU unit yang terupdate."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Rencana jangka Panjang sudah dibuat (jadwal dan type OH) mengacu pada estimasi jam (ekivalen) operasi atau waktu, atau pertimbangan strategis lainnya, dan diupdate tiap tahun. Major project yang memiliki keterkaitan dengan OH telah diidentifikasi, dan telah diselaraskan dengan RJPU terupdate."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Rencana jangka Panjang sudah dibuat (jadwal dan type OH) mengacu pada estimasi jam (ekivalen) operasi atau waktu, atau pertimbangan strategis lainnya, dan diupdate tiap tahun. Major project yang memiliki keterkaitan dengan OH telah diidentifikasi, dan telah diselaraskan dengan RJPU terupdate. Konsisten selama 3 tahun dan Database telah ada pada SIT, updated."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "R1 (18 Month Planning)",
+                "sub_areas": [
+                    {
+                        "name": "Identifikasi Jadual & Scope pekerjaan, dan Major Project.",
+                        "weight": 0,
+                        "description": "Identifikasi jadual, scope of work, dan Major Project sebagai scope tambahan Note : Perubahan Standard Job OH maka harus melalui proses reliability management dan telah disepakati bidang OME di Meeting R1. Note : Sudah Terintegrasi dengan Reliability Mgt\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Jadual dan scope OH sudah dibuat. Major project telah diidentifikasi dan sudah ditindaklanjuti <35%. Belum dilakukan review Standard Job. Standar job <35% sudah diterbitkan. UBJOM LUAR JAWA Dokumen Jadual dan scope OH, dalam bentuk manual. Major project telah diidentifikasi dan sudah ditindaklanjuti <35%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat. Major project telah diidentifikasi dan sudah ditindaklanjuti 35%\u2264x<60%. Telah dilakukan review dan update Standard Job. standar job (termasuk updating) 35%\u2264x<60% sudah diterbitkan Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat. Major project telah diidentifikasi dan sudah ditindaklanjuti 60%\u2264x<80%. Telah dilakukan review dan update Standard Job. standar job (termasuk updating) 60%\u2264x<80% sudah diterbitkan Data base masih dalam aplikasi manual updated"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat Telah dilakukan review dan update Standard Job. Major project telah diidentifikasi dan sudah ditindaklanjuti 80%\u2264x<100%. standar job (termasuk updating) 80%\u2264x<100% sudah diterbitkan Data base sudah ada di SIT 80%\u2264x<100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat Major project telah diidentifikasi dan sudah ditindaklanjuti 100%. Telah dilakukan review dan update Standard Job. Standard Job (termasuk updating) 100% sudah diterbitkan Data base sudah ada di SIT 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Kebutuhan Material \/ Sparepart.",
+                        "weight": 0,
+                        "description": "Identifikasi kebutuhan sparepart utama\/ spesifik dengan delivery time 12 s.d 18 bulan serta penerbitan Issue Requisition \/ Recommended Order sebagaI dasar proses pengadaan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Spare part utama\/ spesifik dengan delivery 12 s.d 18 Bulan sudah di identifikasi <35% IR\/ RO\/PR belum diterbitkan. UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery 12 s.d 18 Bulan sudah dibuat dalam bentuk manual"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery 12 s.d 18 Bulan 35%\u2264x<60% sudah di identifikasi & IR\/ RO sudah diterbitkan 35%\u2264x<60%dengan spesifikasi lengkap. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery 12 s.d 18 Bulan 60%\u2264x<80% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery 12 s.d 18 Bulan 80%\u2264x<100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 80%\u2264x<100%updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik 100% dengan delivery 12 s.d 18 Bulan sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 100% updated dan terintegrasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efektivitas Pertemuan\/ Koordinasi Antar Bidang\/ Subdit.",
+                        "weight": 0,
+                        "description": "Efektifitas dari pertemuan\/ koordinasi kegiatan outage management terkait dengan materi yang dibahas dan fungsi\/ bidang yang terlibat. 1, Materi yang dibahas meliputi: Rencana Tindak Lanjut. Jadual & Scope OH. Informasi dari Bidang terkait Terintegrasi dengan WPC Mgt, terkait resourse mgt (Tools & Sdm). 2. Peserta yang diundang dari Eksekutor : M. Project\/ K. PLTA\/ M. Tek\/ M Renbintek , Spv.\/Koord. Mesin, Listrik, Kontrol, Enjinering, Rendal Har & Staf. Teknisi. 3. Peserta yang diundang dari Pemberi Kerja : M. Har\/ M. Eng, Staff, Spvs MO & Staf, Spvs Rendal Har & Staf, Spvs Mesin, Listrik, Kontrol, Spvs Rendal Ops, Spvs Produksi. 4. Jumlah Peserta yang hadir\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Pertemuan kegiatan R1 dilaksanakan dalam range waktu lebih dari 21 hari dari tanggal yang ditetapkan UBJOM LUAR JAWA Meeting R1 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA Pertemuan kegiatan R1 dilaksanakan dengan peserta 35%\u2264x<60%undangan (perfungsi). Materi yang dibahas 35%\u2264x<60%%. Pertemuan kegiatan R1 dilaksanakan dalam range waktu 15\u2264x<21 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual UBJOM LUAR JAWA Meeting R1 dilaksanakan dengan peserta 35%\u2264x<60% hadir"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R1 dilaksanakan dengan peserta 60%\u2264x<80% undangan (perfungsi).Materi yang dibahas 60%\u2264x<80%. Pertemuan kegiatan R1 dilaksanakan dalam range waktu 7\u2264x<15 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R1 dilaksanakan dengan peserta 80%\u2264x<100 undangan perfungsi dan salah satu manajer. Materi yang dibahas 80%\u2264x<100. Pertemuan kegiatan R1 dilaksanakan dalam range waktu 1\u2264x<7 hari dari tanggal yang ditetapkan Data base sudah ada di SIT 80%\u2264x<100 updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R1 dilaksanakan dengan peserta 100% undangan perfungsi dan kedua manajer (pemberi kerja & eksekutor). Materi yang dibahas 100%. Pertemuan kegiatan R1 dilaksanakan sesuai tanggal yang ditetapkan. Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "R2 (12 Month Planning)",
+                "sub_areas": [
+                    {
+                        "name": "Review Progress Meeting R1 &Hasil OH Yang Telah Dilaksanakan",
+                        "weight": 0.03,
+                        "description": "Review tindak lanjut meeting R1, hasil evaluasi, rekomendasi & rencana tindak lanjut OH yang sudah dilaksanakan sebaga input planning. (Note : tindak lanjut = sudah ada rencana penetapan action plan, target dan PIC oleh Planner Outage) Up-date : Data terkini\/terbaru setelah dilakukan Review oleh Planner. Terintegrasi : data dapat dishare oleh Bidang lain yang terkait, database ada di WEB Outage & QPR (ter up-date).\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting R1 sudah dilakukan tindak lanjut untuk planning OH berikutnya.tanpa melibatkan bidang lain UBJOM LUAR JAWA Meeting R2 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting R1 sudah ada, rekomendasi tindak lanjut, program , target dan PIC sudah ditetapkan, namun belum dilakukan prioritisasi, database masih manual UBJOM LUAR JAWA Review progress meeting R1 sudah ada rekomendasi tindak lanjut, program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R1 sudah dilakukan, dievaluasi melalui forum yang melibatkan bidang terkait (OME) dan sudah dilakukan kajian enjinering , belum ditetapkan prioritisasi program, Database sudah di upload di WEB Outage 50%\u2264x<75% (ter Update)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R1 sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program., database sudah di upload WEB Outage 75%\u2264x<100% (ter Update)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R1 Rencana tindak lanjut rekomendasi sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program, database sudah di upload di WEB Outage 100% (ter Update)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Jadual & Scope pekerjaan, Performance Unit, Rekomendasi pemeliharaan RutinPM,CM,PdM dan ECP",
+                        "weight": 0.03,
+                        "description": "Identifikasi jadual, scope of work, baik yang standar maupun tambahan. Note : Perubahan Standard Job OH maka harus melalui proses reliability management dan telah disepakati bidang OME di Meeting R2. Identifikasi performance unit (PKU, Hasil Assesment peralatan, Daya mampu netto, efisiensi, jam operasi unit). Note : Sudah Terintegrasi dengan Reliability Mgt Rekomendasi hasil dari pemeliharaan tactical dan non tactical. Note : Tactical\/terencana (PM, PdM, FDT Realibilty Management), Non Tactical\/tidak terencana (CR, EM)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Jadual dan scope OH sudah dibuat. Potret kondisi operasi unit & rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) sudah ditindaklanjuti <35%. Telah dilakukan review dan update Standard Job. Standar job <35% sudah diterbitkan. UBJOM LUAR JAWA Dokumen Jadual dan scoupe OH, Potret Kondisi Unit dan dokumen Rekomendasi Pemeliharaan sudah dibuat dalam bentuk manual"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat. Telah dilakukan review dan update Standard Job. standar job 35%\u2264x<60% sudah diterbitkan Sudah memiliki data potret kondisi operasi unit dan rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 35%\u2264x<60% sudah ditindak lanjuti Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat. Telah dilakukan review dan update Standard Job. standar job 60%\u2264x<80% sudah diterbitkan Sudah memiliki data potret kondisi operasi unit dan rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 60%\u2264x<80% sudah ditindaklanjuti Data base masih dalam aplikasi manual updated"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat Telah dilakukan review dan update Standard Job. standar job 80%\u2264x<100% sudah diterbitkan dan Sudah memiliki data potret kondisi operasi unit dan rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) (80%\u2264x<100%) sudah ditindaklanjuti. Data base sudah ada di SIT 80%\u2264x<100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat Telah dilakukan review dan update Standard Job. Standard Job 100% sudah diterbitkan Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti dengan scope tambahan dan Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 100%-sudah ditindaklanjuti. Data base sudah ada di SIT 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Kebutuhan Material \/ Sparepart.",
+                        "weight": 0.03,
+                        "description": "Identifikasi kebutuhan sparepart utama\/ spesifik dengan delivery time 6 s.d 12 bulan serta penerbitan Issue Requisition \/ Recommended Order sebagaI dasar proses pengadaan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Spare part utama\/ spesifik dengan delivery time 6 s.d 12 bulan sudah di identifikasi <35%, IR\/ RO\/PR belum diterbitkan. UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 6 s.d 12 bulan sudah dibuat (manual)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 6 s.d 12 bulan 35%\u2264x<60% sudah di identifikasi, IR\/ RO sudah diterbitkan 35%\u2264x<60%dengan spesifikasi lengkap. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 6 s.d 12 bulan 60%\u2264x<80% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 6 s.d 12 bulan 80%\u2264x<100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 80%\u2264x<100%updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 6 s.d 12 bulan 100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 100% updated dan terintegrasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitoring & Pengendalian Kegiatan Hasil R1.",
+                        "weight": 0.03,
+                        "description": "Pengamatan terhadap konsistensi pertemuan \/koordinasi dan proses kegiatan sesuai target yang ditetapkan antara lain: Monitoring proses pengadaan mulai dari TOR IR\/PR\/RO, HPS, PO, Levering. (Ellipse\/ Maximo), rentang waktu R1 s.d R2 Material spesifik yang terkontrak.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 2 kali dalam rentang waktu R1 s.d R2"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 3 kali dalam rentang waktu R1 s.d R2 Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 4 kali. dalam rentang waktu R1 s.d R2 Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 5 kali dalam rentang waktu R1 s.d R2. Data base sudah ada di Web MO <100%updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 6 kali dalam rentang waktu R1 s.d R2.Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efektivitas Pertemuan\/ Koordinasi Antar Bidang\/ Subdit.",
+                        "weight": 0.03,
+                        "description": "Efektifitas dari pertemuan\/ koordinasi kegiatan outage management terkait dengan materi yang dibahas dan fungsi\/ bidang yang terlibat. 1, Materi yang dibahas meliputi: Rencana Tindak Lanjut. Jadual & Scope OH. Informasi dari Bidang terkait Terintegrasi dengan WPC Mgt, terkait resourse mgt (Tools & Sdm). 2. Peserta yang diundang dari Eksekutor : M. Project\/ K. PLTA\/ M. Tek\/ M Renbintek , Spv.\/Koord. Mesin, Listrik, Kontrol, Enjinering, Rendal Har & Staf. Teknisi. 3. Peserta yang diundang dari Pemberi Kerja : M. Har\/ M. Eng, Staff, Spvs MO & Staf, Spvs Rendal Har & Staf, Spvs Mesin, Listrik, Kontrol, Spvs Rendal Ops, Spvs Produksi. 4. Jumlah Peserta yang hadir\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB & UBJOM JAWA Pertemuan kegiatan R1 dilaksanakan dalam range waktu lebih dari 21 hari dari tanggal yang ditetapkan UBJOM LUAR JAWA Meeting R2 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB & UBJOM JAWA Pertemuan kegiatan R2 dilaksanakan dengan peserta 35%\u2264x<60%undangan (perfungsi). Materi yang dibahas 35%\u2264x<60%%. Pertemuan kegiatan R2 dilaksanakan dalam range waktu 15\u2264x<21 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual UBJOM LUAR JAWA Meeting R2 dilaksanakan dengan peserta 35%\u2264x<60% undangan (perfungsi)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R2 dilaksanakan dengan peserta 60%\u2264x<80% undangan (perfungsi).Materi yang dibahas 60%\u2264x<80%. Pertemuan kegiatan R2 dilaksanakan dalam range waktu 7\u2264x<15 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R2 dilaksanakan dengan peserta 80%\u2264x<100 undangan perfungsi dan salah satu manajer. Materi yang dibahas 80%\u2264x<100. Pertemuan kegiatan R2 dilaksanakan dalam range waktu 1\u2264x<7 hari dari tanggal yang ditetapkan Data base sudah ada di SIT 80%\u2264x<100 updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R2 dilaksanakan dengan peserta 100% undangan perfungsi dan kedua manajer (pemberi kerja & eksekutor). Materi yang dibahas 100%. Pertemuan kegiatan R2 dilaksanakan sesuai tanggal yang ditetapkan. Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "R3 (6 Month Planning)",
+                "sub_areas": [
+                    {
+                        "name": "Review Progress Meeting R2 &Hasil OH Yang Telah Dilaksanakan",
+                        "weight": 0,
+                        "description": "Review tindak lanjut meeting R2, hasil evaluasi, rekomendasi & rencana tindak lanjut OH yang sudah dilaksanakan sebaga input planning. (Note : tindak lanjut = sudah ada rencana penetapan action plan, target dan PIC oleh Planner Outage) Up-date : Data terkini\/terbaru setelah dilakukan Review oleh Planner. Terintegrasi : data dapat dishare oleh Bidang lain yang terkait, database ada di WEB Outage & QPR (ter up-date).\n",
+                        "criteria": [
+                            {
+                                "score": "\u2264\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting R2 sudah dilakukan tindak lanjut untuk planning OH berikutnya.tanpa melibatkan bidang lain UBJOM LUAR JAWA Meeting R3 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting R2 sudah ada, rekomendasi tindak lanjut, program , target dan PIC sudah ditetapkan, namun belum dilakukan prioritisasi, database masih manual UBJOM LUAR JAWA Review progress meeting R2 sudah ada rekomendasi tindak lanjut, program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R2 sudah dilakukan, dievaluasi melalui forum yang melibatkan bidang terkait (OME) dan sudah dilakukan kajian enjinering , belum ditetapkan prioritisasi program, Database sudah di upload di WEB Outage 50%\u2264x<75% (ter Update)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R2 sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program., database sudah di upload WEB Outage 75%\u2264x<100% (ter Update)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R2 Rencana tindak lanjut rekomendasi sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program, database sudah di upload di WEB Outage 100% (ter Update)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Jadual & Scope pekerjaan, Performance Unit, Rekomendasi pemeliharaan RutinPM,CM,PdM dan ECP",
+                        "weight": 0,
+                        "description": "Identifikasi jadual, scope of work, baik yang standar maupun tambahan. Dan sudah diterbitkan WO OH Standart & tambahan serta PIC. Note : Perubahan Standard Job OH maka harus melalui proses reliability management dan telah disepakati bidang OME di Meeting R3. WO standart sesuai skope OH dan WO Tambahan sesuai dengan kesepakatan Identifikasi performance unit (PKU, Hasil Assesment peralatan, Daya mampu netto, efisiensi, jam operasi unit). Note : Sudah Terintegrasi dengan Reliability Mgt Rekomendasi hasil dari pemeliharaan tactical dan non tactical. Note : Tactical\/terencana (PM, PdM, FDT Realibilty Management), Non Tactical\/tidak terencana (CR, EM)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Jadual dan scope OH belum dibuat, potret kondisi operasi unit & Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) sudah ditindaklanjuti <35% , Telah dilakukan review dan update Standard Job. WO OH <35% sudah diterbitkan. UBJOM LUAR JAWA Dokumen Jadual dan scoupe OH, Potret Kondisi Unit dan dokumen Rekomendasi Pemeliharaan dalam bentuk manual"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, Telah dilakukan review dan update Standard Job, WO OH 35%\u2264x<60% sudah diterbitkan. Sudah memiliki data potret kondisi operasi unit dan Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 35%\u2264x<60% sudah ditindak lanjuti. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, Telah dilakukan review dan update Standard Job, WO OH 60%\u2264x<80% sudah diterbitkan. Sudah memiliki data potret kondisi operasi unit dan Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 60%\u2264x<80% sudah ditindaklanjuti. Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, Telah dilakukan review dan update Standard Job, WO OH 80%\u2264x<100 sudah diterbitkan. updated. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti menjadi scope tambahan. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 80%\u2264x<100 -sudah ditindaklanjuti. Data base sudah ada di SIT, 80%\u2264x<100"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, Telah dilakukan review dan update Standard Job, WO OH 100% sudah diterbitkan.Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti dengan scope tambahan dan Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 100%-sudah ditindaklanjuti. Data base sudah ada di SIT 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Kebutuhan Material \/ Sparepart.",
+                        "weight": 0,
+                        "description": "Identifikasi kebutuhan sparepart spesifik sesuai delivery time serta penerbitan Issue Requisition \/ Recommended Order sebagaI dasar proses pengadaan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Spare part utama\/ spesifik dengan delivery time 3s.d 6 bulan sudah di identifikasi <35%, IR\/ RO\/PR belum diterbitkan. UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 3s.d 6 bulan sudah dibuat (manual)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 3 s.d 6 bulan 35%\u2264x<60% sudah di identifikasi, IR\/ RO sudah diterbitkan 35%\u2264x<60%dengan spesifikasi lengkap. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 3 s.d 6 bulan 60%\u2264x<80% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 3 s.d 6 bulan 80%\u2264x<100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 80%\u2264x<100%updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dengan delivery time 3 s.d 6 bulan 100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 100% updated dan terintegrasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitoring & Pengendalian Kegiatan Hasil .",
+                        "weight": 0,
+                        "description": "Pengamatan terhadap konsistensi pertemuan \/koordinasi dan proses kegiatan sesuai target yang ditetapkan antara lain: Monitoring proses pengadaan mulai dari TOR IR\/PR\/RO, HPS, PO, Levering. (Ellipse\/ Maximo), rentang waktu R2 s.d R3 Material spesifik yang terkontrak.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 2 kali dalam rentang waktu R1 s.d R2"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 3 kali dalam rentang waktu R2 s.d R3 Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 4 kali. dalam rentang waktu R2 s.d R3 Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 5 kali dalam rentang waktu R2 s.d R3. Data base sudah ada di Web MO <100%updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 6 kali dalam rentang waktu R2 s.d R3.Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efektivitas Pertemuan\/ Koordinasi Antar Bidang\/ Subdit.",
+                        "weight": 0,
+                        "description": "Efektifitas dari pertemuan\/ koordinasi kegiatan outage management terkait dengan materi yang dibahas dan fungsi\/ bidang yang terlibat. 1, Materi yang dibahas meliputi: Rencana Tindak Lanjut. Jadual & Scope OH. Informasi dari Bidang terkait Terintegrasi dengan WPC Mgt, terkait resourse mgt (Tools & Sdm). 2. Peserta yang diundang dari Eksekutor : M. Project\/ K. PLTA\/ M. Tek\/ M Renbintek , Spv.\/Koord. Mesin, Listrik, Kontrol, Enjinering, Rendal Har & Staf. Teknisi. 3. Peserta yang diundang dari Pemberi Kerja : M. Har\/ M. Eng, Staff, Spvs MO & Staf, Spvs Rendal Har & Staf, Spvs Mesin, Listrik, Kontrol, Spvs Rendal Ops, Spvs Produksi. 4. Jumlah Peserta yang hadir\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB & UBJOM JAWA Pertemuan kegiatan R3 dilaksanakan dalam range waktu lebih dari 21 hari dari tanggal yang ditetapkan UBJOM LUAR JAWA Pertemuan kegiatan R3 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA Pertemuan kegiatan R3 dilaksanakan dengan peserta 35%\u2264x<60%undangan (perfungsi). Materi yang dibahas 35%\u2264x<60%%. Pertemuan kegiatan R3 dilaksanakan dalam range waktu 15\u2264x<21 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual UBJOM LUAR JAWA Pertemuan kegiatan R3 dilaksanakan dengan peserta 35%\u2264x<60%undangan (perfungsi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R3 dilaksanakan dengan peserta 60%\u2264x<80% undangan (perfungsi).Materi yang dibahas 60%\u2264x<80%. Pertemuan kegiatan R3 dilaksanakan dalam range waktu 7\u2264x<15 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R3 dilaksanakan dengan peserta 80%\u2264x<100 undangan perfungsi dan salah satu manajer. Materi yang dibahas 80%\u2264x<100. Pertemuan kegiatan R3 dilaksanakan dalam range waktu 1\u2264x<7 hari dari tanggal yang ditetapkan Data base sudah ada di SIT 80%\u2264x<100 updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan R3 dilaksanakan dengan peserta 100% undangan perfungsi dan kedua manajer (pemberi kerja & eksekutor). Materi yang dibahas 100%. Pertemuan kegiatan R3 dilaksanakan sesuai tanggal yang ditetapkan. Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "P1 (3 Month Planning)",
+                "sub_areas": [
+                    {
+                        "name": "Review Progress Meeting R3 & Hasil OH Yang Telah Dilaksanakan",
+                        "weight": 0.03,
+                        "description": "Review tindak lanjut meeting R3, hasil evaluasi, rekomendasi & rencana tindak lanjut OH yang sudah dilaksanakan sebaga input planning. (Note : tindak lanjut = sudah ada rencana penetapan action plan, target dan PIC oleh Planner Outage) Up-date : Data terkini\/terbaru setelah dilakukan Review oleh Planner. Terintegrasi : data dapat dishare oleh Bidang lain yang terkait, database ada di WEB Outage & QPR (ter up-date).\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting R3 sudah dilakukan tindak lanjut untuk planning OH berikutnya.tanpa melibatkan bidang lain UBJOM LUAR JAWA Meeting P1 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting R3 sudah ada, rekomendasi tindak lanjut, program , target dan PIC sudah ditetapkan, namun belum dilakukan prioritisasi, database masih manual UBJOM LUAR JAWA Review progress meeting R2 sudah ada rekomendasi tindak lanjut, program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R3 sudah dilakukan, dievaluasi melalui forum yang melibatkan bidang terkait (OME) dan sudah dilakukan kajian enjinering , belum ditetapkan prioritisasi program, Database sudah di upload di WEB Outage 50%\u2264x<75% (ter Update)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R3 sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program., database sudah di upload WEB Outage 75%\u2264x<100% (ter Update)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting R3 Rencana tindak lanjut rekomendasi sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program, database sudah di upload di WEB Outage 100% (ter Update)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Jadual & Scope pekerjaan, Performance Unit, Rekomendasi pemeliharaan RutinPM,CM,PdM dan ECP",
+                        "weight": 0.03,
+                        "description": "Identifikasi jadual, scope of work, baik yang standar maupun tambahan. Dan sudah diterbitkan WO OH Standart & tambahan serta PIC. Note : WO standart sesuai skope OH dan WO Tambahan sesuai dengan kesepakatan Identifikasi performance unit (PKU, Hasil Assesment peralatan, Daya mampu netto, efisiensi, jam operasi unit). Note : Sudah Terintegrasi dengan Reliability Mgt Rekomendasi hasil dari pemeliharaan tactical dan non tactical. Note : Tactical\/terencana (PM, PdM, FDT Realibilty Management), Non Tactical\/tidak terencana (CR, EM)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Jadual dan scope OH belum dibuat, potret kondisi operasi unit & Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) sudah ditindaklanjuti <35% , WO OH <35% sudah diterbitkan. UBJOM LUAR JAWA Dokumen Jadual dan scoupe OH, Potret Kondisi Unit dan dokumen Rekomendasi Pemeliharaan dalam bentuk manual"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 35%\u2264x<60% sudah diterbitkan. Sudah memiliki data potret kondisi operasi unit dan Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 35%\u2264x<60% sudah ditindak lanjuti. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 60%\u2264x<80% sudah diterbitkan. Sudah memiliki data potret kondisi operasi unit dan Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 60%\u2264x<80% sudah ditindaklanjuti. Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 80%\u2264x<100 sudah diterbitkan. updated. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti menjadi scope tambahan. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 80%\u2264x<100 -sudah ditindaklanjuti. Data base sudah ada di SIT, 80%\u2264x<100"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 100% sudah diterbitkan.Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti dengan scope tambahan dan Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 100%-sudah ditindaklanjuti. Data base sudah ada di SIT 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kesiapan Spare-part Spesifik & Material Umum.",
+                        "weight": 0.03,
+                        "description": "Kesiapan Sparepart Spesifik & Material Umum. sesuai delivery time serta penerbitan Issue Requisition \/ Recommended Order sebagaI dasar proses pengadaan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Spare part utama\/ spesifik dan umum di identifikasi <35% sudah di identifikasi dan IR\/ RO<35% diterbitkan. UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum di identifikasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 35%\u2264x<60% sudah di identifikasi & 35%\u2264x<60% IR\/ RO sudah diterbitkan dengan spesifikasi lengkap."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 60%\u2264x<80% sudah di identifikasi &60%\u2264x<80% IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 80%\u2264x<100% sudah di identifikasi &80%\u2264x<100% IR\/ RO sudah diterbitkan dengan spesifikasi lengkap. Data base sudah ada di web MO 75% updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 100% updated dan terintegrasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitoring & Pengendalian Kegiatan Hasil R3",
+                        "weight": 0.03,
+                        "description": "Pengamatan terhadap konsistensi pertemuan \/koordinasi dan proses kegiatan sesuai target yang ditetapkan antara lain: Monitoring proses pengadaan mulai dari TOR IR\/PR\/RO, HPS, PO, Levering. (Ellipse\/ Maximo), rentang waktu R3 s.d P1 Material spesifik dan umum yang terkontrak.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 2 kali dalam rentang waktu R3 s.d P1 Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 3 kali dalam rentang waktu R3 s.d P1 Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 4 kali. dalam rentang waktu R3 s.d P1 Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 5 kali dalam rentang waktu R3 s.d P1 Data base sudah ada di Web MO <100%updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 6 kali dalam rentang waktu R3 s.d P1.Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Perencanaan Critical Task",
+                        "weight": 0.03,
+                        "description": "Identifikasi critical task yang berpengaruh pada pada jalannya keseluruhan OH. Pada pembuatan jadwal OH maupun kurva s harus memasukkan semua scope OH baik itu standard scope ataupun add scope. Dari jadwal tersebut, diidentifikasi juga jadwal pelaksanaan critical tasknya (baik itu standar scope atau add scope) mulai P1 s.d P3\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "WBS sudah ada, tetapi belum ada identifikasi critical path"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "critical path sudah teridentifikasi, tetapi belum ada identifikasi critical task atau critical task yang diidentifikasi masih untuk standard job"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "critical path sudah teridentifikasi, tetapi belum ada identifikasi critical task atau critical task yang diidentifikasi masih untuk standard job dan scope tambahan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Critical task telah diidentifikasi dan merupakan bagian dari critical path dan resource untuk critical task sudah teridentifikasi (FTK, material, tools)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Critical task telah diidentifikasi dan merupakan bagian dari critical path dan resource untuk critical task sudah teridentifikasi (FTK, material, tools) sudah diupload pada SIT dan sudah konsisten dilakukan selama 3 tahun"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efektivitas Pertemuan\/ Koordinasi Antar Bidang\/ Subdit.",
+                        "weight": 0.03,
+                        "description": "Efektifitas dari pertemuan\/ koordinasi kegiatan outage management terkait dengan materi yang dibahas dan fungsi\/ bidang yang terlibat. 1, Materi yang dibahas meliputi: Rencana Tindak Lanjut. Jadual & Scope OH. Informasi dari Bidang terkait Terintegrasi dengan WPC Mgt, terkait resourse mgt (Tools & Sdm). 2. Peserta yang diundang dari Eksekutor : M. Project\/ K. PLTA\/ M. Tek\/ M Renbintek , Spv.\/Koord. Mesin, Listrik, Kontrol, Enjinering, Rendal Har & Staf. Teknisi. 3. Peserta yang diundang dari Pemberi Kerja : M. Har\/ M. Eng, Staff, Spvs MO & Staf, Spvs Rendal Har & Staf, Spvs Mesin, Listrik, Kontrol, Spvs Rendal Ops, Spvs Produksi. 4. Jumlah Peserta yang hadir\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Pertemuan kegiatan P1 dilaksanakan dalam range waktu lebih dari 21 hari dari tanggal yang ditetapkan UBJOM LUAR JAWA Pertemuan kegiatan P1 dilaksanaka"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P1 dilaksanakan dengan peserta 35%\u2264x<60%undangan (perfungsi). Materi yang dibahas 35%\u2264x<60%%. Pertemuan kegiatan P1 dilaksanakan dalam range waktu \u2265 15 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P1 dilaksanakan dengan peserta 60%\u2264x<80% undangan (perfungsi).Materi yang dibahas 60%\u2264x<80%. Pertemuan kegiatan P1 dilaksanakan dalam range waktu 7\u2264x<15 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P1 dilaksanakan dengan peserta 80%\u2264x<100 undangan perfungsi dan salah satu manajer. Materi yang dibahas 80%\u2264x<100. Pertemuan kegiatan P1 dilaksanakan dalam range waktu 1\u2264x<7 hari dari tanggal yang ditetapkan Data base sudah ada di SIT 80%\u2264x<100 updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P1 dilaksanakan dengan peserta 100% undangan perfungsi dan kedua manajer (pemberi kerja & eksekutor). Materi yang dibahas 100%. Pertemuan kegiatan P1 dilaksanakan sesuai tanggal yang ditetapkan. Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Implementasi Management Tools",
+                        "weight": 0.03,
+                        "description": "Efektifitas manajemen tools mulai dari identifikasi, pengelolaan kesiapan dan ketersediaan tools meliputi : 1. Pengkategorian (kategori penggunaan, aset, pemeliharaan dan operator tools) 2. Manajemen penyimpanan 3. Penjadwalan pemakaian tools (tools spesifik) 4. Memastikan standard tools berdasarkan kriteria jenis pembangkit. 5. Data tools aktiva tetap selalu update. 6. Update sertifikasi tools\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Pengelolaan Tool dilakukan secara manual baik kategori penggunaan, kategeori aset, kategori pemeliharaan dan dokumen sertifikasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Pengelolaan Tool sudah dilakukan di Web Management Tool dengan pengisian < 35% seperti spesifikasi, Foto, kategori penggunaan, Aset, pemeliharaan, dokumen sertifikasi serta transaksi peminjaman Tool."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pengelolaan Tool sudah dilakukan di Web Management Tool dengan pengisian 35%\u2264x<60% seperti spesifikasi, Foto, kategori penggunaan, Aset, pemeliharaan, dokumen sertifikasi serta transaksi peminjaman Tool."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Pengelolaan Toolsudah dilakukan di Web Management Tool dengan pengisian 80%\u2264x<100% seperti spesifikasi, Foto, kategori penggunaan, Aset, pemeliharaan, dokumen sertifikasi serta transaksi peminjaman Tool."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Pengelolaan Tool sudah dilakukan di Web Management Tool dengan pengisian 100 % seperti spesifikasi, Foto, kategori penggunaan, Aset, pemeliharaan, dokumen sertifikasi serta transaksi peminjaman Tool. Sudah dilakukan evaluasi efektifeness Tool dan pengambilan keputusan penyediaan Tool (Sewa, Beli, Pinjam)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Perencanaan instruksi kerja, kebutuhan resources, dan material dalam EAMS",
+                        "weight": 0.03,
+                        "description": "Menunjukkan bagaimana proses perencanaan langkah kerja, kompetensi, manhours teknisi, serta material yang dibutuhkan dalam pemeliharaan untuk kemudian dituliskan dalam EAMS\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "- Job instruction tidak diisi - Tidak menyertakan kebutuhan kompetensi teknisi dan estimasi manhournya - Tidak ada kebutuhan material. Material diidentifikasi saat teknisi mulai mengerjakan pekerjaan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "- Job instruction pada WO hanya diisi klausul standar dari standard job template. - Estimasi waktu bersifat umum, dinyatakan dalam satuan hari - Material diidentifikasi teknisi saat mengerjakan yang kemudian dimintakan Rendalhar. Akibatnya perencanaan sering tidak akurat dan terjadi delay eksekusi pekerjaan. - 35% work order telah diidentifikasi kebutuhan resource-nya"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Urutan job instruction sudah mulai spesifik pada setiap pekerjaan. Untuk WO Tambahan sudah mengacu job site visit . Job instruction masih bersifat kualitatif dan tidak menyertakan kebutuhan tool - Perencanaan manhours jauh lebih akurat meski masih terjadi kesalahan. - Material ditentukan berdasar historis pemeliharaan sebelumnya, namun masih muncul kebutuhan material yang tidak diprediksi 35% < x < 60% - 35% < x < 60% work order telah diidentifikasi kebutuhan resource-nya"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Job instruction berisi detail langkah kerja, mulai pekerjaan pendahuluan, pekerjaan inti, dan pekerjaan penutup. Job instruction bersifat kualitatif. Tool yang dibutuhkan hanya disebutkan bersifat umum pada semua langkah kerja - Estimasi manhours sudah mulai detail pada setiap task (di EAM Ellipse menggunakan modul task assignment) untuk diroll up pada total task - Perencanaan material sudah memanfaatkan BOM Management sehingga job delay sudah jarang terjadi - 75% work order telah diidentifikasi kebutuhan resource-nya"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "- Job instruction berisi detail langkah kerja, mulai pekerjaan pendahuluan, pekerjaan inti, dan pekerjaan penutup. Job instruction bersifat kuantitatif dengan menyertakan parameter pada setiap langkah. Tool yang dibutuhkan juga sudah didetailkan pada setiap langkah kerja - Memenuhi level 4, dan sudah melibatkan standard job\/job plan dalam merencanakan resources yang dievaluasi berdasar inputan feedback dari teknisi - Memenuhi level 4, dan sudah dilakukan koreksi mengacu historis pemeliharaan sebelumnya - 100% work order telah diidentifikasi kebutuhan resource-nya"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "P2 (1 Month Planning)",
+                "sub_areas": [
+                    {
+                        "name": "Review Progress Meeting P1 & Hasil OH Yang Telah Dilaksanakan.",
+                        "weight": 0.03,
+                        "description": "Review tindak lanjut meeting P2, hasil evaluasi, rekomendasi & rencana tindak lanjut OH yang sudah dilaksanakan sebaga input planning. (Note : tindak lanjut = sudah ada rencana penetapan action plan, target dan PIC oleh Planner Outage) Up-date : Data terkini\/terbaru setelah dilakukan Review oleh Planner. Terintegrasi : data dapat dishare oleh Bidang lain yang terkait, database ada di WEB Outage\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting P1 sudah dilakukan tindak lanjut untuk planning OH berikutnya.tanpa melibatkan bidang lain UBJOM LUAR JAWA Review progress meeting P1 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting P1 sudah ada, rekomendasi tindak lanjut, program , target dan PIC sudah ditetapkan, namun belum dilakukan prioritisasi, database masih manual UBJOM LUAR JAWA Review progress meeting R2 sudah ada rekomendasi tindak lanjut, program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting P1 sudah dilakukan, dievaluasi melalui forum yang melibatkan bidang terkait (OME) dan sudah dilakukan kajian enjinering , belum ditetapkan prioritisasi program, Database sudah di upload di WEB Outage 50%\u2264x<75% (ter Update)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting P1 sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program., database sudah di upload WEB Outage 75%\u2264x<100% (ter Update)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting P1 Rencana tindak lanjut rekomendasi sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program, database sudah di upload di WEB Outage 100% (ter Update)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Jadual & Scope pekerjaan, Performance Unit, Rekomendasi pemeliharaan RutinPM,CM,PdM dan ECP",
+                        "weight": 0.03,
+                        "description": "Identifikasi jadual, scope of work, baik yang standar maupun tambahan. Dan sudah diterbitkan WO OH Standart & tambahan serta PIC dan melakukan review struktur tim OH & sarana yang dalam kendali UP. Note : WO standart sesuai skope OH dan WO Tambahan sesuai dengan kesepakatan Identifikasi performance unit (PKU, Hasil Assesment peralatan, Daya mampu netto, efisiensi, jam operasi unit). Note : Sudah Terintegrasi dengan Reliability Mgt Rekomendasi hasil dari pemeliharaan tactical dan non tactical. Note : Tactical\/terencana (PM, PdM, FDT Realibilty Management), Non Tactical\/tidak terencana (CR, EM) Penetapan rencana performance test sebelum OH dan mekanIsme koordinasi pelaksanaannya. Note : Penetapan Rencana Pelaksanaan Performance Test sudah harus ditetapkan pada Area ini, dan rencana pelaksanaannya serta pihak-pihak yang terkait (Operator, Rendal Ops, PdM, SO, Perf. Enjiner UPHAR untuk unit thermal)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Jadual dan scope OH belum dibuat, potret kondisi operasi unit & Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) sudah ditindaklanjuti <35% , WO OH <35% sudah diterbitkan. UBJOM LUAR JAWA Dokumen Jadual dan scoupe OH, Potret Kondisi Unit dan dokumen Rekomendasi Pemeliharaan dalam bentuk manual"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 35%\u2264x<60% sudah diterbitkan. Sudah memiliki data potret kondisi operasi unit. Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 35%\u2264x<60% sudah ditindak lanjuti. Rencana performance test sebelum OH sudah ditetapkan, namun belum dikirimkan (di informasikan) kepada pihak yang terkait dan koordinasi dengan pihak yang terkait belum dilaksanakan. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 60%\u2264x<80% sudah diterbitkan. Sudah memiliki data potret kondisi operasi unit dan ditindaklanjuti dengan scope tambahan. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 60%\u2264x<80%-sudah ditindaklanjuti. Rencana performance test sebelum OH sudah ditetapkan, namun belum dikirimkan (di informasikan) kepada pihak yang terkait dan koordinasi dengan pihak yang terkait belum dilaksanakan. Review Struktur tim OH & sarana sudah dilakukan ,Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 80%\u2264x<100% sudah diterbitkan. updated. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti menjadi scope tambahan. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 80%\u2264x<100% -sudah ditindaklanjuti. Rencana performance test sebelum OH sudah ditetapkan dan koordinasi dengan pihak yang terkait sudah dilaksanakan. Data base sudah ada di SIT,80%\u2264x<100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Jadual dan scope OH sudah dibuat, WO OH 100% sudah diterbitkan.Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti dengan scope tambahan dan Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 100%-sudah ditindaklanjuti. Rencana performance test sebelum OH sudah ditetapkan dan koordinasi dengan pihak yang terkait sudah dilaksanakan. Data base sudah ada di SIT 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Penambahan Scope Pekerjaan Overhaul",
+                        "weight": 0.03,
+                        "description": "Semua scope pekerjaan telah teridentifikasi di meeting P1, tidak ada penambahan scope dan kebutuhan spare part\/material\/jasa pada P2\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "penambahan scope pada P2 sebesar lebih dari 10% dari total scope yang telah disepakati pada meeting P1"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "penambahan scope pada P2 antara 5 s.d 10% dari total scope yang telah disepakati pada meeting P1"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "penambahan scope pada P2 sebesar 5% dari total scope yang telah disepakati pada meeting P1"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tidak ada penambahan scope pada P2"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Konsisten tidak ada penambahan scope pada P2 dan dilakukan selama 3 tahun"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Perencanaan Critical Task",
+                        "weight": 0.03,
+                        "description": "Identifikasi critical task yang berpengaruh pada pada jalannya keseluruhan OH.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "WBS sudah ada, tetapi belum ada identifikasi critical path sesuai dengan rekomendasi hasil meeting P2"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "critical path sudah teridentifikasi, tetapi belum ada identifikasi critical task atau critical task yang diidentifikasi masih untuk standard job sesuai dengan rekomendasi hasil meeting P2"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "critical path sudah teridentifikasi, tetapi belum ada identifikasi critical task atau critical task yang diidentifikasi masih untuk standard job dan scope tambahan sesuai dengan rekomendasi hasil meeting P2"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Critical task telah diidentifikasi dan merupakan bagian dari critical path dan resource untuk critical task sudah teridentifikasi (FTK, material, tools) sesuai dengan rekomendasi hasil meeting P2"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Critical task telah diidentifikasi dan merupakan bagian dari critical path dan resource untuk critical task sudah teridentifikasi (FTK, material, tools) sudah diupload pada SIT dan sudah konsisten dilakukan selama 3 tahun"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kesiapan Material \/ Sparepart.",
+                        "weight": 0.03,
+                        "description": "Kesiapan Spare-part Spesifik & Material Umum. sesuai delivery time serta penerbitan Issue Requisition \/ Recommended Order sebagaI dasar proses pengadaan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum sudah di identifikasi atau <35% sudah di identifikasi dan IR\/ RO belum diterbitkan."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 35%\u2264x<60% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap. Data base masih dalam aplikasi ."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 60%\u2264x<80% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 80%\u2264x<100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap. Data base sudah ada di web MO80%\u2264x<100% updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum100% sudah di identifikasi & IR\/ RO sudah diterbitkan dengan spesifikasi lengkap.Data base sudah ada di web MO 100% updated dan terintegrasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitoring & Pengendalian Kegiatan Hasil P1",
+                        "weight": 0.03,
+                        "description": "Pengamatan terhadap konsistensi pertemuan \/koordinasi dan proses kegiatan sesuai target yang ditetapkan antara lain: Monitoring proses pengadaan mulai dari TOR IR\/PR\/RO, HPS, PO, Levering. (Ellipse\/ Maximo), rentang waktu P1 s.d P2 Material spesifik dan umum yang terkontrak.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 1 kali. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 2 kali. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 3 kali. Data base sudah di SIT 50% updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 4 kali. Data base sudah ada di SIT 75% updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 4 kali.Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efektivitas Pertemuan\/ Koordinasi Antar Bidang\/ Subdit.",
+                        "weight": 0.03,
+                        "description": "Efektifitas dari pertemuan\/ koordinasi kegiatan outage management terkait dengan materi yang dibahas dan fungsi\/ bidang yang terlibat. 1, Materi yang dibahas meliputi: Rencana Tindak Lanjut. Jadual & Scope OH. Informasi dari Bidang terkait Terintegrasi dengan WPC Mgt, terkait resourse mgt (Tools & Sdm). 2. Peserta yang diundang dari Eksekutor : M. Project\/ K. PLTA\/ M. Tek\/ M Renbintek , Spv.\/Koord. Mesin, Listrik, Kontrol, Enjinering, Rendal Har & Staf. Teknisi. 3. Peserta yang diundang dari Pemberi Kerja : M. Har\/ M. Eng, Staff, Spvs MO & Staf, Spvs Rendal Har & Staf, Spvs Mesin, Listrik, Kontrol, Spvs Rendal Ops, Spvs Produksi. 4. Jumlah Peserta yang hadir\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Pertemuan kegiatan P2 dilaksanakan dalam range waktu lebih dari 21 hari dari tanggal yang ditetapkan UBJOM LUAR JAWA Pertemuan kegiatan P2 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P2 dilaksanakan dengan peserta 35%\u2264x<60%undangan (perfungsi). Materi yang dibahas 35%\u2264x<60%%. Pertemuan kegiatan P2 dilaksanakan dalam range waktu \u2265 15 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P2 dilaksanakan dengan peserta 60%\u2264x<80% undangan (perfungsi).Materi yang dibahas 60%\u2264x<80%. Pertemuan kegiatan P2 dilaksanakan dalam range waktu 7\u2264x<15 hari dari tanggal yang ditetapkan. Data base masih dalam aplikasi manual"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P2 dilaksanakan dengan peserta 80%\u2264x<100 undangan perfungsi dan salah satu manajer. Materi yang dibahas 80%\u2264x<100. Pertemuan kegiatan P2 dilaksanakan dalam range waktu 1\u2264x<7 hari dari tanggal yang ditetapkan Data base sudah ada di SIT 80%\u2264x<100 updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P2 dilaksanakan dengan peserta 100% undangan perfungsi dan kedua manajer (pemberi kerja & eksekutor). Materi yang dibahas 100%. Pertemuan kegiatan P2 dilaksanakan sesuai tanggal yang ditetapkan. Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "P3 (1 Week Planning)",
+                "sub_areas": [
+                    {
+                        "name": "Review Progress Meeting P2 & Hasil OH Yang Telah Dilaksanakan.",
+                        "weight": 0.03,
+                        "description": "Review tindak lanjut meeting P2, hasil evaluasi, rekomendasi & rencana tindak lanjut OH yang sudah dilaksanakan sebaga input planning. (Note : tindak lanjut = sudah ada rencana penetapan action plan, target dan PIC oleh Planner Outage) Up-date : Data terkini\/terbaru setelah dilakukan Review oleh Planner. Terintegrasi : data dapat dishare oleh Bidang lain yang terkait, database ada di WEB Outage & QPR (ter up-date).\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting P2 sudah dilakukan tindak lanjut untuk planning OH berikutnya.tanpa melibatkan bidang lain UBJOM LUAR JAWA Review progress meeting P2 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA Review progress meeting P2 sudah ada, rekomendasi tindak lanjut, program , target dan PIC sudah ditetapkan, namun belum dilakukan prioritisasi, database masih manual UBJOM LUAR JAWA Review progress meeting P2 sudah ada rekomendasi tindak lanjut, program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting P2 sudah dilakukan, dievaluasi melalui forum yang melibatkan bidang terkait (OME) dan sudah dilakukan kajian enjinering , belum ditetapkan prioritisasi program, Database sudah di upload di WEB Outage 50%\u2264x<75% (ter Update)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting P2 sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program., database sudah di upload WEB Outage 75%\u2264x<100% (ter Update)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Review progress meeting P2 Rencana tindak lanjut rekomendasi sudah dilakukan dan dievaluasi melalui forum yang melibatkan bidang terkait (OME) , sudah ditetapkan prioritisasi program, database sudah di upload di WEB Outage 100% (ter Update)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Penambahan Scope Pekerjaan Overhaul",
+                        "weight": 0.03,
+                        "description": "Semua scope pekerjaan telah teridentifikasi di meeting P2, tidak ada penambahan scope dan kebutuhan spare part\/material\/jasa pada P3\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "penambahan scope pada P3 sebesar lebih dari 7% dari total scope yang telah disepakati pada meeting P2"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "penambahan scope pada P3 antara 3% s.d 7% dari total scope yang telah disepakati pada meeting P2"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "penambahan scope pada P3 sebesar 3% dari total scope yang telah disepakati pada meeting P2"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tidak ada penambahan scope pada P3"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Konsisten tidak ada penambahan scope pada P3 dan dilakukan selama 3 tahun"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Review kesiapan jadual & scope pekerjaan, hasil performance test, kondisi unit & hasil pemeliharaan rutin.",
+                        "weight": 0.03,
+                        "description": "Review kesiapan jadual, scope of work, baik yang standar maupun tambahan. Dan sudah diterbitkan WO OH Standart & tambahan serta PIC dan melakukan review struktur tim OH & sarana yang dalam kendali UP. Note : WO standart sesuai skope OH dan WO Tambahan sesuai dengan kesepakatan Review hasil performance test & penetapan target OH serta kesiapan prosedur kerja (safety\/ working permit) dilengkapi dengan pelaksanaan isolating area\/ equipment. Note : Prosedur Ijin Kerja meliputi : Safety Permite \/ Working Permite Target Performance Unit : Sasaran yang diharapkan UP terhadap hasil pelaksanaan OH. Review kondisi unit dan tindak lanjut dari pemeliharaan rutin (tactical dan non tactical) Note : Tactical: terencana (PM, PdM) Non Tactical: tidak terencana (Corr, BD, EM) Terintegrasi : WPC Mgt\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Jadual dan scope OH, rekomendasi pemeliharaan belum dibuat WO OH, dan performance test sebelum OH belum dilaksanakan. Tim OH belum ditetapkan."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jadual dan scope OH sudah dibuat, WO OH<35% sudah diterbitkan, Tim OH sudah ditatapkan. Sudah memiliki data potret kondisi operasi unit. Rekomendasi hasil pemeliharaan rutin (tactical dan non tactical) 35%\u2264x<60% sudah ditindak lanjuti. Performance test sebelum OH sudah dilaksanakan, namun hasil belum ada Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "JJadual dan scope OH sudah dibuat, WO OH 100% sudah diterbitkan Tim OH sudah ditetapkan. Sudah memiliki data potret kondisi operasi unit dan ditindaklanjuti dengan scope tambahan. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 100%-sudah ditindaklanjuti. Performance test sebelum OH sudah dilaksanakan, Hasil ada, Prosedur ijin kerja sudah dibuat, Target Performance setelah OH sudah ditetapkan. Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jadual dan scope OH sudah dibuat, WO OH 100% sudah diterbitkan. updated. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti menjadi scope tambahan. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 80%\u2264x<100 sudah ditindaklanjuti. Performance test sebelum OH sudah dilaksanakan, Hasil ada, Prosedur ijin kerja sudah dibuat, Target Performance setelah OH sudah ditetapkan. Data base sudah ada di SIT, 60%\u2264x<80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jadual dan scope OH sudah dibuat, WO OH 100% sudah diterbitkan.Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Sudah memiliki data potret kondisi operasi unit, ditindaklanjuti dengan scope tambahan dan Data base sudah ada di Web MO dan QPR 100% updated dan terintegrasi. Rekomendasihasil pemeliharaan rutin (tactical dan non tactical) 100%-sudah ditindaklanjuti. Performance test sebelum OH sudah dilaksanakan, Hasil ada, Prosedur ijin kerja sudah dibuat, Target Performance setelah OH sudah ditetapkan. Data base sudah ada di SIT 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kesiapan Spare-part Spesifik & Material Umum.",
+                        "weight": 0.03,
+                        "description": "Kesiapan Spare-part Spesifik & Material Umum. sesuai delivery time serta penerbitan Issue Requisition \/ Recommended Order sebagaI dasar proses pengadaan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum <35% sudah siap"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 35%\u2264x<60% sudah siap. Data base masih dalam aplikasi ."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 60%\u2264x<80% sudah siap.Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum 80%\u2264x<100% sudah siap . Data base sudah ada di web MO80%\u2264x<100% updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Spare part utama\/ spesifik dan umum100% sudah siap.Data base sudah ada di web MO 100% updated dan terintegrasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Checklist Kesiapan Pekerjaan OH.",
+                        "weight": 0.03,
+                        "description": "Penetapan checklist kesiapan pekerjaan OH diketahui oleh GM\/ Manajer. Daftar itemmonitoringkesiapan pelaksanaan OH yang mencakup :Kesiapan spare part \/ material.Kesiapan Tim OH.Kesiapan Sarana.Kesiapan Tools Note : Checklist dibuat dalam Form yang telah ditetapkan & di Approval oleh Manajer\/GM disertai dengan penjelasan terhadap kondisi kesiapan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Checklist kesiapan OH sudah dilakukan dengan tingkat kesiapan <35% belum dilengkapi dengan tindak lanjut untuk melengkapi kekurangan kesiapan OH serta belum di approval oleh Manajer\/ GM."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Checklist kesiapan OH sudah dilakukan dengan tingkat kesiapan 35%\u2264x<60 belum dilengkapi dengan tindak lanjut untuk melengkapi kekurangan kesiapan OH serta belum di approval oleh Manajer\/ GM."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Checklist kesiapan OH sudah dilakukan dengan tingkat kesiapan 60%\u2264x<80% dan dilengkapi dengan tindak lanjut untuk melengkapi kekurangan kesiapan OH serta sudah di Approval oleh Manajer\/ GM. Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Checklist 80%\u2264x<100% dan dilengkapi dengan tindak lanjut untuk melengkapi kekurangan kesiapan OH serta sudah di approval oleh Manajer\/ GM. Data base sudah ada di SIT 80%\u2264x<100% updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Checklist kesiapan OH sudah dilakukan dan disetujui oleh GM dengan tingkat kesiapan 100% dan dilengkapi dengan tindak lanjut untuk melengkapi kekurangan kesiapan OH serta sudah di Approval oleh Manajer\/ GM. Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitoring & Pengendalian Kegiatan Hasil P3",
+                        "weight": 0.03,
+                        "description": "Pengamatan terhadap konsistensi pertemuan \/koordinasi dan proses kegiatan sesuai target yang ditetapkan antara lain: Monitoring proses pengadaan mulai dari TOR IR\/PR\/RO, HPS, PO, Levering. (Ellipse\/ Maximo), rentang waktu P2 s.d P3 Material spesifik dan umum yang terkontrak.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 1 kali.namun dokumen belum lengkap danData base masih dalam aplikasi manual ."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 1 kali. Data base masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 2 kali. Data base masih dalam aplikasi manual updated."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 3 kali. Data base sudah ada di SIT <100% updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB , UBJOM JAWA & UBJOM LUAR JAWA Kegiatan monitoring dan pengendalian progres planning OH dilakukan sebanyak 3 kali.Data base sudah ada di SIT 100% updated dan terintegrasi."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efektivitas Pertemuan\/ Koordinasi Antar Bidang\/ Subdit.",
+                        "weight": 0.03,
+                        "description": "Definisi : Ketepatan waktu (dalam range +7 hari dari tanggal yang ditetapkan) pertemuan sesuai jadual kegiatan & kelengkapan peserta pertemuan. Ketepatan waktu pertemuan\/koordinasi sesuai jadual kegiatan& kelengkapan peserta pertemuan. Note : Perkecualian jika terjadi pada hari libur (nasional) dapat bergeser maju \/ mundur 1-2 hari.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB, UBJOM JAWA Pertemuan kegiatan P3 dilaksanakan dengan peserta <35% undangan (perfungsi). Materi yang dibahas <35%, Data base masih dalam aplikasi manual Pertemuan kegiatan P3 dilaksanakan dalam range waktu lebih\/kurang 15s\/d 21 hari dari tanggal yang ditetapkan UBJOM LUAR JAWA Pertemuan P3 dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB, UBJOM JAWA Pertemuan kegiatan P3 dilaksanakan dengan peserta 35%\u2264x<60% undangan (perfungsi). Materi yang dibahas35%\u2264x<60%, Data base masih dalam aplikasi manual Pertemuan kegiatan P3 dilaksanakan dalam range waktu 7 s\/d 15 hari dari tanggal yang ditetapkan UBJOM LUAR JAWA Pertemuan P3 dilaksanakan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P3dilaksanakan dengan peserta 60%\u2264x<80%undangan (perfungsi).Materi yang dibahas 60%\u2264x<80% Data base masih dalam aplikasi manual Pertemuan kegiatan P3 dilaksanakan dalam range waktu 3 s\/d 7 hari dari tanggal yang ditetapkan."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P3 dilaksanakan dengan peserta 80%\u2264x<100% undangan perfungsi dan salah satu manajer. Materi yang dibahas 80%\u2264x<100%, Data base sudah ada di SIT 80%\u2264x<100 updated. Pertemuan kegiatan P3 dilaksanakan tepat waktu dari tanggal yang ditetapkan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Pertemuan kegiatan P3 dilaksanakan dengan peserta 100% undangan perfungsi dan kedua manajer (pemberi kerja & eksekutor). Materi yang dibahas 100% Data base sudah ada di SIT 100% updated dan terintegrasi. Pertemuan kegiatan P3 dilaksanakan tepat waktu dari tanggal yang ditetapkan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Eksekusi Pekerjaan OH",
+                "sub_areas": [
+                    {
+                        "name": "Manajemen Risiko Eksekusi OH",
+                        "weight": 0.03,
+                        "description": "yaitu risiko yang muncul ketika pekerjaan OH sedang berjalan (resiko yang belum teridentifikasi pada fase perencanaan)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Tidak dilakukan analisa resiko."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Analisa resiko sudah dilakukan, tetapi hanya pada beberapa scope pekerjaan saja"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Analisa resiko sudah dilakukan, tetapi detail klasifikasi resiko belum dipetakan, prioritasi resiko belum dipetakan."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Analisa resiko sudah dilakukan, detail klasifikasi resiko sudah dipetakan, prioritasi resiko sudah dipetakan. Detail untuk pekerjaan kritikal sudah teridentifikasi. Jika kondisi darurat muncul, berfokus pada penanganan jangka pendek."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Analisa resiko sudah dilakukan, detail klasifikasi resiko sudah dipetakan, prioritasi resiko sudah dipetakan. Detail untuk pekerjaan kritikal sudah teridentifikasi dan sudah mempersiapkan PIC untuk masing masing kritikal task. Jika kondisi darurat muncul (jarang terjadi), resource sudah mempersiapkan penanganan dengan baik."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Manajemen Kualitas Quality Control Inspection untuk Critical Task",
+                        "weight": 0.03,
+                        "description": "Yaitu melakukan inspeksi dan memastikan kualitas hasil pekerjaan untuk peralatan kritis sesuai dengan scope pekerjaan hasil meeting P3.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Semua pekerjaan QC untuk critical task sudah dilakukan pada semua Bidang 80% (sesuai dengan scope P3), QC sudah menggunakan acuan kualifikasi standard yang reputable berdasarkan Manual Book , memperhatikan trending pengukuran, dilakukan analisa dan sudah melakukan tindak lanjut rekomendasi bidang Engineering"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Semua pekerjaan QC untuk critical task sudah dilakukan pada semua Bidang 85% (sesuai dengan scope P3), QC sudah menggunakan acuan kualifikasi standard yang reputable berdasarkan Manual Book , memperhatikan trending pengukuran, dilakukan analisa dan sudah melakukan tindak lanjut rekomendasi bidang Engineering"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Semua pekerjaan QC untuk critical task sudah dilakukan pada semua Bidang 90% (sesuai dengan scope P3), QC sudah menggunakan acuan kualifikasi standard yang reputable berdasarkan Manual Book , memperhatikan trending pengukuran, dilakukan analisa dan sudah melakukan tindak lanjut rekomendasi bidang Engineering"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Semua pekerjaan QC untuk critical task sudah dilakukan pada semua Bidang 95% (sesuai dengan scope P3), QC sudah menggunakan acuan kualifikasi standard yang reputable berdasarkan Manual Book , memperhatikan trending pengukuran, dilakukan analisa dan sudah melakukan tindak lanjut rekomendasi bidang Engineering"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Semua pekerjaan QC untuk critical task sudah dilakukan pada semua Bidang 100% (sesuai dengan scope P3), QC sudah menggunakan acuan kualifikasi standard yang reputable berdasarkan Manual Book , memperhatikan trending pengukuran, dilakukan analisa dan sudah melakukan tindak lanjut rekomendasi bidang Engineering"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Manajemen Terhadap Penambahan Scope Overhaul Akibat WO Temuan",
+                        "weight": 0.03,
+                        "description": "Yaitu melakukan pengelolaan WO temuan yang terdiri dari : identifikasi, analisa, pengelolaan biaya, dokumentasi, dan tindaklanjut yang harus dilakukan pada saat muncul WO temuan saat fase eksekusi OH diluar pekerjaan yang telah disepakati pada meeting P3.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Belum dilakukan penambahan data data pendukung terkait WO temuan."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "data pendukung berupa : identifikasi, analisa, pengelolaan biaya, dan tindaklanjut untuk setiap WO temuan yang ada sudah dilakukan saat fase eksekusi OH 90% sesuai dengan jumlah WO temuan."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "data pendukung berupa : identifikasi, analisa, pengelolaan biaya, dokumentasi, dan tindaklanjut untuk setiap WO temuan yang ada sudah dilakukan saat fase eksekusi OH 95% sesuai dengan jumlah WO temuan."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "data pendukung berupa : identifikasi, analisa, pengelolaan biaya, dokumentasi, dan tindaklanjut untuk setiap WO temuan yang ada sudah dilakukan saat fase eksekusi OH 100% sesuai dengan jumlah WO temuan."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "data pendukung berupa : identifikasi, analisa, pengelolaan biaya, dokumentasi, dan tindaklanjut untuk setiap WO temuan yang ada sudah dilakukan saat fase eksekusi OH. 100% lengkap dan konsisten dilakukan selama 3 tahun."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efektifitas Pertemuan",
+                        "weight": 0.03,
+                        "description": "Definisi : Ketepatan Waktu pertemuan progress OH dan pembahasan critical task sesuai Jadual yang telah disepakati bersama dan kehadiran pihak terkait Note : Jadual pertemuan kegiatan ditetapkan oleh UPHAR\/ Pelaksana Pemeliharaan sesuai kesepakatan. Efektifitas dari pertemuan\/ koordinasi kegiatan outage management terkait dengan materi yang dibahas dan fungsi\/ bidang yang terlibat. 1, Materi yang dibahas meliputi: Koodinasi pelaksanaan OH Pembahasaan critical task 2. Peserta yang diundang dari Eksekutor : M. Project\/ K. PLTA\/ M. Tek\/ M Renbintek , Spv.\/Koord. Mesin, Listrik, Kontrol, Enjinering, Rendal Har & Staf. Teknisi,Tim QC 3. Peserta yang diundang dari Pemberi Kerja : M. Har\/ M. Eng, Staff, Spvs MO & Staf, Spvs Rendal Har & Staf, Spvs Mesin, Listrik, Kontrol, Spvs Rendal Ops, Spvs Produksi,Tim QC 4. Jumlah Peserta yang hadir\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "- Pertemuan kegiatan progress OH dilaksanakan namun belum konsisten"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "- Pertemuan kegiatan progress OH dilaksanakan +3 hari - Belum ada pembahasan tentang critical task yang sudah diidentifikasi saat perencanaan -Prosentase Kehadiran 35%\u2264x<60% Tim Pelaksana OH"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Pertemuan kegiatan progress OH dilaksanakan +2 hari - Pembahasan critical task meliputi kecukupan resource, mitigasi resiko potensi adanya extension jadwal OH, kesesuaian dengan jadwal, namun belum ada rencana tindak lanjut. -Prosentase Kehadiran 60%\u2264x<80% Tim Pelaksana OH"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Pertemuan kegiatan progress OH dilaksanakan +1 hari - Pembahasan critical task meliputi kecukupan resource, mitigasi resiko potensi adanya extension jadwal OH, kesesuaian dengan jadwal, dan sudah ada rencana tindak lanjut. -Prosentase Kehadiran 80%\u2264x<100% Tim Pelaksana OH"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "- Pertemuan kegiatan progress OH dilaksanakan sesuai tanggal kesepakatan - Pembahasan critical task meliputi kecukupan resource, mitigasi resiko potensi adanya extension jadwal OH, kesesuaian dengan jadwal, dan sudah ada rencana tindak lanjut. -Prosentase Kehadiran 100% Tim Pelaksana OH"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Quality Control Inspection",
+                        "weight": 0.03,
+                        "description": "Tersedianya kelengkapan pekerjaan Quality Control (QC) yang meliputi Struktur Tim QC (Surat Penunjukan Tim QC) & Uraian Ruang Lingkup Tugas QC. SOP \/ IK Form Checklist QC. Pelaksanaan Pekerjaan QC : Hasil Validasi (Approval) QC. Mekanisme Koordinasi antar Bidang.Note : Form Checklist QC meliputi Ruang Lingkup (Scope pekerjaan OH)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Kelengkapan Pekerjaan QC 35% < x < 60%. - Pekerjaan QC tidak dilakukan. - Koordinasi QC antar Bidang tIdak dilakukan."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Kelengkapan Pekerjaan QC 60% < x < 80% (kurang lengkap). - Pekerjaan QC belum dilakukan pada semua Bidang. - Koordinasi QC antar Bidang tidak terjadwal"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA '- Kelengkapan Pekerjaan QC 80% < x <100% - Pekerjaan QC sudah dilakukan pada semua Bidang. - Koordinasi QC antar Bidang optimal. - Data base akivitas QC masih dalam aplikasi manual."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA '- Kelengkapan pekerjaan QC 100%. - Pekerjaan QC sudah dilakukan pada semua Bidang. - Koordinasi antar bidang\/ unit optimal & terjadual. - Data base sudah ada di SIT 35% < x < 60% updated."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Kelengkapan pekerjaan startup dan sinkron 100%. - SOP\/ IK 100% tersedia & Review up-date. - Pekerjaan QC sudah dilakukan pada semua Bidang. - Koordinasi antar bidang\/ unit setiap hari & terjadual. - Data base sudah ada di SIT 100% updated."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1.Periode Start-Up & Sinkron.",
+                        "weight": 0.03,
+                        "description": "Tersedianya kelengkapan start-up dan sinkron yang melIputI: Tim start-up dan sInkron. SOP\/ IK start-up. Referensi standard operation book equipment. Pelaksanaan pekerjaan start-up dan sInkron. Mekanisme koordinasi antar bidang dan unit. Hasil pekerjaan start-up dan syncrone sesuai dengan durasi waktu yang telah ditetapkan dalam PPA Terntegrasi : Operation Mgt Note : tidak digunakan untuk Pembangkit Hidro\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Kelengkapan pelaksanaan start-up dan sinkron <35%(tidak lengkap). Koordinasi tidak optimal. Pelaksanaan start-up dan syncrone gagal dilakukan akibat kendala dan memerlukan perbaikan lebih dari 1 hari"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Cheklist kesiapan dan Kelengkapan IK\/SOP start-up dan sinkron 35% < x < 60%. Koordinasi antar bidang\/ unit optimal. Data base masih dalam aplikasi manual. Pelaksanaan start-up dan syncrone gagal dilakukan akibat kendala dan memerlukan penundaan lebih dari 50% dari target waktu dalam PPA"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Cheklist kesiapan dan Kelengkapan IK\/SOP start-up & sinkron 60% < x < 80% Koordinasi antar bidang\/ unit optimal & terjadual. Data base masih dalam aplikasi manual updated. Pelaksanaan start-up dan syncrone gagal dilakukan akibat kendala dan memerlukan penundaan lebih dari 25% dari target waktu dalam PPA"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Cheklist kesiapan dan Kelengkapan IK\/SOP start-up & sinkron 100%. Koordinasi antar bidang\/ unit optimal & terjadual. Data base sudah ada di Web MO 60% < x < 80% updated. Pelaksanaan start-up dan syncrone sesuai dengan waktu yang telah ditetapkan PPA"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Cheklist kesiapan dan Kelengkapan IK\/SOP start-up dan sinkron 100%. Koordinasi antar bidang\/ unit optimal & terjadual Data base sudah ada di Web MO 100% updated. Pelaksanaan start-up dan syncrone lebih cepat dari waktu yang telah ditetapkan PPA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WO Feed Back",
+                "sub_areas": [
+                    {
+                        "name": "Informasi dan dokumentasi WO Closed",
+                        "weight": 0.03,
+                        "description": "WO yang dimaksud disini adalah WO Type OH dan WO Type lain dalam pengendalian Rendal MO. Informasi feedback terdiri dari: failure mode & cause, tindakan korektif yang dilakukan, hasil test, pemakaian aktual material, manhour dan resource lain, dll. Planner mendokumentasikan informasi feedback dalam Ellipse\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Job Card dikembalikan ke Planner <100% setelah pekerjaan selesai tanpa dilengkapi dengan feed back"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Job Card dikembalikan ke Planner 100% setelah pekerjaan selesai informasi feed back yang minimum atau tidak lengkap 35% < x < 60% dan di entry ke SIT"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Job Card dikembalikan ke planner 100% setelah pekerjaan selesai, sudah terdapat informasi tindakan korektif \/ perbaiikan yang dilakukan, hasil test, pemakaian material, manhour dan resource lain, dimasukkan kedalam SIT \/maximo \/ellipse 60% < x < 80%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Job Card dikembalikan ke planner 100% setelah pekerjaan selesai, sudah terdapat informasi tindakan korektif \/ perbaiikan yang dilakukan, hasil test, pemakaian material, manhour dan resource lain, dimasukkan kedalam SIT \/maximo \/ellipse 100% WO Feed Back sudah dijadikan Eviden Rencana tindak lanjut OH Berikutnya."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Job Card dikembalikan ke planner 100% setelah pekerjaan selesai, sudah terdapat informasi tindakan korektif \/ perbaiikan yang dilakukan, hasil test, pemakaian material, manhour dan resource lain, dimasukkan kedalam SIT \/maximo \/ellipse 100% WO Feed Back sudah dijadikan Eviden Rencana tindak lanjut OH Berikutnya. Rendal MO menggunakan data-data feed back WO untuk melakukan analisa pareto dll, dalam rangka program peningkatan kinerja unit selanjutnya digunakan sebagai bahan untuk membuat job plan dan job execution"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pasca Pekerjaan OH (Post Outage)",
+                "sub_areas": [
+                    {
+                        "name": "Verifikasi dan ketepatan waktu pembebanan biaya OH",
+                        "weight": 0.03,
+                        "description": "Kesesuaian pembebanan biaya OH sesuai dengan klasifikasi yang telah direncanakan dan ketepatan waktu pembebaban biaya OH\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Finalisasi proses keuangan dan verifikasi kesesuaian pembebanan biaya OH dengan scope pekerjaan yang sudah disepakati di awal dan temuan pekerjaan yang telah disetujui oleh UP (scope pekerjaan). Pembebanan biaya tidak sesuai 100% ."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Finalisasi proses keuangan dan verifikasi kesesuaian pembebanan biaya OH dengan scope pekerjaan yang sudah disepakati di awal dan temuan pekerjaan yang telah disetujui oleh UP (scope pekerjaan). Pembebanan biaya 100% sesuai dan selesai maksimal 25 hari untuk UPHAR dan Hydro dan 40 hari untuk UP"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Finalisasi proses keuangan dan verifikasi kesesuaian pembebanan biaya OH dengan scope pekerjaan yang sudah disepakati di awal dan temuan pekerjaan yang telah disetujui oleh UP (scope pekerjaan). Pembebanan biaya 100% sesuai dan selesai maksimal 20 hari untuk UPHAR dan Hydro dan 35 hari untuk UP"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Finalisasi proses keuangan dan verifikasi kesesuaian pembebanan biaya OH dengan scope pekerjaan yang sudah disepakati di awal dan temuan pekerjaan yang telah disetujui oleh UP (scope dan maintenance type). Pembebanan biaya 100% sesuai dan selesai maksimal 20 hari untuk UPHAR dan Hydro dan 35 hari untuk UP"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Finalisasi proses keuangan dan verifikasi kesesuaian pembebanan biaya OH dengan scope pekerjaan yang sudah disepakati di awal dan temuan pekerjaan yang telah disetujui oleh UP (scope, maintenance type dan equipment). Pembebanan biaya 100% sesuai dan selesai maksimal 15 hari untuk UPHAR dan Hydro dan 30 Hari untuk UP"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rencana Tindak Lanjut OH Berikutnya.",
+                        "weight": 0.03,
+                        "description": "Penyampaian dan pembahasan rencana tindak lanjut dari laporan, evaluasi dan rekomendasi hasil pelaksanaan OH yang mencakup : Rencana tindak lanjut untuk OH berikutnya( program continuous improvement). Rencana tindak lanjut kendala-kendala dalam perencanaan Peserta : OME dan UPHAR\/Pelaksana Project\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Program rencana tindak lanjut untuk OH berikutnya sudah dibuat tanpa melibatkan bidang OME"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Program rencana tindak lanjut untuk OH berikutnya sudah dibuat, namun belum detail. Data base masih dalam aplikasi manual. RTL dibuat \u226549 hari setelah syncrone"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Program rencana tindak lanjut untuk OH berikutnya sudah dibuat secara detail.Data base sudah ada di Web MO 35% < x < 60% updated. RTL dibuat 42\u2264x<49 hari setelah syncrone"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Program rencana tindak lanjut untuk OH berikutnya sudah dibuat secara detail. Data base sudah ada di Web MO 60% < x < 80% updated. RTL dibuat 35\u2264x<42 hari setelah syncrone"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PJB, UBJOM JAWA & UBJOM LUAR JAWA Program rencana tindak lanjut untuk OH berikutnya dibuat secara detail. Data base sudah ada di Web MO 100% updated RTL dibuat secara detail < 28 hari setelah syncrone"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lesson Learned Pekerjaan OH",
+                        "weight": 0.03,
+                        "description": "yaitu membuat review pasca OH pada setiap sistem yang dikerjakan, mencatat lesson learnt, evaluasi efektivitas OH (waktu, biaya, resource) sebagai feedback untuk OH berikutnya dibndingkan dengan perencanaan\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Belum dilakukan lesson learned pasca OH"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Lesson learned, review pasca OH pada setiap sistem, dan analisa evaluasi efektivitas OH (waktu, biaya, resource) sudah didiskusikan, tetapi tidak didokumentasikan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Lesson learned, review pasca OH pada setiap sistem, dan analisa evaluasi efektivitas OH (waktu, biaya, resource) sudah didiskusikan, dan sudah didokumentasikan dengan baik, tetapi tidak dijadikan dasar perencanaan outage selanjutnya"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Lesson learned, review pasca OH pada setiap sistem, dan analisa evaluasi efektivitas OH (waktu, biaya, resource) sudah didiskusikan, dan sudah didokumentasikan dengan baik, dimasukkan dalam Enterprise Asset Management tetapi tidak dijadikan dasar perencanaan outage selanjutnya"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Lesson learned, review pasca OH pada setiap sistem, dan analisa evaluasi efektivitas OH (waktu, biaya, resource) sudah didiskusikan, dan sudah didokumentasikan dengan baik, dimasukkan dalam Enterprise Asset Management tetapi dan sudah dijadikan dasar perencanaan outage selanjutnya"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator - Lingkungan",
+        "weight": 0.13,
+        "areas": [
+            {
+                "name": "Pre-Outage",
+                "sub_areas": [
+                    {
+                        "name": "Work Scope Ratio",
+                        "weight": 0.14,
+                        "description": "Rasio antara task WO yang telah terbit dibandingkan dengan jumlah kebutuhan task.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Work Scope Ratio 0 - 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "70 \u2264 Work Scope Ratio < 80%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80 \u2264 Work Scope Ratio < 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90 \u2264 Work Scope Ratio < 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Work Scope Ratio = 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Work Scope Stability",
+                        "weight": 0.14,
+                        "description": "Rasio antara scope tambahan awal pada R3 dan sebelumnya dibandingkan dengan Scope tambahan Total. Scope Tambahan sampai dengan R3\/Scope tambahan sampai dengan P3.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Work Scope Stability 0 - 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "70 \u2264 Work Scope Stability < 80%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80 \u2264 Work Scope Stability < 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90 \u2264 Work Scope Stability < 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Work Scope Stability = 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rasio Kesiapan Material\/Spare Part",
+                        "weight": 0.14,
+                        "description": "Rasio antara material yang tersedia saat P3 dibandingkan dengan jumlah kebutuhan material total\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Kesiapan Material 0 - 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "70 \u2264 Kesiapan Material < 80%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80 \u2264 Kesiapan Material < 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90 \u2264 Kesiapan Material < 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kesiapan Material = 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rasio Kesiapan Jasa Terkontrak",
+                        "weight": 0.14,
+                        "description": "Rasio antara jasa terkontrak P3 dibandingkan dengan jumlah kebutuhan jasa total\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Kesiapan Jasa Terkontrak 0 - 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "70 \u2264 Kesiapan Jasa Terkontrak < 80%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80 \u2264 Kesiapan Jasa Terkontrak < 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90 \u2264 Kesiapan Jasa Terkontrak < 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kesiapan Jasa Terkontrak = 100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Outage Execution",
+                "sub_areas": [
+                    {
+                        "name": "Prosentase WO Temuan saat OH",
+                        "weight": 0.14,
+                        "description": "Yaitu jumlah WO yang muncul pada saat fase eksekusi OH diluar pekerjaan yang telah disepakati pada meeting P3. % Jumlah WO temuan pada saat fase eksekusi dibandingkan semua WO OH\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Presentase Jumlah WO temuan lebih dari 20% dibandingkan dengan total WO pada fase perencanaan P3."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Presentase Jumlah WO temuan antara 15%-20% dibandingkan dengan total WO pada fase perencanaan P3."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Presentase Jumlah WO temuan antara 10%-15% dibandingkan dengan total WO pada fase perencanaan P3."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Presentase Jumlah WO temuan antara 5%-10% dibandingkan dengan total WO pada fase perencanaan P3."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Presentase Jumlah WO temuan tidak lebih dari 5% dibandingkan dengan total WO pada fase perencanaan P3."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rasio Permit",
+                        "weight": 0.14,
+                        "description": "Perbandingan antara permit yang terbit dibandingkan dengan jumlah task yang membutuhkan permit\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Rasio Permitt 0 - 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "70 \u2264 Rasio Permitt < 80%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80 \u2264 Rasio Permitt < 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90 \u2264 Rasio Permitt < 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Rasio Permitt = 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ketepatan waktu critical task",
+                        "weight": 0.14,
+                        "description": "Rasio antara jumlah critical task yang tepat waktu dibandingkan dengan total critical task\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Timeliness of critical task 0 - 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "70 \u2264 Timeliness of critical task < 80%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80 \u2264 Timeliness of critical task < 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90 \u2264 Timeliness of critical task < 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Timeliness of critical task = 100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

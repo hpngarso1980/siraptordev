@@ -1,0 +1,29 @@
+// Variable overrides
+
+$color-green:             #2D9D5B;
+$color-green-dark-25:       darken($color-green, 25%);
+$color-green-light-25:      lighten($color-green, 25%);
+$color-green-light-50:      lighten($color-green, 50%);
+
+$color-gray:                #DADADA;
+$color-gray-dark-25:        darken($color-gray, 25%);
+$color-gray-light-5:        lighten($color-gray, 5%);
+$color-gray-light-10:       lighten($color-gray, 10%);
+$color-gray-light-12:       lighten($color-gray, 12%);
+
+$color-dark:                #444444;
+$color-dark-dark-10:        darken($color-dark, 10%);
+$color-dark-light-10:       lighten($color-dark, 10%);
+$color-dark-light-25:       lighten($color-dark, 25%);
+
+$success-dark:              $color-green-dark-25;
+$success:                   $color-green;
+$success-50:                $color-green-light-25;
+$success-25:                $color-green-light-50;
+
+$line-color:                $color-gray-light-10;
+$table-hover-bg-color:      $color-gray-light-12;
+
+$text-color:                $color-dark;
+$table-header-color:        $color-dark-dark-10;
+$link-color:                $color-green;

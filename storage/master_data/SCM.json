@@ -1,0 +1,497 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "PERENCANA PENGADAAN",
+                "sub_areas": [
+                    {
+                        "name": "Catalogue",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Data base catalog ada terdokumentasi dan komputerized serta terintegrasi dalam SIT (Ellipse\/Maximo). namun belum mengikuti standarisasi penulisan Dibuktikan dengan beberapa kondisi berikut: 1. Data tarikan katalog dari SIT (Ellipse\/Maximo) * Tarikan 2. Data Katalog minimal terdiri dari Item Name dan dua deskripsi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "1. Katalog menjadi acuan untuk pemenuhan terhadap kebutuhan dengan membandingkan jumlah barang stock dengan barang non stock. Pemenuhan terhadap kebutuhan \u2264 60% 2. Standar penulisan spesifikasi belum lengkap \u2264 80% dari total katalog * Tarikan 3. Masih ada duplikasi dalam data katalog. Duplikasi \u2264 10% dari total katalog * Tarikan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Katalog menjadi acuan untuk pemenuhan terhadap kebutuhan dengan membandingkan jumlah barang stock dengan barang non stock. Pemenuhan terhadap kebutuhan \u2264 80% 2. Standar penulisan spesifikasi belum lengkap \u2264 90 % dari total katalog * Tarikan 3. Masih ada duplikasi dalam data katalog. Duplikasi \u2264 5% dari total katalog * Tarikan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Katalog menjadi acuan untuk pemenuhan terhadap kebutuhan dengan membandingkan jumlah barang stock dengan barang non stock. Pemenuhan terhadap kebutuhan \u2264 95% 2. Standar penulisan spesifikasi belum lengkap. Standar Penulisan Spesifikasi \u2264100% dari total katalog * Tarikan 3. Masih ada duplikasi dalam data katalog. Duplikasi 0% dari total katalog * Tarikan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Database katalog dapat digunakan untuk pemenuhan terhadap kebutuhan . Pemenuhan terhadap kebutuhan > 100% 2. Standar penulisan spesifikasi lengkap 100% dari total katalog * Tarikan 3. Tidak ada duplikasi dalam data katalog. 4. Improvement dalam penyempurnaan katalog (baru\/lama) yang didukung dengan referensi best practice"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Manajemen Pengelolaan Usulan Pengadaan (RO) dan Service Level Material",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Setiap permintaan pengadaan barang\/jasa sudah dibuatkan Usulan Pengadaan\/Recommended Order (RO) 2. Masih ada RO yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap. Usulan yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap \u2264 10 % * Buku ekspedisi * Monitoring antarbidang * Notulen hasil Aanwijzing 3. Laporan Bulanan (\u2265 6 )dikirimkan paling lambat tanggal 10"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Setiap permintaan pengadaan barang\/jasa sudah dibuatkan Usulan Pengadaan\/Recommended Order (RO) . Dibuktikan dengan: * Rekap Usulan pengadaan * Monitoring 2. Masih ada RO yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap. Usulan yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap \u2264 5 %, * Buku ekspedisi * Monitoring antarbidang * Notulen hasil Aanwijzing 3. Laporan Bulanan (\u2265 6 )dikirimkan paling lambat tanggal 8"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Setiap permintaan pengadaan barang\/jasa sudah dibuatkan Usulan Pengadaan\/Recommended Order (RO). Dibuktikan dengan: 1. Usulan Pengadaan terintegrasi dalam SIT (Ellipse, Maximo dan AMP) * Screenshot 2. Monitoring computerized * Rekap Usulan pengadaan * Monitoring 3. Masih ada RO yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap. Usulan yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap \u2264 2 %, * Buku ekspedisi * Monitoring antarbidang * Notulen hasil Aanwijzing 4. Laporan Bulanan (\u2265 6 )dikirimkan paling lambat tanggal 7"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Setiap permintaan pengadaan barang\/jasa sudah dibuatkan Usulan Pengadaan\/Recommended Order (RO). Dibuktikan dengan: 1. Tidak ada RO yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap * Buku ekspedisi * Monitoring antarbidang * Notulen hasil Aanwijzing 2. Monitoring terintegrasi dan online dalam SIT * Screenshot (Ellipse, Maximo dan AMP) 3. Monitoring dapat dijadikan acuan untuk melakukan pengendalian usulan pengadaan * Rekap Usulan pengadaan * Monitoring 4. Laporan Bulanan (\u2265 6 )dikirimkan paling lambat tanggal 5"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Setiap permintaan pengadaan barang\/jasa sudah dibuatkan Usulan Pengadaan\/Recommended Order (RO) 2. Tidak ada RO yg dikembalikan karena spesifikasi atau TOR\/KAK kurang lengkap 3. Monitoring terintegrasi dan online dalam SIT 4.Monitoring dapat dijadikan acuan untuk melakukan pengendalian usulan pengadaan"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Implementasi Kebijakan Persediaan",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Buku Inventory Policy"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Buku Inventory Policy yang berisi data : - Akurasi setting ROP\/ROQ \u2264 85% - ABC Analisis 2. Implementasi terhadap rekomendasi \u226485% 3. Konsistensi terhadap Implementasi Inventory Policy \u226485% 4. Inventory policy dikirimkan ke kantor pusat pada bulan pertama setiap semester via OA (Januari dan Juli)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Buku Inventory Policy yang berisi data : - Akurasi setting ROP\/ROQ \u2264 95% - ABC Analisis 2. Implementasi terhadap rekomendasi \u226495% 3. Konsistensi terhadap Implementasi Inventory Policy \u2264 95% 4. Review terhadap implementasi setiap 6 bulan sekali * Laporan review"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Buku Inventory Policy yang berisi data : - Akurasi setting ROP\/ROQ \u2264 98% - ABC Analisis 2. Implementasi terhadap rekomendasi \u2264 98% 3. Konsistensi terhadap Implementasi Inventory Policy \u2264 98%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Buku Inventory Policy yang berisi data : - Akurasi setting ROP\/ROQ 100% - ABC Analisis 2. Implementasi terhadap rekomendasi sudah 100% 3. Konsistensi terhadap Implementasi Inventory Policy sudah 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Persediaan dan Perputaran Material",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Kegiatan monitoring dan pengendalian persediaan gudang sudah dilaksanakan untuk memenuhi permintaan insindentil * Monitoring peta persediaan 2. Pencapaian Nilai Inventory Akhir Tahun \u226475% terhadap target * Laporan Bulanan 3. Mengirimkan rencana bulanan, semester dan tahunan pencapaian nilai ITO minggu ke 4 bulan Januari"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Monitoring dan pengendalian persediaan gudang sudah ada namun masih belum menyeluruh * Monitoring peta persediaan 2. Pencapaian Nilai Inventory Akhir Tahun \u226485% terhadap target 3. Mengirimkan rencana bulanan, semester dan tahunan pencapaian nilai ITO minggu ke 3 bulan Januari"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Monitoring dan pengendalian persediaan gudang sudah dilaksanakan secara rutin setiap 3 (tiga) bulan data terdokumen dan tersaji dengan baik, mudah diakses, lengkap dengan alokasi dan jadwal pemakaian, dikomunikasikan ke pihak terkait 2. Pencapaian nilai Inventory Akhir Tahun \u226495% terhadap target 3. Mengirimkan rencana bulanan, semester dan tahunan pencapaian nilai ITO minggu ke 2 bulan Januari"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Monitoring dan pengendalian persediaan gudang sudah dilaksanakan secara rutin setiap 1 (satu) bulan, data terdokumen dan tersaji dengan baik, mudah diakses, lengkap dengan alokasi dan jadwal pemakaian, ada analisa dan evaluasi, dikomunikasikan ke bidang terkait, ada action plant terhadap hasil analisa dan eveluasi. 2. Pencapaian Nilai Inventory Akhir Tahun \u2264100% terhadap target 3. Mengirimkan rencana bulanan, semester dan tahunan pencapaian nilai ITO minggu ke 1 bulan Januari"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Monitoring dan pengendalian persediaan gudang sudah dilaksanakan secara rutin setiap 1 (satu) bulan, data terdokumen dan tersaji dengan baik, mudah diakses, lengkap dengan alokasi dan jadwal pemakaian, ada analisa dan evaluasi, dikomunikasikan ke bidang terkait, ada action plan dan tindak lanjut terhadap hasil analisa dan eveluasi, ada improvement * Peta rencana pemakaian material 2. Pencapaian Nilai Inventory Akhir Tahun terhadap target 3. Deviasi rencana dan realisasi pencapaian ITO bulanan \u2264 50% 4. Mengirimkan evaluasi perencanaan nilai ITO bulanan apabila ada potensi tidak tercapainya target ITO tahunan (tanpa merubah nilai target tahunan)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "PELAKSANA PENGADAAN",
+                "sub_areas": [
+                    {
+                        "name": "Manajemen Supplier",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "- Database suplier dalam bentuk manual. - Data Penilaian Supplier sudah ada * Form Penilaian Kinerja Penyedia per pengadaan (10 form penilaian)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Sudah mengaplikasikan Supplier Master * Screenshoot 2. Penilaian Kinerja Supplier telah dilakukan Manual * Scan hasil penilaian * Rekap hasil penilaian 3.Survey Tingkat Kepuasan Supplier terhadap pelayanan pengadaan sudah baik ( x \u2264 85% ) 4.Raport Penilaian Supplier telah dibuat dan disampaikan kepada Supplier * Scan 10 supplier teratas dan 10 Supplier terbawah"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Penilaian Kinerja Supplier telah dilakukan dan di uplod dalam Supplier Master 2.Survey Tingkat Kepuasan Supplier terhadap pelayanan pengadaan sudah baik ( 85% < x \u2264 90% ) * Scan hasil survey * Laporan hasil gathering 3. Supplier Gathering dilaksanakan minimal 1 (satu) tahun sekali untuk menjalin sinergi kemitraan yang baik 4. Evaluasi kinerja dan monitoring performance terprogram secara periodik 6 (enam) bulan. * Scan hasil evaluasi * Rekap hasil evaluasi"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Pembinaan terhadap Supplier yang mempunyai reputasi kurang baik telah dilaksanakan * dokumentasi pembinaan supplier ( Surat teguran, Foto, daftar hadir bila diundang) 2. Survey Tingkat Kepuasan Supplier terhadap pelayanan pengadaan sudah baik ( 90 < x < 100% ) * Scan hasil survey * Laporan hasil gathering * Rekap hasil survey"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Survey Tingkat Kepuasan Supplier terhadap pelayanan pengadaan sudah baik ( 100% ) * Scan hasil survey * Laporan hasil gathering * Rekap hasil survey 2. Improvement"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitoring, Pengendalian dan Purchase Effectiveness.",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Monitoring proses pengadaan sudah dilakukan dengan manual dan masih insidentil 2. Realisasi efisiensi BPP SCM \u226490% terhadap target efisiensi BPP SCM"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Monitoring proses pengadaan sudah dilakukan secara komputerized dan update 2. Checklist pengadaan telah dibuat (x < 75%) * Rekap pengadaan yang telah diproses * Scan checklist tiap bulan 5 PO dengan nomer berurutan 3. Media informasi terkait proses pengadaan melaui papan pengumuman * Foto 4. Realisasi efisiensi BPP SCM 90 %< x \u2264 95%terhadap target efisiensi BPP SCM"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Monitoring proses pengadaan sudah dilakukan secara komputerized dan terintegrasi dalam SIT 2. Pengendalian terhadap permasalahan dalam proses pengadaan (surat teguran, rapat mingguan, dsb), 3. Checklist pengadaan telah dibuat (75% < x < 100%) * Rekap pengadaan yang telah diproses * Scan checklist tiap bulan 5 PO dengan nomer berurutan 4. Media informasi terkait proses pengadaan melalui Web Perusahaan * Screenshot 5. Realisasi efisiensi BPP SCM 95%< x <100% terhadap target efisiensi BPP SCM"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Checklist pengadaan telah dibuat 100% * Rekap pengadaan yang telah diproses * Scan checklist tiap bulan 5 PO dengan nomer berurutan 2. Realisasi efisiensi BPP SCM =100% terhadap target efisiensi BPP SCM"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Checklist pengadaan telah dibuat 100% * Rekap pengadaan yang telah diproses * Scan checklist tiap bulan 5 PO dengan nomer berurutan 2. Pencapaian realisasi efisiensi BPP SCM x >100 % terhadap target efisiensi BPP SCM"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Implementasi Sistem Kontrak Payung",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Rekomendasi item barang\/material kontrak payung sesuai inventory policy belum ada, 2. Kontrak payung dilaksanakan secara insidentil untuk memenuhi kebutuhan * Scan kontrak payung yang dilaksanakan untuk memenuhi kebutuhan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Rekomendasi item barang\/material kontrak payung sesuai inventory policy sudah dibuat dan diimplementasikan * Rekapan hasil Kontrak Payung * Scan Halaman Judul Kontrak Payung 2. Kontrak payung sesuai inventory policy sudah dibuat dan diimplementasikan sesuai rekomendasi \u2264 30% * Rekapan hasil Kontrak Payung * Efektifitas Implementasi Kontrak Payung * Scan Halaman Judul Kontrak Payung * Scan Efektifitas Implementasi Kontrak Payung"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Rekomendasi item barang\/material kontrak payung sesuai inventory policy diimplementasikan (30% < x \u2264 60%) * Rekapan hasil Kontrak Payung * Efektifitas Implementasi Kontrak Payung * Scan Halaman Judul Kontrak Payung * Scan Efektifitas Implementasi Kontrak Payung"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Rekomendasi item barang\/material kontrak payung sesuai inventory policy diimplementasikan (60% < x \u2264 90%) * Rekapan hasil Kontrak Payung * Efektifitas Implementasi Kontrak Payung * Scan Halaman Judul Kontrak Payung * Scan Efektifitas Implementasi Kontrak Payung"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Implementasi sesuai rekomendasi (90% < x \u2264 100%) * Rekapan hasil Kontrak Payung * Efektifitas Implementasi Kontrak Payung * Scan Halaman Judul Kontrak Payung * Scan Efektifitas Implementasi Kontrak Payung 2. Continous improvement"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "GUDANG",
+                "sub_areas": [
+                    {
+                        "name": "Pengelolaan Penerimaan dan Pengeluaran Barang",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Pemilahan \/pemisahan secara fisik terhadap material\/barang sedang dalam proses transaksi masih insidentil 2. Proses transaksi penerimaan dan pengeluaran barang gudang secara insidentil."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Monitoring dan scheduling rencana kedatangan barang di gudang sudah dilaksanakan secara terprogram dan periodik. Dapat dibuktikan dengan: Surat teguran, Notulen rapat koordinasi lintas bidang 2. Fungsi impor dan ekspor area sudah ada * Foto 3. Proses transaksi penerimaan dan pengeluaran barang gudang secara komputerized * Screenshot"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Ada evaluasi terhadap monitoring dan scheduling rencana kedatangan barang. Dapat dibuktikan dengan: Surat teguran, Notulen rapat koordinasi lintas bidang. 2. Kerapian dan estetika 3. Fungsi impor dan ekspor area sudah baik 4. Proses transaksi penerimaan dan pengeluaran barang gudang secara on line dan terintegrasi dalam SIT"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Ada Tindak lanjut terhadap evaluasi atas monitoring dan scheduling rencana kedatangan barang. Dapat dibuktikan dengan: Surat teguran, Notulen rapat koordinasi lintas bidang. 2. Kerapian dan estetika 3. Fungsi impor dan ekspor area sudah sangat baik 4. Proses transaksi penerimaan dan pengeluaran barang gudang secara on line dan terintegrasi dalam SIT Ellipse."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Ada inovasi terhadap seluruh gudang yang terdapat di Unit secara sistem, kerapian dan estetika. Dibuktikan dengan - Keseragaman dalam pengelolaan seluruh gudang yang ada di Unit * Foto - Continuous improvement"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Administrasi & Pengelolaan Barang",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Proses pengelolaan penyimpanan barang\/material di gudang dilaksanakan tetapi belum sesuai dengan prosedur yang berlaku 2. Penanganan, pengelolaan, monitoring dan pengendalian terhadap material dead stock, obsolete stock dan material bekas pakai belum dilaksanakan 3. Progres Implementasi Prosedur Tata Laksana Pergudangan \u2264 70% 4. Fungsi perawatan material belum dilaksanakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Proses pengelolaan penyimpanan barang\/material di gudang yang meliputi metode penamaan, metode pengkodean, metode pelabelan, metode tata ruang, metode penempatan, metode penanganan sudah dilaksanakan tetapi belum sesuai standart \/ belum baku, 2.Penanganan, pengelolaan, monitoring dan pengendalian terhadap material dead stock, obsolete stock dan material bekas pakai sudah dilaksanakan tetapi masih bersifat insidentil. * Foto * Rekap material bekas pakai dalam bentuk manual 3. Progres Implementasi Prosedur Tata Laksana Pergudangan ( x \u2264 70% ), 4. Fungsi perawatan sudah berjalan namun secara insidentil"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Proses pengelolaan penyimpanan barang\/material di gudang yang meliputi metode penamaan, metode pengkodean, metode pelabelan, metode tata ruang, metode penempatan, metode penanganan sudah dilaksanakan dan sudah standart \/ sudah baku 2. Penanganan, pengelolaan, monitoring dan pengendalian terhadap material dead stock, obsolete stock dan material bekas pakai sudah dilaksanakan secara sistimatis dan terprogram, 3. Progres Implementasi Prosedur Tata Laksana Pergudangan ( x \u2264 70% ) 4. Fungsi perawatan sudah berjalan sesuai rencana"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Improvement terhadap fasilitas gudang 2. Progres Implementasi Prosedur Tata Laksana Pergudangan (95 < x \u2264 100%)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Progres Implementasi Prosedur Tata Laksana Pergudangan serta Inovasi: - Administrasi - Pelayanan - Kebersihan - Perawatan - Tata Ruang"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Opname Persediaan (Opname Harian \/ Stock count dan Opname Tahunan )",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Pemeriksaan dan pengecekan secara harian terhadap kesesuaian antara jumlah material secara fisik dan catatan\/ sistem untuk material \/ barang yang ada transaksi belum dilaksanakan. Dapat dibuktikan dengan: * Rekap hasil stockcount (per bulan) dalam bentuk Excel dan scan contoh hasil stockcount tiap bulan 2. Pemeriksaan dan pengecekan secara tahunan terhadap kesesuaian antara jumlah material secara fisik dan catatan\/ sistem untuk material \/ barang yang ada transaksi sudah dilaksanakan namun belum sesuai dengan SK Tata Laksana Gudang"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Pemeriksaan dan pengecekan secara harian terhadap kesesuaian antara jumlah material secara fisik dan catatan\/ sistem untuk material \/ barang yang ada transaksi sudah dilaksanakan tetapi belum disiplin dan konsisten Dapat dibuktikan dengan: * Rekap hasil stockcount (per bulan) dalam bentuk Excel dan scan contoh hasil stockcount tiap bulan 2. Penelusuran penyebab selisih saat stock count belum dilakukan 3. Pemeriksaan dan pengecekan secara tahunan terhadap kesesuaian antara jumlah material secara fisik dan catatan\/ sistem untuk material \/ barang yang ada transaksi sudah dilaksanakan dan sudah sesuai dengan SK Tata Laksana Gudang * Scan BA Stock Opname 4. Membuat laporan hasil stock opname * Scan rekap laporan stock opname"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Pemeriksaan dan pengecekan secara harian terhadap kesesuaian antara jumlah material secara fisik dan catatan\/ sistem untuk material \/ barang yang ada transaksi sudah dilaksanakan secara disiplin dan konsisten 2. Penelusuran penyebab selisih sudah dilakukan dan langsung dilakukan koreksi 3. Rekomendasi terhadap hasil stock opname sudah dibuat."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tindak lanjut terhadap rekomendasi hasil stock opname. * Laporan hasil tindak lanjut rekomendasi stock opname Improvement Metode Pelaksanaan Schedule Laporan Pelaksanaan Hasil Stockopname"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Tidak ada selisih antara fisik dan sistem. Continous improvement."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "ITO (Inventory Turn Over)",
+                "sub_areas": [
+                    {
+                        "name": "ITO (Inventory Turn Over)",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "\u226480%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "\u226585%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "\u226595%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "\u2265100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. \u2265100% 2. Deviasi rencana dengan realisasi bulanan \u2264 50%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Service Level Material",
+                "sub_areas": [
+                    {
+                        "name": "Service Level Material",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "<80%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "80%-90%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "91%-95%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": ">95%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Purchase Effectiveness",
+                "sub_areas": [
+                    {
+                        "name": "Purchase Effectiveness",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "X \u2264 75%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "75% \u2264 X\u2264 85%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "85% \u2264 X\u2264 90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "90% \u2264 X\u2264 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Penurunan Inventory level persediaan tidak bergerak gudang > 2 TAHUN (deadstock)",
+                "sub_areas": [
+                    {
+                        "name": "Penurunan Inventory level persediaan tidak bergerak gudang > 2 TAHUN (deadstock)",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "<20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "\u226520%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "\u226540%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "\u226560%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "\u22642,5% dari persediaan"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

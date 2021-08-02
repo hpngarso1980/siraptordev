@@ -1,0 +1,503 @@
+[
+    {
+        "name": "Aspek BHP",
+        "weight": 0.25,
+        "areas": [
+            {
+                "name": "Memastikan kesiapan dana untuk pembayaran hutang",
+                "sub_areas": [
+                    {
+                        "name": "Persentase serapan rencana pembayaran",
+                        "weight": 0.17,
+                        "description": "Deskripsi :\nAKB (Arus Kas Bulanan) merupakan alat yang digunakan untuk memastikan bahwa dana tunai (limit) yang telah dipersiapkan oleh perusahaan terserap sesuai rencana, pengukuran yang dilakukan menggunakan laporan serapan AKB oleh unit-unit. Dengan adanya laporan serapan AKB diharapkan unit-unit dapat membuat rencana dengan presisi sehingga penggunaan dana effektif dan effisien.\nReferensi:\nPeraturan Direksi No. 051.P\/019\/DIR\/2019\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Dana rencana Limit dipakai 80%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Dana rencana Limit dipakai 85%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Dana rencana Limit dipakai 90%."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Dana rencana Limit dipakai 95%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Dana rencana Limit dipakai 100%."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Persentase serapan penggunaan kas kecil",
+                        "weight": 0.17,
+                        "description": "Deskripsi :\nCash card digunakan untuk membantu pengelolaan kas perusahaan yang dapat dilakukan dengan tarikan tunai di ATM\/Teller serta fitur lainnya sesuai dengan jenis cash card yang digunakan untuk meningkatkan efisiensi serta pengendalian dan pengelolaan keuangan yang sangat efektif.\nReferensi:\nPeraturan Direksi No. 051.P\/019\/DIR\/2019\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Pemakaian Cash Card di atas 100%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Pemakaian Cash Card sampai dengan 100%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pemakaian Cash Card sampai dengan 80%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Pemakaian Cash Card sampai dengan 65%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Pemakaian Cash Card sampai dengan 50%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hari pembayaran setelah berkas lengkap",
+                "sub_areas": [
+                    {
+                        "name": "Pemakaian aplikasi verifikasi online (VO)",
+                        "weight": 0.33,
+                        "description": "Deskripsi :\nAplikasi verifikasi online adalah aplikasi secara online yang digunakan untuk memproses transaksi keuangan sehingga diharapkan adanya informasi tahapan pembayaran yang sudah terjadi. Hal ini diharapkan dapat membantu keterbukaan informasi terhadap proses yang telah terjadi.\nReferensi:\nKeputusan Direksi No. 137.K\/020\/DIR\/2010\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Proses pembayaran dengan Aplikasi VO dengan durasi sebagai berikut:"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Proses pembayaran dengan Aplikasi VO dengan durasi sebagai berikut:"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Proses pembayaran dengan Aplikasi VO dengan durasi sebagai berikut:"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Proses pembayaran dengan Aplikasi VO dengan durasi sebagai berikut:"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Proses pembayaran dengan Aplikasi VO dengan durasi sebagai berikut:"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan pajak",
+                "sub_areas": [
+                    {
+                        "name": "Kelangkapan administrasi untuk mendukung kepatuhan terhadap regulasi pajak",
+                        "weight": 0.33,
+                        "description": "Deskripsi :\nDengan semakin kompleksnya perkembangan usaha dari perusahaan dan sering berubahnya regulasi pajak maka diperlukan adanya aplikasi untuk pengelolaan pajak, semua unit dapat menggunakan aplikasi ini sehingga tingkat kepatuhan terhadap regulasi lebih baik dan terkelola.\nReferensi:\n1. Nota Dinas D12547 Tahun 2017 tentang Tata Laksana Pemotongan, Pencatatan, dan Penyetoran WAPU\n2. Edaran No.002.K\/012\/DIR\/2019 tentang Kewenangan Verifikasi, Pembayaran, Penagihan, Pembukaan dan Realisasi L\/C serta Pelaporan Pajak di Lingkungan PT PJB\n3. Regulasi Pajak\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Saldo Hutang PPN WAPU di Ellipse sama dengan total SPT PPN WAPU (sebesar 80%)."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "1. Saldo Hutang PPN WAPU di Ellipse sama dengan total SPT PPN WAPU (sebesar 85%)."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Saldo Hutang PPN WAPU di Ellipse sama dengan total SPT PPN WAPU (sebesar 90%)."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Saldo Hutang PPN WAPU di Ellipse sama dengan total SPT PPN WAPU (sebesar 95%)."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Saldo Hutang PPN WAPU di Ellipse sama dengan total SPT PPN WAPU (sebesar 100%)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aspek Anggaran",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Penyusunan RKAP \/ RKAU",
+                "sub_areas": [
+                    {
+                        "name": "Perencanaan PRK (Program Rencana Kerja)",
+                        "weight": 0.2,
+                        "description": "Deskripsi :\nDalam menetapkan Program Rencana Kerja (PRK) yang diusulkan dalam RKAU,atas Program - program yang diusulkan telah dilakukan analisa dan evaluasi diantaranya:\n1.\u00a0 Relevansi program yang diusulkan terhadap RJPP\/ RJPU sehingga program yang disusun mendukung kinerja jangka panjang korporat\n2.\u00a0 Program - Program Project, Investasi dan Overhaul disusun berdasarkan skala prioritas yang merefleksikan rencana pencapaian kinerja, biaya yang kompetitif dan resiko bisnis yang optimum\n3.\u00a0 Analisa Kelayakan program dari sisi operasi, finansial, resiko dan bila diperlukan dari sisi legal\n4.\u00a0 Rencana pelaksanaan program yang tergambar dalam TOR 5.\u00a0 Perencanaan kebutuhan anggaran dibuat atas referensi yang cukup valid.\nKondisi ini dapat dibuktikan dengan: 1. RAB dan Referensi harga 2. Dokumen DMR dan TOR dan Nota dinas pengiriman DMR dan TOR ke Kantor Pusat\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Pengumpulan DMR dan TOR 100% lengkap untuk program EJ dan AI pada bulan Januari (setelah penetapan RUPS) untuk RKAP 1 tahun kedepan. (Status di Iplan : Approve GM )"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "2. Pengumpulan DMR dan TOR 100% lengkap untuk program EJ dan AI pada bulan Oktober sebelum RKAP tahun berjalan. (Status di Iplan : Approve GM )"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "3. Pengumpulan DMR dan TOR 100% lengkap untuk program EJ dan AI pada bulan Juni sebelum RKAP tahun berjalan. (Status di Iplan : Approve GM )"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "5. Pengumpulan DMR dan TOR 100% lengkap untuk program EJ dan AI pada bulan April (Pembahasan Teknis) sebelum RKAP tahun berjalan . (Status di Iplan : Approve GM )"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "7. Usulan Anggaran dilengkapi referensi informasi harga yang valid (Ellipse, Cost Master, Penawaran pihak ke 3, Referensi Internet) 100 %. (Status di Iplan : Approve GM )"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Proses Penyusunan RKAU",
+                        "weight": 0.2,
+                        "description": "Dalam menyusun perencanaan RKAU, maka perlu :\n1.\u00a0\u00a0 Alignment dari rencana penyusunan RKAP Korporat dengan RKAU di tingkay unit dengan ditetapkan jadwal beserta tahapan penyusunan RKAU yang menjadi bagian terintegrasi dengan Tahapan penyusunan RKAP.\n2.\u00a0\u00a0 Adanya keterlibatan user di berbagai bidang serta manajemen sesuai tahapan penyusunan RKAU untuk menjamin bahwa RKAU yang diusulkan telah direncanakan secara terintegrasi dan merefleksikan kebutuhan anggaran yang cukup untuk melaksanakan program kerja sesuai dengan target kinerja yang diharapkan.\nKondisi ini dapat dibuktikan dengan: 1. RAB dan Referensi harga 2. Dokumen DMR dan TOR dan Nota dinas pengiriman DMR dan TOR ke Kantor Pusat 3. Dokumen usulan RKAU\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1.\u00a0 Terdapat jadwal penyusunan RKAP di unit mulai proses penyusunan sampai dengan pengiriman ke Kantor Pusat"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "4. Memenuhi level 1"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "7. Memenuhi level 2"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "9. Memenuhi level 3"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "11.Memenuhi Level 4 + konsisten selama minimal 2 tahun"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Monitoring dan Pengendalian RKAP",
+                "sub_areas": [
+                    {
+                        "name": "Monitoring Penyerapan Anggaran",
+                        "weight": 0.2,
+                        "description": "Memastikan program yang direncanakan dieksekusi sesuai dengan anggaran yang telah ditetapkan untuk menunjang pencapaian kinerja unit dan korporat.\nKondisi ini dapat dibuktikan dengan: Surat OA untuk pengiriman Form Monitoring Penyerapan AO dan AI beserta formnya monitoringnya\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Membuat laporan Monitoring Penyerapan Anggaran & PRK (AO), dikirimkan ke Kantor Pusat lebih dari tgl 15 setiap bulannya"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "3.\u00a0\u00a0 Membuat laporan Monitoring Penyerapan Anggaran & PRK (AI), dikirimkan ke Kantor Pusat tgl 5 setiap bulannya"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "5.\u00a0\u00a0 Membuat laporan Monitoring Penyerapan Anggaran & PRK (AI), dikirimkan ke Kantor Pusat sebelum tgl 5 setiap bulannya"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "7.\u00a0\u00a0 Membuat laporan Monitoring Penyerapan Anggaran & PRK (AI), dikirimkan ke Kantor Pusat sebelum tgl 5 setiap bulannya dan kelengkapan pengisian data terisi 100% sesuai standart form monitoring AI"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "9. Memenuhi Level 4 dan konsisten dalam 2 tahun"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "PENGENDALIAN RKAU AO",
+                        "weight": 0.2,
+                        "description": "Memastikan program - program operasi yang direncanakan dapat dieksekusi untuk mendukung target dan kinerja unit serta korporat.\nKondisi ini dapat dibuktikan dengan: 1. Surat OA untuk pengiriman Form Monitoring Penyerapan AO dan AI beserta formnya monitoringnya 2. Surat Permohonan dan Persetujuan Revisi berserta lampirannya\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Realisasai PRK (pemeliharaan dan administrasi) melebihi anggaran di atas 5% jumlah PRK"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "3. Realisasai PRK (pemeliharaan dan administrasi) melebihi anggaran di atas 2% jumlah PRK"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "5. Realisasai PRK (pemeliharaan dan administrasi) melebihi anggaran di atas 1% jumlah PRK"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "7. Realisasai PRK (pemeliharaan dan administrasi) secara kumulatif tidak ada yang melebihi anggaran"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "9. Realisasai PRK (pemeliharaan dan administrasi) secara kumulatif dan bulanan tidak ada yang melebihi anggaran"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "PENGENDALIAN RKAU AI",
+                        "weight": 0.2,
+                        "description": "Memastikan program - program investasi yang direncanakan dapat dieksekusi untuk mendukung target dan kinerja unit serta korporat.\nKondisi ini dapat dibuktikan dengan: 1. Surat OA untuk pengiriman Form Monitoring Penyerapan AO dan AI beserta formnya monitoringnya 2. Surat Permohonan dan Persetujuan Revisi berserta lampirannya\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1. Terdapat keterlambatan Realisasi disburse investasi dan program > 3 bulan."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "5. Terdapat keterlambatan Realisasi disburse investasi dan program < 3 bulan."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "9. Tidak ada program meluncur"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "13. Tidak ada program meluncur"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "17. Memenuhi level 4, dan konsisten dilaksanakan minimal dalam 2 tahun"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aspek Akuntansi",
+        "weight": 0.25,
+        "areas": [
+            {
+                "name": "Kepatuhan terhadap mekanisme pencatatan, pelaporan, dan pengelolaan dokumen",
+                "sub_areas": [
+                    {
+                        "name": "Kesesuaian pencatatan dengan dasar regulasi mengenai pencatatan yang dimiliki oleh perusahaan",
+                        "weight": 0.2,
+                        "description": "Deskripsi :\nDiperlukannya keyakinan bahwa pencatatan terhadap transaksi yang terjadi sesuai dengan regulasi yang dikeluarkan perusahaan. Cara yang digunakan adalah dengan melihat saldo normal General Ledger (GL) yang tersaji dalam Laporan Keuangan Unit PJB. Dimana diharapkan unit telah melaksanakan proses secara konsisten sesuai dengan regulasi yang berlaku. Diharapkan seluruh sdm di bidang keuangan memahami regulasi yang perlu dipatuhi saat proses pencatatan. Serta memahami keterkaitannya dengan proses bisnis perusahaan.\nReferensi: Teori Akuntansi\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Laporan Keuangan disajikan sesuai dengan Standar Format yang telah ditetapkan."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Terdapat 3 ketidaksesuaian penggunaan segmenatasi CoA (Chart of Accounts) dengan Expense Element (jenis pembebanan) dalam akhir tiap semester."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Terdapat 2 ketidaksesuaian penggunaan segmenatasi CoA (Chart of Accounts) dengan Expense Element (jenis pembebanan) dalam akhir tiap semester"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Terdapat 1 ketidaksesuaian penggunaan segmenatasi CoA (Chart of Accounts) dengan Expense Element (jenis pembebanan) dalam akhir tiap semester"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Terdapat 0 ketidaksesuaian penggunaan segmenatasi CoA (Chart of Accounts) dengan Expense Element (jenis pembebanan) dalam akhir tiap semester"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengelolaan dokumen keuangan",
+                        "weight": 0.2,
+                        "description": "Deskripsi :\nDokumen merupakan sesuatu yang penting bagi akuntansi karena merupakan perwujudan dasar pencatatan transaksi keuangan maka diharapkan pengelolaannya dengan hati-hati. Dimana tempatnya bisa diketahui dengan mudah, terdapat skenario apabila ada disaster dan pengaturannya sesuai kaidah 5S. Untuk kemudahan lebih lanjut diharapkan adanya dokumen dalam bentuk soft file. Dimana mekanimse pengelolaan ini dilakukan secara konsisten.\nReferensi:\nPSAK\nSUB AREA\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "Adanya tempat penyimpanan dokumen."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "1.\u00a0\u00a0 Adanya tempat penyimpanan dokumen. Dapat dibuktikan dengan: Dokumen di FTP"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1.\u00a0\u00a0 Adanya tempat penyimpanan dokumen"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1.\u00a0\u00a0 Adanya tempat penyimpanan dokumen"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1.\u00a0 Adanya tempat penyimpanan dokumen"
+                            },
+                            {
+                                "score": "LEVEL",
+                                "level": "",
+                                "description": "URAIAN"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kelengkapan dokumen penghapusan asset",
+                        "weight": 0.2,
+                        "description": "Deskripsi:\nDalam komposisi aset perusahaan aset tetap memiliki porsi yang paling besar secara signifikan, dilain pihak untuk penghapusannya diperlukan persetujuan sampai dengan Pemegang Saham sehingga memerlukan kelengkapan dokumen yang memadai untuk mendukung judgment bahwa suatu Aset layak dihapuskan\nReferensi:\nPSAK dan SK ATTB\nKriteria Penilaian:\nPenilaian ini berlaku : 1. Apabila Unit tidak melakukan usulan ATTB pada periode penilaian maka penilaian ini tidak diperhitungkan 2. Apabila dalam RKAU ada AI penggantian aset tetapi tidak mengusulkan ATTB maka diperhitungkan dengan nilai nol 3. Kesesuaian 100% antara berita acara dengan fisik dan nilai di ellipse 4. Waktu penarikan AT menjadi ATTB sesuai berita acara (BA)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan penghapusan aset yang dikirimkan ke kantor pusat mengalami revisi 3 kali. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan ATTB yang sama"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan penghapusan aset yang dikirimkan ke kantor pusat mengalami revisi 2 kali. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan ATTB yang sama"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan penghapusan aset yang dikirimkan ke kantor pusat mengalami revisi 1 kali. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan ATTB yang sama"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan penghapusan aset yang dikirimkan ke kantor pusat TIDAK ADA REVISI"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan penghapusan aset yang dikirimkan ke kantor pusat tidak ada revisi. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan ATTB yang sama"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Laporan keuangan yang berkualitas dan tepat waktu",
+                        "weight": 0.2,
+                        "description": "Deskripsi: Didalam siklus akuntansi tahapan yang terakhir adalah pembuatan berbagai macam laporan keuangan serta laporan manajemen dimana laporan ini kecepatan penyelesaiannya tergantung pada kecepatan dan keakuratan pencatatan dari semua komponen yang terlibat dalam pencatatan akuntansi\nReferensi:\nTeori Akuntansi dan PSAK\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1.\u00a0\u00a0 Waktu closing bulanan. Dapat dibuktikan dengan: Laporan report closing"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "1.\u00a0\u00a0 Waktu closing bulanan. Dapat dibuktikan dengan: Laporan report closing"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1.\u00a0\u00a0 Waktu closing bulanan. Dapat dibuktikan dengan: Laporan report closing"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1.\u00a0\u00a0 Waktu closing bulanan. Dapat dibuktikan dengan: Laporan report closing"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1.\u00a0\u00a0 Waktu closing bulanan. Dapat dibuktikan dengan: Laporan report closing"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kelengkapan dokumen pembersihan limbah",
+                        "weight": 0.2,
+                        "description": "Deskripsi :\nLimbah adalah material\/barang\/bahan buangan dan\/atau sisa suatu proses usaha dan\/atau kegiatan yang dilakukan dilingkungan dan dalam pengusahaan perusahaan yang memenuhi kriteria tidak tercatat sebagai aset tetap. Yang perlu dilakukan pembersihan agar tidak mengganggu operasional pembangkit.\nReferensi :\n1. KEP DIR NOMOR 001.K\/553\/DIR\/2012 2. KEPUTUSAN DIREKSI DILUAR RAPAT TENTANG KEBIJAKAN INTERIM PEMBERSIHAN LIMBAH 1 SEPTEMBER 2016\nKriteria Penilaian:\nPenilaian ini berlaku apabila unit mengusulkan pembersihan limbah sesuai aturan yang berlaku dan apabila Unit tidak melakukan usulan pembersihan limbah pada periode penilaian maka penilaian ini tidak diperhitungkan.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan Tindakan Setelah ada kejadian)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan pembersihan limbah yang dikirimkan ke kantor pusat mengalami revisi 2 kali. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan pembersihan limbah yang sama"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan pembersihan limbah yang dikirimkan ke kantor pusat mengalami revisi 1 kali. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan pembersihan limbah yang sama"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan pembersihan limbah yang dikirimkan ke kantor pusat tidak ada revisi. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan pembersihan limbah yang sama"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan pembersihan limbah yang dikirimkan ke kantor pusat tidak ada revisi. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan pembersihan limbah yang sama"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1.\u00a0\u00a0 Dokumen pengajuan pembersihan limbah yang dikirimkan ke kantor pusat tidak ada revisi. Dapat dibuktikan dengan: Jumlah OA untuk pengajuan pembersihan limbah yang sama"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

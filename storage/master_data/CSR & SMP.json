@@ -1,0 +1,990 @@
+[
+    {
+        "name": "ML PENGEMBANGAN MASYARAKAT",
+        "weight": 0.6,
+        "areas": [
+            {
+                "name": "Keberhasilan Penyelesaian Akar Masalah",
+                "sub_areas": [
+                    {
+                        "name": "Kinerja Program menyelesaikan atau menanggulangi akar masalah",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki identifikasi masalah yang dihadapi oleh masyarakat bedasarkan hasil sosmap, namun belum mampu mengidentifikasi akar masalah"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit memiliki identifikasi masalah yang dihadapi oleh masyarakat bedasarkan hasil sosmap dan sudah mampu mengidentifikasi akar masalah dengan bedasarkan 4 aspek pendekatan masalah (struktural, kultural, finansial\/material, eksternal) serta memiliki profil detail subjek terdampak. Dibuktikan dengan: -Dokumen Identifikasi Akar Masalah (Dapat menggunakan metode RCPS dengan pendekatan yang komprehensif yang mengklasifikasikan akar masalah bedasarkan 4 komponen :struktural, kultural, finansial\/material, eksternal) - Data Profile Subjek Terdampak"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit memiliki identifikasi masalah yang dihadapi oleh masyarakat bedasarkan hasil sosmap dan sudah mampu mengidentifikasi akar masalah dengan bedasarkan 4 aspek pendekatan masalah (struktural, kultural, finansial\/material, eksternal) serta memiliki profil detail subjek terdampak. Akar masalah tersebut sudah disadari dan dipahami oleh masyarakat\/komunitas . Dibuktikan dengan: Verifikasi Lapangan dengan metode wawancara terhadap penerima manfaat"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Program yang dimiliki unit (program terintegrasi) telah mampu menyelesaikan 5% - 25% permasalahan yang dihadapi oleh masayarakat. Dibuktikan dengan: Dokumen kinerja program"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Program yang dimiliki unit (program terintegrasi) telah mampu menyelesaikan >25% permasalahan yang dihadapi oleh masayarakat. Dibuktikan dengan: Dokumen kinerja program"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Well Organized",
+                "sub_areas": [
+                    {
+                        "name": "Pengelolaan Program Community Development",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki program secara parsial dan belum terintegrasi. Dibuktikan dengan: Rencana Strategis Program"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit memiliki road map program. Dibuktikan dengan: Rencana Strategis Program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit memiliki tata kelola program yang mampu menyelesaikan masalah di masyarakat dengan memiliki : a. Road map program dengan indikator tujuan utama yang terukur, disertai indikator di masing-masing tahapan yang terukur b. Desain integrasi program Dibuktikan dengan: Rencana Strategis Program"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit memiliki tata kelola program yang mampu menyelesaikan masalah di masyarakat secara komprehensif dengan memiliki : a. Desain integrasi program yang komprehensif menyelesaikan akar masalah b. Road map program dengan indikator tujuan utama yang terukur, disertai indikator di masing-masing tahapan yang terukur Dibuktikan dengan: Rencana Strategis Program, Desain integrasi program"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit memiliki tata kelola program yang mampu menyelesaikan masalah di masyarakat secara komprehensif dengan memiliki : a. Desain integrasi program yang komprehensif menyelesaikan akar masalah b. Road map program dengan indikator tujuan utama yang terukur, disertai indikator di masing-masing tahapan yang terukur c. Masyarakat\/ kelompok\/ penerima manfaat memahami desain program Dibuktikan dengan: Verifikasi Lapangan dengan metode wawancara terhadap penerima manfaat"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Organisasi (lembaga dan kelembagaan) Kelompok masyarakat\/komunitas",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Masayarakt\/komunitas memiliki lembaga yang terorganisir dengan kelembagaan yang kuat dalam menjalankan program dengan memenuhi 1 (satu) kriteria dari : a. Struktur organisasi dan detail jobdesc masing-masing pengurus b. AD dan ART lembaga c. Rencana Kegiatan dan Dokumentasi kegiatan d. Profil detail pengurus dan Anggota Kelompok\/Lembaga e. Legalitas Lembaga Dibuktikan dengan: Terdapat 1\/5 dokumen pemenuhan kriteria"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Masayarakt\/komunitas memiliki lembaga yang terorganisir dengan kelembagaan yang kuat dalam menjalankan program dengan memenuhi 2 (dua) kriteria dari : a. Struktur organisasi dan detail jobdesc masing-masing pengurus b. AD dan ART lembaga c. Rencana Kegiatan dan Dokumentasi kegiatan d. Profil detail pengurus dan Anggota Kelompok\/Lembaga e. Legalitas Lembaga Dibuktikan dengan: Terdapat 2\/5 dokumen pemenuhan kriteria"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Masayarakt\/komunitas memiliki lembaga yang terorganisir dengan kelembagaan yang kuat dalam menjalankan program dengan memenuhi 3 (tiga) kriteria dari : a. Struktur organisasi dan detail jobdesc masing-masing pengurus b. AD dan ART lembaga c. Rencana Kegiatan dan Dokumentasi kegiatan d. Profil detail pengurus dan Anggota Kelompok\/Lembaga e. Legalitas Lembaga Dibuktikan dengan: Terdapat 3\/5 dokumen pemenuhan kriteria"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Masayarakt\/komunitas memiliki lembaga yang terorganisir dengan kelembagaan yang kuat dalam menjalankan program dengan memenuhi 4 (empat) kriteria dari : a. Struktur organisasi dan detail jobdesc masing-masing pengurus b. AD dan ART lembaga c. Rencana Kegiatan dan Dokumentasi kegiatan d. Profil detail pengurus dan Anggota Kelompok\/Lembaga e. Legalitas Lembaga Dibuktikan dengan: Terdapat 4\/5 dokumen pemenuhan kriteria"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Masayarakt\/komunitas memiliki lembaga yang terorganisir dengan kelembagaan yang kuat dalam menjalankan program dengan memenuhi seluruh kriteria : a. Struktur organisasi dan detail jobdesc masing-masing pengurus b. AD dan ART lembaga c. Rencana Kegiatan dan Dokumentasi kegiatan d. Profil detail pengurus dan Anggota Kelompok\/Lembaga e. Legalitas Lembaga Dibuktikan dengan: Terdapat 5\/5 dokumen pemenuhan kriteria"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Program Community Development memberikan kepercayaan diri bagi penerima manfaat (Confidence)",
+                "sub_areas": [
+                    {
+                        "name": "Penerima manfaat mengalami peningkatan kapasitas serta mampu menerapkan keterampilanya untuk mengembangkan diri\/kelompok",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah memberikan pelatihan (capacity building) kepada kelompok \/ penerima manfaat. Dibuktikan dengan : Dokumentasi kegiatan pelatihan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "50% peserta pelatihan mau dan mampu menerapkan keterampilah yang telah diajarkan. Dibuktikan dengan: Dokumen monitoring dan evaluasi program pelatihan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "80% peserta pelatihan mau dan mampu menerapkan keterampilah yang telah diajarkan. Dibuktikan dengan: Dokumen monitoring dan evaluasi program pelatihan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Kelompok memiliki keterampilan untuk mendukung keberlanjutan pelaksanaan program dan menerapkan keterampilan tersebut yang dibuktikan dengan adanya peningkatan kinerja program setelah penerapan keterampilan. Dibuktikan dengan: Dokumen monitoring dan evaluasi program pelatihan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kelompok mampu mengembangkan keterampilan secara mandiri \/ mampu mengembangkan inovasi (Misal : Mengembangkan metode baru, mengambangkan produk baru) yang mampu mendorong peningkatan kinerja program secara signifikan. Dibuktikan dengan: Verifikasi Lapangan terkait pengembangan inovasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Diseminasi Pengetahuan",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Kelompok \/ perwakilan kelompok \/ local hero memiliki keterampilan melaksanakan diseminasi pengetahuan \/ pengalaman sukses di skala internal kelompok. Dibuktikan dengan: Dokumentasi kegiatan diseminasi internal"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Kelompok \/ perwakilan kelompok \/ local hero memiliki keterampilan melaksanakan diseminasi pengetahuan \/ pengalaman sukses menjalankan program dengan skema yang terorganisir (memiliki materi ajar)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Kelompok \/ perwakilan kelompok \/ local hero memiliki keterampilan melaksanakan diseminasi pengetahuan \/ pengalaman sukses menjalankan program dengan skema yang terorganisir (memiliki materi ajar, silabus dan kurikulum diseminasi pengetahuan)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Kelompok \/ perwakilan kelompok \/Local hero sudah mampu menyebarluaskan pengetahuan (diseminasi pengetahuan) bagi masyarakat\/kelompok dengan skala tingkat Kabupaten"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kelompok \/ perwakilan kelompok \/Local hero sudah mampu menyebarluaskan pengetahuan (diseminasi pengetahuan) bagi masyarakat\/kelompok dengan skala tingkat Provinsi sampai tingkat Nasional"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Terjadi perubahan perilaku di masyarakat menjadi lebih ideal atau adaptif terhadap penanggulangan masalah yang dihadapi",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Masyarakat \/ kelompok penerima manfaat belum menyadari dan memahami masalah yang dihadapi dan risiko dampak yang akan terjadi. Dibuktikan dengan: Verifikasi Lapangan Wawancanra dan Observasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Masyarakat \/ kelompok penerima manfaat sudah menyadari dan memahami masalah yang dihadapi berserta risiko dampak yang akan terjadi. Dibuktikan dengan: Verifikasi Lapangan Wawancanra dan Observasi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Masyarakat \/ kelompok penerima manfaat mulai melaksanakan percobaan perubahan perilaku. Pada tahap ini masih cenderung gagal dan belum menunjukan hasil ."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Masyarakat \/ kelompok penerima manfaat melaksanakan percobaan perubahan perilaku dan mulai menunjukan hasil penyelesaian \/ penanggulangan masalah. Dibuktikan dengan: Verifikasi Lapangan Wawancanra dan Observasi"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Perubahan perilaku telah terinternalisasi (telah menjadi kebiasaan \/ habit) oleh masyarakat \/ kelompok penerima manfaat dan telah berhasil dalam menanggulangi masalah."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Program Communiity Development bersifat inklusif (terbuka bagi setiap golongan\/kelompok\/individu)",
+                "sub_areas": [
+                    {
+                        "name": "Keterlibatan semua lapisan masyarakat di dalam program dan keterlibatan terhadap kelompok rentan \/ marginal\/ minoritas",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit mampu melibatkan dan mengklasifikasikan penerima manfaat yang terdiri dari berbagai golongan (sangat miskin, miskin, menengah, mampu dan berada).Dibuktikan dengan:Daftar penerima manfaat sesuai golongan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit mampu melibatkan dan mengklasifikasikan penerima manfaat yang terdiri dari berbagai golongan (sangat miskin, miskin, menengah, mampu dan berada). Keterlibatan penerima manfaat kategori sangat miskin\/rentan\/marginal (atau kategori kerentanan lain) di dalam program mencapai \u2264 25% dari total penerima manfaat. Dibuktikan dengan: Daftar penerima manfaat sesuai golongan dan % komposisi setiap golongan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit mampu melibatkan dan mengklasifikasikan penerima manfaat yang terdiri dari berbagai golongan (sangat miskin, miskin, menengah, mampu dan berada). Keterlibatan penerima manfaat kategori sangat miskin\/rentan\/marginal (atau kategori kerentanan lain) di dalam program mencapai > 25% dari total penerima manfaat. Dibuktikan dengan: - Daftar penerima manfaat sesuai golongan dan % komposisi setiap golongan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit mampu melibatkan dan mengklasifikasikan penerima manfaat yang terdiri dari berbagai golongan (sangat miskin, miskin, menengah, mampu dan berada). Keterlibatan penerima manfaat kategori sangat miskin\/rentan\/marginal (atau kategori kerentanan lain) di dalam program mencapai \u2265 50% dari total penerima manfaat. Dibuktikan dengan: Daftar penerima manfaat sesuai golongan dan % komposisi setiap golongan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit mampu melibatkan dan mengklasifikasikan penerima manfaat yang terdiri dari berbagai golongan (sangat miskin, miskin, menengah, mampu dan berada). Keterlibatan penerima manfaat kategori sangat miskin\/rentan\/marginal (atau kategori kerentanan lain) di dalam program mencapai \u2265 75% dari total penerima manfaat. Dibuktikan dengan: Daftar penerima manfaat sesuai golongan dan % komposisi setiap golongan"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Keterlibatan perempuan dalam program terintegrasi",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit mampu mendesain program terintegrasi yang turut memperhatikan isu penting perempuan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit mampu mendorong partisipasi perempuan di masyarakat untuk terlibat aktif dalam program baik sebagai penerima manfaat atau pengurus kelompok. Dibuktikan dengan: Daftar penerima manfaat atau pengurus berdasarkan gender dan % komposisinya"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Kelompok penerima manfaat memiliki aturan tertulis (Misl : AD\/ART) dan menerapkan aturan bahwa tidak ada penghalang untuk ikut serta menjadi anggota kelompok dikarenakan alasan gender"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit mampu mendorong partisipasi perempuan di masyarakat untuk terlibat aktif dalam program baik sebagai penerima manfaat mencapai komposisi \u2264 15% dari total penerima manfaat"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit mampu mendorong partisipasi perempuan di masyarakat untuk terlibat aktif dalam program baik sebagai penerima manfaat mencapai komposisi \u2264 25% dari total penerima manfaat"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Program Community Development bersifat kooperatif (keterbukaan dan kerjasama antar berbagai pihak)",
+                "sub_areas": [
+                    {
+                        "name": "Jaringan Kerjasama Program",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Kelompok penerima manfaat memiliki desain jaringan kerjasama untuk mendukung kelangsungan program (dengan pemerintah, dinas-dinas terkait, serta perusahaan lain selain PJB). Dibuktikan dengan: Dokumen desain jaringan kerjasama kelompok"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Kelompok menjalin kerjasama dengan PJB dan mampu menjelaskan peran PJB dalam mendorong kelompok untuk mengatasi masalah atau mengembangkan potensi. Dibuktikan dengan: Mou\/Perjanjian kerjasama dengan PJB"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Kelompok menjalin kerjasama dengan PJB dan pihak lain (Pemerintah, Akademisi, LSM) dan mampu menjelaskan peran masing-masing pihak dalam mendorong kelompok untuk mengatasi masalah atau mengembangkan potensi. Dibuktikan dengan: - Mou dengan Pemerintah, Dinas Terkait, dan LSM - Verifikasi lapangan terkait pemahaman peran masing-masing pihak pembina atau yang terlibat"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Kelompok menjalin kerjasama dengan PJB dan pihak lain (Pemerintah, Akademisi, LSM, dunia usaha sebagai penunjang keberlanjutan program) dan mampu menjelaskan peran masing-masing pihak dalam mendorong kelompok untuk mengatasi masalah atau mengembangkan potensi, serta mampu mengkonversi peran masing-masing pihak ke dalam satuan rupiah. Dibuktikan dengan: - Kerjasama dengan dunia usaha - Dokumen perhitungan konversi peran masing-masing pihak ke dalam satuan rupiah (estimasi) - Verifikasi lapangan terkait pemahaman peran masing-masing pihak pembina atau yang terlibat"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kelompok menjalin kerjasama dengan PJB dan pihak lain (Pemerintah, Akademisi, LSM, dunia usaha sebagai penunjang keberlanjutan program dan Perusahaan lain sebagai pembina) dan mampu menjelaskan peran masing-masing pihak dalam mendorong kelompok untuk mengatasi masalah atau mengembangkan potensi, serta mampu mengkonversi peran masing-masing pihak ke dalam satuan rupiah. Kerjamasa dilaksanakan tanpa terjadi konflik. Dapat dibuktikan dengan: - Verifikasi Konflik pada media (lokal dan nasional) - Verifikasi lapangan terkait konflik antar pihak - Dokumen perhitungan konversi peran masing-masing pihak ke dalam satuan rupiah (estimasi)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Program Communiity Development bersifat Influental (menciptakan replikasi program dan dampak)",
+                "sub_areas": [
+                    {
+                        "name": "Most Significant Change Story",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki base line story atau kondisi awal yang dialami oleh masyarakat"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit memiliki baseline story atau kondisi awal yang dialami oleh masyarakt dan memiliki desain program yang ditujukan untuk menciptakan perubahan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Unit memiliki baseline story atau kondisi awal yang dialami oleh masyarakat 2. Memiliki desain program yang ditujukan untuk menciptakan perubahan 3. Melaksanakan program comdev untuk menciptakan perubahan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Unit memiliki dokumentasi baseline story atau kondisi awal yang dialami oleh masyarakat 2. Memiliki desain program yang ditujukan untuk menciptakan perubahan 3. Melaksanakan program comdev untuk menciptakan perubahan 4. Memiliki narasi proses perubahan (Program On Progress) yang dihasilkan dari program comdev yang sedang dilaksanakan dengan tahapan yang sitematis 5. Menceritakan kisah dan kiprah seluruh pihak dalam proses perubahan 6. Menceritakan dampak positif yang dialami oleh penerima manfaat dari outcome program comdev 7. Narasi cerita proses menciptakan perubahan dikemas dalam bentuk video"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "1. Unit memiliki dokumentasi baseline story atau kondisi awal yang dialami oleh masyarakat 2. Memiliki desain program yang ditujukan untuk menciptakan perubahan 3. Melaksanakan program comdev untuk menciptakan perubahan 4. Memiliki narasi proses perubahan (Program sudah final) yang dihasilkan dari program comdev yang telah dilaksanakan dengan tahapan yang sitematis 5. Menceritakan kisah dan kiprah seluruh pihak dalam proses perubahan 6. Menceritakan dampak positif yang dialami oleh penerima manfaat dari outcome program comdev 7. Narasi cerita proses menciptakan perubahan dikemas dalam bentuk video"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tercipta Replikasi Program",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Terdapat kelompok masyarakat lain yang melakukan replikasi program di tempatnya dengan pendampingan penerima manfaat \/ kelompok \/ local hero binaan PJB"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Terdapat kelompok masyarakat lain yang melakukan replikasi program pada desa lain dalam skala wilayah 1 kecamatan dengan pendampingan dari penerima manfaat \/ kelompok \/ local hero binaan PJB. Replikasi program berhasil menyelesaikan masalah pada kelompok masyarakat lain."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Terdapat kelompok masyarakat lain yang melakukan replikasi program pada desa \/ kecamatan lain dalam skala wilayah 1 Kabupaten\/Kota dengan pendampingan dari penerima manfaat \/ kelompok \/ local hero binaan PJB. Replikasi program berhasil menyelesaikan masalah pada kelompok masyarakat lain."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Terdapat kelompok masyarakat lain yang melakukan replikasi program pada desa \/ kecamatan \/ kabupaten lain dalam skala wilayah 1 Provinsi dengan pendampingan dari penerima manfaat \/ kelompok \/ local hero binaan PJB. Replikasi program berhasil menyelesaikan masalah pada kelompok masyarakat lain."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Terdapat kelompok masyarakat lain yang melakukan replikasi program pada desa \/ kecamatan \/ kabupaten \/ provinsi lain dalam skala nasional dengan pendampingan dari penerima manfaat \/ kelompok \/ local hero binaan PJB. Replikasi program berhasil menyelesaikan masalah pada kelompok masyarakat lain."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Program Communiity Development bersifat keberlanjutan dan mandiri",
+                "sub_areas": [
+                    {
+                        "name": "Tingkat Kemandirian Kelompok",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Kelompok mampu menjalankan program dengan tingkat kemandirian 50% (tergantung dengan PJB 50%) yang diikur dengan instrumen tingkat kemandirian kelompok oleh Unit"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Kelompok mampu menjalankan program dengan tingkat kemandirian 65% (tergantung dengan PJB 35%) yang diikur dengan instrumen tingkat kemandirian kelompok oleh Unit"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Kelompok mampu menjalankan program dengan tingkat kemandirian 80% (tergantung dengan PJB 20%) yang diikur dengan instrumen tingkat kemandirian kelompok oleh Unit"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Kelompok mampu menjalankan program dengan tingkat kemandirian 100% (tidak tergantung dengan PJB) yang diikur dengan instrumen tingkat kemandirian kelompok oleh Unit"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kelompok mampu menjalankan dan mengembangkan program ( Dalam hal : kinerja \/ skala penerima manfaat\/ metode baru yang lebih baik) dengan mandiri (tidak tergantung dengan PJB) yang diikur dengan instrumen tingkat kemandirian kelompok oleh Unit"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Compass Sustainability",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit mampu mendeskripsikan dampak program dengan Compas Sustainability dengan kriteria : 1. Dampak Lingkungan 2. Dampak Ekonomi 3. Dampak Sosial 4. Dampat Kesejahteraan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit mampu mendeskripsikan dampak program dengan Compas Sustainability dengan minimal 2 kriteria terukur : 1. Dampak Lingkungan 2. Dampak Ekonomi 3. Dampak Sosial 4. Dampat Kesejahteraan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit mampu mendeskripsikan dampak program dengan Compas Sustainability dengan minimal 3 kriteria terukur : 1. Dampak Lingkungan 2. Dampak Ekonomi 3. Dampak Sosial 4. Dampat Kesejahteraan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit mampu mendeskripsikan dampak program dengan Compas Sustainability dengan kriteria : 1. Dampak Lingkungan yang terukur 2. Dampak Ekonomi mampu meningkatkan pendapatan penerima manfaat setara dengan UMR setempat 3. Dampak Sosial yang terukur 4. Dampat Kesejahteraan yang terukur"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit mampu mendeskripsikan dampak program dengan Compas Sustainability dengan kriteria : 1. Dampak Lingkungan yang terukur 2. Dampak Ekonomi mampu meningkatkan pendapatan penerima manfaat lebih tinggi dari UMR setempat 3. Dampak Sosial yang terukur 4. Dampat Kesejahteraan yang terukur"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Novelty",
+                "sub_areas": [
+                    {
+                        "name": "Unsur kebaruan dalam program",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit mampu menciptakan draft kebaruan pada tahun berjalan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit mampu mendorong kelompok binaan melakukan percobaan penerapan kebaruan pada tahun berjalan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit mampu mendorong kelompok binaan mengimplementasikan kebaruan pada tahun berjalan yang namun belum memberikan dampak positif terhadap kinerja program"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit mampu mendorong kelompok binaan mengimplementasikan kebaruan pada tahun berjalan yang memberikan dampak positif terhadap kinerja program"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit mampu mendorong kelompok binaan mengimplementasikan kebaruan pada tahun berjalan yang memberikan dampak positif terhadap kinerja program dan mampu menciptakan rencana kebaruan setiap tahun selama masa program (road map)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Adisionalitas",
+                "sub_areas": [
+                    {
+                        "name": "Penilaian Kewajiban yang diatur dalam peraturan",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melaksanakan program CD dengan tipologi empowerment di Ring 1 dan Ring 2. Dibuktikan dengan: - Bukti tertulis penetapan wilayah ring 1 berdasarkan AMDAL\/RPL\/RKL dan di sahkan oleh pimpinan tertinggi Unit - Surat keterangan dari pemerintah daerah (lurah\/kepala desa) di seluruh ring 1 yang membuktikan unit telah melaksanakan program CD - Landasan \/ kajian (masalah - potensi - sasaran - tujuan) program CD empowerment di ring 2 - Rencana \/ Roadmap program CD dengan tipologi empowerment dengan tujuan dan indikator yang jelas dan terukur, dilaksanakan di wilayah ring 2"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melaksanakan program CD di Ring 2 dan melakukan pendampingan yang intensif. Dibuktikan dengan: - Laporan pelaksanaan kegiatan pada program CD di ring 2 - Dokumen monitoring berkala program CD di ring 2 - MoU \/ surat perjanjian kerjasama \/ surat kerjasama dengan pemerintah daerah dan pihak LSM \/ perusahaan lain dalam mendukung pelaksanaan program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melaksanakan program CD di Ring 2 dan melakukan pendampingan yang intensif serta melibatkan pihak pemerintah daerah dan pihak LSM \/ perusahaan lain yang memiliki kompetensi untuk mendukung program . Dibuktikan dengan: - Rencana partisipatif program CD \/ Roadmap program CD empowerment dengan tujuan dan indikator yang jelas dan terukur yang disepakati oleh (kelompok binaan dan atau LSM, pemerintah daerah, atau perusahaan lain) yang dilaksanakan di wilayah ring 2 - Laporan pelaksanaan kegiatan secara prtisipatif pada program CD di ring 2 - Dokumen monitoring partisipatif secara berkala program CD di ring 2"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melaksanakan pendampingan yang intensif melalui monitoring dan evaluasi program yang berkala, serta melaksanakan perbaikan-perbaikan dalam pelaksanaan program. Dibuktikan dengan: - Dokumen evaluasi program CD di ring 2 secara berkala - Dokumen rekomendasi perbaikan program CD di ring 2 - Dokumen pelaksanaan perbaikan program CD di ring 2"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Penerapan Program Pemberdayaan CD di Ring 2 memiliki dampak lingkungan dan ekonomi (hasil absolut kajian pihak independen) : Hasil kajian membuktikan terjadinya penurunan dampak negatif lingkungan hidup (pencemaran air, udara, tanah, suara, menambah keanekaragaman hayati) dan peningkatan kesejahteraan (kemandirian, kepercayaan diri, pendapatan setara atau diatas UMR) yang terjadi karena program CD. Dibuktikan dengan: Laporan Kajian dampak program dari pihak independen yang kompeten"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Penilaian Praktek Umum",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Memiliki dokumen identifikasi teknologi dan pendekatan program CD sejenis yang secara umum dipraktekan \/ digunakan. Dibuktikan dengan: Dokumen data \/ identifikasi teknologi dan pendekatan yang diterapkan secara umum \/ standar pada kegiatan sejenis (pendekatan dan teknologi umum \/ standar SNI)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Memiliki dokumen identifikasi keunikan pada program CD sejenis. Dibuktikan dengan: Dokumen data-ta mengenai kenukan yang telah diterapkan pada program sejenis \/ kegiatan sejenis pihak lain (benchmark)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memiliki kajian untuk menciptakan keunikan program CD di Ring 2 (Teknologi \/ pendekatan) untuk diterapkan. Dibuktikan dengan: Dokumen Kajian rencana menciptakan keunikan program \/ penjelasan keunikan program \/ dokumen kajian untuk di daftarkan hak paten"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Program CD di Ring 2 yang dijalankan memiliki keunikan. Dibuktikan dengan: - Hasil publikasi buku \/ jurnal \/ karya tulis yang dipresentasikan di forum skala nasional - Teknologi \/ Pendekatan yang digunakan sudah di daftarkan Hak Paten"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Program CD di Ring 2 yang dijalankan memiliki tingkat keunikan yang tinggi (level internasional, nasional, provinsi, kab\/kota Dibuktikan melalui publikasi melalui buku, jurnal atau paper yang dipresentasikan di forum akademis tingkat nasional dan internasional. Publikasi ini harus dilampirkan. Dibuktikan dengan: Hasil publikasi buku \/ jurnal \/ karya tulis yang dipresentasikan di forum skala nasional dan Teknologi \/ Pendekatan yang digunakan sudah memiliki Hak Paten"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Penilaian Hambatan Pelaksanaan Investasi & Penilaian Investasi",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Memiliki dokumen identifikasi partisipasi masyarakat untuk program CD di Ring 2 yang dikonversikan kedalam nilai rupiah"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Memiliki konsep program CD di ring 2 dengan indikator yang terukur dan tujuan yang jelas dengan partisipasi masyarakat yang lebih tinggi dibandingkan partisipasi unit dan memiliki dampak mengurangi kerusakan lingkungan dan meningkatkan kohesi sosial"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memiliki rencana penerapan program CD di ring 2 yang memiliki partisipasi masyarakat yang lebih tinggi dibandingkan partisipasi unit dan memiliki dampak mengurangi kerusakan lingkungan dan meningkatkan kohesi sosial"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Menerapkan program CD di ring 2 dengan partisipasi masyarakat \/ kelompok binaan yang lebih tinggi dibandingkan partisipasi unit dan memiliki desain untuk mengurangi kerusakan lingkungan dan memperkuat kohesi sosial di masyarakat. Dibuktikan dengan: - Dokumentasi penerapan program CD di ring 2 - Dokumen monitoring penerapan program CD di ring 2 berkala"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Masyarakat\/kelompok binaan Program CD di Ring 2 dapat mengembangkan modal yang diberikan perusahaan, partisipasi masyarakat lebih bear dari modal yang diberikan perusahaan (Partisipasi tenaga, sewa lahan, peralatan sendiri) yang dikonversikan kedalam rupiah. Selain tingginya partisipasi masyarakat, program CD di Ring 2 juga memperkuat kohesi sosial sehingga tumbuh dan berkembang rasa kebersamaan dalam kehidupan masyarakat, serta mendorong masyarakat di Ring 2 menjadi warga aktif dalam berbagai kegiatan kemasyarakatan dan pembangunan . Perhitungan SROI oleh lembaga kredibel. 50% penerima manfaat mampu meningkatkan pendapatan minimal setara UKM. Dibuktikan dengan: Laporan Kajian dampak program CD di ring 2 dengan pendekatan perhitungan investasi partisipatif (ratio antara investasi perusahaan dan masyarakat) atau perhitungan SROI dari pihak independen yang kompeten"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "INOVASI",
+                "sub_areas": [
+                    {
+                        "name": "Inovasi Dimensi Desain",
+                        "weight": 0.1,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki dokumen identifikasi inovasi yang relevan untuk diterapkan pada program CD"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit memiliki kajian rencana penerapan dan dampak dari inovasi alat tambahan \/ inovasi perubahan sub-sistem \/ inovasi perubahan sistem untuk mengurangi dampak terhadap linkungan dari program \/ kegiatan yang dilaksanakan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Menerapkan inovasi komponen atau alat tambahan yang lebih ramah lingkungan. Dibuktikan dengan: - Dokumentasi penerapan inovasi - Dokumen monitoring penerapan inovasi secara berkala"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Inovasi yang diterapkan menciptakan perubahan pada sebagian sistem yang berdapak pada perbaikan lingkungan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Inovasi yang diterapkan menciptakan perubahan pada keseluruhan sistem yang berdampak pada lingkungan. Dibuktikan dengan: Laporan Kajian dampak program dari pihak independen yang kompeten. Menggambarkan kondisi sebelum dan sesudah penerapan inovasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inovasi Dimensi Pengguna",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki dokumen identifikasi inovasi yang relevan untuk diterapkan pada program CD dengan berorientasi pada perubahan perilaku dalam upaya penyelamatan lingkungan dari kelompok binaan atau masyarakat"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit memiliki kajian rencana penerapan dan dampak dari inovasi yang diterapkan untuk menciptakan perubahan perilaku dalam penyelamatan lingkungan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit mampu mendorong kelompok binaan \/ masyarakat untuk menerpakan inovasi dalam upaya menciptakan perubahan perilaku dalam penyelamatan lingkungan. Dibuktikan dengan: - Dokumentasi penerapan inovasi - Dokumen monitoring penerapan inovasi secara berkala"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "inovasi yang diterapkan oleh kelompok binaan mampu menciptakan perubahan perilaku pada masyarakat"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Inovasi mampu menciptakan perubahan perilaku dengan dampak yang signifikan (secara kualias dan kuantitas) dalam upaya penyelamatan lingkungan. Dibuktikan dengan: Laporan Kajian dampak program dari pihak independen yang kompeten. Menggambarkan kondisi sebelum dan sesudah penerapan inovasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inovasi Dimensi Produk\/Servis",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki dokumen identifikasi inovasi yang relevan untuk diterapkan pada program CD dalam upaya meningkatkan kualitas ; menurunkan biaya ; menciptakan nilai tambah dan mengurangi dampak lingkungan. (menciptakan barang substitusi yang lebih baik). Dibuktikan dengan: Dokumen identifikasi inovasi yang relevan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit \/ kelompok binaan memiliki kajian rencana penerapan dan dampak dari inovasi yang diterapkan dalam upaya meningkatkan kualitas ; menurunkan biaya ; menciptakan nilai tambah dan mengurangi dampak lingkungan. (menciptakan barang substitusi yang lebih baik). Dibuktikan dengan: Dokumen kajian rencana penerapan dan dampak dari inovasi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit mampu mendorong kelompok binaan \/ masyarakat untuk menerpakan inovasi dalam upaya meningkatkan kualitas ; menurunkan biaya ; menciptakan nilai tambah dan mengurangi dampak lingkungan. (menciptakan barang substitusi yang lebih baik). Dibuktikan dengan: - Dokumentasi penerapan inovasi - Dokumen monitoring penerapan inovasi secara berkala"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Inovasi yang diterapkan oleh kelompok binaan mampu menciptakan produk dengan kualitas yang lebih baik ; harga lebih kompetitif ; serta tercipta nilai tambah dan mampu mengurangi dampak lingkungan. (menciptakan barang substitusi yang lebih baik). Dibuktikan dengan: - Dokumen evaluasi hasil penerapan inovasi secara berkala, dokumen rekomendasi perbaikan, hasil pelaksanaan perbaikan - Dokumen rekomendasi perbaikan penerapan inovasi - Dokumen hasil pelaksanaan perbaikan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Inovasi yang diterapkan oleh kelompok binaan mampu meningkatkan kualitas ; menurunkan biaya ; menciptakan nilai tambah dan mengurangi dampak lingkungan. (menciptakan barang substitusi yang lebih baik). Produk diterima oleh masyarakat luas \/ konsumen dan menciptakan hasil yang signifikan. Dibuktikan dengan: Laporan Kajian dampak program dari pihak independen yang kompeten. Menggambarkan kondisi sebelum dan sesudah penerapan inovasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Konsep Perubahan dalam rantai nilai (Value Chain). Menyebabkan perubahan dalam keseluruhan rantai nilai produksi, konsumsi, pelayanan konsumen dan pembuangan produk",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Memiliki dokumen identifikasi program-program yang relevan untuk diintegrasikan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Memiliki konsep Integrasi program comdev dalam rantai nilai dan masing-masing rantai memiliki dampak penyelamatan lingkungan (memiliki indikator yang terukur dan tujuan yang jelas)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Memiliki Kajian rencana Integrasi program comdev dalam rantai nilai dan dampak masing-masing rantai terhadap penyelamatan lingkungan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit memiliki draft MoU\/perjanjian kerjasama yang mengatur kelembagaan \/ aturan main para stakeholder dalam jaringan \/ rantai nilai dari integrasi program"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Konsep Integrasi program comdev dalam rantai nilai dan masing-masing rantai memiliki dampak penyelamatan lingkungan telah disosialisasikan kepada seluruh stakeholder"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Menciptakan Perubahan dalam rantai nilai (Value Chain). Menyebabkan perubahan dalam keseluruhan rantai nilai produksi, konsumsi, pelayanan konsumen dan pembuangan produk",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Integrasi program telah memiliki kelembagaan \/ aturan main yang mengatur para stakeholder. Dibuktikan dengan: Mou \/ perjanjian kerjasama yang mengatur kelembagaan integrasi program"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Integrasi program telah diterapkan dan dilaksanakan. Dibuktikan dengan: Laporan pelaksanaan integrasi program"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Telah melakukan monitoring secara berkala (partisipatif)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Telah dilakukan evaluasi secara menyeluruh dan berkala (partisipatif). Dibuktikan dengan: Dokumen evaluasi integrasi program, rekomendasi perbaikan, dan pelaksanaan perbaikan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Integrasi program comdev dalam rantai nilai dan masing-masing rantai memiliki dampak penyelamatan lingkungan. Dibuktikan dengan: Laporan Kajian dampak integrasi program dari pihak independen yang kompeten. Menggambarkan kondisi sebelum dan sesudah penerapan inovasi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Melaporkan dana dan kegiatan CD",
+                "sub_areas": [
+                    {
+                        "name": "Hasil dan dana kegiatan (% keberhasilan) pemberdayaan masyarakat selama 4 tahun terakhir",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Menampilkan dana CD berdasarkan tipologi, porsi anggaran per tipologi dan jumlah penerima manfaat total setiap tipologi. Porsi anggaran Charity \u2264 35%. Dibuktikan dengan: Hasil dan dana kegiatan berdasarkan tipologi pemberdayaan masyarakat selama 4 tahun terakhir (sampai perhitungan di tahun berjalan)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Menampilkan dana CD berdasarkan tipologi, porsi anggaran per tipologi dan jumlah penerima manfaat total setiap tipologi. Porsi anggaran Charity \u2264 30%. Dibuktikan dengan: Hasil dan dana kegiatan berdasarkan tipologi pemberdayaan masyarakat selama 4 tahun terakhir (sampai perhitungan di tahun berjalan)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Menampilkan dana CD berdasarkan tipologi, porsi anggaran per tipologi dan jumlah penerima manfaat total setiap tipologi. Porsi anggaran Charity \u2264 25%. Dibuktikan dengan: Hasil dan dana kegiatan berdasarkan tipologi pemberdayaan masyarakat selama 4 tahun terakhir (sampai perhitungan di tahun berjalan)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Menampilkan dana CD berdasarkan tipologi, porsi anggaran per tipologi dan jumlah penerima manfaat total setiap tipologi. Porsi anggaran Charity \u2264 20%. Dibuktikan dengan: Hasil dan dana kegiatan berdasarkan tipologi pemberdayaan masyarakat selama 4 tahun terakhir (sampai perhitungan di tahun berjalan)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Menampilkan dana CD berdasarkan tipologi, porsi anggaran per tipologi dan jumlah penerima manfaat total setiap tipologi. Porsi anggaran Charity \u2264 15%. Dibuktikan dengan: Hasil dan dana kegiatan berdasarkan tipologi pemberdayaan masyarakat selama 4 tahun terakhir (sampai perhitungan di tahun berjalan)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ML PENGAMANAN ASET",
+        "weight": 0.4,
+        "areas": [
+            {
+                "name": "Komitmen dan Kebijakan manajemen",
+                "sub_areas": [
+                    {
+                        "name": "Komitmen dn Kebijakan dlam penerapan SMP",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "- Adanya Prosedur penetapan kebijakan - Kebijakan Keamanan di ttd Pimpinan tertinggi dan bertanggal"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "- Isi kebijakan keamanan sesuai peta risiko keamanan - Ada peta risiko keamanan di semua bidang - Ada prosedur identifikasi risiko keamanan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Kebijakan keamanan dievaluasi secara berkala - Peta resiko dievaluasi berkala - Kebijakan keamanan direview sesuai review peta risiko"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Kebijakan keamanan disosialisasikan ke semua pegawai dan pekerja internal - Bukti Sosialisasi - Ada prosedur Sosialisasi"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "- Kebijakan keamanan disosialisasi ke external dan masyarakat sekitar - Ada bukti pelaksanaan - Evaluasi hasil sosialisasi, dilaporkan, dibahas manajemen dan ditindak lanjuti"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pelatihan Keamanan",
+                "sub_areas": [
+                    {
+                        "name": "Memastikan pengamanan dikelola dengan benar",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Rengiat dan prosedur pelatihan keamanan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "- Ada TNA - Rengiat sesuai dengan TNA"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Rengiat dievaluasi - TNA dievaluasi - Prosedur pelatihan direview."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Hasil evaluasi rengiat dilaporkan - Laporan dibahas di Manajemen"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "- Ada tindak lanjut dari hasil pembahasan - ada laporan monitoring tindak lanjut"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Tanggap Darurat keamanan",
+                "sub_areas": [
+                    {
+                        "name": "penanganan kondisi Darurat keamanan",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "- Ada prosedur tanggap darurat keamanan dan direview"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "- Ada identifikasi kondisi darurat keamanan - Tanggap darurat terjadwal - Tanggap darurat melibatkan semua bidang"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Pelaksanaan Tanggap Darurat sesuai jadwal - Tanggap darurat sesuai dengan identifikasi risiko keamanan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Ada evaluasi pelaksanaan tanggap darurat dan dilaporkan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "- Laporan evaluasi dibahs di manajemen Ada monitoring tindak lanjut - ada laporan monitoring"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Personil keamanan dan pengamanan",
+                "sub_areas": [
+                    {
+                        "name": "Kecukupan personil keamanan dan proses pengamanan",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "- Personil keamanan sesuai kebutuhan - Ada data dan evaluasi kebutuhan personil keamanan - Undang-undang terkait - Ada prosedur pengamanan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "- Ada spesifikasi personil terhadap undang-undang - ada evaluasi kesesuaian personil dan persyaratannya. - Prosedur pengamanan sesuai dengan persyaratan dan sesuai dengan identifikasi risiko keamanan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Prosedur pengamanan dilakukan review dan diupdate sesuai undang-undang dan peta Risiko - Ada evaluasi prosedur sesuai dengan peta zonasi"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Ada evaluasi dan laporan evaluasi personil kepada manajemen - Laporan manajemen ditindaklanjuti"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "- Ada monitoring tindak lanjut dr evaluasi dan hasil pembahasan manajemen"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Audit dan tindak lanjut",
+                "sub_areas": [
+                    {
+                        "name": "Pengukuran dan pemantauan SMP",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "- Ada prosedur audit dan pengukuran keamanan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "- Prosedur dilaksanakan dan tercatat - Kualifikasi auditor"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Prosedur direview - Hasil audit dikomunikasikan ke jajaran manajemen"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Hasil audit ditinjau di RTM - Ada Bukti RTM"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "- Hasil RTM di tindak lanjuti, dimonitoring dan dilaporkan."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1009 @@
+[
+    {
+        "name": "Maturity Level - Lingkungan",
+        "weight": 0.38,
+        "areas": [
+            {
+                "name": "Aspek Pengendalian Operasi Lingkungan",
+                "sub_areas": [
+                    {
+                        "name": "Pengendalian Limbah B3",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit belum melakukan pengelolaan limbah B3 yang dihasilkan sesuai standard"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan pengelolaan limbah B3 yang dihasilkan sesuai standard, telah mengidentifikasi semua jenis limbah B3 yang dihasilkan dan telah menerapkan prosedur pengendalian limbah B3 yang meliputi, reduce, reuse dan recycle. Dibuktikan dengan beberapa kondisi berikut: - Terdapat prosedur pengendalian limbah B3, SOP penyimpanan Limbah B3 dan SOP tanggap darurat Limbah B3 yang disimpan di TPS - Terdapat bukti tidak melakukan open dumping dan open burning atau pengelolaan limbah B3 dengan cara tertentu yang tidak sesuai dengan ketentuan dalam PP no 18 tahun 1999 jo PP no 85 Tahun 1999 - Terdapat neraca Limbah B3 yang berisi jenis, volume, dan pengelolaan lanjut Limbah B3 - Terdapat bukti penyampaian laporan triwulan ke badan Lingkungan Hidup kab.\/Kota, Badan Lingkungan hidup provinsi, dan Kementerian Lingkungan Hidup (bukti tanda terima\/pengiriman) - Terdapat SK Perizinan Pengelolaan Limbah B3 sesuai dengan Jenis Pengelolaan Limbah B3 (Penyimpanan Sementara\/ Pemanfaatan\/ Insinerator\/ Bioremediasi\/Penimbunan) atau Terdapat Surat Pengajuan Izin Pengelolaan Limbah B3 dan Status permohonan izin (BA verifikasi\/rapat\/ surat balasan dari BLH\/KLH), jika izin sedang dalam proses - Terdapat bukti foto pengemasan limbah B3 dilakukan sesuai dengan bentuk, karakteristik, dilengkapi dengan simbol label limbah B3 - Terdapat bukti foto penempatan limbah B3 disesuaikan dengan jenis dan karakteristik limbah B3, kemasan bebas karat, tidak bocor dan tidak meluber serta terlindung dari hujan dan sinar matahari - Terdapat bukti foto bagian luar bangunan TPS Limbah B3 diberi papan nama dan diberi simbol limbah B3 sesuai dengan karakteristik limbah B3 yang disimpan - Terdapat bukti foto bangunan TPS mempunyai sistem ventilasi dan memiliki saluran dan bak penampung tumpahan (jika menyimpan limbah B3 cair) - Terdapat bukti foto penyimpanan Limbah B3 menggunakan sistem blok\/ sel dan masing-masing blok\/sel di dalam TPS Limbah B3 dipisahkan gang\/ tanggul - Terdapat bukti foto kemasan\/limbah B3 di dalam TPS diberi alas\/pallet dan tumpukan limbah B3 di dalam TPS maksimal 3 lapis - Terdapat bukti limbah B3 disimpan sesuai dengan masa penyimpanan dalam izin (bukti: kesesuaian di dalam neraca Limbah B3) - Terdapat logbook\/catatan untuk mencatat keluar masuk limbah limbah B3 di dalam TPS dan bukti jumlah dan jenis limbah B3 di dalam TPS sesuai dengan yang tercatat di logbook\/catatan - Terdapat bukti pengelolaan lanjutan terhadap limbah B3 yang disimpan (diserahkan ke pihak ketiga\/dimanfaatkan internal) - Terdapat bukti foto peralatan tanggap darurat dan P3K yang mudah dijangkau di TPS - Terdapat pagar, pintu darurat dan rute evakuasi pada bangunan TPS (sesuai dengan SOP penyimpanan dan tanggap darurat) dan kebersihan\/ housekeeping terkelola dengan baik - Terdapat bukti Pihak ke-3 memiliki izin sebagai Pengelola limbah B3 (pengangkut\/ pengumpul\/ pengolah\/ pemanfaat) dari KLH\/ BLH - Terdapat bukti Izin pengelolaan Limbah B3 pihak ke-3 belum habis masa berlaku dan memenuhi ketentuan izin yang berlaku\/ sesuai dengan izin yang dimiliki - Terdapat bukti Limbah B3 yang dikelola oleh pihak ke-3 sesuai dengan yang tertera dalam izin yang dimiliki dan (pengangkut atau pengumpul) memiliki kontrak kerjasama dengan pengolah atau penimbun akhir - Terdapat Surat Kontrak Kerja sama antara penghasil dan pihak ketiga (pengumpul\/ pengolah\/ pemanfaat\/ penimbun) - Terdapat Surat pernyataan dari pihak ketiga (pengumpul\/ pengolah\/ pemanfaat\/ penimbun) yang menyatakan tidak sedang dalam masalah pencemaran lingkungan - Terdapat copy surat rekomendasi pengangkutan dari KLH untuk pihak pengangkut izin pengangkutan limbah B3 dari Kementerian Perhubungan untuk pihak pengangkut - Terdapat Surat pernyataan dari pihak pengangkut yang menyatakan tidak sedang dalam masalah pencemaran lingkungan - Terdapat bukti pengangkut limbah B3 menggunakan kendaraan sesuai dengan yang tercantum dalam izin - Terdapat bukti Perpindahan\/ pergerakan limbah B3 yang dilakukan oleh pihak ke-3 dilengkapi dengan dokumen manifest limbah B3 - Terdapat bukti manifest Salinan #2 : (diberikan ke penghasil untuk disampaikan ke KLH), Salinan #3 : (saat limbah B3 diambil oleh pihak ke-3) dan Salinan #7 : (disampaikan saat LB3 telah sampai di lokasi pihak ke-3)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan pengelolaan limbah B3 yang dihasilkan sesuai standard dan telah memiliki perencanaan pengelolaan limbah B3 beyond complianc. Dibuktikan dengan beberapa kondisi berikut: - Terdapat kebijakan pengurangan dan pemanfaatan limbah B3 - Terdapat bukti ketersediaan sumber daya untuk melaksanakan pengurangan dan pemanfaatan limbah B3 (manusia dan dana) - Terdapat program pengurangan dan pemanfaatan limbah B3 dengan cara, jadwal waktu, dan indikator untuk mencapat tujuan dan sasaran tersebut - Terdapat bukti personil yang melakukan pengurangan dan pemanfaatan limbah B3 memeperoleh pelatihan yang relevan paling lama 3 tahun terakhir"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan pengelolaan limbah B3 yang dihasilkan sesuai standard dan telah mengukur pencapaian pengelolaan limbah B3 beyond compliance. Dibuktikan dengan beberapa kondisi berikut: - Terdapat data keberhasilan\/absolut pengurangan dan pemanfaatan limbah B3 - Terdapat bukti peningkatan keberhasilan (trending) pengurangan dan pemanfaatan limbah B3"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan pengelolaan limbah B3 yang dihasilkan sesuai standard, telah menerapkan pengelolaan limbah B3 beyond compliance dan mengukur pencapaiannya yang dibuktikan excellence performance secara independent. Dibuktikan dengan kondisi: - Terdapat bukti data addisionalitas program pengurangan dan pemanfaatan limbah B3 - Terdapat bukti teknologi yang dikembangkan telah memperoleh paten dari pihak yang berwenang - Terdapat bukti praktek pengelolaan limbah B3 di diseminasi melalui buku yang memiliki ISBN dalam 3 tahun terakhir - Terdapat inovasi pengelolaan limbah B3 yang dibuktikan dengan perolehan juara 1-3 tingkat PLN (minimal) dalam 3 tahun terakhir - Terdapat bukti memperoleh penghargaan program pengelolaan limbah B3 tingkat nasional dalam 3 tahun terakhir"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Pencemaran Air",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit belum melakukan pengelolaan limbah cair yang dihasilkan sesuai standard"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah mengidentifikasi semua jenis limbah cair yang dihasilkan sesuai ketentuan dan unit telah menerapkan prosedur pengendalian limbah cair sesuai dengan pedoman. Dibuktikan dengan kondisi: - Terdapat bukti identifikasi sumber-sumber air limbah, termasuk memberi kode nama dan debit maksimum air limbah. - Terdapat bukti foto dan koordinat sumber air limbah, titik penaatan, dan titik pembuangan air limbah - Terdapat bukti alat ukur debit yang terpasang, catatan pH dan debit harian air limbah dan catatan produksi bulanan senyatanya serta sertifikat laboratorium yang terakreditasi dan masih berlaku - Terdapat bukti dokumentasi layout IPAL, saluran air limbah, dan gambar konstruksi - Terdapat bukti sistem saluran air limbah kedap air, sehingga tidak terjadi perembesan - Terdapat bukti pemisahan saluran pembuangan air limbah dengan saluran limpasan air hujan berupa foto dan layout saluran limpasan air hujan - Terdapat Izin Pembuangan Limbah Cair yang masih berlaku prosedur pengendalian limbah cair dan prosedur penanganan kondisi tidak normal dan keadaan darurat - Terdapat bukti hasil pemeriksaan kadar parameter baku mutu air limbah secara berkala (sesuai dengan peraturan yang berlaku atau dokumen lingkungan yang mengikat) di laboratorium yang terakreditasi - Terdapat bukti penyampaian laporan secara berkala 1 (satu) kali dalam 3 (tiga) bulan mengenai pencatatan produksi bulanan senyatanya, hasil analisa laboratorium, kadar parameter, debit air limbah harian, dan beban pencemaran air limbah - Terdapat bukti neraca air dan perhitungan beban pencemaran air limbah - Terdapat bukti IPAL beroperasi normal dan pengolahan air limbah dgn data PKU atau Peta Kesehatan Unit untuk IPAL - Terdapat bukti kalibrasi atau uji fungsi (function check) alat ukur air limbah dan log book (parameter pH dan debit) atau electronic enterprise system pengelolaan air limbah - Terdapat bukti pemberitahuan terjadinya kejadian tidak normal dan keadaan darurat dalam jangka waktu 1x24 jam kepada bupati\/walikota dengan tembusan kepada gubernur, Menteri, dan instansi teknis - Terdapat bukti pelaporan penanggulangan kejadian tidak normal dan keadaan darurat paling lama 7x24 jam kepada bupati\/walikota dengan tembusan kepada gubernur, Menteri, dan instansi teknis"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan pengelolaan limbah cair yang dihasilkan sesuai standard dan telah memiliki perencanaan pengelolaan limbah B3 beyond complianc. Dibuktikan dengan beberapa kondisi berikut: - Terdapat kebijakan efisiensi air dan penurunan beban pencemaran dari air limbah - Terdapat bukti ketersediaan sumber daya untuk melaksanakan efisiensi air dan penurunan beban pencemaran dari air limbah (manusia dan dana) - Terdapat rencana dan program efisiensi air dan penurunan beban pencemaran dari air limbah dengan cara, jadwal waktu, dan indikator untuk mencapat tujuan dan sasaran tersebut - Terdapat bukti personil yang melakukan efisiensi air dan penurunan beban pencemaran dari air limbah memperoleh pelatihan yang relevan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan pengelolaan limbah cair yang dihasilkan sesuai standard dan telah mengukur pencapaian pengelolaan limbah cair beyond compliance.Dibuktikan dengan beberapa kondisi berikut: - Terdapat data keberhasilan efisiensi air dan penurunan beban pencemaran dari air limbah 1 semester sebelum periode penilaian Kontrak Kinerja - Terdapat data keberhasilan efisiensi air dan penurunan beban pencemaran dari air limbah yang telah di normalisasi kedalam data intensitas pemakaian air per tahun - Terdapat bukti peningkatan keberhasilan (trending) penurunan beban pencemaran air"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan pengelolaan limbah Cair yang dihasilkan sesuai standard, telah menerapkan pengelolaan limbah cair beyond compliance dan mengukur pencapaiannya yang dibuktikan excellence performance secara independent. Dibuktikan dengan beberapa kondisi berikut: - Terdapat bukti program penurunan beban pencemaran air berkontribusi secara signifikan terhadap upaya pemberdayaan masyarakat - Terdapat bukti data addisionalitas program penurunan beban pencemaran air - Teknologi yang dikembangkan telah memperoleh paten dari pihak yang berwenang - Praktek pengelolaan lingkungan terbaik (best practice) di-diseminasi melalui jurnal ilmiah internasional atau buku yang memiliki ISBN dalam 3 tahun terakhir - Praktek pengelolaan lingkungan terbaik (best practice) di-diseminasi melalui jurnal ilmiah nasional dalam 3 tahun terakhir. - Memperoleh penghargaan dalam bidang efisiensi air atau penurunan beban pencemaran air dalam 3 tahun terakhir"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Landfill (Ash Yard)",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit belum memiliki pengelolaan landfill sesuai dengan standard peraturan perundangan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah menerapkan prosedur pengendalian limbah Landfill (ash yard) yang meliputi perizinan kegiatan penimbunan, standar teknis dan fasilitas pendukung landfill dan SOP pengelolaan fasilitas landfill dan tanggap daruratnya. Dibuktikan dengan kondisi sebagai berikut: - Memiliki Izin Penimbunan\/Penyimpanan Sementara Abu Batubara (Fly Ash dan Bottom Ash) - Jenis Limbah yang ditimbun sesuai dengan Izin yang berlaku - Terdapat sumur pantau di Area Landfill minimal 3 buah, yaitu 1 upstream dan 2 downstream - Terdapat bukti lapisan dasar (sub base) fasilitas penimbunan adalah tanah lempung yang dipadatkan dengan permeabilitas minimal 1 x 10-6 cm\/det - Memiliki lapisan Single HDPE\/ geomembran dengan ketebalan minimum 1,5 mm (Bagi Landfill Kelas II atau III) - Dilengkapi dengan sistem pendeteksi kebocoran yang dirancang sedemikian rupa dengan kemiringan tertentu menuju Bak Pendekteksi Kebocoran (untuk kategori Landfill Kelas 1 & 2) - Memiliki Sistem Pengumpulan dan Pemindahan Lindi yang mengalir\/menuju Bak Pengumpul Lindi - Dilengkapi dengan tanah penghalang dan tanah pelindung dengan ketebalan masing-masing 30 Cm - Terdapat bukti bak pengumpul lindi yang berlokasi sesuai dengan Izin Penimbusan Akhir dan memiliki 1 unit pompa yang berfungsi normal - Terdapat bukti konstruksi pondasi, lantai dan dinding bak pengumpul lindi terbuat dari beton atau dari konstruksi kedap air lainnya - Dilakukan proses pengolahan Air Lindi, sebelum dibuang ke lingkungan\/badan air & Terdapat bukti prosedur pengolahan limbah cair landfill (ash yard) run off pond - Dilakukan uji kualitas lindi sebelum dipindah\/dibuang ke media lingkungan secara periodik (Izin\/triwulan) dan memenuhi baku mutu - Terdapat IPAL (intalasi Pengolahan Air Limbah) untuk mengolah lindi sebelum di buang ke media lingkungan - Terdapat bukti hasil uji kualitas air tanah dengan hasil memenuhi Baku Mutu pada Izin Fasilitas Penimbusan Akhir yang dimiliki, dilakukan setiap Triwulan - Terdapat bukti logbook pencatatan arus jumlah limbah B3 yang keluar dan masuk tempat penimbunan, (Limbah Fly Ash, Bottom Ash, dan Air Lindi) - Memiliki SOP mekanisme penimbunan & SOP tanggap darurat di Landfill - Melakukan Pelaporan Pengelolaan dan Pemantauan Kegiatan Penimbunan LB3 secara Rutin ke Instansi terkait dengan periode sesuai dengan Izin\/Triwulan - Terdapat bukti bahwa limbah B3 yang ditimbun memenuhi baku mutu TCLP - Melakukan Uji Kualitas Air Lindi, Kualitas Air tanah, TCLP dan Paint Filter Test mempergunakan Laboratorium Terakreditasi - Terdapat pencatatan dari kegiatan Penimbunan Limbah B3 (Neraca Limbah B3 FABA) - Terdapat pencatatan dari kegiatan Penimbunan Limbah B3 (volume air lindi masuk bak pengumpul, Volume air lindi masuk IPAL, volume air lindi yang dibuang ke media lingkungan) - Area Landfill dilengkapi dengan Papan Identitas (Nama Perusahaan, Nama area, Koordinat, Luas Area, Nama dan No Kontak PIC kegiatan ash handling)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah menerapkan prosedur pengendalian Landfill (ash yard) pada lokasi sumber limbah sesuai kaidah kriteria beyond compliance. Dibuktikan dengan kondisi sebagai berikut: - Terdapat bukti kebijakan tertulis tentang pengurangan dan pemanfaatan Limbah LB3 FABA - Terdapat bukti terdapat Struktur Tim dan Tanggung Jawab untuk mengimplementasikan program pengelolaan Limbah B3 FABA - Terdapat bukti ketersediaan sumber daya (Dana) untuk melaksanakan pengelolaan Limbah B3 FABA (minimal 2 tahun berturut) - Terdapat rencana dan program pengelolaan Limbah B3 FABA dengan cara, jadwal waktu, dan indikator untuk mencapat tujuan dan sasaran tersebut - Terdapat bukti personil yang melakukan pengelolaan limbah B3 FABA memperoleh pelatihan yang relevan (Maksimal 3 tahun terakhir)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan pengelolaan Landfill yang dihasilkan sesuai standard dan telah mengukur pencapaian pengelolaan landfill beyond compliance.Dibuktikan dengan kondisi sebagai berikut: - Terdapat bukti telah melakukan inventarisasi limbah B3 FABA secara berturut paling singkat 2 tahun terakhir - Terdapat bukti telah menyampaikan data neraca limbah B3 FABA selama paling lambat 3 tahun terakhir - Terdapat bukti data keberhasilan pemanfaatan limbah B3 FABA paling lambat 1 tahun terakhir"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan pengelolaan Landfill yang dihasilkan sesuai standard, telah menerapkan pengelolaan landfill beyond compliance dan mengukur pencapaiannya yang dibuktikan excellence performance secara independent. Dibuktikan dengan kondisi berikut: - Terdapat bukti data addisionalitas program Pengelolaan Limbah B3 FABA - Terdapat bukti teknologi atau metode pengelolaan Limbah B3 FABA yang dilakukan telah memperoleh Hak Paten dari pihak berwenang - Terdapat bukti best practice usaha pengelolaan Limbah B3 FABA menjadi juara Inovasi tingkat Nasional PLN (1,2,3) - Terdapat bukti best practice usaha pengelolaan Limbah B3 FABA dalam jurnal ilmiah internasional atau buku yang memiliki ISBN dalam 3 tahun terakhir - Terdapat bukti teknologi atau metode pengelolaan Limbah B3 FABA mendapatkan penghargaan dalam tingkat nasional"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Limbah Cair Domestik",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit belum melakukan pengelolaan limbah cair domestik yang sesuai dengan standar yang berlaku"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah menerapkan prosedur pengendalian limbah cair domestik yang meliputi identifikasi sumber limbah, peraturan baku mutu terkait, memiliki fasilitas pengolahan air limbah yang sesuai standar atau pihak lain yang mengolah air limbah domestik. DIbuktikan dengan kondisi berikut: - Terdapat prosedur dan fasilitas pengelolaan limbah cair domestik - Terdapat bukti formulir identifikasi sumber kegiatan serta jumlah limbah cair domestik yang dihasilkan - Terdapat bukti jenis pengolahan domestik tersendiri atau terintegrasi yang telah digunakan atau pihak ketiga yang melakukan pengolahan - Terdapat bukti identifikasi peraturan perundangan yang menjadi acuan baku mutu limbah cair domestik yang wajib dipantau - Terdapat bukti seluruh air limbah domestik yang dihasilkan telah masuk ke instalasi pengolahan air limbah domestik berupa layout atau denah konstruksi - Terdapat bukti instalasi pengolahan air limbah domestik dan saluran air limbah domestik kedap air berupa tidak adanya perembesan air limbah ke lingkungan - Terdapat bukti saluran pengumpulan air limbah domestik terpisah dengan saluran air hujan yang berupa dokumen layout kedua saluran - Terdapat bukti pengolahan air limbah domestik berupa desain kontruksi instalasi pengolahan atau bukti kerjasama dengan pihak lain yang mengolah air limbah domestik - Untuk unit yang mengolah air limbah sendiri mampu menunjukkan bukti papan nama dan alat ukur debit di titik penaatan kualitas air limbah domestik. - Untuk unit yang mengolah air limbah domestik dapat menunjukkan bukti laporan hasil pemantauan bulanan kualitas air limbah domestik secara berkala paling sedikit 1 (satu) kali dalam 3 (tiga) bulan - Untuk unit yang bekerjasama dengan pihak lain dalam pengelohan air limbah domestik dapat menunjukkan bukti izin lingkungan dan izin pembuangan air limbah pihak ketiga"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan usaha penurunan pencemaran limbah cair domestik secara sistematis dan terencana melalui kebijakan, tim penurunan pencemaran, perancanaan dan program hingga pelatihan personil berkompeten sesuai kaidah beyond compliance. Dibuktikan dengan kondisi berikut: - Terdapat bukti kebijakan tertulis tentang pengurangan dan pemanfaatan limbah cair domestik dan atau air hujan - Terdapat bukti terdapatnya tim dengan tanggung jawab dan akuntabilitas untuk mengimplementasikan program pengurangan limbah cair domestik - Terdapat bukti ketersediaan sumber daya untuk melaksanakan efisiensi air dan penurunan beban pencemaran limbah cair domestik berupa SDM dan dana - Terdapat rencana dan program efisiensi air dan penurunan beban pencemaran air limbah dengan cara, jadwal waktu, dan indikator untuk mencapai tujuan dan sasaran tersebut - Terdapat bukti personil yang melakukan manajemen pengendalian pencemaran air dan telah memperoleh sertifikasi manajer pengendalian lingkungan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah berhasil mengurangi pencemaran limbah cair domestik dan mengukur pencapaiannya beyond compliance pengelolaan limbah cair domestik. Dibuktikan dengan kondisi berikut: - Terdapat data keberhasilan pengurangan dan pemanfaatan limbah cair domestik, telah dinormalisasi kedalam data intensitas pemakaian air. - Terdapat data keberhasilan usaha efisiensi air, telah dinormalisasi kedalam data intensitas pemakaian air."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan pengelolaan limbah cair domestik yang dihasilkan sesuai standard, telah menerapkan pengelolaan limbah cair domestik beyond compliance dan mengukur pencapaiannya yang dibuktikan excellence performance secara independent. Dibuktikan dengan kondisi berikut: - Terdapat bukti program usaha penurunan pencemaran limbah cair domestik telah memperoleh penghargaan setingkat PLN ataupun nasional dalam 3 tahun terakhir. - Terdapat bukti best practice usaha penurunan pencemaran limbah cair domestik dalam jurnal ilmiah nasional dalam 3 tahun terakhir - Terdapat bukti best practice usaha penurunan pencemaran limbah cair domestik dalam jurnal ilmiah internasional atau buku yang memiliki ISBN dalam 3 tahun terakhir - Terdapat bukti teknologi atau metodepenurunan pencemaran limbah cair domestik yang dilakukan telah memperoleh paten dari pihak berwenang - Terdapat bukti addisionalitas penurunan pencemaran limbah cair domestik"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Limah Padat Non B3",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit belum melakukan pengelolaan limbah padat non B3 yang dihasilkan sesuai standard"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan pengelolaan limbah padat non B3 yang dihasilkan sesuai standard dan unit telah mengidentifikasi semua jenis limbah padat domestik yang dihasilkan sesuai ketentuan. Dibuktikan dengan kondisi berikut: - Terdapat prosedur pengendalian limbah padat non B3 dan prosedur pengumpulan limbah padat non B3 - Terdapat bukti hasil identifikasi limbah padat non B3 yang dihasilkan dan pemilahan limbah padat non B3 sesuai jenisnya - Terdapat bukti alat angkut sampah untuk limbah padat non B3 terpilah - Terdapat bukti inventarisasi timbulan limbah padat non B3 yang dihasilkan - Terdapat TPS atau TPS 3R (Reduce, reuse, dan Recycle) limbah padat non B3 - Terdapat bukti kerjasama dengan pengangkut limbah padat non B3 yang tidak terolah di unit - Terdapat bukti izin TPA penerima limbah padat non B3 yang tidak terolah di unit"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan pengelolaan limbah padat non B3 yang dihasilkan sesuai standard dan telah memiliki perencanaan pengelolaan limbah padat Non B3 beyond compliance.Dibuktikan dengan kondisi berikut: - Terdapat kebijakan pemanfaatan limbah padat non B3 - Terdapat bukti ketersediaan sumber daya untuk melaksanakan pemanfaatan limbah padat non B3 (manusia dan dana) - Terdapat program pemanfaatan limbah padat non B3 dengan cara, jadwal waktu, dan indikator untuk mencapat tujuan dan sasaran tersebut - Terdapat bukti personil yang melakukan pemanfaatan limbah padat non B3 memperoleh pelatihan yang relevan paling lama dalam 3 tahun terakhir"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan pengelolaan limbah padat non B3 yang dihasilkan sesuai standard dan telah menerapkan pengelolaan limbah padatn Non B3 beyond compliance . Dibuktikaan dengan kondisi berikut: - Terdapat neraca limbah padat non B3 - Terdapat data keberhasilan (trending) pemanfaatan limbah padat non B3 - Terdapat hasil absolut pengurangan dan\/atau pemanfaatan limbah padat non B3"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan pengelolaan limbah padat non B3 yang dihasilkan sesuai standard dan telah menerapkan pengelolaan limbah padat Non B3 beyond compliance dan mencapai pengukuran performance excellence secara independent. Dibuktikaan dengan kondisi berikut: - Terdapat bukti data addisionalitas program pengelolaan limbah padat non B3 - Terdapat bukti teknologi yang dikembangkan telah memperoleh paten dari pihak yang berwenang - Terdapat bukti praktek pengelolaan limbah padat Non B3 di diseminasi melalui buku yang memiliki ISBN dalam 3 tahun terakhir. - Terdapat inovasi pengelolaan limbah padat Non B3 yang dibuktikan dengan perolehan juara 1-3 tingkat PLN (minimal) dalam 3 tahun terakhir - Terdapat bukti memperoleh penghargaan program pengelolaan limbah padat Non B3 tingkat nasional dalam 3 tahun terakhir"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Pencemaran Udara",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit belum melakukan pengendalian pencemaran udara yang sesuai dengan standar"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah mengidentifikasi semua sumber emisi dan ambien, memantau seluruh parameter yang diwajibkan, melaporkan data CEMS dan pemantauan manual secara periodik, menghitung beban pencemaran, menaati baku mutu untuk seluruh data, serta menaati semua persyaratan teknis cerobong dan CEMS. Dibuktikan dengan kondisi berikut: - Terdapat prosedur pengendalian pencemaran udara - Terdapat bukti formulir identifikasi sumber emisi utama dan titik pemantaun ambien - Terdapat bukti identifikasi peraturan perundangan yang menjadi acuan baku mutu spesifik tiap parameter wajib pemantauan - Terdapat bukti dokumentasi alat pengendali emisi utama, lokasi kordinat cerobong emisi, jumlah konsumsi bahan bakar serta catatan waktu operasi - Terdapat bukti dokumentasi gambar konstruksi\/teknik cerobong emisi dan lubang sampling yang memenuhi standar teknis KEP 205\/BAPEDAL\/07\/1996 - Terdapat bukti dokumentasi sarana kelengkapan sampling berupa lubang sampling, tangga\/lift, platform kerja, papan nama titik sampling dan sumber listrik di platform kerja - Terdapat bukti hasil pemantauan manual baku mutu udara emisi secara berkala paling sedikit 1 (satu) kali dalam 6 (bulan) bulan untuk parameter SO2, Nox, total partikulat, opasitas, laju alir dan O2 bagi cerobong yang tidak dipasang CEMS - Terdapat bukti pemantauan manual parameter baku mutu udara ambien sesuai dokumen lingkungan secara berkala paling sedikit 1 (satu) kali dalam 6 (enam) bulan di laboratorium yang terakreditasi - Terdapat bukti perhitungan beban pencemaran udara tahunan dan melaporkannya 1 (satu) kali dalam 1 (satu) tahun. - Terdapat bukti pemantauan manual emisi udara dan kualitas udara ambiem telah memenuhi baku mutu 100% tiap parameter kualitas udara - Terdapat bukti sertifikat laboratorium uji emisi manual yang terakreditasi atau yang telah ditunjuk oleh gubernur - Untuk cerobong yang wajib CEMS menunjukkan bukti data pemantauan CEMS setiap 3 bulan dengan data tersedia \u2265 75% dari seluruh data pemantauan rata-rata harian (100%) dengan data akan dianggap valid apabila dalam sehari paling sedikit tersedia 18 jam pengukuran - Untuk cerobong yang wajib CEMS menunjukkan quality control peralatan berupa SOP penggunaan alat serta prosedur penanganan kondisi tidak normal dan darurat - Untuk cerobong yang wajib CEMS menunjukkan quality assurance peralatan berupa hasil kalibrasi peralatan CEMS - Untuk cerobong yang CEMSnya rusak, wajib menunjukkan bukti pelaksanaan pemantauan manual kualitas emisi setiap 3 (tiga) bulan sekali selama 1 tahun - Terdapat bukti pemberitahuan terjadinya kejadian tidak normal dan keadaan darurat dalam jangka waktu 1x24 jam kepada bupati\/walikota dengan tembusan kepada gubernur, Menteri, dan instansi teknis dan pelaporan penanggulangan kejadian tidak normal dan keadaan darurat paling lama 7x24 jam kepada bupati\/walikota dengan tembusan kepada gubernur, Menteri, dan instansi teknis"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan usaha penurunan pencemaran secara sistematis dan terencana melalui kebijakan, tim penurunan pencemaran, perancanaan dan program hingga pelatihan personil berkompeten sehingga emisi dikelola secara beyond compliance. Dibuktikan dengan kondisi berikut: -Terdapat bukti kebijakan tertulis tentang pengurangan pencemaran udara dari bahan pencemar udara konvensional dan atau gas rumah kaca - Terdapat bukti terdapatnya tim dengan tanggung jawab dan akuntabilitas untuk mengimplementasikan program pengurangan pencemar udara - Terdapat bukti ketersediaan sumber daya untuk melaksanakan pengurangan pencemar udara berupa SDM dan dana - Terdapat rencana dan program pengurangan pencemar udara dengan cara, jadwal waktu, dan indikator untuk mencapat tujuan dan sasaran tersebut - Terdapat bukti personil yang melakukan pengurangan pencemar udara memperoleh pelatihan yang relevan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah mengimplementasikan usaha penurunan pencemaran emisi melalui sistem inventarisasi emisi, data implementasi program, verifikasi data keberhasilan sehingga telah dilakukan pengukuran pengelolaan emisi beyond compliance.Dibuktikan dengan kondisi berikut: - Terdapat bukti sistem inventarisasi emisi yang mencakup identifikasi sumber emisi, deskripsi metode perhitungan beban emisi, uraian faktor emisi, faktor oksidasi, faktor konversi serta kandungan karbon - Terdapat bukti data implementasi program pengurangan pencemar udara paling sedikit 4 tahun terakhir untuk bahan pencemar udara konvensional dan data telah dinormalisasi kedalam data beban emisi per GWH (data intensitas emisi) - Terdapat bukti data implementasi program pengurangan pencemar udara paling sedikit 4 tahun terakhir untuk Gas Rumah Kaca dan data telah dinormalisasi kedalam data beban emisi per GWH (data intensitas emisi)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah terbukti unggul dalam implementasi program penurunan pencemaran udara melalui penghargaan, jurnal ilmiah, buku ISBN, Paten dan kontribusi terhadap pemberdayaan masyarakat sehingga pengukuran pengelolaan emisi beyond compliance dinyatakan performance excellence secara independent. Dibuktikan dengan kondisi berikut: - Terdapat bukti program usaha penurunan emisi memperoleh penghargaan setingkat PLN ataupun nasional dalam 3 tahun terakhir. - Terdapat bukti best practice usaha penurunan emisi dalam jurnal ilmiah nasional dalam 3 tahun terakhir - Terdapat bukti best practice usaha penurunan emisi dalam jurnal ilmiah internasional atau buku yang memiliki ISBN dalam 3 tahun terakhir - Terdapat bukti teknologi atau metode pengurangan emisi yang dilakukan telah memperoleh paten dari pihak berwenang - Terdapat bukti addisionalitas penurunan emisi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Telah dibuat buku saku 5S sebagai media promosi dan sosialisasi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tersedia Papan Informasi 5S pada semua fungsi dan area kerja"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tersedia, media sosialisasi 5S seperti, baliho, spanduk, banner, billboard , dll"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Telah ditetapkan hari 5S sebagai hari yang disepakai untuk melaksanakan kegiatan 5S secara lebih intens."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pelatihan 5S",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dilaksanakan pelatihan implementasi 5S untuk Tim Pengembangan Program 5S"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Telah dilaksanakan pelatihan implementasi 5S untuk seluruh karyawan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Telah dilaksanakan pelatihan\/sosialisasi implementasi 5S untuk pihak ke 3 (koperasi dll)."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada penyelenggaraan pelatihan audit 5S pada tim auditor 5S"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kompetensi auditor telah menenuhi standar 5S yang telah ditetapkan dan unit telah memiliki tim auditor 5S"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Komunikasi 5S",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada forum pertemuan khusus yang membahas program 5S"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Ada sistem dokumentasi hasil pembahasan rapat 5S"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Ada sistem monitoring pelaksanaan rekomendasi rapat 5S"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada dokumentasi jadwal forum pertemuan khusus program 5S"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Hasil pembahasan forum 5S didistribusikan kepada pihak-pihak terkait."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Audit dan Kompetisi 5S",
+                        "weight": 0,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada Program Kompetisi 5S yang terstruktur"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Ada Sistem Reward and Punishment Program 5S"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Penilaian Program 5S dilaksanakan oleh Auditor 5S yang bersertifikat"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Kompetisi Program 5S meliputi seluruh Area Kerja sesuai kesepakatan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Ada dokumentasi hasil penilaian berupa grafik trend hasil penilaian."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sistem Manajemen Lingkungan",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit belum memiliki kebijakan lingkungan sesuai persyaratan yang berlaku"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah menetapkan perencanaan sistem manajemen lingkungan. Dibuktikan dengan kondisi berikut: - Terdapat bukti yang menunjukkan bahwa kebijakan lingkungan ditandatangani pimpinan puncak - Terdapat bukti yang menunjukkan bahwa kebijakan lingkungan telah dikomunikasikan ke dalam organisasi dan stakeholder - Terdapat bukti identifikasi resiko yang ditimbulkan di seluruh kegiatan berupa dokumen HIRARC\/ASDAM yang telah diverifikasi - Terdapat bukti inventarisasi pemenuhan peraturan perundangan lingkungan hidup - Unit telah menetapkan tujuan dan sasaran lingkungan secara kualitatif terhadap aspek lingkungan utama - Unit telah memiliki rencana strategis jangka panjang (minimal 3 tahun) untuk mencapai tujuan dan sasaran - Terdapat dokumen program kerja lingkungan selama periode satu tahun yang telah diverifikasi, minimal memuat tentang metode, sumber daya dan jadwal waktu - Terdapat dokumen program audit sistem manajemen lingkungan selama periode satu tahun yang telah diverifikasi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah menerapkan program sistem manajemen lingkungan. Dibuktikan dengan kondisi berikut: - Unit telah memiliki personel atau petugas yang bersertifikasi maupun memperoleh pelatihan terkait SML\/ ISO 14001 - Unit dapat menunjukkan bahwa temuan PROPER\/Audit Eksternal telah dikomunikasikan kepada pihak terkait untuk ditindaklanjuti - Unit dapat menunjukkan bahwa temuan PROPER\/Audit Eksternal beserta tindak lanjut terdokumentasi dengan baik selama paling sedikit 2 tahun berturu-turut - Unit dapat menunjukkan instruksi kerja tanggap darurat berdasarkan potensi bahaya lingkungan yang mungkin terjadi di beberapa area kerja - Unit dapat menunjukkan bahwa sistem tanggap darurat telah ditinjau dan disimulasikan secara reguler dalam kurun waktu satu tahun sekali"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan tindakan evaluasi dan perbaikan pada sistem manajemen lingkungan. Dibuktikan dengan kondisi berikut: - Unit dapat menunjukkan bahwa temuan PROPER telah ditindaklanjuti secara paripurna - Unit dapat menunjukkan bahwa audit internal SML dilaksanakan secara reguler - Unit dapat menunjukkan dokumen ringkasan hasil audit yang telah dilaksanakan paling sedikit 1 tahun - Unit dapat menunjukkan bahwa telah dilakukan audit eksternal SML beserta dokumen berita acara hasil auditnya"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan tinjauan berkelanjutan dari sistem manajemen lingkungan yang telah diterapkan. Dibuktikan dengan kondisi berikut: - Terdapat bukti bahwa telah dilakukan tinjauan manajemen pelaksanaan sistem manajemen lingkungan untuk memastikan keberlanjutan, kesesuaian, kecukupan dan efektivitas - Terdapat bukti bahwa unit telah mendapatkan sertifikasi sistem manajemen lingkungan dari pihak ketiga independen yang masih berlaku"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator - Lingkungan",
+        "weight": 0.13,
+        "areas": [
+            {
+                "name": "PERINGKAT PROPER",
+                "sub_areas": [
+                    {
+                        "name": "Unit Peserta PROPER",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "PROPER HITAM atau PROPER MERAH > 1x"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "PROPER MERAH"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PROPER BIRU"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PROPER HIJAU"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "PROPER EMAS"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SANKSI PENEGAKAN HUKUM (GAKKUM)",
+                "sub_areas": [
+                    {
+                        "name": "Seluruh Unit Pembangkitan yang dikunjungi GAKKUM",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Mendapat Sanksi Administratif Tetapi Belum Ada Tindak Lanjut Penyelesaian"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Mendapat Sanksi Administratif dan Sudah Melakukan Penyelesaian s.d. 30%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Mendapat Sanksi Administratif dan Sudah Melakukan Penyelesaian 31 s.d. 60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Mendapat Sanksi Administratif dan Sudah Melakukan Penyelesaian 61 s.d. 100%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Tidak Mendapat Sanksi Administratif atau Sudah Menerima Surat Apresiasi dari Dirjen Gakkum KLHK"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "TINDAK LANJUT TEMUAN AUDIT\/ ASESMEN LINGKUNGAN",
+                "sub_areas": [
+                    {
+                        "name": "Seluruh Unit Pembangkitan yang dilakukan audit atau asesmen lingkungan",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dilakukan penyelesaian sampai \u2264 20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Telah dilakukan penyelesaian 21% s.d 40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Telah dilakukan penyelesaian 41% s.d 60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Telah dilakukan penyelesaian 61% s.d 80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Telah dilakukan penyelesaian 81% s.d 100% atau tidak ada temuan."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "PELAPORAN DATA PEMANTAUAN TRIWULAN LINGKUNGAN",
+                "sub_areas": [
+                    {
+                        "name": "Unit Eksisting dan JOM Jawa",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Menyampaikan Minimal : - Data PPA dan LB3 Bulan Ke-1 & Ke-2 triwulan berjalan pada tanggal 5-7 bulan Ke-1 Triwulan berikutnya. - Data PPU triwulan berjalan pada tanggal 5-7 bulan Ke-1 Triwulan berikutnya. - Dan\/atau melengkapi kekurangannya paling lambat tanggal 28 di bulan Ke-1 Triwulan berikutnya."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Menyampaikan Minimal : - Data PPA dan LB3 Bulan Ke-1 & Ke-2 triwulan berjalan pada tanggal 4 bulan Ke-1 Triwulan berikutnya. - Data PPU triwulan berjalan pada tanggal 5-7 bulan Ke-1 Triwulan berikutnya. - Dan\/atau melengkapi kekurangannya paling lambat tanggal 28 di bulan Ke-1 Triwulan berikutnya."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Menyampaikan Minimal : - Data PPA dan LB3 Bulan Ke-1 & Ke-2 triwulan berjalan pada tanggal 3 bulan Ke-1 Triwulan berikutnya. - Data PPU triwulan berjalan pada tanggal 5-7 bulan Ke-1 Triwulan berikutnya. - Dan\/atau melengkapi kekurangannya paling lambat tanggal 28 di bulan Ke-1 Triwulan berikutnya."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Menyampaikan Minimal : - Data PPA dan LB3 Bulan Ke-1 & Ke-2 triwulan berjalan pada tanggal 2 bulan Ke-1 Triwulan berikutnya. - Data PPU triwulan berjalan pada tanggal 5-7 bulan Ke-1 Triwulan berikutnya. - Dan\/atau melengkapi kekurangannya paling lambat tanggal 28 di bulan Ke-1 Triwulan berikutnya."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Menyampaikan Minimal : - Data PPA dan LB3 Bulan Ke-1 & Ke-2 triwulan berjalan pada tanggal 1 bulan Ke-1 Triwulan berikutnya. - Data PPU triwulan berjalan pada tanggal 5-7 bulan Ke-1 Triwulan berikutnya. - Dan\/atau melengkapi kekurangannya paling lambat tanggal 28 di bulan Ke-1 Triwulan berikutnya."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Maturity Level - 5S",
+        "weight": 0.38,
+        "areas": [
+            {
+                "name": "ASPEK PENGENDALIAN OPERASI 5S",
+                "sub_areas": [
+                    {
+                        "name": "Komitmen Manajemen",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dibuat kebijakan 5S tertulis yang ditandatangani oleh Top Manajemen"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Kebijakan 5S didistribusikan dan disosialisasikan kepada seluruh karyawan dan mitra kerja"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Anggaran Program 5S sudah masuk dalam RKAP"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Program 5S sebagai bagian dari Kontrak Kinerja Perorangan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Ada program Manajemen Patrol"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Organisasi dan Struktur",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada SK Tim Pengembangan Program 5S yang ditandatangani oleh Top Manajemen"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Struktur Organisasi 5S telah mencakup seluruh fungsi dan area kerja."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tugas dan tanggung jawab setiap anggota dalam struktur 5S tertulis dengan jelas"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Struktur Organisasi 5S pada semua fungsi dan area kerja telah disosialisasikan kepada seluruh karyawan."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Struktur Organisasi 5S telah ditempel pada papan 5S di semua area kerja."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sosialisasi dan Promosi 5S",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dilaksanakan launching Program 5S sebagai bagian dari sosialisasi buku POB 5S Revisi ke-2 tahun 2017"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Telah ditetapkan hari 5S sebagai hari yang disepakai untuk melaksanakan kegiatan 5S secara lebih intens."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tersedia Papan Informasi 5S pada semua fungsi dan area kerja"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tersedia, media sosialisasi 5S seperti : poster, baliho, bendera, umbul-umbul, spanduk, banner, billboard, dll"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Telah dibuat buku saku 5S sebagai media promosi dan sosialisasi buku POB 5S Revisi ke-2 tahun 2017"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pelatihan 5S",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dilaksanakan pelatihan implementasi 5S untuk Tim Pengembangan Program 5S"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Telah dilaksanakan pelatihan implementasi 5S untuk 50 % dari karyawan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Telah dilaksanakan pelatihan \/ sosialisasi implementasi 5S untuk pihak ke 3 (koperasi dll)."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada usulan dan pelaksanaan pelatihan audit 5S pada tim auditor 5S"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kompetensi auditor telah menenuhi standar 5S yang telah ditetapkan dan unit telah memiliki tim auditor 5S (2 Orang)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Komunikasi 5S",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada forum pertemuan khusus yang membahas program 5S"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Ada sistem dokumentasi hasil pembahasan rapat 5S"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Ada sistem monitoring pelaksanaan rekomendasi rapat 5S"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada dokumentasi jadwal dan pelaksanaan forum pertemuan khusus program 5S"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Hasil pembahasan forum 5S didistribusikan kepada pihak-pihak terkait."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Audit dan Kompetisi 5S",
+                        "weight": 0.17,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada Program audit \/ Kompetisi 5S yang terstruktur"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Penilaian Program 5S dilaksanakan oleh Auditor 5S yang bersertifikat"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Kompetisi Program 5S meliputi seluruh Area Kerja sesuai kesepakatan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada dokumentasi hasil penilaian berupa grafik trend hasil penilaian."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Ada Sistem Reward and Punishment Program 5S"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator - Lingkungan",
+        "weight": 0.13,
+        "areas": [
+            {
+                "name": "ASPEK PENGENDALIAN OPERASI 5S",
+                "sub_areas": [
+                    {
+                        "name": "Komitmen Manajemen",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dibuat kebijakan 5S tertulis yang ditandatangani oleh Top Manajemen"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Kebijakan 5S didistribusikan dan disosialisasikan kepada seluruh karyawan dan mitra kerja"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Anggaran Program 5S sudah masuk dalam RKAP"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Program 5S sebagai bagian dari Kontrak Kinerja Perorangan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Ada program Manajemen Patrol"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Organisasi dan Struktur",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada SK Tim Pengembangan Program 5S yang ditandatangani oleh Top Manajemen"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Struktur Organisasi 5S telah mencakup seluruh fungsi dan area kerja."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tugas dan tanggung jawab setiap anggota dalam struktur 5S tertulis dengan jelas"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Struktur Organisasi 5S pada semua fungsi dan area kerja telah disosialisasikan kepada seluruh karyawan."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Struktur Organisasi 5S telah ditempel pada papan 5S di semua area kerja."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sosialisasi dan Promosi 5S",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dilaksanakan launching Program 5S sebagai bagian dari sosialisasi buku POB 5S Revisi ke-2 tahun 2017"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Telah ditetapkan hari 5S sebagai hari yang disepakai untuk melaksanakan kegiatan 5S secara lebih intens"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tersedia Papan Informasi 5S pada semua fungsi dan area kerja"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tersedia, media sosialisasi 5S seperti : poster, baliho, bendera, umbul-umbul, spanduk, banner, billboard, dll"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Telah dibuat buku saku 5S sebagai media promosi dan sosialisasi buku POB 5S Revisi ke-2 tahun 2017"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pelatihan 5S",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Telah dilaksanakan pelatihan implementasi 5S untuk Tim Pengembangan Program 5S (2 hari 5 topik 12 jam pelajaran)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Telah dilaksanakan pelatihan implementasi 5S minimal 50 % karyawan (2 hari 5 topik 12 jam pelajaran)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Telah dilaksanakan pelatihan\/ sosialisasi implementasi 5S untuk pihak ke 3 (koperasi dll). (1 hari 3 topik 6 jam pelajaran)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada usulan dan pelaksanaan pelatihan audit 5S untuk tim auditor 5S (3 hari 7 topik 18 jam pelajaran)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Kompetensi auditor telah menenuhi standar 5S yang telah ditetapkan dan unit telah memiliki tim auditor 5S (2 Orang)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Komunikasi 5S",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada forum pertemuan khusus yang membahas program 5S hasilnya sudah didstribusikan dan disosialisasikan (1x)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Ada sistem dokumentasi hasil pembahasan rapat 5S dan pendistribusian dan monitoring tindak lanjutnya (2x)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Ada sistem monitoring pelaksanaan rekomendasi rapat 5S (3x)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada dokumentasi jadwal forum pertemuan khusus program 5S (4x)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Hasil pembahasan forum 5S didistribusikan kepada pihak-pihak terkait (> 4x)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Audit dan Kompetisi 5S",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada Program Kompetisi 5S yang terstruktur (1x)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Penilaian Program kompetisi 5S dilaksanakan oleh Auditor 5S yang bersertifikat (2x)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Kompetisi Program 5S meliputi seluruh Area Kerja sesuai kesepakatan (3x)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Ada dokumentasi hasil penilaian berupa grafik trend hasil penilaian (4x)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Ada Sistem Reward and Punishment Program 5S (> 4x)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jumlah Tindak lanjut \/ Jumlah Rekomendasi",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah tindaklanjut dibandingakan dengan keseluruhan rekomendasi yang ada sebesar 0%-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah tindaklanjut dibandingakan dengan keseluruhan rekomendasi yang ada sebesar 20% - 40 %"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah tindaklanjut dibandingakan dengan keseluruhan rekomendasi yang ada sebesar 40% - 60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah tindaklanjut dibandingakan dengan keseluruhan rekomendasi yang ada sebesar 60% - 80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah tindaklanjut dibandingakan dengan keseluruhan rekomendasi yang ada sebesar 80% - 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jumlah Pelaksanaan Lomba 5S",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Lomba 5S dilakukan 1x dalam satu tahun"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Lomba 5S dilakukan 2x dalam satu tahun"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Lomba 5S dilakukan 3x dalam satu tahun"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Lomba 5S dilakukan 4x dalam satu tahun"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Lomba 5S dilakukan lebih dari 4x dalam satu tahun"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hasil Penilaian Implementasi 5S",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Tingkat implementasi 5S untuk 5 area kerja sesuai standar POB 5S adalah sebesar 0%-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Tingkat implementasi 5S untuk 5 area kerja sesuai standar POB 5S adalah sebesar 20% - 40 %"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tingkat implementasi 5S untuk 5 area kerja sesuai standar POB 5S adalah sebesar 40% - 60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Tingkat implementasi 5S untuk 5 area kerja sesuai standar POB 5S adalah sebesar 60% - 80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Tingkat implementasi 5S untuk 5 area kerja sesuai standar POB 5S adalah sebesar 80% - 100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

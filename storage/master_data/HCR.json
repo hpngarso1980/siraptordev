@@ -1,0 +1,592 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Program Peningkatan Kompetensi",
+                "sub_areas": [
+                    {
+                        "name": "Mapping Competency",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "60% \u2264 x \u2264 70% seluruh karyawan sudah dilakukan mapping Competency Profile",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "70% < x \u2264 80% seluruh karyawan sudah dilakukan mapping Competency Profile",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "80% < x \u2264 90% seluruh karyawan sudah dilakukan mapping Competency Profile",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "90% < x \u2264 100% seluruh karyawan sudah dilakukan mapping Competency Profile",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% seluruh karyawan sudah dilakukan mapping Competency Profile secara detail dan senantiasa diupdate",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "60% \u2264 x \u2264 70% karyawan sudah dilakukan assesmen kompetensi bidang dan ada rencana pengembangannya",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "70% < x \u2264 80% karyawan sudah dilakukan assesmen kompetensi bidang dan ada rencana pengembangannya",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "80% < x \u2264 90% karyawan sudah dilakukan assesmen kompetensi bidang dan ada rencana pengembangannya",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "90% < x \u2264 100% karyawan sudah dilakukan assesmen kompetensi bidang dan ada rencana pengembangannya masing - masing karyawan minimal 1 jenis program pengembangan yang relevan dengan kebutuhan",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% karyawan sudah dilakukan assesmen kompetensi bidang dan ada rencana pengembangannya masing - masing karyawan direncanakan lebih dari 1 jenis program pengembangan",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "60% \u2264 x \u2264 70% hasil mapping CP dan hasil assesmen kompetensi sudah direkap",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "70% < x \u2264 90% hasil mapping CP dan hasil assesmen kompetensi sudah direkap",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "90% < x \u2264 100% hasil mapping CP dan hasil assesmen kompetensi sudah direkap namun pengiriman laporan masih ada keterlambatan",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "90% < x \u2264 100 % hasil mapping CP dan hasil assesmen kompetensi sudah di rekap dan dikirimkan tepat waktu",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% hasil mapping CP dan hasil assesmen kompetensi sudah direkap, dikirimkan tepat waktu dan dikomunikasikan ke PIC terkait",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Identifikasi Kebutuhan dan Perencanaan PPK",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "60% \u2264 x \u2264 70% Rencana pengembangan selaras dengan hasil assesmen kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "70% < x \u2264 80% Rencana pengembangan selaras dengan hasil assesmen kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "80% < x \u2264 100% Rencana pengembangan selaras dengan hasil assesmen kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100 % Rencana pengembangan selaras dengan hasil assesmen kompetensi, jenis PPK beragam",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% Rencana pengembangan selaras dengan hasil assesmen kompetensi, jenis PPK beragam dan terstruktur dengan baik",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "50% \u2264 x \u2264 60% Rencana pengembangan selaras dengan program peningkatan kinerja unit\/program strategis korporat",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "60% < x \u2264 70% Rencana pengembangan selaras dengan program peningkatan kinerja unit\/program strategis korporat",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "70% < x \u2264 90% Rencana pengembangan selaras dengan program peningkatan kinerja unit\/program strategis korporat",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "90% < x \u2264 100 % Rencana pengembangan selaras dengan program peningkatan kinerja unit\/program strategis korporat",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% Rencana pengembangan selaras dengan program peningkatan kinerja unit\/program strategis korporat dan terstuktur dengan baik",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "70% \u2264 x \u2264 80% karyawan SJF sudah dibuat matriks sertifikasi",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "80% < x \u2264 90% karyawan SJF sudah dibuat matriks sertifikasi",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "90% < x \u2264 100% karyawan SJF sudah dibuat matriks sertifikasi",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100 % karyawan SJF sudah dibuat matriks sertifikasi dan sudah dibuat rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% karyawan SJF sudah dibuat matriks sertifikasi dan sudah ada tindaklanjutnya",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pelaksanaan & Monitoring PPK",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "70% \u2264 x \u2264 80% PPK Pembelajaran seluruh Karyawan sudah dilakukan monitoring",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "80% < x \u2264 90% PPK Pembelajaran seluruh Karyawan sudah dilakukan monitoring",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "90% < x \u2264 100% PPK Pembelajaran seluruh Karyawan sudah dilakukan monitoring , data monitoring update",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100% PPK Pembelajaran seluruh karyawan sudah dilakukan monitoring dan ada rencana penugasan pasca training sudah dilaksanakan",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% PPK Pembelajaran seluruh karyawan sudah dilakukan monitoring dan rencana penugasan pasca training sudah dilaksanakan",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "70% \u2264 x \u2264 80% data Sertifikasi update",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "80% < x \u2264 90% data Sertifikasi update",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "90% < x \u2264 100% data Sertifikasi update",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100 % data sertifikasi update dan ada rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100 % data sertifikasi update dan sudah dilakukan rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "60% \u2264 x \u2264 70% PPK (Penugasan) seluruh karyawan sudah dilakukan monitoring",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "70% < x \u2264 80% PPK (Penugasan) seluruh karyawan sudah dilakukan monitoring",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "80% < x \u2264 100% PPK (Penugasan) seluruh karyawan sudah dilakukan monitoring",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100 % PPK (Penugasan) seluruh karyawan sudah dilakukan monitoring dan sudah dibuat rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100 % PPK (Penugasan) seluruh karyawan sudah dilakukan monitoring , dibuat rencana tindaklanjutnya, dan rencana tindaklanjut sudah dilaksanakan",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "Pengiriman laporan 5-6 kali terlambat",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Pengiriman laporan 3-4 kali kali terlambat",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Pengiriman laporan 1-2 kali kali terlambat",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100% dikirimkan sebelum batas akhir",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% dikirimkan sebelum batas akhir dan diinformasikan kepada PIC terkait",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Evaluasi PPK",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "70% \u2264 x \u2264 80% PPK sudah dilakukan evaluasi",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "80% < x \u2264 90% PPK sudah dilakukan evaluasi",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "90% < x \u2264 100% PPK sudah dilakukan evaluasi",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100 % PPK sudah dilakukan evaluasi dan sudah dibuat rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% PPK (Penugasan) PPK sudah dilakukan evaluasi dan sudah dilaksanakan rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "60% \u2264 x \u2264 70% OFI Assesmen sudah dibuat rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "70% < x \u2264 80% OFI Assesmen sudah dibuat rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "80% < x \u2264 90% OFI Assesmen sudah dibuat rencana tindaklanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "90% < x \u2264 100 % OFI Assesmen sudah dibuat rencana tindaklanjutnya , 50% sudah status CLOSE",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% OFI Assesmen sudah dibuat rencana tindaklanjutnya , 100% sudah status CLOSE dan sudah ada upaya pencegahan tdk timbul OFI yang sama di periode selanjutnya",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "Sosialisasi oleh Top Leader setahun sekali, media melalui surat elektronik (contoh: OA)",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Sosialisasi oleh Top Leader setahun 2 kali , media melalui surat elektronik (contoh: OA)",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Sosialisasi oleh Top Leader minimal setahun 1 kali , media melalui tatap muka (contoh: Coffee morning)",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Sosialisasi oleh Top Leader minimal setahun 2 kali , media melalui tatap muka (misal Coffee morning), ada feed back dari karyawan dan evaluasi.",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Sosialisasi oleh Top Leader minimal setahun 2 kali , media melalui tatap muka (misal Coffee morning), ada tindaklanjut hasil evaluasi",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "0 < x \u2264 60% PPK yang dilaksanakan karyawan unit berdampak langsung kepada peningkatan kinerja unit",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "60% < x \u2264 70% PPK yang dilaksanakan karyawan unit berdampak langsung kepada peningkatan kinerja unit",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "70% < x \u2264 80% PPK yang dilaksanakan karyawan unit berdampak langsung kepada peningkatan kinerja unit",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "80% < x \u2264 90 % PPK yang dilaksanakan karyawan unit berdampak langsung kepada peningkatan kinerja unit",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "90% < x \u2264 100% PPK yang dilaksanakan karyawan unit berdampak langsung kepada peningkatan kinerja unit",
+                                "description": ""
+                            },
+                            {
+                                "score": "\u22641",
+                                "level": "Pengiriman laporan 5-6 kali terlambat",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Pengiriman laporan 3-4 kali kali terlambat",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Pengiriman laporan 1-2 kali kali terlambat",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "100% dikirimkan sebelum batas akhir",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "100% dikirimkan sebelum batas akhir dan diinformasikan kepada PIC terkait",
+                                "description": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Akselerasi Kompetensi",
+                "sub_areas": [
+                    {
+                        "name": "Akselerasi Kompetensi (AKSI)",
+                        "weight": 0.2,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "1. Unit menyusun program akselerasi kompetensi sebagai program unggulan unit (Program telah disahkan oleh Top Leader Unit) 2. Unit menetapkan mekanisme pelaksanaan program akselerasi kompetensi dalam bentuk SOP\/IK\/SK",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "1. Unit mengidentifikasikan kompetensi yang memerlukan akselerasi kompetensi 2. Unit melakukan mendokumentasikan pelaksanaan Program Akselerasi kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "1. Unit melakukan monitoring pelaksanaan Program Akselerasi kompetensi 2.Unit melaporkan pelaksanaan program akselerasi kepada PJB Academy tiap tanggal 5 setiap Triwulanan",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "1. Unit mengevaluasi efektifitas pelaksanaan program akselerasi kompetensi 2. Hasil Pelaksanaan program akselerasi kompetensi sudah didesimininasikan ke bidang\/unit lain yang terkait",
+                                "description": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Kompetensi Karyawan",
+                "sub_areas": [
+                    {
+                        "name": "Penguasaan kompetensi (KSA) Pasca mengikuti PPK Training dan Non Training",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "KSA Pasca mengikuti PPK 40% \u2264x\u2264 60%",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "KSA Pasca mengikuti PPK 60% \u2264x\u2264 70%",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "KSA Pasca mengikuti PPK 70% \u2264x\u2264 80%",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "KSA Pasca mengikuti PPK 80% \u2264x\u2264 90%",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "KSA Pasca mengikuti PPK 90% \u2264x\u2264 100%",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Sertifikasi Kompetensi",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Terdapat 20% \u2264x\u2264 40% karyawan bersertifikat kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Terdapat 40%\u2264x\u226460% karyawan bersertifikat kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Terdapat 60%\u2264x\u226470% karyawan bersertifikat kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Terdapat 70%\u2264x\u226490% karyawan bersertifikat kompetensi",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Terdapat 90%\u2264x\u2264100% karyawan bersertifikat kompetensi",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jumlah Peserta PPK Non Training",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Terdapat 20% \u2264x\u2264 40% peserta PPK Non Training",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Terdapat 40%\u2264x\u226460% peserta PPK Non Training",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Terdapat 60%\u2264x\u226480% peserta PPK Non Training",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Terdapat 80%\u2264x\u226490% peserta PPK Non Training",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Terdapat 90%\u2264x\u2264100% peserta PPK Non Training",
+                                "description": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prosentase kehadiran peserta training dan sertifikasi",
+                        "weight": 0.25,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Kehadiran peserta Training dan sertifikasi 50% - 60 % dari seluruh program",
+                                "description": ""
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Kehadiran peserta Training dan sertifikasi 60% - 70 % dari seluruh program",
+                                "description": ""
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Kehadiran peserta Training dan sertifikasi 70% - 80 % dari seluruh program",
+                                "description": ""
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Kehadiran peserta Training dan sertifikasi 80% - 90 % dari seluruh program",
+                                "description": ""
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Kehadiran peserta Training dan sertifikasi 90% - 100 % dari seluruh program dan tidak ada penggantian peserta",
+                                "description": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

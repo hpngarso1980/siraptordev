@@ -1,0 +1,541 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "PREDICTIVE MAINTENANCE",
+                "sub_areas": [
+                    {
+                        "name": "JENIS, JUMLAH TOOLS & TEKNOLOGI PDM",
+                        "weight": 0.05,
+                        "description": "Deskripsi : Jenis teknologi PdM menunjukkan bagaimana teknik yang digunakan untuk meminitor kondisi peralatan. Setiap teknik dan teknologi PdM mimiliki fungsi yang spesifik. Diperlukan lebih dari satu teknik untuk dapat memonitor kondisi peralatan sehingga didapatkan hasil yang optimal. Pengukuran dilakukan dengan integrasi beberapa peralatan PdM untuk memperoleh analisa yang lebih tajam Referensi : 1. Maintenance Enginering Handbook, R.Keith Mobley, Mc Graw Hill, 2008 2. An Introduction to Predictive Maintenance, R.Keith Mobley, Butterworth-Heinemann, 1999 Keterangan : Kelompok teknik dan teknologi PdM: 1. Visual Inspection 2. Vibration Monitoring 3. Thermography 4. Tribology 5. Dissolved Gas Analysis (DGA) 6. Motor Circuit Analysis (MCA) 7. Partial Discharge (PD)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Vibration Monitoring dan Thermography. Dibuktikan dengan kondisi berikut, 1. Dokumen matrix implementasi teknologi PdM untuk Vibration Monitoring, Thermography dan disetujui oleh Manajer terkait. 2. Dokumen workshop update dan review matriks teknologi minimal 1 semester sekali 3. Dokumen Workshop dihadiri oleh bidang operasi, pemeliharaan dan system owner. 4. Melaksanakan pengukuran sendiri atau mendapat support dari vendor\/unit lain terkait Vibration Monitoring dan Thermography dengan menunjukkan hasil pengukuran dan analisa, sertifikat kalibrasi tools Vibration Monitoring & Thermography atau dokumen tool Vibration Monitoring & Thermography yang telah di verifikasi terhadap alat yang terkalibrasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Tribology. Dibuktikan dengan kondisi berikut 1. Dokumen matrix implementasi teknologi PdM untuk triboligy yang disetujui oleh Manajer terkait. 2. Dokumen OA penyampaian hasil workshop 3. Level 1 sudah terlaksana dan melaksanakan pengukuran sendiri atau mendapat support dari vendor\/unit lain terkait tribology dengan menunjukkan dokumen hasil pengukuran dan analisa, sertifikat kalibrasi tools tribology atau dokumen tool tribology yang telah di verifikasi terhadap alat yang terkalibrasi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Dissolved Gas Analysis (DGA). Dibuktikan dengan kondisi berikut, 1. Dokumen matrix implementasi teknologi PdM untukDissolved Gas Analysis (DGA) dan disetujui oleh Manajer terkait. 2. Level 2 sudah terlaksana dan melaksanakan pengukuran sendiri atau mendapat support dari vendor\/unit lain terkait Dissolved Gas Analysis (DGA) dengan menunjukkan dokumen hasil pengukuran dan analisa, sertifikat kalibrasi tools DGA atau dokumen tool DGA yang telah di verifikasi terhadap alat yang terkalibrasi"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Motor Circuit Analysis (MCA) dan Ultrasonic Condition Monitoring. Dibuktikan dengan kondisi berikut, 1. Dokumen matrix implementasi teknologi PdM untuk Motor Circuit Analysis (MCA) dan Ultrasonic Condition Monitoring diaplikasikan pada peralatan Pembangkit sesuai dengan jumlah teknologinya dan disetujui oleh Manajer terkait. 2. Level 3 sudah terlaksana dan melaksanakan pengukuran sendiri atau mendapat support dari vendor\/unit lain terkait MCA dan Ultrasonic Condition Monitoring dengan menunjukkan dokumen hasil pengukuran dan analisa, sertifikat kalibrasi tools MCA atau dokumen tool MCA yang telah di verifikasi terhadap alat yang terkalibrasi"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Partial Discharge (PD). Dibuktikan dengan kondisi berikut, 1. Ada dokumen matrix implementasi teknologi PdM untuk Partial Discharge (PD) dan disetujui oleh Manajer terkait. 2. Level 4 sudah terlaksana dan melaksanakan pengukuran sendiri atau mendapat support dari vendor\/unit lain dalam penerapan ODS\/modal analysis, online monitoring untuk peralatan critical yang terintegrasi dengan program NDT terkait Partial Discharge (PD) dengan menunjukkan dokumen hasil pengukuran dan analisa, sertifikat kalibrasi tools Partial Discharge (PD) atau dokumen tool Partial Discharge (PD) yang telah di verifikasi terhadap alat yang terkalibrasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SERTIFIKASI DAN KUALIFIKASI PERSONAL PDM",
+                        "weight": 0.05,
+                        "description": "Deskripsi : Menunjukan persentasi personil PdM yang memiliki sertifikasi terkait pekerjaan yang dilakukan Referensi : 1. Maintenance Enginering Handbook, R.Keith Mobley, Mc Graw Hill, 2008 2. An Introduction to Predictive Maintenance, R.Keith Mobley, Butterworth-Heinemann, 1999\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Personel ada, namun belum bersertifikasi formal. Dibuktikan dengan kondisi berikut, 1. Ada dokumen matrik Personil PdM vs penugasan PdM (dengan kategori Sertifikat \/ non sertifikat) yang diapprove oleh Manajer terkait 2. Dokumen mapping kebutuhan sertifikasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Setidaknya 30% personil bersertifikat kompetensi yang dikeluarkan PJB dengan level tertinggi pada setiap teknologi yang digunakan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Setidaknya 70% personil bersertifikat kompetensi yang dikeluarkan PJB dengan level tertinggi pada setiap teknologi yang digunakan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "100 % personil bersertifikat kompetensi yang dikeluarkan PJB dengan level tertinggi pada setiap teknologi yang digunakan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "100 % personil bersertifikat kompetensi yang dikeluarkan PJB dan bersertifikat internasional dengan level tertinggi pada setiap teknologi yang digunakan"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "STANDARD OPERATION PROCEDURE, SETUP DATA BASE & PELAKSANAAN PDM",
+                        "weight": 0.1,
+                        "description": "Deskripsi : Set up data base PdM menunjukkan kelengkapan data base PdM yang diperlukan untuk dapat menghasilkan output PdM yang optimal meliputi acquisition, set up analisa, set boundary, alert & alarm, kesesuaian tranducer. Referensi : 1. Maintenance Enginering Handbook, R.Keith Mobley, Mc Graw Hill, 2008 2. An Introduction to Predictive Maintenance, R.Keith Mobley, Butterworth-Heinemann, 1999 Keterangan : 1. Acquisition\/frerkuensi: jadwal dan lama pekerjaan pengambilan\/pengukuran data sesuai dengan kelompok\/kelas peralatan. 2. Set up analisa parameter: parameter standart sebagai data base yang akan dianalisa sesuai dengan kelas\/kelompok peralatan 3. Set boundary for signature analysis: setting lower-upper limit untuk tools PdM sehingga data bisa terbaca dengan baik. 4. Alert dan alarm: batasan alert dan alarm yang menunjukkan kondisi peralatan 5. Kesesuaian tranducer 6. SOP: Standard Operation Prosedure: cara pengoperasian peralatan PdM, urutan dan kelengkapan pekerjaan, termasuk jumlah orang, lama pekerjaan, APD.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Predictive Maintenance dilaksanakan dengan tidak formal standard dan pelaksanaannya tidak terjadwal. Dibuktikan dengan dokumen instruksi kerja sudah dibuat sesuai dengan penerapan tools teknologi PDM"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Predictive Maintenance dilaksanakan berdasarkan pada skill individu dan input data oleh banyak teknisi. Dibuktikan dengan kondisi berikut, 1. Dokumen Prosedur pelaksanaan proses PdM\/SOP dan didalam prosedur terdapat satefy dan unsur proses PDCA. 2. Dokumen monitoring dan evaluasi atas rekomendasi hasil penerapan teknologi PDM 3. Dokumen jadwal pelaksanaan Pdm meliputi peralatan , tools\/teknologi, waktu dan pelaksana Pdm yang diapprove oleh Manager Engineering 4. Dokumen penjadwalan workshop Update standard, SOP-IK, database dan jadwal selama 1 tahun dan disyahkan manager engineering 5. Dokumen hasil workshop disampaikan ke bidang terkait melalui OA 6. Telah melaksanakan prosedur Level 1 dan terdapat dokumen rekapitulasi pelaksanaan Pdm per bulan yang diapprove oleh Manager Engineering dan dokumen laporan PdM (Pelaksanaan Pdm 50% - 70 % dari jadwal Pdm) 7. Penjadwalan seluruh aktivitas rutin PdM telah terintegrasi kedalam CMMS"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Predictive Maintenance dilaksanakan dengan standard dan pengukuran dilakukan oleh personil PdM serta ketepatan jadwal kurang dari 70 %. Dibuktikan dengan kondisi berikut, 1. Database standar Predictive Maintenance yang meliputi set-up analisa parameter peralatan dan batasan alarm dari setiap peralatan yang diapprove oleh Manager Engineering 2. Dokumen Penyusunan\/ update dan review Database standard PdM 3. Dokumen Pelaksanaan Workshop sesuai jadwal (Undangan dengan OA, notulen dan daftar hadir) 4. Penjadwalan seluruh aktivitas rutin PdM & database hasil PdM telah terintegrasi dalam CMMS (condition monitoring)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Predictive Maintenance dilaksanakan sesuai Standard dan dilakukan pengontrolan terhadap pekerjaan Pdm, serta ketepatan jadwal pelaksanaan Pdm 70 % - 80 % dari jadwal Pdm 2. Setting alarm\/batasan peralatan PdM telah terintegrasi kedalam CMMS untuk memunculkan WO"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Standar yang tinggi dan disertai proses Management of Change utk review. Dibuktikan dengan kondisi berikut, 1. Dokumen rekapitulasi pelaksanaan Pdm yang diapprove oleh Manager Engineering dan laporan PdM (Pelaksanaan Pdm > 80 % dari jadwal Pdm) 2. Kajian improvement SOP standard dan Setup Database PdM yang dilengkapi dengan referensi dan approval Manager Engineering 3. Hasil dari Condition monitoring CMMS telah dilakukan evaluasi dan sebagai referensi dalam penjadwalan\/program PdM berikutnya."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ANALISA KONDISI & RCA",
+                        "weight": 0.1,
+                        "description": "Deskripsi : Analisa yang dilakukan dengan menggunakan standar baku yang bersumber dari sumber resmi akan memberikan konsistensi analisa dan selalu dilakukan review serta update berdasarkan hasil Alarm ditentukan dari sumber resmi yang terpercaya sehingga dapat memberikan peringatan pada waktu yang tepat Referensi : 1. Maintenance Enginering Handbook, R.Keith Mobley, Mc Graw Hill, 2008 2. An Introduction to Predictive Maintenance, R.Keith Mobley, Butterworth-Heinemann, 1999 Keterangan : Analisa dan alarm meliputi: 1. Penyebab (RCA) 2. Rekomendasi tindakan, biaya dan waktu 3. Analisa Dampak bila tidak dilaksanakan\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Analisa dilakukan, akan tetapi belum menggunakan standar dan analisa dilakukan pada kondisi tertentu. Dibuktikan dengan kondisi berikut, 1. Dokumen analisa belum menggunakan standart resmi 2. Dokumen analisa data dari hasil pengukuran secara lengkap pada kondisi saat dibutuhkan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Analisa dilakukan dengan format standart akan tetapi analisa masih berdasarkan pada skill individu dan input dari teknisi hanya berisi rekomendasi dan tindakan serta analisa dilakukan pada kondisi tertentu. Dilampiri dokumen, 1. Dokumen Analisa hanya pada critical aset dengan alarm high dengan standart resmi berisi rekomendasi dan tindakan 2. Dokumen analisa data dari hasil pengukuran secara lengkap setiap semester"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Analisa dengan melakukan RCA pada sebagian peralatan yang mengalami alarm High dengan inputan analisa yang berasal dari sumber resmi berisi rekomendasi, tindakan,dampak, biaya dan waktu serta analisa dilakukan setiap triwulan. Dilampiri dengan dokumen berikut, 1. Dokumen Analisa dan RCA memenuhi level 2 hanya pada critical aset dengan alarm high dilengkapi dengan dampak, biaya dan waktu 2. Dokumen Analisa dengan integrasi seluruh metode PdM sesuai E&T Matriks 3. Dokumen analisa data dari hasil pengukuran secara lengkap setiap triwulan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Analisa dengan melakukan RCA dengan format CBA pada seluruh peralatan critical asset yang mengalami alarm High dengan melakukan monitoring dan update RCA berdasarkan hasil serta analisa dilakukan setiap triwulan. Dilampiri dengan dokumen berikut, 1. Dokumen Analisa dan RCA memenuhi level 3 pada seluruh critical aset dengan alarm high menggunakan format CBA 2. Dokumen Analisa dengan referensi dari data PM dan operasi 3. Dokumen analisa data dari hasil pengukuran secara lengkap setiap bulan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Memenuhi level 4 dan Analisa dengan melakukan RCA pada kegagalan (Alarm High) setiap peralatan yang dimonitoring dengan format LCCM serta analisa dilakukan setiap bulan. Dilampiri dokumen berikut, 1. Dokumen Analisa dan RCA pada semua peralatan yang dimonitoring dengan format LCCM 2. Dokumen analisa data dari hasil pengukuran secara lengkap dari analisis trending operasi"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "WO BERDASARKAN TEMUAN PDM",
+                        "weight": 0.05,
+                        "description": "Deskripsi : Menunjukkan efektifitas dari tindak lanjut output PdM mulai dari pembuatan rekomendaasi, pelaksanaan pekerjaan, test hasil , akurasi rekomendasi, monitoring dan feedback. Referensi : 1. Maintenance Enginering Handbook, R.Keith Mobley, Mc Graw Hill, 2008 2. An Introduction to Predictive Maintenance, R.Keith Mobley, Butterworth-Heinemann, 1999 Keterangan : Tabel yang berisikan: 1. Rekomendasi 2. No WO 3. Work log aktual 4. Work result 5. Monitoring dan trending\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Sebagian kecil menjadi WO PdM dengan dokumen Dokumen Laporan Predictive Maintainance yangg diapproval Manager Engineering dan dokumen pengantar (OA) dari setiap bulan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "< 50 % laporan PdM menjadi WO PdM dan <40 % tindak lanjut penyelesain sesuai dengan rekomendasi PdM. < 50 % hasil pekerjaan memenuhi standart teknologi PdM. Dilampiri dengan dokumen berikut : 1. Dokumen laporan rekapitulasi temuan PdM dan WO PdM yang diapproval Manager Engineering 2. Dokumen laporan kesesuaian rekomendasi PdM dan action\/tindakan pada WO PdM yang diapproval Manager Engineering 3. Dokumen laporan work result"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "50% sd 75% laporan PdM menjadi WO PdM dan 40% sd 70% tindak lanjut penyelesain sesuai dengan rekomendasi PdM. 50% sd 70% hasil pekerjaan memenuhi standart teknologi PdM.Dilampiri dokumen berikut : 1. Dokumen laporan rekapitulasi temuan PdM dan WO PdM yang diapproval Manager Engineering 2. Dokumen laporan kesesuaian rekomendasi PdM dan action\/tindakan pada WO PdM yang diapproval Manager Engineering 3. Dokumen laporan work result"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "75% sd 95% laporan PdM menjadi WO PdM dan 71% sd 95% tindak lanjut penyelesain sesuai dengan rekomendasi PdM. 70% sd 90% hasil pekerjaan memenuhi standart teknologi PdM. Dilampiri dokumen berikut : 1. Dokumen laporan rekapitulasi temuan PdM dan WO PdM yang diapproval Manager Engineering 2. Dokumen laporan kesesuaian rekomendasi PdM dan action\/tindakan pada WO PdM yang diapproval Manager Engineering 3. Dokumen laporan work result"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "90% sd 100% laporan PdM menjadi WO PdM dan 96% sd 100% tindak lanjut penyelesain sesuai dengan rekomendasi PdM. 90% sd 100% hasil pekerjaan memenuhi standart teknologi PdM. Dilampiri dokumen berikut : 1. Dokumen laporan rekapitulasi temuan PdM dan WO PdM yang diapproval Manager Engineering 2. Dokumen laporan kesesuaian rekomendasi PdM dan action\/tindakan pada WO PdM yang diapproval Manager Engineering 3. Dokumen laporan work result"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Process Analysis Engineering",
+                "sub_areas": [
+                    {
+                        "name": "Peta Improvement Enjiniring",
+                        "weight": 0.15,
+                        "description": "Deskripsi : Peta Improvement Enjiniring adalah suatu form hasil pemetaan data pendukung yang didapatkan dari diskusi dan komunikasi Tim Engineering . Data pendukung: 1. Pareto Heat rate dan Pareto Auxilary Power dikeluarkan oleh Rendal Ops ( stream Effisiensi management) 2. Pareto loss output dan OEE dikeluarkan oleh Rendal Ops (stream Operasi management) 3. Pareto Maintenance Cost dan frequency failure dikeluarkan oleh RendalHar (stream WPC) 4. Pareto Unreliability dan Reliability Index dikeluarkan oleh Engineering(stream Reliability) 5. Performance Test (Opearsi) 6. Remaining Life Assessment (RLA) 7. Data Analisa REMDO (UP Paiton, UBJOM Paiton, UBJOM Rembang dan UBJOM Indramayu) 8. Data lainnya. (Regulasi Safety, Lingkungan, Standar Baru, Best Practice dll)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Proses evaluasi data pendukung dan pemetaan data dilakukan oleh perseorangan namun belum secara detail dan belum terdokumentasi dengan baik. Periode waktunya juga masih bersifat sporadis"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Proses evaluasi data pendukung dan pemetaan data sudah dilakukan, namun belum detail dan belum terdokumentasi dengan baik dalam Form Peta Improvement Enjiniring. Updating peta improvement enjinering baru dilakukan setahun sekali."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "- Proses evaluasi data pendukung dan pemetaan data sudah dilakukan secara detail dan terdokumentasi dengan baik dalam Form Peta Improvement Enjiniring - Peta improvement enjinering diupdate 6 bulan sekali untuk mengakomodasi isu terkini terkait unit pembangkit."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "- Proses evaluasi data pendukung dan pemetaan data sudah dilakukan secara detail dan terdokumentasi dengan baik dalam Form Peta Improvement Enjiniring. - Peta improvement enjinering diupdate 3 bulan sekali untuk mengakomodasi isu terkini terkait unit pembangkit. - Dokumen ini tersimpan dalam media penyimpanan berbasis database yang bisa diakses secara online sehingga tidak memunculkan ketergantungan personil."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Telah memenuhi proses sebelumnya secara konsisten. Selain itu data pada peta improvement Enjinering terbukti telah dimanfaatkan oleh bidang selain Enjinering, dievaluasi rutin oleh Manajemen dan dipergunakan dalam pengambilan keputusan."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tools Analisis Enjiniring",
+                        "weight": 0.3,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Unit selama ini sudah melakukan workshop Analysis namun belum berdasarkan distribusi form Peta Improvement Enjiniring dan belum dilakukan evaluasi dan monitoring rekomendasi Analisis Enjinering (FMEA, RCFA, Analisa Pareto, Fault Tree Analisys, Fish bone, Pemodelan dsb) tidak dilakukan secara pro-aktif atau hanya dilakukan dan dibuat karena adanya permintaan bidang lain"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "- Unit sudah melakukan workshop Analysis berdasarkan distribusi dari Form Peta Improvement Enjiniring dan sudah dilakukan evaluasi dan monitoring rekomendasi secara detail - Analisis Enjiniring (FMEA, RCFA, Analisa Pareto, Fault Tree Analisys, Fish bone, Pemodelan dsb) dilakukan internal Enjinering tanpa melibatkan bidang lain sebagai nara sumber - Data kerusakan (failure mode, failure cause, dampak) berdasarkan asumsi, tidak berdasarkan data CMMS - Analisa enjiniring hanya menghasilkan rekomendasi jangka pendek (Corrective Action) untuk perbaikan kerusakan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "- Unit sudah melakukan workshop Analysis berdasarkan distribusi dari Form Peta Improvement Enjiniring dan sudah dilakukan evaluasi dan monitoring rekomendasi secara detail serta terdokumentasi dengan baik - Analisis Enjiniring dilakukan dengan melibatkan bidang lain hanya sebagai nara sumber, dibuktikan dengan absensi workshop - Data kerusakan (failure mode, failure cause, dampak) berdasarkan temuan fakta di lapangan, informasi nara sumber lapangan (praktisi, personil yang ada saat insiden) - Analisa Enjiniring telah memuat rekomendasi jangka pendek dan jangka panjang (pencegahan, pengurangan kemungkinan kejadian\/dampak)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit sudah melakukan workshop Analysis berdasarkan distribusi dari Form Peta Improvement Enjiniring dan sudah dilakukan evaluasi dan monitoring rekomendasi secara detail berbasis webbase sehingga dapat di akses oleh bidang internal\/eksternal yang membutuhkan. - Analisis Enjiniring dilakukan dengan melibatkan bidang lain secara aktif sebagai bagian tim investigasi, dibuktikan dengan dokumentasi investigasi bersama di lapangan dalam dokumen analisa dan approval dokumen - Data kerusakan (failure mode, failure cause, dampak) selain dari fakta lapangan dan informasi nara sumber, juga berdasarkan data Failure Mode Failure Cause dan data lain dari CMMS (dapat diintegrasikan sebagai tindak lanjut FRACAS di WPC) - DIstribusi hasil analisa dilakukan secara manual (OA, laporan manual), belum terintegrasi secara CMMS."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Unit sudah melakukan workshop Analysis berdasarkan distribusi dari Form Peta Improvement Enjiniring dan sudah dilakukan evaluasi dan monitoring rekomendasi secara detail berbasis web base sehingga dapat di akses oleh bidang internal \/ eksternal yang membutuhkan serta sistem sudah terintegrasi dengan bidang lain termonitor oleh manajemen secara kontinyu. - Analisa Enjinering telah memuat lesson learned dan dikomunikasikan dengan seluruh pihak terkait tanpa terkecuali secara interaktif (PGD, COP dsb). Komunikasi dilakukan setelah nalisa enjinering selesai dilakukan, bukan pada saat proses penyusunan. - Analisa enjiniring didistribusikan ke semua pihak terkait dan terintegrasi di CMMS - Dilakukan monitoring atas rekomendasi dalam analisa enjinering hingga menjadi program kerja (RKAP, WO, penentuan strategi persediaan material, standard job\/job plan baru, IK, dsb)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "RAM (Reliability Availability Maintainability) Analysist",
+                        "weight": 0.05,
+                        "description": "Deskripsi : Suatu metode untuk memprediksikan Reliability, termasuk Maintainability dan Availability (RAM) dari suatu system atau subsystem melalui proses kalkulasi failure rate untuk dapat mengukur secara kuantitatif deviasi antara design reliability dengan acieveable reliability sehingga bisa diprediksikan potensi kontributor utama terhadap failure\/unreliability dari suatu system. Referensi : 1. The Certified Reliability Engineer Handbook, Donald W.Benbow, American Society for Quality, 2009 2. Reliability, Maintainability & Risk, David J Smith, Butterworth-Heinemann, 2001 Keterangan : Pada sub area ini, terdapat 3 bagian yang harus diperhatikan oleh Tim Enjinering dalam penyusunan RAM Analysis, yaitu kualitas model, kualitas data, proses analisis dan pemanfaatan data. Model diharapkan dapat mencakup seluruh peralatan di unit termasuk K3 dan lingungan. Model sudah divalidasi dengan data riil dengan deviasi minimum sehingga kesimpulan pemodelan akurat. Data berasal dari CMMS yang berkualitas sehingga meminimalkan intervensi dari Egineer. Data yang dipergunakan untuk analisis bersifat update sehingga mencerminkan potret di lapangan. Engineer diharapkan dapat menginterpretasikan parameter-parameter terkait Reliability dan membawanya ke Manajemen. Lebih lanjut data pemodelan dapat dipergunakan sebagai dasar menyusun LCCE, RKAU, dan RJPU pada 5 tahun mendatang\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Model RBD sudah disusun tapi hanya bersifat gambar, tidak terdapat formulasi di dalamnya. RBD disusun pada system main equipment"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Model - Pada model sudah nampak formulasi antar network RBD sehingga Reliability index pada level terbawah bisa diagregasi pada level di atasnya - RBD sudah disusun pada sistem main equipment"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Model - Pada model sudah nampak formulasi antar network RBD sehingga Reliability index pada level terbawah bisa diagregasi pada level di atasnya - RBD sudah disusun pada sistem main equipment"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Model - Memenuhi level sebelumnya dan RBD sudah disusun pada sistem main equipment dan BOP - Model sudah divalidasi dengan kondisi real dengan deviasi > 10%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Model - Sudah memenuhi level sebelumnya dan RBD sudah disusun pada sistem main equipment, BOP, peralatan safety, dan lingkungan - Model sudah divalidasi dengan kondisi real dengan deviasi < 10%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Life Cycle Cost Analysis (LCCA)",
+                        "weight": 0.05,
+                        "description": "Deskripsi : LCCA menunjukkan kepada total biaya kepemilikan asset yang harus dikeluarkan selama umur dari asset yang meliputi dengan memperhitungkan semua biaya untuk memperoleh (aquisition cost), mengoperasikan (operation cost), memelihara (manitenance cost), dan membuang (disposal cost) suatu sistem. Referensi : Keterangan : Total Cost = Aquisition Cost + Operation Cost + Manitenance Cost + Disposal Cost 1. Time to Replace 2. Acquisition Cost 3. Operation Cost 4. Maintenance Cost 5. Disposal Cost 6. Economic Life \/ Min EAC Seluruh asset yang ada di pemodelan RBD harus dilengkapi dengan LCCA dengan target mengeluarkan 3 skenario dari asset: 1. Keep an maintain as usual 2. Keep and improve 3. Replace with existing or other candidate Output skenario tersubut akan digunakan untuk Long Term Planning. Keterangan: Maintenance cost to RAV sudah di lakukan pengukuran oleh stream WPC\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Life Cycle Cost Analysis (LCCA) belum dilakukan. Total biaya kepemilikan tidak diakui sebagai pendorong dalam proses utama."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "LCCA dilakukan menggunakan aturan pedoman praktis (Rule of Thumbs) pada sebagian project investasi dan engineering"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "LCCA dilakukan menggunakan standard resmi yang dikeluarkan oleh corporate dan pemodelan RAMS untuk equipment eksisting dan new asset"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "LCCA dilakukan menggunakan pemodelan RAM diterapkan untuk seluruh capital project dan main equipment (BTG) untuk mendapatkan Economic Life (Minimum Total Cost). Data LCCE sudah bisa direview secara online di modul asset CMMS Ellipse\/Maximo"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "LCCA dilakukan menggunakan pemodelan RAM diterapkan untuk seluruh capital project dan seluruh equipment yang berpengaruh pada plant reliability dan project untuk mendapatkan Economic Life (Minimum Total Cost). Data LCCE sudah bisa direview secara online di modul asset CMMS Ellipse\/Maximo"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maintenance Priority Index (MPI), Asset Health and Reliability Index",
+                        "weight": 0.05,
+                        "description": "Deskripsi : MPI adalah satu database yang dapat menunjukkan prioritas asset untuk dilakukan pemeliharaan yang ditentukan oleh beberapa kriteria. Asset Health menunjukkan kondisi peta kesehatan dari asset. Reliability Index menunjukkan tingkat keandalan dari suatu asset Referensi : Maintenance Enginering Handbook, R.Keith Mobley Keterangan : Kondisi peralatan dimonitor dengan RBD yang disimulasikan sampai pada overhaul berikutnya Hijau = tidak ada equipment down Kuning = ada equipment down tetapi tidak membuat plant down Merah = ada equipment down yang membuat plant down\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Unit sudah menyusun MPI berdasarkan standard nilai aset dan telah dijadikan sebagai pedoman pelaksanaan kajian internal proses bisnis enjiniring setiap 1 tahun sekali terdokumen dengan baik."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Unit sudah menyusun MPI berdasarkan standard nilai aset dan telah dijadikan sebagai pedoman pelaksanaan kajian internal proses bisnis enjiniring setahun 2 kali terdokumen dengan baik."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit sudah menyusun MPI berdasarkan parameter kondisi kesehatan unit dan telah dijadikan sebagai pedoman pelaksanaan kajian internal proses bisnis enjiniring 2 kali dalam setahun, terdokumen dengan baik dan didistribusikan secara manual (OA, laporan manual) ke bidang lain dan terkonfirmasi oleh bidang lain telah benar menerima dokumen ini"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit sudah menyusun MPI berdasarkan parameter kondisi kesehatan unit dan telah dijadikan sebagai pedoman pelaksanaan kajian internal proses bisnis enjiniring dan bidamg lain setahun 1 kali terdokumen dengan baik dalam CMMS modul asset."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Unit sudah menyusun MPI berdasarkan parameter kondisi kesehatan unit dan telah dijadikan sebagai pedoman pelaksanaan kajian internal proses bisnis enjiniring dan bidang lain setahun 2 kali dan terintegrasi dalam CMMS modul Asset"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Design Review",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Unit telah melakukan Asesmen equipment Area BTG dan membandingkannya dengan Standard Design Internasional"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "1. Unit telah melakukan Asesmen equipment Area CHF & Auxiallary dan membandingkannya dengan Standard Design Internasional 2. Update Design review dilakukan 1 tahun sekali"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "1. Unit telah melakukan Asesmen equipment menyeluruh dan membandingkannya dengan Standard Design Internasional 2. Update Design Review dilakukan setiap 6 bulan sekali"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "1. Unit telah melakukan Asesmen equipment menyeluruh dengan melibatkan bidang lain serta membandingkannya dengan Standard Design Internasional 2. Membuat action plan atas gap yang ditemukan antara hasil asesmen dibandingkan Standard Design 2. Update Design review dilakukan 3 Bulan sekali"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "1. Melakukan monitoring & evaluasi design review dan memastikan action plan atas Gap yang ditemukan telah selesai tereksekusi atau masuk dalam program RJPU\/RKAP 2. Update Design review dilakukan 3 Bulan sekali"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "Process Analysis Engineering",
+                "sub_areas": [
+                    {
+                        "name": "Workshop Analysis Enjiniring",
+                        "weight": 0.3,
+                        "description": "Deskripsi : Suatu workshop yang membahas cangkupan pendistribusian Peta Improvement Unit ke masing - masing PIC terkait hingga pelaksanaan proses analisa yang menghasilkan data pendukung rekomendasi (RCFA, FMEA, RLA, dsb) Referensi : 1. Maintenance Enginering Handbook, R.Keith Mobley, Mc Graw Hill, 2008 2. Root Cause Failure Analysis, R.Keith Mobley, Butterworth-Heinemann, 1999\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Masing - masing PIC terkati sudah menindaklanjuti 50 % dariseluruh hasil Action Plan Peta Improvement Unit"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Masing - masing PIC terkati sudah menindaklanjuti 70 % dariseluruh hasil Action Plan Peta Improvement Unit"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Masing - masing PIC terkati sudah menindaklanjuti 80 % dariseluruh hasil Action Plan Peta Improvement Unit"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Masing - masing PIC terkati sudah menindaklanjuti 90 % dariseluruh hasil Action Plan Peta Improvement Unit"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Masing - masing PIC terkati sudah menindaklanjuti seluruh hasil Action Plan Peta Improvement Unit sampai post maintenance testing atau task measurement"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "RAM (Reliability Availability Maintainability) Analysist",
+                        "weight": 0.2,
+                        "description": "Deskripsi : Suatu metode untuk memprediksikan Reliability, termasuk Maintainability dan Availability (RAM) dari suatu system atau subsystem melalui proses kalkulasi failure rate untuk dapat mengukur secara kuantitatif deviasi antara design reliability dengan acieveable reliability sehingga bisa diprediksikan potensi kontributor utama terhadap failure\/unreliability dari suatu system. Referensi : 1. The Certified Reliability Engineer Handbook, Donald W.Benbow, American Society for Quality, 2009 2. Reliability, Maintainability & Risk, David J Smith, Butterworth-Heinemann, 2001 Keterangan : Penggunaan Software: 1. Untuk plant modeling menggunakan software BlockSim. 2. Untuk equipment (repairable system) menggunakan software RGA 3. Untuk component (non repairable system) menggunakan software Weibull Dokumen RAM Analysist meliputi antara lain analisa: 1. Probability Density Function (PDF) 2. Reliability 3. Probability of Failure\/Unreliability 4. Failure Rate 5. MTBF 6. MTTR 7. MDT 8. MTTFF 9. Reliability Index (RI) Input untuk melakukan analisa RAM: 1.Pengisian down time-uptime di prostate oleh operator produksi (stream Operation Management) 2. Pengisian start-stop repair time di CMMS oleh rendalhar ( stream WPC) Output RAM digunakan oleh: 1. Perencanaan pemeliharaan oleh stream WPC 2. Kebijakan persediaan oleh stream SCM\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Permodelan RAMS yang digunakan sebagai justifikasi kurang dari 25% pada program RJPP-RKAP terkait keandalan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Permodelan RAMS yang digunakan sebagai justifikasi kurang dari 50% pada program RJPP-RKAP terkait keandalan"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Permodelan RAMS yang digunakan sebagai justifikasi 50% - 75% dari program RJPP-RKAP terkait keandalan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Permodelan RAMS yang digunakan sebagai justifikasi 75% - 95% dari program RJPP-RKAP terkait keandalan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Permodelan RAMS yang digunakan sebagai justifikasi 95% - 100% dari program RJPP-RKAP terkait keandalan"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Life Cycle Cost Analysis (LCCA)",
+                        "weight": 0.2,
+                        "description": "Deskripsi : LCCA menunjukkan kepada total biaya kepemilikan asset yang harus dikeluarkan selama umur dari asset yang meliputi dengan memperhitungkan semua biaya untuk memperoleh (aquisition cost), mengoperasikan (operation cost), memelihara (manitenance cost), dan membuang (disposal cost) suatu sistem. Referensi : Keterangan : Total Cost = Aquisition Cost + Operation Cost + Manitenance Cost + Disposal Cost 1. Time to Replace 2. Acquisition Cost 3. Operation Cost 4. Maintenance Cost 5. Disposal Cost 6. Economic Life \/ Min EAC Seluruh asset yang ada di pemodelan RBD harus dilengkapi dengan LCCA dengan target mengeluarkan 3 skenario dari asset: 1. Keep an maintain as usual 2. Keep and improve 3. Replace with existing or other candidate Output skenario tersubut akan digunakan untuk Long Term Planning. Keterangan: Maintenance cost to RAV sudah di lakukan pengukuran oleh stream WPC\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "LCCA digunakan sebagai pendukung \u2264 25% dari program RJPP-RKAP"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "LCCA digunakan sebagai pendukung 25% - 50% dari program RJPP-RKAP"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "LCCA digunakan sebagai pendukung 50% - 75% dari program RJPP-RKAP"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "LCCA digunakan sebagai pendukung 75% - 95% dari program RJPP-RKAP"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "LCCA digunakan sebagai pendukung 95% - 100% dari program RJPP-RKAP"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Maintenance Priority Index (MPI), Asset Health and Reliability Index",
+                        "weight": 0.2,
+                        "description": "Deskripsi : MPI adalah satu database yang dapat menunjukkan prioritas asset untuk dilakukan pemeliharaan yang ditentukan oleh beberapa kriteria. Asset Health menunjukkan kondisi peta kesehatan dari asset. Reliability Index menunjukkan tingkat keandalan dari suatu asset Referensi : Maintenance Enginering Handbook, R.Keith Mobley Keterangan : Kondisi peralatan dimonitor dengan RBD yang disimulasikan sampai pada overhaul berikutnya Hijau = tidak ada equipment down Kuning = ada equipment down tetapi tidak membuat plant down Merah = ada equipment down yang membuat plant down\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "< 50 % hasil MPI, Asset Health dan RI sebagai inputan dalam penyusunan RKAP dan RJPP"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "50% - 60 % hasil MPI, Asset Health dan RI sebagai inputan dalam penyusunan RKAP dan RJPP"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "60 % - 70 % hasil MPI, Asset Health dan RI sebagai inputan dalam penyusunan RKAP dan RJPP"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "80 % - 90 % hasil MPI, Asset Health dan RI sebagai inputan dalam penyusunan RKAP dan RJPP"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "90 % - 100 % hasil MPI, Asset Health dan RI sebagai inputan dalam penyusunan RKAP dan RJPP"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kualitas FDT",
+                        "weight": 0.1,
+                        "description": "Deskripsi : Menunjukan tingkat ketajaman dalam menganalisa akar penyebab kegagalan peralatan sehingga menghasilkan rekomendasi yang tepat untuk dilakukan perbaikan dan tidak terjadi pengulangan failure.\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Terjadi perulangan failure pada peralatan yang sama dengan mode kegagalam yang sama dalam rentang waktu 1 Bulan setelah eksekusi FDT"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Terjadi perulangan failure pada peralatan yang sama dengan mode kegagalam yang sama dalam rentang waktu 3 bulan setelah eksekusi FDT"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Terjadi perulangan failure pada peralatan yang sama dengan mode kegagalam yang sama dalam rentang waktu 6 bulan setelah eksekusi FDT"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Terjadi perulangan failure pada peralatan yang sama dengan mode kegagalam yang sama dalam rentang waktu 1 Tahun setelah eksekusi FDT"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Terbukti tidak jadi perulangan failure pada perlatan dalam rentang waktu minimal 3 Tahun setelah eksekusi FDT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

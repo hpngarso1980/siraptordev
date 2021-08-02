@@ -1,0 +1,34 @@
+{
+    "name": "CSR & SMP",
+    "score_target": 3.7,
+    "area_groups": [
+        {
+            "name": "ML PENGEMBANGAN MASYARAKAT",
+            "weight": 0.6,
+            "areas": [
+                {
+                    "name": "Keberhasilan Penyelesaian Akar Masalah",
+                    "sub_areas": [
+                        {
+                            "name": "Kinerja Program menyelesaikan atau menanggulangi akar masalah",
+                            "weight": 0.05
+                        }
+                    ]
+                },
+                {
+                    "name": "Well Organized",
+                    "sub_areas": [
+                        {
+                            "name": "Pengelolaan Program Community Development",
+                            "weight": 0.05
+                        },
+                        {
+                            "name": "Organisasi (lembaga dan kelembagaan) Kelompok masyarakat/komunitas",
+                            "weight": 0.05
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

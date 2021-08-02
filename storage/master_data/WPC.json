@@ -1,0 +1,800 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "WPC - Preventive Maintenance",
+                "sub_areas": [
+                    {
+                        "name": "Perencanaan Preventive Maintenance",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "- Job Plan dan PM sudah ada untuk 60% Equipment SERP (Daftar Equipment SERP) - Perencanaan PM tidak mengacu kepada standar yang bisa dipertanggung jawabkan, juga tidak ada dukungan EAM (Jadwal PM Rutin) - Job instruction hanya berisi checklist mengenai apa yang harus dikerjakan selama melakukan PM - Standard job\/job plan PM tidak memberikan informasi mengenai estimasi waktu, kompetensi teknisi, material consumable, dan tool yang dibutuhkan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Job instruction terbagi dalam langkah-langkah pekerjaan detail, namun hanya bersifat uraian kualitatif. Belum ada standar parameter yang harus dicapai. - Standar Job dilengkapi estimasi waktu, kompetensi teknisi, material dan tools - Standard job\/job plan dalam EAM disusun mengikuti rekomendasi pabrikan (OEM), sudah bersifat template pada beberapa critical asset yang identik namun belum dilakukan review. - Frekuensi PM mengacu rekomendasi pabrikan dengan pengaturan informal berdasar histori equipment Dibuktikan dengan kondisi berikut, - Standar job \/ Jobplan pada > 80% equipment SERP dalam EAM - Jobplan berisi langkah detail pekerjaan, dilengakapi estimasi wakut, kompetensi teknis, material dan tools - Jadwal PM aktiv dalam EAM > 80% dari equipment SERP"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Job instruction pada sebagian (50%) critical equipment telah bersifat kuantitatif, yaitu dilengkapi dengan standar parameter yang harus dicapai. - Sebagian standard job\/job plan untuk critical equipment disusun berdasar FMEA \/RCFA dan telah dibuat pada s.d. 30% melekat pada template peralatan sejenis, proses review telah dilakukan tetapi tidak terjadwal secara periodik dengan mempertimbangkan masukan\/feedback dari pelaksanaan PM periode sebelumnya. - Frekuensi PM disusun dan dimodifikasi mengacu histori equipment (failure rate, MTBF dll). Dibuktikan dengan kondiisi berikut - standar job\/job plan dilengkapi dengan standar parameter (50%) - Standar job \/ Jobplan pada > 90% equipment SERP dalam EAM - Jobplan berisi langkah detail pekerjaan, dilengakapi estimasi wakut, kompetensi teknis, material dan tools - Jadwal PM aktif dalam EAM > 90% dari equipmet SERP Daftar Update PM berdasar Rekomendasi Enjinering sesuai hasil FDT"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "- Job instruction pada 100% critical equipment telah bersifat kuantitatif, yaitu dilengkapi dengan standar parameter yang harus dicapai. - Standard job\/job plan dibuat melekat pada template peralatan sejenis dan seluruh standard job\/job plan untuk critical equipment disusun berdasar FMEA\/RCFA dengan mempertimbangkan kombinasi task PM dan PDM. Sudah diagendakan meeting untuk mereview akurasinya namun belum konsisten dilaksanakan. - Frekuensi PM disusun dan dioptimasi berdasar FMEA \/ RCFA dan mengacu histori equipment (failure rate, MTBF dll). - Update standart job\/job plan telah diupload pada EAM dibuktikan dengan evidence berikut, - standar job\/job plan dilengkapi dengan standar parameter (100%) pada critical equipment - Standar job \/ Jobplan pada 100% equipment SERP dalam EAM - Job plan berisi langkah detail pekerjaan, dilengakapi estimasi waktu, kompetensi teknis, material dan tools dan JSA - Jadwal PM aktiv dalam EAM 100% dari equipment SERP - Daftar Update PM berdasar Rekomendasi Enjinering sesuai hasil FDT (30%). - Daftar Update PM berdasar Rekomendasi Enjinering sesuai histori asset review (failure rate, MTBF, dll) 30% ."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "- Seluruh job instruction telah mengacu best practices standard internasional. Juga telah ada cukup evidence bahwa continuous improvement telah diformalkan. -standard job\/job plan disusun berdasar FMEA dan dibuat melekat pada template peralatan sejenis dengan mengoptimasikan beberapa jenis pemeliharaan.. Sudah dilakukan updating melalui meeting rutin yang dilaksanakan konsisten dengan mempertimbangkan RCFA maupun catatan historis pemeliharaan sebelumnya (50%) - Frekuensi PM disusun dan dioptimasi berdasar FMEA \/ RCFA dan mengacu histori equipment (failure rate, MTBF dll). - Update standart job\/job plan telah diupload seluruhnya pada EAM. Dibuktikan dengan kondisi berikut, - Daftar Update PM berdasar Rekomendasi Enjinering sesuai hasil FDT (50%). - Daftar Update PM berdasar Rekomendasi Enjinering sesuai histori asset review (failure rate, MTBF, dll) 50% ."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prioritisasi dan Pelaksanaan PM",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "- Teknisi hanya melakukan task PM sesuai dengan job card. - PM dikerjakan saat jadwal memungkinkan saja. Sesuai dengan kondisi berikut, - Scheduling PM mingguan - Record pelaksanaan WO PM sesuai jadwal"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Teknisi melakukan task PM pada sebagian besar equipment\/aset. ada dukungan dari operator yang melakukan beberapa task pada beberapa equipment. - Jadwal mingguan didominasi pelaksanaan PM, namun masih sering digantikan dengan pekerjaan emergency atau urgent. - Perbandingan resouce PM dan CM&EM 60 : 40 Sesuai dengan kondisi berikut, - rekap realisasi FLM & rutin work operator yang masuk scope PM - Dokumen Alokasi Resouce Pemeliharaan PM, Realisasi > 60%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Teknisi melakukan task PM pada sebagian besar equipment\/aset. ada dukungan dari operator yang melakukan beberapa task pada beberapa equipment. - Jadwal mingguan didominasi pelaksanaan PM. PM dengan urgensi tinggi dijaga tetap terlaksana. Namun untuk PM dengan urgensi rendah, jadwal masih digantikan pekerjaan emergency atau urgent - Perbandingan resouce PM dan CM&EM 70 : 30 Sesuai dengan kondisi berikut, - Rekap realisasi FLM & Rutin Work Operator yang masuk skope PM > 5% dari Equipment SERP - Dokumen Update standar job yang telah menjadi rutin Work Operator - Dokumen Alokasi dan realisasi Resouce Pemeliharaan PM, Realisasi > 70%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "- Teknisi melakukan task PM pada sebagian besar equipment\/aset. ada dukungan dari operator yang melakukan beberapa task pada beberapa equipment. - Pekerjaan PM jarang yang diganti dengan pekerjaan emergency\/urgent, namun pada beberapa kesempatan masih terjadi. - Perbandingan resouce PM dan CM&EM 85 : 15 Sesuai dengan kondisi berikut, - Rekap realisasi FLM & Rutin Work Operator yang masuk skope PM > 10% dari Equipment SERP - Dokumen Update standar job yang telah menjadi rutin Work Operator - Dokumen Alokasi dan realisasi Resouce Pemeliharaan PM, Realisasi > 85%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "-Teknisi melakukan task PM pada sebagian besar equipment\/aset. ada dukungan dari operator yang melakukan beberapa task pada beberapa equipment. - Pekerjaan PM konsisten sesuai jadwal. Tidak ada penggantian resources meski ada pekerjaan emergency. - Perbandingan resouce PM dan CM&EM 90 : 10 Sesuai dengan kondisi berikut, - Rekap realisasi FLM & Rutin Work Operator yang masuk skope PM > 20% dari Equipment SERP - Dokumen Update standar job yang telah menjadi rutin Work Operator - Dokumen Alokasi dan realisasi Resouce Pemeliharaan PM, Realisasi > 90%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Planning",
+                "sub_areas": [
+                    {
+                        "name": "Identifikasi Pekerjaan",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Dalam identifikasi pekerjaan, job site visit sangat jarang dilakukan. Juga tidak dilakukan identifikasi persyaratan safety, tag out, dan permit. Dibuktikan dengan dokumen Job Task"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Rendalhar melakukan job site visit hanya untuk pekerjaan yang urgent - Rendalhar hanya mengadopsi perintah safety yang generic saja untuk dituliskan dalam WO dibuktikan dengan kondisi berikut, - Dokumen job visit untuk pekerjaan urgent - Dokumen job card dilengkapi perintah safety generic"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Rendalhar melakukan job site visit dan membuat job task secara detail. sudah ada standard job\/job plan untuk pekerjaan yang sering dilakukan - Rendalhar membuat referensi safety terkait task yang dilakukan pada tipe equipment atau lingkungan tertentu Sesuai dengan kondisi berikut, - dokumen job visit - Standart Job pekerjaan Corrective yang sering dilakukan - Job card yang berisi referensi safety terkait task yang dilakukan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "- Rendalhar mereview standard job\/job plan tertentu beserta Supervisor Pemeliharaan saat melakukan job visit - Rendalhar menyiapkan daftar potensi bahaya dan referensi permit secara detail (APD, tag out, permit) pada tiap breakdown task mengacu job visit \/ job task Sesuai dengan dokumen berikut, - Dokumen Review standard job bersama dg supervisor har. (80% dari jobplan corrective) - Dokumen potensi Bahaya (JSEA)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "- Job site visit dan interaksi yang signifikan dengan pelaksana pekerjaan menjadi standar perencanaan pekerjaan - Memenuhi level 4, dimana prosedur identifikasi bahaya sudah baku dan sebanyak mungkin disediakan template identifikasi protensi bahaya, yang dituangkan dalam work package (IK) sesuai dengan dokumen berikut, - Dokumen Review standard job bersama dg supervisor har. (100% dari jobplan corrective) - Dokumen instruksi kerja perencanaan pekerjaan job site visit dan rekap job site visit pekerjaan - Dokumen templete potensi bahaya dalam work package \/ job plan"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Perencanaan instruksi kerja, kebutuhan resources, dan material dalam EAM",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "- Job instruction tidak diisi - Tidak menyertakan kebutuhan kompetensi teknisi dan estimasi manhournya - Tidak ada kebutuhan material. Material diidentifikasi saat teknisi mulai mengerjakan pekerjaan Perencanaan penurunan Material dead stock 15% sesuai dengan dokumen berikut, - job card - dokumen rencana penurunan material dead stock 15"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Job instruction pada WO hanya diisi klausul standar dari standard job template. - Estimasi waktu bersifat umum, dinyatakan dalam satuan hari - Material diidentifikasi teknisi saat mengerjakan yang kemudian dimintakan Rendalhar. Akibatnya perencanaan sering tidak akurat dan terjadi delay eksekusi pekerjaan. - 25% work order telah diidentifikasi kebutuhan resource-nya Perencanaan penurunan Material dead stock >15% sesuai dengan dokumen berikut, - job instruction WO yang yang berisi klausul standard - WO dengan estimasi waktu bersifat umum dan 25% identifikasi kebutuhan resource - Dokumen rencana penurunan material dead stock >15 %"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Urutan job instruction sudah mulai spesifik pada setiap pekerjaan mengacu job site visit. Job instruction masih bersifat kualitatif dan tidak menyertakan kebutuhan tool. - Perencanaan manhours jauh lebih akurat meski masih terjadi kesalahan. (rekap) - Material ditentukan berdasar historis pemeliharaan sebelumnya, namun masih muncul kebutuhan material yang tidak diprediksi. (laporan perencanaan material dan pemakaian material per WO closed) - 50% work order telah diidentifikasi kebutuhan resource-nya Perencanaan penurunan Material dead stock >20% (dokumen rencana penurunan material dead stock)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "- Job instruction berisi detail langkah kerja, mulai pekerjaan pendahuluan, pekerjaan inti, dan pekerjaan penutup. Job instruction bersifat kualitatif. Tool yang dibutuhkan hanya disebutkan bersifat umum pada semua langkah kerja - Estimasi manhours sudah mulai detail pada setiap task (di EAM Ellipse menggunakan modul task assignment) untuk diroll up pada total task - Perencanaan material sudah memanfaatkan BOM Management sehingga job delay sudah jarang terjadi. (rekap material dalam BOM) - 75% work order telah diidentifikasi kebutuhan resource-nya Perencanaan penurunan Material dead stock >30% (dokumen)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "- Job instruction berisi detail langkah kerja, mulai pekerjaan pendahuluan, pekerjaan inti, dan pekerjaan penutup. Job instruction bersifat kuantitatif dengan menyertakan parameter pada setiap langkah. Tool yang dibutuhkan juga sudah didetailkan pada setiap langkah kerja - Memenuhi level 4, dan sudah menggunakan standard job\/job plan dalam merencanakan resources yang dievaluasi berdasar inputan feedback dari teknisi atau koreksi historis pemeliharaan sebelumnya. - 100% work order telah diidentifikasi kebutuhan resource-nya Perencanaan penurunan Material dead stock > 40% (dokumen)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Perencanaan Anggaran Pemeliharaan",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "RUTIN\/PROJECT Estimasi biaya dilakukan berdasar perkiraan tanpa ada dasar yang bisa dipertanggungjawabkan (FMZ 04-1-4.4 Program Kerja Pemeliharaan)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "RUTIN Estimasi biaya berdasar realisasi biaya pemeliharaan pada tahun sebelumnya kemudian dikoreksi dengan pendekatan inflasi PROJECT Estimasi biaya dilakukan dengan mengevaluasi penawaran harga dari suplier, dimana nilai terendah dijadikan patokan harga sesuai dengan dokumen berikut (Dokumen perencanaan anggaran rutin dan referensi tahun sebelumnya berdasarkan inflasi dan Dokumen HPS berdasarkan informasi supplier"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "RUTIN Estimasi biaya berdasar realisasi biaya pemeliharaan pada tahun sebelumnya, yang telah dievaluasi akurasi datanya, apakah sudah mencerminkan pelaksanaan pemeliharaan yang sesungguhnya. Estimasi biaya kemudian dikoreksi dengan pendekatan inflasi. PROJECT Dalam mengestimasi biaya sudah memenuhi level 2, dan juga sudah menerapkan metode analogous, yaitu mengestimasi biaya dengan membandingkan nilai project sejenis melalui proses scaling. Analisis tentang urgensi masing masing program telah dilaksanakan dan ada prioritisasi program. Referrensi yang akuntable telah digunakan untuk menyusun RAB. sesuai dengan dokuemen berikut, Dokumen perencanaan anggaran rutin dan referensi tahun sebelumnya beserta evaluasi dan inflasi. dan Dokumen HPS berdasarkan informasi supplier"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "RUTIN Estimasi biaya berdasarkan perencanaan pekerjaan rutin pada EAM. Dimana pada setiap standard job\/job plan sudah disebutkan standar material dan harga. Setelah sistem disimulasi selama setahun akan menghasilkan estimasi biaya pemeliharaan rutin selama setahun. Belum dilakukan evaluasi rutin terhadap kebutuhan material dalam setiap standard job\/job plan sehingga estimasi biaya yang dilakukan belum sepenuhnya akurat. PROJECT Dalam mengestimasi biaya, planner menggunakan metode bottom up . Yaitu menyusun Work Breakdown Structure (WBS) \/ detail pekerjaan pada tiap task, termasuk menentukan biaya pada setiap task, kemudian di-\"role up\" menjadi total biaya project. Hasil estimasi kemudian dibandingkan dengan metode pada level 3 untuk mendapatkan estimasi biaya terbaik. Digunakan referensi yang akuntable dalam penyusunan RAB dan disediakan alternatif-alternatif program, ada mekanisme pemilihan alternatif, dan pada akhirnya dipilih alternatif terbaik dari aspek kinerja, risiko, dan cost. sesuai dengan kondisi berikut (Rekap estimasi anggaran rutin yang dibreakdown sesuai standar job \/ job plan (material cost dan Rekap estimasi anggaran project yang dibreakdown sesuai item project dalam bentuk RAB)."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "RUTIN Estimasi biaya berdasarkan perencanaan pekerjaan rutin pada EAM. Dimana pada setiap standard job\/job plan sudah disebutkan standar material dan harga. Setelah sistem disimulasi selama setahun akan menghasilkan estimasi biaya pemeliharaan rutin selama setahun. Agar perencaan akurat, kebutuhan material dalam standard job\/job plan harus selalu direview. Estimasi biaya kemudian juga dikoreksi dengan pendekatan inflasi. PROJECT Disamping telah menggunakan metode seperti pada level 4, planner sudah mulai menggunakan metode parametric, dimana biaya pada setiap satuan pekerjaan mengacu pada statistik biaya pada beberapa pekerjaan sejenis, yang sudah menjadi standar baik nasional maupun internasional. Planner juga sudah mulai mengadaptasi software Cost Engineering (misal Thermo Flow, dll) untuk mengestimasi biaya. Sudah digunakan tool dan mekanisme baku yang world class dalam proses perencanaan. sesuai dengan dokumen Rekap estimasi anggaran rutin yang dibreakdown sesuai standar job \/ job plan (material cost) beserta evaluasinya. dan Rekap estimasi anggaran project yang dibreakdown sesuai standar (nasional \/ internasional) harga satuan pekerjaan."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitoring Anggaran Pemeliharan",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Monitoring anggaran sudah dilakukan tetapi belum rutin dilakukan (laporan monitoring anggaran)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "Monitoring anggaran sudah rutin dilakukan secara bulanan tetapi masih berdasarkan realisasi biaya cost center secara umum (ex corrective, PM, PdM, dll) dan sudah terdapat estimasi realisasi per semester (laporan monitoring anggaran)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "Monitoring anggaran sudah rutin dilakukan secara bulanan dan sudah berdasarkan realiasi program detail kerja (PRK) dan sudah terdapat estimasi realisasi per 3 bulan (laporan monitoring anggaran)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "Monitoring anggaran sudah rutin dilakukan secara bulanan dan sudah berdasarkan realiasi dan progress program detail kerja (PRK) dan sudah terdapat estimasi realisasi per bulan (laporan monitoring anggaran)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "Sudah melakukan no. 4 ditambah : Monitoring anggaran sudah bisa dilakukan secara real time per program detail kerja (PRK) (laporan monitoring anggaran melalui SIT)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Scheduling",
+                "sub_areas": [
+                    {
+                        "name": "Prioritas Pekerjaan",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Prioritas penjadwalan pekerjaan paling banyak didasarkan pada komplain bidang produksi. Sesuai dengan dokumen Rekap priority WO status \"Planning\"."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "Work order (WO) diatur oleh Rendalhar dimana prioritas didasarkan masukan dari bidang produksi, namun tidak ada metode yang baku. (notulen)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "Sudah ada metode baku dalam menentukan prioritas namun tidak konsisten dilaksanakan. Prioritas pengerjaan dilakukan oleh Supervisor Pemeliharaan. (IK)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "Prioritas penjadwalan pekerjaan didasarkan kritikalitas aset, dampak yang ditimbulkan, dan jenis WO. Sistem terdokumentasi namun belum konsisten (IK)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "Prioritas penjadwalan pekerjaan didasarkan kritikalitas aset, dampak yang ditimbulkan, dan jenis WO yang dioptimasi secara simultan. Sistem terdokumentasi dengan baik dan konsisten dilaksanakan (rekap WO)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Daily and Weekly Scheduling",
+                        "weight": 0.08,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Semua Work\/Service Request (WR\/SR) dengan prioritas apapun langsung\u00a0 dikerjakan teknisi secepatnya tanpa melalui proses planning and scheduling, dimana operator mengorder Tim Pemeliharaan secara langsung tanpa melalui Rendalhar. WO diterbitkan menyusul hanya sekedar untuk formalitas pembebanan biaya (rekap SR)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Rendalhar tidak memiliki draft pekerjaan yang akan dikerjakan minggu depan. - Tidak ada proses planning dan scheduling yang dilakukan bersama Supervisor Pemeliharaan. - Tidak melaksanakan weekly meeting - Lebih dari 80% WR\/SR dengan prioritas normal, WO langsung diluncurkan kepada Tim Pemeliharaan pada minggu yang sama. - Pekerjaan emergency langsung dieksekusi Tim Pemeliharaan tanpa ada WO emergency yang diterbitkan operator. (Rekap WO status normal dan urgent dan rekap SR\/WR terbit)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Rendalhar melakukan daily planning hanya untuk ILS dengan prioritas urgent (harus dikerjakan maksimal 7 hari) yang terbit pada minggu bersangkutan. WO langsung dieksekusi Tim Pemeliharaan pada minggu yang sama. (rekap WO) - Pada weekly meeting sudah ada agenda meminta persetujuan draft pekerjaan pada minggu depan. - Lebih dari 40% WR\/SR dengan prioritas normal, WO langsung diluncurkan kepada Tim Pemeliharaan pada minggu yang sama. (rekap SR\/WR) - Pekerjaan emergency langsung dieksekusi Tim Pemeliharaan dan berdasarkan ILS\/SR yang diterbitkan operator dan WO EM diterbitkan oleh Rendalhar . (Dokumen persetujuan draf pekerjaan minggu depan) - MST dan work manager dalam EAM hanya untuk formalitas meluncurkan WO rutin (Dokumen rekap WO Emergency)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "- Rendalhar sudah memiliki draft pekerjaan yang akan dikerjakan minggu depan, terdiri dari rencana pekerjaan rutin yang secara otomatis ditampilkan EAM, WO backlog, dan WR\/SR yang terbit pada minggu sebelumnya dengan prioritas normal (bisa tertangguhkan lebih seminggu), namun tidak ada proses planning dan scheduling bersama Supervisor Pemeliharaan. (Rekap wo status planning WO prioritas urgent dan Normal) - Setidaknya masih ada 20% ILS dengan prioritas normal (bisa tertangguhkan lebih seminggu) yang langsung diluncurkan WO-nya untuk Tim Pemeliharaan pada mingggu yang sama. - Penerbitan WO minggu depan pada tiap hari Jumat hanya meliputi daftar WO rutin yang secara otomatis disiapkan SIT Ellipse (melalui modul MST), tanpa memperhatikan WO individual dengan prioritas normal. - Operator langsung menerbitkan WO emergency untuk langsung dieksekusi Tim Pemeliharaan. (Dokumen rekap WO Emergency)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "- Rendalhar menyiapkan draft pekerjaan yang akan dikerjakan minggu depan, terdiri dari rencana pekerjaan rutin yang secara otomatis ditampilkan EAM, daftar WO backlog, dan WR\/SR yang terbit pada minggu sebelumnya dengan prioritas normal (bisa tertangguhkan lebih seminggu). - Rendalhar melakukan proses planning and scheduling, meliputi identifikasi scope pekerjaan, persiapan material, resources, dan penetapan rencana tanggal pelaksanaan pekerjaan. Aktivitas ini dilakukan bersama Supervisor Pemeliharaan. - Rendalhar melaksanakan weekly meeting untuk mendapatkan persetujuan daftar pekerjaan yang akan dikerjakan minggu depan. Selanjutnya diterbitkan WO pada minggu yang sama. - Rendalhar melakukan daily planning hanya untuk WR\/SR dengan prioritas urgent (harus dikerjakan maksimal 7 hari) yang terbit pada minggu bersangkutan. WO langsung dieksekusi Tim Pemeliharaan pada minggu yang sama. sesuai dengan dokumen berikut, - Rencana draft pekerjaan minggu depan (PM, daftar WO backlog, dan SR\/WR yang terbit pada minggu sebelumnya prioritas \"Normal\". - Dokumen kesepakatan planning dan scheduling antara Rendalhar dengan Pemeliharaan - Rekap WO Normal status planning pada minggu yang sama"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Morning Meeting - Efektivitas",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "- Sudah dilakukan persiapan tetapi tidak lengkap mencakup semua materi persiapan standar. - Agenda yang diikuti hanya merubah WR\/SR menjadi WO, kemudian membahas hal-hal lain diluar agenda. Sesuai dengan kondisi berikut, - Dokumen persiapan meeting - Dokumen Notulen rapat dan absensi kehadiran"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Sudah dilakukan persiapan secara rutin terhadap semua materi dan informasi tersedia lengkap sebelum meeting tetapi seluruh peserta belum memahami. - Agenda standar sudah rutin disiapkan oleh bidang terkait (rendal har dan ops) tetapi belum seluruh peserta mengetahui rinci materi yang dibicarakan sesuai dengan kondisi berikut, - Dokumen persiapan meeting telah dikirim ke seluruh peserta meeting sebelum meeting - Dokumen agenda rapat"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Sudah dilakukan persiapan secara rutin terhadap semua materi dan informasi tersedia lengkap sebelum meeting, seluruh peserta sudah memahami dan tidak ada Informasi tambahan yang harus digali dalam meeting. (Dokumen persiapan meeting telah dikirim ke seluruh peserta meeting sebelum meeting) - Agenda standar sudah rutin disiapkan dan dilaksanakan oleh bidang terkait (rendal har dan ops) dan materi rinci sudah dipahami oleh peserta dan tidak ada pembahasan materi lain di luar agenda. (Dokumen Notulen rapat dan absensi kehadiran) - Pelaksanaan meeting tidak dihadiri oleh seluruh peserta yang wajib hadir, masih ada gangguan, ketidaktepatan waktu pelaksanaan dan notulensi yang dihasilkan kurang dipahami oleh seluruh peserta meeting (Dokumen score meeting)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "Level 3 ditambah : - Update informasi dalam meeting langsung diupdate di EAM. (Rekap update status WO hasil meeting) - Efektifitas waktu dan pembahasan meeting diukur dengan OME (overall Meeting Effectiveness). Konsistensi\u00a0 pelaksanaan scoring OME tidak mencapai 100%.(Dokumen score meeting dengan metode OME)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "Level 4 ditambah: - Efektifitas waktu dan pembahasan meeting diukur dengan OME (Overall Meeting Effectiveness). Hasil scoring OME langsung di-feedback kepada peserta meeting sebagai evaluasi perbaikan meeting selanjutnya. Konsistensi pelaksanaan scoring OME 100 %. (Dokumen evaluasi score meeting OME)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Resources Smoothing",
+                        "weight": 0.08,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Tidak dikenal resources smoothing (Dokumen rekap WO PM tanpa ada resources smoothing)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "Sudah ada kalender pemeliharaan 52 minggu yang mengidentifikasi manhours PM selama setahun dan jadwal outage. Namun data ini hanya bersifat statis tanpa ada pengaturan selanjutnya. (Dokumen Kalender pemeliharaan 52 minggu)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "Level 2 ditambah: - Kalender selalu diupdate berkala jika ada perubahan di standard job\/job plan PM dalam EAM yang ditetapkan dalam quarterly meeting (dihadiri oleh para SPV OME). Sudah ada jadwal pemeliharaan mingguan dan resorce smoothing mingguan. - Kesiapan manhours pada tiap minggu sudah diidentifikasi dan dicatat dalam EAM dengan melakukan koreksi faktor pengurang manhours (misal meeting, training dll). - Utilisasi resources tidak diset 100% untuk memberikan ruang bagi pekerjaan emergency. - Rendalhar mengalokasikan manhours untuk penyelesaian WO backlog. (Dokumen update kalender sesuai perubahan standard job PM ke dalam EAM) (Rekap ketersediaan Man hour setiap minggu)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "Level 3 ditambah: - Rendalhar membandingkan beban kerja yang dikerjakan dalam satu minggu dengan kesiapan manhours teknisi yang dimiliki, kemudian melakukan resource smoothing dan update jadwal pelaksanaan pekerjaan. - Jadwal pemeliharaan yang update, terdistribusi dan mudah dipahami oleh bidang Operasi, Maintenance dan Engineering. - Kesiapan material dan tools yang ditetapkan dalam Quarterly Meeting (Draft pekerjaan mingguan (PM, CM, EM, EJ) (Resource smoothing draft pekerjaan mingguan)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "Level 4 ditambah: - Kebutuhan dan ketersediaan manhour sudah terintegrasi antara bidang pemeliharaan dan SDM. (Dokumen integrasi bidang pemeliharaan dengan SDM) - Utilisasi resources diset 100%. (Dokumen utilisasi resources di set 100%) - Kesiapan material dan tools yang ditetapkan dalam Quarterly Meeting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Execution",
+                "sub_areas": [
+                    {
+                        "name": "Eksekusi Pekerjaan",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Semua pekerjaan pemeliharaan berdasarkan WO yang terbit (dokumen wo)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Kurang dari 30% pekerjaan yang dilakukan sesuai dengan instruksi kerja-nya. (Rekap kesesesuaian instruksi kerja dengan pelaksanaan pekerjaaan kurang dari 30%) - Tidak semua WO dikembalikan ke Rendalhar. (Rekap WO terbit dibanding dengan WO kembali) - Laporan pemeliharaan sudah dibuat"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Kurang dari 50% pekerjaan yang dilakukan sesuai dengan instruksi kerja-nya. (rekap) - Setelah pekerjaan selesai, Tim Pemeliharaan langsung melakukan post maintenance testing dan melakukan serah terima pekerjaan dengan operator (penandatangan job card). - Supervisor Pemeliharaan sebagai pengawas lapangan yang bertanggung jawab atas kualitas pekerjaan dan safety pekerjaan - Supervisor Pemeliharaan sudah melakukan analisis wrench time terhadap 50% pelaksanaan pekerjaan, membuat trend bulanan, dan membuat evaluasi peningkatannya - Supervisor RenDal Pemeliharaan sudah melakukan perhitungan MTTR terhadap 50% critical asset (dokumen) - Job card dikembalikan dengan informasi lengkap dan dimasukkan EAM. (berisi FBR) - Laporan pemeliharaan sudah dibuat secara rutin yang berisi KPI dan infromasi lain di bidang pemeliharaan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "- Kurang dari 70% pekerjaan yang dilakukan sesuai dengan instruksi kerja-nya. - Tim Pemeliharaan melakukan post maintenance testing bersama dengan operator segera setelah pekerjaan perbaikan dinyatakan selesai dengan jaminan kualitas yang disetujui pihak terkait hasil pengetesan terdokumentasi. - Supervisor Pemeliharaan sebagai pengawas lapangan yang bertanggung jawab atas kualitas pekerjaan dan safety pekerjaan - Supervisor Pemeliharaan sudah melakukan analisis wrench time terhadap 75% pelaksanaan pekerjaan, membuat trend bulanan, dan membuat evaluasi peningkatannya. - Supervisor RenDal Pemeliharaan sudah melakukan perhitungan MTTR terhadap 75% critical asset - Jika ada temuan atau rekomendasi saat pekerjaan pemeliharaan, Supervisor Pemeliharaan \/ Rendal Har membuat Work Request dalam EAM. - Supervisor Pemeliharaan secara rutin membuat laporan pemeliharaan sebagai executive summary di bidangnya - Rendal har menggunakan data-data di EAM untuk melakukan analisa pareto (Pareto Maintenance Cost dan Pareto Failure), dalam rangka program peningkatan kinerja unit - Laporan pemeliharaan sudah dibuat secara rutin yang berisi seluruh KPI dan infromasi lain di bidang pemeliharaan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "- Kurang dari 90% pekerjaan yang dilakukan sesuai dengan instruksi kerja-nya. - Tim Pemeliharaan melakukan serah terima pekerjaan segera setelah peralatan dinyatakan siap untuk dioperasikan yang disetujui semua bidang terkait. Serah terima pekerjaan ditandai dengan penandatanganan job card oleh operator. - Supervisor Pemeliharaan sebagai pengawas lapangan yang bertanggung jawab atas kualitas pekerjaan dan safety untuk semua pekerjaan - Supervisor Pemeliharaan sudah melakukan analisis wrench time terhadap 100% pelaksanaan pekerjaan, membuat trend bulanan, dan membuat evaluasi peningkatannya. - Supervisor RenDal Pemeliharaan sudah melakukan perhitungan MTTR terhadap 100% critical asset dan beserta analisanya. - Supervisor Pemeliharaan sudah melakukan analisis wrench time secara random sampling terhadap pelaksanaan pekerjaan, membuat trend bulanan, dan membuat evaluasi peningkatannya. - Informasi tersedia lengkap, jelas, mudah dipahami dan seluruh informasi sudah dimasukkan ke dalam EAM - Laporan pemeliharaan sudah dibuat secara rutin yang berisi seluruh KPI dan infromasi lain di bidang pemeliharaan dan sudah dijadikan sebagai bahan manajemen (manajer pemeliharaan) dalam pengambilan keputusan"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kelengkapan alat dan prosedur safety",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "- Alat safety untuk Alat pelindung diri dan peralatan tidak lengkap - Prosedur isolasi peralatan belum disiapkan dengan baik - Belum ada APTW disetiap WO (Daftar APD dan Safety dan kondisinya0"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "- Alat safety untuk alat pelindung diri dan peralatan lengkap tetapi belum berfungsi dengan baik - Prosedur isolasi peralatan sudah disiapkan tetapi masih belum detail - APTW sudah dibuat untuk sebagian Work Order non PM (30%)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Alat safety untuk alat pelindung diri dan peralatan lengkap dan berfungsi dengan baik - Isolasi peralatan sudah dilakukan dengan baik, tetapi prosedur isolasi peralatan belum dilakukan secara konsisten - APTW sudah dibuat untuk sebagian besar Work Order non PM (60%)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "- Alat safety untuk alat pelindung diri dan peralatan lengkap dan berfungsi dengan baik . - Sebagaian besar WO telah dilengkapi dengan JSEA yang dikeluarkan oleh K3 \/Rendal Har dan ditandatangani oleh pejabat yang terkait sesuai prosedur. - Isolasi peralatan sudah dilakukan dengan baik dan diberi tagging di CCR maupun lokal, sudah dilengkapi dengan prosedur isolasi peralatan yang berdasarkan \"manual operasi-pemeliharaan\" yang dituangkan dalam formulir isolasi peralatan yang ditandatangani oleh pejabat yang terkait sesuai prosedur - APTW sudah dibuat untuk seluruh Work Order non PM (90%)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "- Alat safety untuk alat pelindung diri dan peralatan lengkap dan berfungsi dengan baik. - Seluruh WO telah dilengkapi dengan JSEA yang dikeluarkan oleh K3 \/Rendal Har dan ditandatangani oleh pejabat yang terkait sesuai prosedur. (REkap data JSEA pada WO = 100%) - Tidak ada kecelakaan kerja karena kesalahan prosedur safety. - Isolasi peralatan sudah dilakukan dengan baik dan diberi taggingdi CCR maupun lokal, sudah dilengkapi dengan prosedur isolasi peralatan yang berdasarkan \"manual operasi-pemeliharaan\" yang ditungkan dalam formulir isolasi peralatan yang ditandatangani oleh pejabat yang terkait sesuai prosedur. - Tidak ada unit trip\/kerusakan peralatan karena kesalahan prosedur isolasi. - APTW sudah dibuat untuk seluruh Work Order non PM (100%) (Rekap data WO dan dokumen PTW = 100%)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Control",
+                "sub_areas": [
+                    {
+                        "name": "Updating Work Order",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Work order tidak terupdate sejak terbit, baik status, workgroup, Rendalhar yang bertanggung jawab. Bahkan Work order dibiarkan open meskipun pekerjaan di lapangan telah selesai (rekap wo closed)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "Banyak status digunakan dalam WO, namun tidak ada perhatian tentang status tersebut, dan bahkan tidak dipahami oleh bidang terkait. Workgroup tidak dimantain dengan baik. Banyak pekerjaan yang sebetulnya telah selesai, tetapi WO belum diclosed (10 %) (dokumen terkait)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "- Workflow proses terdokumentasi namun hanya dipahami sebagian orang. Bidang OME tidak concern terhadap status WO, juga tidak ada kontrol tentang status WO. Workgroup dimaintain sesuai jalannya workflow. Masih ada pekerjaan yang sudah selesai tapi WO belum diclosed (5%)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "Sudah ada kontrol yang baik terhadap status WO (status WO sesuai kondisi terkini). Bidang OME sudah memahami status WO. Semua pekerjaan selesai, status WO sudah closed 100%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "Memenuhi level 4, Sudah ada evidence konsisten dilaksanakan selama 3 tahun."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Work Order History ; Failure reporting and Corrective Action System (FRACAS)",
+                        "weight": 0.07,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "",
+                                "description": "Data failure tidak terlacak (job card belum ada failure code)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "",
+                                "description": "Failure code ada, namun belum konsisten dimasukkan ke dalam EAM, masih 50% terdapat pada work order (rekap)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "",
+                                "description": "Failure code dimasukkan ke dalam Work Order namun hanya sedikit atau bahkan tidak ada analisis data yang dilakukan. Kurangnya pemahaman mengenai failure code (rekap dokumen terkait)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "",
+                                "description": "Memenuhi level 3, dan organisasi sudah melakukan analisis terhadap failure code termasuk memberikan usulan tindak lanjut corrective action (rekap dokumen analisa)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "",
+                                "description": "Memenuhi level 4. Failure code sudah mulai dikelompokkan berdasar tipe kerusakan dan jenis equipment sehingga meminimalkan terjadinya salah penulisan failure code. Organisasi mendapatkan banyak keuntungan dengan penerapan FRACAS process (dokumen evaluasi)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "WPC - Preventive Maintenance",
+                "sub_areas": [
+                    {
+                        "name": "PM Compliance",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "PM Compliance 0 - 70%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "PM Compliance >70%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "PM Compliance >80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "PM Compliance > 90%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "PM Compliance = 100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Planning",
+                "sub_areas": [
+                    {
+                        "name": "Bill of Material (BOM) Management",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Tidak ada BOM Management yang melekat ke equipment."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "BOM Management (data spare part ) sudah disetting untuk sebagian kecil (25%) critical equipment."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "BOM Management (data spare part ) sudah disetting untuk sebagian (50%) critical equipment."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "BOM Management (data spare part ) sudah disetting untuk sebagian besar (75%) critical equipment."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "BOM Management (data spare part ) sudah disetting untuk semua (100%) critical equipment."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "WO Planned Backlog",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Tidak terukur\/ tidak ada data (belum dilakukan pengukuran)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "> = 8 Minggu"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "6 - < 8 Minggu"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "4 - < 6 Minggu"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "< 4 Minggu"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Scheduling",
+                "sub_areas": [
+                    {
+                        "name": "Schedule Compliance (WO Non Tactical)",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "Schedule Compliance (WO non Tactical) 0% - 30%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "Schedule Compliance (WO non Tactical) > 30% - \u2264 50%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Schedule Compliance (WO non Tactical) > 50% - \u2264 70%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Schedule Compliance (WO non Tactical) > 70% - \u2264 80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Schedule Compliance (WO non PM) > 80%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Execution",
+                "sub_areas": [
+                    {
+                        "name": "Wrench Time",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "< 25%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "25% - 35%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "35% - 45%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "45% - 55%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "> 55%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jaminan kualitas hasil pekerjaan( Rework)",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "> 20% atau Tidak terukur \/ tidak ada data (belum dilakukan pengukuran)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "15% < - 20%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "10% < - 15%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "5% < - 10%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "\u22645%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Contractor Cost Ratio",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "> 60% atau Tidak terukur \/ tidak ada data (belum dilakukan pengukuran)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "\u2264 40% - > 60%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "\u2264 20% - > 40%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "\u2264 10% - > 20%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "\u2264 10%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WPC - Maintenance Control",
+                "sub_areas": [
+                    {
+                        "name": "Reactive Work",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "> 20% atau Tidak terukur \/ tidak ada data (belum dilakukan pengukuran)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "15% < - 20%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "10% < - 15%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "5% < - 10% Ditambah harus ada nilai penurunan non tactical maintenance dari smt sebelumnya"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "\u22645% Ditambah haru ada nilai penurunan non tactical maintenance dari smt sebelumnya"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ratio Maintenance Cost dengan Replacement Asset Value (RAV)",
+                        "weight": 0.11,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (menunggu & memadamkan kebakaran)",
+                                "description": "> 7 %"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kebakaran)",
+                                "description": "5 - 7 %"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "3 - 5 %"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "2,5 - 3 %"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "< 2,5 %"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1591 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "HIRARC",
+                "sub_areas": [
+                    {
+                        "name": "PENGENDALIAN HIRARC:",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit menetapkan prosedur Identifikasi dan penilaian Bahaya Risiko K3 berikut upaya pengendalian risiko dan melakukan pelatihan serta melibatkan petugas \/ karyawan kompeten dari Unit untuk melakukan identifikasi dan penilaian bahaya dan resiko mengacu semua aktifitas per area"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit tidak hanya melakukan identifikasi dan penilaian bahaya dan resiko berdasarkan semua aktifitas per area, akan tetapi juga sudah mendetailkan bahaya dan resiko tiap peralatan, proses produksi dan lingkungan kerja serta melakukan sosialisasi dan distribusi HIRARC"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit melakukan pengendalian risiko K3 yang masih belum diterima & kemudian melakukan pengukuran dan monitoring efektifitas kontrol saat ini secara berkala dalam semester berjalan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit memastikan review dokumen penilaian risiko K3 secara rutin telah dilakukan serta update bahaya dan resiko baru secara berkala dalam semester berjalan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit memasukkan pengendalian risiko K3 ke dalam program anggaran tahunan serta melakukan monitoring & Action-Plan Perencanaan & Eksekusi Program Kerja berdasarkan HIRARC secara rutin telah dilakukan."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pemenuhan Regulasi Peralatan",
+                "sub_areas": [
+                    {
+                        "name": "Sertifikasi Peralatan",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melakukan Pemetaan Ketentuan Regulasi & Peralatan Utama serta Bantu yang perlu di Uji & Sertifikasi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan pemetaan scope dan batasan parameter standard teknis Pengujian & Sertifikasi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan Monitoring & Action-Plan Perencanaan & Eksekusi Program Pengujian & Sertifikasi Peralatan"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan monitoring & Action-Plan Hasil Uji & Sertifikasi berdasarkan Batasan Spesifikasi & Masa Berlaku"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit melakukan evaluasi dan pengendalian atas resiko hasil uji sertifikasi (dilengkapi rekapitulasi hasil uji peralatan lengkap dengan batasan parameter uji serta status kelayakan, catatan rekomendasi dan tindaklanjut mitigasi, dan evaluasi progres tindak lanjut hasil sertifikasi\/uji peralatan) serta melakukan sosialisasi hasil uji kelayakan peralatan"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan Fire Protection System",
+                "sub_areas": [
+                    {
+                        "name": "Fire Protection System",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melakukan identifikasi\/inventarisasi Spesifikasi & Jumlah FPS Automatic & Manual yang meliputi instalasi proteksi pemadam kebakaran aktif dan sistem deteksi kebakaran yang digunakan dalam mengendalikan kondisi darurat kebakaran"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan pemasangan dan penempatan instalasi pemadam kebakaran serta pemilihan bahan pemadam telah mempertimbangkan jenis dan penggolongan kebakaran, pengaruh bahan terhadap peralatan yang dipadamkan serta terhadap bahaya kesehatan manusia (dilengkapi dengan dokumen mapping & layout Fire Protection System di seluruh Area)."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan inspeksi, pengetesan dan pemeliharaan rutin FPS mengacu kepada pedoman standar \/ peraturan yang berlaku atau sesuai standar NFPA dan melakukan monitoring riwayat pemeliharaannya \/ITM (Inspection, testing, maintenance) (dilengkapi dengan dokumen monitoringnya)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit melakukan evaluasi tindak lanjut hasil ITM dan melakukan monitoring serta action-plan Kesiapan & Kelengkapan berdasarkan Standard NFPA (dilengkapi dengan dokumen monitoringnya)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit melakukan tindaklanjut dari ketidaksiapan FPS yang ada serta melakukan monitoring & Action-Plan Perencanaan & Eksekusi Program Penormalan & Standarisasi FPS (dilengkapi dengan dokumen RKAP terkait penormalan FPS dan dokumen monitoring progres penormalan FPS)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengendalian Work Permit",
+                "sub_areas": [
+                    {
+                        "name": "Working Permit System",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah menerapkan Prosedur penerbitan Working-Permit, melakukan monitoring Working-Permit yang terbit dan action plan yang dilakukan untuk pihak internal maupun eksternal (dilengkapi dengan dokumennya)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "K3 Unit terlibat dalam forum komunikasi & koordinasi (Daily Meeting, Toolbox Meeting, Safety Meeting, Rapat OH Harian, dsb) Pekerjaan di Area Plant (dilengkapi dengan dokumentasi pelaksanaannya)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "K3 Unit proaktif dalam Monitoring update informasi Pekerjaan Harian Operasi dan Pemeliharaan di Area Plant oleh Internal maupun Eksternal (Query SR dan WO, Laporan Harian Produksi, dsb) (dapat ditunjukkan dengan Dokumen monitoring informasi operasi dan pemeliharaan dilengkapi dengan pengendalian permit yang diperlukan)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melaksanakan Job Safety Observation (JSO) pada setiap awal pekerjaan (dilengkapi dengan dokumen KSO setiap pekerjaan yang memerlukan permit) dan melaksanakan Live-audit rutin pada setiap pekerjaan (dilengkapi dengan dokumen live audit setiap pekerjaan yang memerlukan permit)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah menerapkan Rules-Enforcement atas ketidaksesuaian yang ditemukan pada saat Live-Audit dan JSO dan melakukan pengendalian Risiko Lanjutan (dilengkapi dengan Aturan K3 yang dituangkan dalam Kebijakan Unit atau dalam kontrak pekerjaan, Dokumentasi penegakan aturan K3 yang dilakukan ketika ditemukan ketidaksesuaian saat JSO dan Live-Audit, Action Plan tindak lanjut temuan ketidaksesuaian saat JSO dan Live Audit)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengendalian Risiko K3 Kontraktor",
+                "sub_areas": [
+                    {
+                        "name": "Pengendalian Pekerjaan Kontraktor",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "K3 unit telah melakukan monitoring dan pengendalian atas perencanaan pekerjaan yang dijasakan dengan tingkat risiko pekerjaan oleh bidang pemeliharaan (dilengkapi dokumennya). Monitoring tersebut akan digunakan untuk pengendalian risiko K3 pelaksanaan pekerjaan kontraktor"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "K3 unit telah melakukan monitoring dan pengendalian atas Kualifikasi Risiko Kontraktor (dilengkapi dengan checklist kualifikasi risiko kontraktor serta hasil evaluasinya). Monitoring tersebut akan digunakan dalam perencanaan dan pelaksanaan program safety education bagi kontraktor"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan pengendalian terkait K3 pada pelaksanaan pekerjaan pihak ketiga mulai dari sebelum1, selama2 dan setelah3 pekerjaan kontraktor (dilengkapi dengan: a. Dokumen persyaratan kontraktor, Dokumen safety induction (absensi, foto, materi), Dokumen pelaksanaan JSO; b. Dokumentasi penunjukan dan pelaksanaan pengawasan, Dokumen Live Audit, Dokumen penegakan aturan; c. Dokumen Clearence Permit)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah menerapkan Rules-Enforcement pada kontraktor dan melakukan Evaluasi SLA serta Rating Kualifikasi Risiko K3 pada Kontraktor (dilengkapi dengan: a. Aturan K3 yang dituangkan dalam Kebijakan Unit atau dalam kontrak pekerjaan, b. Dokumentasi penegakan aturan K3 yang dilakukan ketika ditemukan ketidaksesuaian saat JSO dan Live-Audit; c. Action Plan tindak lanjut temuan ketidaksesuaian saat JSO dan Live Audit; d. Dokumen SLA yang dilengkapi evaluasi penyelesaian aspek K3 kontraktor)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah menerapkan CSMS dalam setiap proses pengadaan berdasarkan Best-Practice dan Proven dalam penerapannya (dilengkapi dengan: a. Infrastruktur CSMS (Struktur tim CSMS, manual CSMS, prosedur CSMS, checklist CSMS); b. Dokumen sertifikat CSMS kontraktor"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Peran Safety dalam Pelaksanaan OH",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah menerapkan Prosedur penerbitan Working-Permit, melakukan monitoring Working-Permit yang terbit dan action plan yang dilakukan untuk pihak internal maupun eksternal (dilengkapi dengan: a. Dokumen Daftar Working Permit yang telah terbit dilengkapi dengan masa kadaluarsa permit pekerjaan overhaul; b. Dokumen kegiatan inspeksi implementasi working permit pekerjaan overhaul)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melaksanakan Komunikasi & Koordinasi pekerjaan OH dengan keterlibatan K3 pada forum tersebut (dilengkapi dengan dokumentasi)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melaksanakan Safety-Meeting harian antara K3 Unit dengan K3 Kontraktor yang terlibat dalam pekerjaan Overhaul (dilengkapi dengan dokumentasi)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Adanya tindak lanjut terhadap pembahasan safety-meeting harian yang dilakukan sebelumnya (temuan safety patrol, perubahan ijin kerja\/ permit, temuan Live Audit, dsb) (dilengkapi dengan dokumen monitoring dan pengendalian safety meeting sebelumnya)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan pengembangan pelaksanaan OH Berbasis Safety berdasarkan Best-Practice dan Proven dalam penerapannya (dilengkapi dengan: Infrastruktur sesuai dengan frame work OH berbasis safety (organisasi OH, ruang safety induction dan safety meeting, fasilitas umum dan rest area, laydown dan baricade area OH, tools management, toolbox meeting, pengendalian informasi pekerjaan dan keselamatan kerja, dsb))"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Penanganan Ketidaksiapan Peralatan Emergency",
+                "sub_areas": [
+                    {
+                        "name": "Impairment permit",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah mengidentifikasi FPS yang dalam kondisi tidak normal di Unit"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan pemetaan Sistem FPS yang saling berhubungan dan berdampak saat kondisi impairment"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah menyusun dokumen Impairement berupa Manual & Formulir Impairement Permit dari tiap sistem FPS"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan sosialisasi Manual & Formulir Impairement Permit dari tiap sistem FPS secara berkala (semester berjalan)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melaksanakan Monitoring dan menjalankan action plan impairment permit yang terbit"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengendalian Operasional K3",
+                "sub_areas": [
+                    {
+                        "name": "Pengukuran Faktor Fisika dan Kimia",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melakukan identifikasi potensi bahaya dari setiap Faktor Bahaya Lingkungan Kerja yang dapat terjadi di Unit."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah menentukan lingkup pengukuran setiap Faktor Bahaya Lingkungan Kerja (dilengkapi dengan Prosedur pengukuran bahaya lingkungan kerja yang dilengkapi scope pekerjaan dan pemetaan titik\/ area pengukuran) serta melakukan kalibrasi alat ukur yang digunakan secara berkala (semester berjalan)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pengukuran Faktor Bahaya Lingkungan Kerja yang telah dilakukan mendapatkan pengesahan dari Disnaker sesuai peraturan yang berlaku"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit melaksanakan pengukuran internal berkala Faktor Bahaya Lingkungan Kerja yang telah dilakukan"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit melaksanakan Monitoring dan Action Plan terhadap efektifitas pengendalian yang dilakukan"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengendalian Alat Pelindung Diri (APD)",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melakukan identifikasi kebutuhan APD (baik APD wajid dan APD khusus) yang digunakan sudah sesuai dengan pekerjaan yang dilakukan di Unit dan menyediakan untuk personil yang membutuhkan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Personil yang melaksanakan pekerjaan sudah menggunakan APD yang sesuai dengan pengendalian risiko pekerjaan (dilengkapi dengan Dokumen JSO terkait penggunaan APD yang sesuai dengan risiko pekerjaan)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melaksanakan pemeriksaan kondisi dan kelengkapan APD secara rutin untuk APD wajib dan APD khusus personil"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan pemeliharaan APD apabila ditemukan kerusakan atau ketidaksesuaian setelah dilakukan pengecekan pada APD"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah menggunakan APD sesuai standart yang proven untuk setiap APD yang digunakan setiap personil (dilengkapi dengan Program standarisasi dan upgrade spesifikasi, kualitas maupun jumlah APD wajib dan APD khusus sesuai dengan Pedoman Baku dan Standart Teknis yang dipersyaratkan (ANSI, ASNZS, dsb))"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengendalian Penangan Material Manual dan Mekanis",
+                "sub_areas": [
+                    {
+                        "name": "Penanganan Material Manual dan Mekanis",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah mengidentifikasi Lingkup Aktifitas, Risiko dan Batasan Aman Penanganan Material Manual dan Mekanis dari seluruh aktivitas Penanganan Material Manual dan Mekanis yang ada di Unit (Contoh: Penanganan Material Gudang, Penanganan Material dengan Alat Berat, Penanganan Material Pemeliharaan Secara Manual, dsb) (dilengkapi dengan dokumen)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah mengidentifikasi Tools, Pergerakan Tubuh, serta Langkah Cara Aman Penanganan Material Manual dan Mekanis dari seluruh aktivitas Penanganan Material Manual dan Mekanis yang ada di Unit (Contoh: Penanganan Material Gudang, Penanganan Material dengan Alat Berat, Penanganan Material Pemeliharaan Secara Manual, dsb) (dilengkapi dengan dokumen)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melaksanakan Sosialisasi Prosedur Penanganan Material Manual dan Mekanis terhadap setiap personil secara berkala dalam semester berjalan dan telah menyediakan rambu terkait Penanganan Material Manual dan Mekanik (dilengkapi dengan dokumentasi)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melaksanakan pemeriksaan Kesiapan Tools, Kondisi Fisik & Psikis Pekerja, serta Kompetensi Pekerja sebelum melaksankan pekerjaan Penanganan Material Manual dan Mekanis (dilengkapi dengan dokumentasi)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan analisa kesesuaian pekerja melaksanakan pekerjaan dengan Prosedur Penanganan Material Manual dan Mekanis yang telah ada (dilengkapi dengan Dokumen Live-Audit Pekerjaan Penanganan Material Manual dan Mekanis dilengkapi dengan analisa kesesuaian bekerja dengan prosedur)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Penguatan Kompetensi dan Budaya K3",
+                "sub_areas": [
+                    {
+                        "name": "Sertifikasi & Kompetensi K3",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah menyusun matriks dengan memetakan ketentuan regulasi & standar kompetensi K3 dengan pemetaan peran personil unit yang perlu dilakukan sertifikasi & pelatihan kompetensi K3 (dilengkapi dengan usulan kebutuhan sertifikasi dan pelatihan)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan monitoring hasil sertifikasi & pelatihan kompetensi K3 berdasarkan jabatan, fungsi & peran serta masa berlakunya"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Bidang K3 unit telah melaksanakan peningkatan kompetensi peran K3 pada seluruh bidang selain bidang K3 (safari safety, awareness\/ sosialisasi K3, pelatihan internal; dan dilengkapi sertifikat TOT bidang K3))"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah mengusulkan penunjukan tugas & tanggungjawab dari personil yang telah mengikuti sertifikasi\/ pelatihan kompetensi K3 (dilengkapi dengan Program kerja yang dibuat oleh masing-masing peran dan disahkan oleh GM)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan monitoring dan menjalankan action plan hasil pelaksanaan tugas & tanggungjawab dari personil yang telah mengikuti sertifikasi & pelatihan kompetensi K3"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Budaya Keterbukaan Komunikasi K3 (Just-Culture dlm K3)",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melakukan sosialisasi & awareness terkait budaya keterbukaan komunikasi K3"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melaksanakan program budaya dalam membangun budaya keterbukaan komunikasi K3 (dilengkapi dengan dokumentasi dan pelaporan komunikasi K3 (laporan bahaya\/hazard, unsafe, nearmiss, dsb))"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melibatkan & menentukan target pelaporan\/ komunikasi K3 dari tiap bidang"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan evaluasi hasil pelaporan komunikasi K3 oleh komite\/ tim khusus (AK3 dan tim teknis) dan telah melaksanakan tindaklanjut dari hasil evaluasi"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah membangun database statistik potensi dan penyebab bahaya\/ hazard, unsafe dan nearmiss agar mudah dipantau"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan Penanganan Kondisi Darurat",
+                "sub_areas": [
+                    {
+                        "name": "Dokumen PIP \/ ERP",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit sudah melakukan identifikasi kondisi darurat yang dapat terjadi di Unit"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit sudah memiliki dokumen pemetaan occupancy (Batas lingkungan, Konstruksi dan layout, Jumlah dan sebaran workforce serta asset peralatan, nilai perkiraan dan layout), resource sarana dan prasarana dan personil (serta perannya) untuk kondisi darurat (Kesiapan sumber air, Kesiapan peralatan emergency, Kesiapan APD emergency)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit sudah menyusun dokumen PIP yang meliputi level 1 dan 2 lengkap dengan skenario, komunikasi darurat, TKPKD dan tindakan pemulihan yg disahkan top manajemen serta disosialisaikan ke seluruh workforce"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Dalam pelaksanaan simulasi PIP atau ERP unit sudah melakukan dokumentasi, pelaporan dan evaluasi hasil pelaksanaannya (Pengembangan dokumen PIP dengan perhitungan area eksposure paparan akibat kondisi darurat)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit sudah melakukan mitigasi kontrol kondisi darurat akibat eksposure (dilengkapi dalam dokumen PIP)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Simulasi \/ Emergency Drills",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit sudah melaksanakan simulasi sesuai dokumen PIP atau ERP (dilengkapi skenario, jadwal, tema dan dokumentasi)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit sudah melaksanakan simulasi sesuai dokumen PIP atau ERP dengan melibatkan manajemen, seluruh workforce dan stakeholder setempat"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Dalam pelaksanaan simulasi PIP atau ERP unit sudah melakukan dokumentasi, pelaporan dan evaluasi hasil pelaksanaannya (evaluasi meliputi: komunikasi darurat, distribusi peran, sequence time skenario darurat, dsb)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan monitoring dan tindaklanjut gap atas hasil dari pelaksanaan simulasi PIP atau ERP"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Untuk meningkatkan kesiapsiagaan kondisi darurat unit sudah melakukan pengembangan terkait pelaksanaan tanggap darurat dalam program kerja K3 (Program kerja pengembangan untuk peningkatan kesiap-siagaan kondisi darurat (benchmark, pelatihan bersama perusahaan lain, dsb))"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Investigasi nearmiss dan kecelakaan kerja",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit sudah melakukan penyusunan prosedur pelaporan dan investigasi nearmiss dan kecelakaan kerja serta sudah disahkan dan disosialisasikan ke seluruh pekerja"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit sudah melaksanakan investigasi nearmiss dan kecelakaan kerja oleh tim melalui data kronologi, observasi, interview dan data data pendukung (Man, Metodhe, Machine, Material, Money)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit sudah melakukan penyusunan laporan hasil investigasi kejadian nearmiss dan kecelakaan kerja yang dilengkapi dengan evaluasi penyebab dan rekomendasi tindaklanjut"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit sudah melakukan kontrol evaluasi dan tindak lanjut hasil investigasi atas terjadinya nearmiss dan kecelakaan kerja"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit sudah melakukan invetigasi pada setiap kejadian nearmiss dan kecelakaan kerja dengan tool analisis Best Practice (misal Swiss Cheese Analysis)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Kepatuhan Terhadap Regulasi",
+                "sub_areas": [
+                    {
+                        "name": "Komitmen, Kebijakan, Pemetaan Regulasi",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah membuat pemetaan regulasi acuan K3 serta pemenuhan aturan regulasi K3 (dilengkapi dengan Daftar acuan peraturan perundangan (FMZ 8-1-3-1), Daftar Periksa Evaluasi Kepatuhan (POKU), serta dokumen regulasi terkait)."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan penyusunan komitmen dan kebijakan khusus serta sosialisasi oleh Manajemen tertinggi unit keseluruh workforce dan stakeholder terkait."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Manajemen Unit telah melakukan plant walkdown dengan lingkup observasi (APD, unsafe action, unsafe condition, kelengkapan permit, dsb.) serta pelaksanaan penegakan aturan K3."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan perbaikan dan monitoring hasil tindak lanjut plant walkdown."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit melakukan review dan revisi komitmen, kebijakan, dan pemetaan regulasi acuan K3 secara berkala dan diupdate serta Pengembangan manajemen eksekusi (4DX) untuk cascading strategy penguatan K3 ke seluruh bidang kerja."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prosedur, Jadwal, dan Checklist Safety-Patrol",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki dokumen prosedur safety patrol dan checklist pengecekan serta jadwal safety patrol K3."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit melaksanakan safety patrol secara menyeluruh dan rekap temuan hasil patrol beserta status atau progres penyelesaiannya."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit melaporkan hasil temuan safety patrol sebelumnya dan hari ini beserta rencana penyelesaiannya di forum daily meeting."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit melakukan analisa statistik dan evaluasi penyebab munculnya hasil temuan safety patrol."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit melakukan pengembangan program kerja (review dan update) berdasarkan analisa dan evaluasi ketidaksesuaian."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Implementasi SMK3",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki dokumen setup SMK3 (Pemenuhan 166 Kriteria) (dilengkapi matriks dan manual SMK3 serta tim berikut tugas dan tanggung jawabnya)."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit sudah melakukan Audit Internal maupun Surveillence Audit SMK3 secara berkala dalam tahun berjalan (dilengkapi dengan sertifikat lead auditor, Audit Plan, Laporan Hasil Audit Internal maupun Surveillence, serta Dokumen Permintaan Tindakan Perbaikan dan Pencegahan (PTPP))"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit melakukan monitoring evaluasi dan progres tindak lanjut dari masing-masing PIC PTPP temuan Audit Internal maupun Surveillence Audit melalui Tinjauan Manajemen."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit sudah melaksanakan Sertifikasi SMK3 oleh Auditor Eksternal."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit mengembangkan sistem monitoring dan evaluasi Implementasi SMK3 secara berkelanjutan (misal : Pembentukan Safety Representative di masing-masing bidang, dsb)."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Program Kerja P2K3",
+                        "weight": 0.05,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit memiliki Struktur Organisasi P2K3 yang telah disahkan oleh Disnaker Kota dan dalam kondisi update (dilengkapi dengan sertifikat AK3 Umum sekretaris P2K3)."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah membuat program kerja P2K3 (Program Kerja Pembinaan K3, misal : Sosialisasi Peraturan terbaru oleh Disnaker Kota, Safety Conseling, Melibatkan anggota P2K3 untuk aktif dalam safety education dan safari safety)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit melakukan monitoring dan evaluasi program P2K3 setiap bulan dan pelaporan triwulan ke Disnaker kota (dilengkapi dengan dokumentasi rapat P2K3, Bukti serah terima laporan triwulan ke Disnaker Kota, Laporan triwulan ke Disnaker Kota, Dokumen control monitoring hasil rapat P2K3)."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah menyusun laporan aktivitas kegiatan setiap personil yang memiliki AK3 Umum sesuai Permenaker No. 4 Tahun 1987"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit melakukan evaluasi dan pengembangan program kerja P2K3 secara berkala."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "HIRARC",
+                "sub_areas": [
+                    {
+                        "name": "Jml Program Kerja berdasarkan HIRARC \/ Jml Pengendalian Risiko diluar batasan acceptance",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jml Program Kerja berdasarkan HIRARC \/ Jml Pengendalian Risiko diluar batasan acceptance sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jml Program Kerja berdasarkan HIRARC \/ Jml Pengendalian Risiko diluar batasan acceptance sebesar 21-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jml Program Kerja berdasarkan HIRARC \/ Jml Pengendalian Risiko diluar batasan acceptance sebesar 41-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jml Program Kerja berdasarkan HIRARC \/ Jml Pengendalian Risiko diluar batasan acceptance sebesar 61-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jml Program Kerja berdasarkan HIRARC \/ Jml Pengendalian Risiko diluar batasan acceptance sebesar 81-100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml Acceptance Risk\/Jml Risk",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah acceptance risk dibandingkan terhadap keseluruhan jumlah resiko yang ada sebesar 0-15%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah acceptance risk dibandingkan terhadap keseluruhan jumlah resiko yang ada sebesar 15-30%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah acceptance risk dibandingkan terhadap keseluruhan jumlah resiko yang ada sebesar 30-45%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah acceptance risk dibandingkan terhadap keseluruhan jumlah resiko yang ada sebesar 45-60%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah acceptance risk dibandingkan terhadap keseluruhan jumlah resiko yang ada sebesar 60%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pemenuhan Regulasi Peralatan",
+                "sub_areas": [
+                    {
+                        "name": "Jumlah rekomendasi peralatan dengan catatan khusus\/Jumlah total rekomendasi",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah pengendalian terhadap rekomendasi peralatan dengan catatan khusus dibanding semua rekomendasi yang ada sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pengendalian terhadap rekomendasi peralatan dengan catatan khusus dibanding semua rekomendasi yang ada sebesar 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pengendalian terhadap rekomendasi peralatan dengan catatan khusus dibanding semua rekomendasi yang ada sebesar 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pengendalian terhadap rekomendasi peralatan dengan catatan khusus dibanding semua rekomendasi yang ada sebesar 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah pengendalian terhadap rekomendasi peralatan dengan catatan khusus dibanding semua rekomendasi yang ada sebesar 80-100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan Fire Protection System",
+                "sub_areas": [
+                    {
+                        "name": "Jml FPS Siap\/Jml Aset FPS",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Perbandingan antara Jumlah FPS yang siap dengan Jumlah Aset FPS Unit kurang dari 20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Perbandingan antara Jumlah FPS yang siap dengan Jumlah Aset FPS Unit 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Perbandingan antara Jumlah FPS yang siap dengan Jumlah Aset FPS Unit 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Perbandingan antara Jumlah FPS yang siap dengan Jumlah Aset FPS Unit 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Perbandingan antara Jumlah FPS yang siap dengan Jumlah Aset FPS Unit 80-100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengendalian Work Permit",
+                "sub_areas": [
+                    {
+                        "name": "Jml Permit Khusus dlm WO \/ Jml WO yg memerlukan Permit Khusus",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah Permit Khusus dalam WO dibandingkan dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah Permit Khusus dalam WO dibandingkan dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah Permit Khusus dalam WO dibandingkan dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah Permit Khusus dalam WO dibandingkan dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah Permit Khusus dalam WO dibandingkan dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 80-100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pelaksanaan JSO atau LiveAudit \/ Jml WO yg memerlukan Permit Khusus",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah pelaksanaan JSO atau Live Audit dibanding dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pelaksanaan JSO atau Live Audit dibanding dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pelaksanaan JSO atau Live Audit dibanding dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pelaksanaan JSO atau Live Audit dibanding dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah pelaksanaan JSO atau Live Audit dibanding dengan Jumlah WO yang Memerlukan Permit Khusus sebesar 80-100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengendalian Risiko K3 Kontraktor",
+                "sub_areas": [
+                    {
+                        "name": "% SLA pemenuhan Aspek Safety Kontraktor",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melakukan penilaian Aspek Safety pada Kontraktor yang melakukan pekerjaan dengan skor 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan penilaian Aspek Safety pada Kontraktor yang melakukan pekerjaan dengan skor 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan penilaian Aspek Safety pada Kontraktor yang melakukan pekerjaan dengan skor 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan penilaian Aspek Safety pada Kontraktor yang melakukan pekerjaan dengan skor 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan penilaian Aspek Safety pada Kontraktor yang melakukan pekerjaan dengan skor 80-100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml Pelaksanaan Safety-Meeting \/ Jml Durasi Pelaksanaan OH",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah Pelaksanaan Safety Meeting Harian dibanding dengan Jumlah Durasi Pelaksanaan Overhaul sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah Pelaksanaan Safety Meeting Harian dibanding dengan Jumlah Durasi Pelaksanaan Overhaul sebesar 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah Pelaksanaan Safety Meeting Harian dibanding dengan Jumlah Durasi Pelaksanaan Overhaul sebesar 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah Pelaksanaan Safety Meeting Harian dibanding dengan Jumlah Durasi Pelaksanaan Overhaul sebesar 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah Pelaksanaan Safety Meeting Harian dibanding dengan Jumlah Durasi Pelaksanaan Overhaul sebesar 80-100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Penanganan Ketidaksiapan Peralatan Emergency",
+                "sub_areas": [
+                    {
+                        "name": "Jml Impairment permit \/ Jml sistem FPS yang abnormal",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah Dokumen Impairement Permit yang telah dibuat dibanding dengan Jumlah FPS yang abnormal sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah Dokumen Impairement Permit yang telah dibuat dibanding dengan Jumlah FPS yang abnormal sebesar 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah Dokumen Impairement Permit yang telah dibuat dibanding dengan Jumlah FPS yang abnormal sebesar 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah Dokumen Impairement Permit yang telah dibuat dibanding dengan Jumlah FPS yang abnormal sebesar 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah Dokumen Impairement Permit yang telah dibuat dibanding dengan Jumlah FPS yang abnormal sebesar 80-100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengendalian Penanganan Material Manual dan Mekanis",
+                "sub_areas": [
+                    {
+                        "name": "Pelaksanaan awarenes penanganan material manual dan mekanis yang telah dilakukan",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Unit telah melakukan awarenes mengenai penanganan material manual dan mekanis sebanyak 1x dalam 1 tahun dari seluruh aktivitas Penanganan Material Manual dan Mekanis yang ada di Unit"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Unit telah melakukan awarenes mengenai penanganan material manual dan mekanis sebanyak 2x dalam 1 tahun dari seluruh aktivitas Penanganan Material Manual dan Mekanis yang ada di Unit"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Unit telah melakukan awarenes mengenai penanganan material manual dan mekanis sebanyak 3x dalam 1 tahun dari seluruh aktivitas Penanganan Material Manual dan Mekanis yang ada di Unit"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Unit telah melakukan awarenes mengenai penanganan material manual dan mekanis sebanyak 4x dalam 1 tahun dari seluruh aktivitas Penanganan Material Manual dan Mekanis yang ada di Unit"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Unit telah melakukan awarenes mengenai penanganan material manual dan mekanis sebanyak 5x dalam 1 tahun dari seluruh aktivitas Penanganan Material Manual dan Mekanis yang ada di Unit"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Penguatan Kompetensi dan Budaya K3",
+                "sub_areas": [
+                    {
+                        "name": "Jml pemenuhan Sertifikasi & Kompetensi \/ Jml kebutuhan sesuai persyaratan regulasi & standard",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah pemenuhan sertifikasi & kompetensi yang sudah dilakukan dibanding dengan jumlah kebutuhan sesuai persyaratan regulasi & standar sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pemenuhan sertifikasi & kompetensi yang sudah dilakukan dibanding dengan jumlah kebutuhan sesuai persyaratan regulasi & standar sebesar 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pemenuhan sertifikasi & kompetensi yang sudah dilakukan dibanding dengan jumlah kebutuhan sesuai persyaratan regulasi & standar sebesar 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pemenuhan sertifikasi & kompetensi yang sudah dilakukan dibanding dengan jumlah kebutuhan sesuai persyaratan regulasi & standar sebesar 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah pemenuhan sertifikasi & kompetensi yang sudah dilakukan dibanding dengan jumlah kebutuhan sesuai persyaratan regulasi & standar sebesar 80-100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml penyampaian potensi hazard\/unsafe \/ target pelaporan potensi hazard\/unsafe tiap bidang",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah penyampaian potensi hazard\/ bahaya dan unsafe yang sudah terlapor dibanding dengan target pelaporan potensi hazard\/ bahaya dan unsafe pada tiap bidang sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah penyampaian potensi hazard\/ bahaya dan unsafe yang sudah terlapor dibanding dengan target pelaporan potensi hazard\/ bahaya dan unsafe pada tiap bidang sebesar 20-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah penyampaian potensi hazard\/ bahaya dan unsafe yang sudah terlapor dibanding dengan target pelaporan potensi hazard\/ bahaya dan unsafe pada tiap bidang sebesar 40-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah penyampaian potensi hazard\/ bahaya dan unsafe yang sudah terlapor dibanding dengan target pelaporan potensi hazard\/ bahaya dan unsafe pada tiap bidang sebesar 60-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah penyampaian potensi hazard\/ bahaya dan unsafe yang sudah terlapor dibanding dengan target pelaporan potensi hazard\/ bahaya dan unsafe pada tiap bidang sebesar 80-100%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pengelolaan Penangangan Kondisi Darurat",
+                "sub_areas": [
+                    {
+                        "name": "Jml Dokumen PIP\/ERP \/ Jml Risiko proses dlm HIRARC",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah dokumen PIP\/ERP yang telah diterbitkan dibanding dengan jumlah risiko proses dalam HIRARC sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah dokumen PIP\/ERP yang telah diterbitkan dibanding dengan jumlah risiko proses dalam HIRARC sebesar 21-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah dokumen PIP\/ERP yang telah diterbitkan dibanding dengan jumlah risiko proses dalam HIRARC sebesar 41-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah dokumen PIP\/ERP yang telah diterbitkan dibanding dengan jumlah risiko proses dalam HIRARC sebesar 61-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah dokumen PIP\/ERP yang telah diterbitkan dibanding dengan jumlah risiko proses dalam HIRARC sebesar 81-100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml Pelaksanaan Simulasi \/ Jml PIP\/ERP",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah pelaksanaan simulasi dibanding dengan jumlah dokumen PIP \/ ERP yang sudah dibuat sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pelaksanaan simulasi dibanding dengan jumlah dokumen PIP \/ ERP yang sudah dibuat sebesar 21-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pelaksanaan simulasi dibanding dengan jumlah dokumen PIP \/ ERP yang sudah dibuat sebesar 41-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pelaksanaan simulasi dibanding dengan jumlah dokumen PIP \/ ERP yang sudah dibuat sebesar 61-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah pelaksanaan simulasi dibanding dengan jumlah dokumen PIP \/ ERP yang sudah dibuat sebesar 81-100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml simulasi pertahun",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah pelaksanaan simulasi skenario PIP \/ ERP sebesar 1 kali dalam setahun"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pelaksanaan simulasi skenario PIP \/ ERP sebesar 2 kali dalam setahun"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pelaksanaan simulasi skenario PIP \/ ERP sebesar 3 kali dalam setahun"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pelaksanaan simulasi skenario PIP \/ ERP sebesar 4 kali dalam setahun"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah pelaksanaan simulasi skenario PIP \/ ERP sebesar > 4 kali dalam setahun"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "% Tindaklanjut Hasil Evaluasi Simulasi \/ Jml temuan saat Simulasi",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah perbandingan antara tindaklanjut hasil evaluasi simulasi dengan jumlah temuan saat simulasi sebesar 0-20%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah perbandingan antara tindaklanjut hasil evaluasi simulasi dengan jumlah temuan saat simulasi sebesar 21-40%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah perbandingan antara tindaklanjut hasil evaluasi simulasi dengan jumlah temuan saat simulasi sebesar 41-60%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah perbandingan antara tindaklanjut hasil evaluasi simulasi dengan jumlah temuan saat simulasi sebesar 61-80%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah perbandingan antara tindaklanjut hasil evaluasi simulasi dengan jumlah temuan saat simulasi sebesar 81-100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jumlah laporan investigasi\/insiden yang terjadi",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah laporan hasil investigasi dibanding dengan jumlah insiden yang terjadi sebesar < 60%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah laporan hasil investigasi dibanding dengan jumlah insiden yang terjadi sebesar 61% s\/d 70 %"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah laporan hasil investigasi dibanding dengan jumlah insiden yang terjadi sebesar 71 % s\/d 85 %"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah laporan hasil investigasi dibanding dengan jumlah insiden yang terjadi sebesar 86 % s\/d 95 %"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah laporan hasil investigasi dibanding dengan jumlah insiden yang terjadi sebesar 96 % s\/d 100 %"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "%tindaklanjut rekomendasi hasil investigasi",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Prosentase tindak lanjut berdasarkan rekomendasi hasil invetigasi yang telah dilakukan sebesar < 50 %"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Prosentase tindak lanjut berdasarkan rekomendasi hasil invetigasi yang telah dilakukan sebesar 51 % s\/d 70 %"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Prosentase tindak lanjut berdasarkan rekomendasi hasil invetigasi yang telah dilakukan sebesar 71 % s\/d 85 %"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Prosentase tindak lanjut berdasarkan rekomendasi hasil invetigasi yang telah dilakukan sebesar 86 % s\/d 95 %"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Prosentase tindak lanjut berdasarkan rekomendasi hasil invetigasi yang telah dilakukan sebesar 96 % s\/d 100 %"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Kepatuhan Terhadap Regulasi",
+                "sub_areas": [
+                    {
+                        "name": "Jml Kebijakan Aturan K3 khusus",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah Kebijakan Aturan Khusus yang telah dibuat oleh unit sebanyak 1"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah Kebijakan Aturan Khusus yang telah dibuat oleh unit sebanyak 2-3"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah Kebijakan Aturan Khusus yang telah dibuat oleh unit sebanyak 4-6"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah Kebijakan Aturan Khusus yang telah dibuat oleh unit sebanyak 7-10"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah Kebijakan Aturan Khusus yang telah dibuat oleh unit sebanyak lebih dari 10"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml Penegakan Kebijakan Aturan \/ Jml Pelanggaran",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah penegakkan kebijakan aturan dibanding jumlah pelanggaran mencapai <50%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah penegakkan kebijakan aturan dibanding jumlah pelanggaran mencapai 50-85%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah penegakkan kebijakan aturan dibanding jumlah pelanggaran mencapai 86-90%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah penegakkan kebijakan aturan dibanding jumlah pelanggaran mencapai 90-95%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah penegakkan kebijakan aturan dibanding jumlah pelanggaran mencapai 95-100%."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jumlah pelaksanaan plant walkdown oleh Manajemen Tertinggi unit",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah pelaksanaan plant walkdown oleh Manajemen Tertinggi Unit sebanyak <3x dalam 1 semester."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pelaksanaan plant walkdown oleh Manajemen Tertinggi Unit sebanyak 3-4X dalam 1 semester."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pelaksanaan plant walkdown oleh Manajemen Tertinggi Unit sebanyak 5-6X dalam 1 semester."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pelaksanaan plant walkdown oleh Manajemen Tertinggi Unit sebanyak 7-8X dalam 1 semester."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah pelaksanaan plant walkdown oleh Manajemen Tertinggi Unit sebanyak >8X dalam 1 semester."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml realisasi Pelaksanaan Safety Patrol \/ Jml Jadwal pelaksanaan",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah realisasi pelaksanaan safety patrol dibanding jadwal safety patrol sebanyak <50%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah realisasi pelaksanaan safety patrol dibanding jadwal safety patrol sebanyak 50-85%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah realisasi pelaksanaan safety patrol dibanding jadwal safety patrol sebanyak 86-90%."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah realisasi pelaksanaan safety patrol dibanding jadwal safety patrol sebanyak 90-95%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah realisasi pelaksanaan safety patrol dibanding jadwal safety patrol sebanyak 95-100%."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml TPP closed \/ Jml TPP rekomendasi Safety-Patrol",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah TPP closed dibanding jumlah TPP rekomendasi Safety Patrol sebanyak <50%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah TPP closed dibanding jumlah TPP rekomendasi Safety Patrol sebanyak 50-85%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah TPP closed dibanding jumlah TPP rekomendasi Safety Patrol sebanyak 86-90%."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah TPP closed dibanding jumlah TPP rekomendasi Safety Patrol sebanyak 90-95%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah TPP closed dibanding jumlah TPP rekomendasi Safety Patrol sebanyak 95-100%."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "%Pemenuhan kriteria SMK3",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Pemenuhan 166 kriteria SMK3 mencapai <50%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Pemenuhan 166 kriteria SMK3 mencapai 50-85%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pemenuhan 166 kriteria SMK3 mencapai 85-90%."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Pemenuhan 166 kriteria SMK3 mencapai 90-95%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Pemenuhan 166 kriteria SMK3 mencapai 95-100%."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml Realisasi Program Kerja P2K3 \/ Program Kerja P2K3",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah realisasi program kerja P2K3 dibanding program kerja P2K3 mencapai <50%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah realisasi program kerja P2K3 dibanding program kerja P2K3 mencapai >50-60%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah realisasi program kerja P2K3 dibanding program kerja P2K3 mencapai >60-75%."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah realisasi program kerja P2K3 dibanding program kerja P2K3 mencapai >75-90%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah realisasi program kerja P2K3 dibanding program kerja P2K3 mencapai >90-100%."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml Pelaksanaan Patrol P2K3 \/ Jml Jadwal Patrol P2K3",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah pelaksanaan patrol P2K3 dibanding jumlah jadwal yang dibuat mencapai <50%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah pelaksanaan patrol P2K3 dibanding jumlah jadwal yang dibuat mencapai >50-60%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah pelaksanaan patrol P2K3 dibanding jumlah jadwal yang dibuat mencapai >60-75%."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah pelaksanaan patrol P2K3 dibanding jumlah jadwal yang dibuat mencapai >75-90%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah pelaksanaan patrol P2K3 dibanding jumlah jadwal yang dibuat mencapai >90-100%."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Jml TPP ditindaklanjuti \/ Jml TPP Rekomendasi hasil Patrol P2K3",
+                        "weight": 0.04,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (Melakukan tindakan setelah ada kejadian)",
+                                "description": "Jumlah TPP ditindaklanjuti dibanding jumlah TPP Rekomendasi hasil Patrol P2K3 mencapai <50%."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Jumlah TPP ditindaklanjuti dibanding jumlah TPP Rekomendasi hasil Patrol P2K3 mencapai >50-60%."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Jumlah TPP ditindaklanjuti dibanding jumlah TPP Rekomendasi hasil Patrol P2K3 mencapai >60-75%."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Jumlah TPP ditindaklanjuti dibanding jumlah TPP Rekomendasi hasil Patrol P2K3 mencapai >75-90%."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Jumlah TPP ditindaklanjuti dibanding jumlah TPP Rekomendasi hasil Patrol P2K3 mencapai >90-100%."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

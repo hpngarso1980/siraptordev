@@ -1,0 +1,664 @@
+[
+    {
+        "name": "Maturity Level",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "INFORMATION CAPITAL READINESS (ICR)",
+                "sub_areas": [
+                    {
+                        "name": "Jenis Kabel\/media untuk user\/client",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Kesesuaian media yang digunakan untuk menghubungkan koneksi antar gedung maupun yang digunakan oleh user berdasarkan standar jarak dan peruntukan penggunaan di dalam jaringan lokal untuk mendukung penggunaan SIT Maksud : Media transmisi bersama dengan topologi menentukan kecepatan, efisiensi saluran, tipe data yang boleh disalurkan dan juga aplikasi yang dapat didukung oleh jaringan. Evident : 1. Foto Kabel UTP 2. Optical Termination Box FO(OTB) 3. Foto Access Point 4. Foto Wall Mount Rack 5. Foto SMB 6. Foto Patch Panel\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Koneksi secara keseluruhan hanya menggunakan kabel UTP. Dibuktikan dengan kondisi: Kabel UTP dan SMB (min. 1 Titik)"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Koneksi sudah mengunakan campuran media, namun kesesuaian peruntukan masih < 60%. Dibuktikan dengan kondisi: Akses point (min. 1 titik)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Koneksi sudah mengunakan campuran media, namun kesesuaian peruntukan masih < 80%. Dibuktikan dengan kondisi: Termination box FO (OTB)."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Koneksi sudah mengunakan campuran media, kesesuaian peruntukan sudah 100%, namun interkoneksi belum terintegrasi\/terpusat. Dibuktikan dengan kondisi: Wallmount rack (min. 1 titik)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Koneksi sudah menggunakan campuran media, kesesuaian peruntukan sudah 100%, dan interkoneksi sudah terintegrasi\/terpusat. Dibuktikan dengan kondisi: Patch panel (min. 1 titik)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cakupan & Topologi LAN",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Seberapa lengkap informasi topologi LAN Maksud : Untuk mempercepat proses troubleshooting, pengembangan LAN dan transfer knowledge. Evident : 1. Denah Cakupan LAN 2. Diagram topologi LAN, diagram line dari koneksi utama dilengkapi dengan informasi lokasi perangkat,hostname & IP Address\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "tidak memiliki dokumen formal cakupan & diagram topologi LAN."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "memiliki dokumen formal cakupan & diagram topologi LAN namun hanya menunjukan diagram line dari koneksi utama."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "memiliki dokumen formal cakupan & diagram topologi LAN, diagram line dari koneksi utama dan dilengkapi dengan informasi lokasi perangkat."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "memiliki dokumen formal cakupan & diagram topologi LAN, diagram line dari koneksi utama dilengkapi dengan informasi lokasi perangkat dan informasi lain yang berhubungan dengan protokol jaringan (misalnya IP Address dan\/atau MAC Address perangkat)."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "memiliki dokumen formal cakupan & diagram topologi LAN yang terintegrasi dengan data manajemen PC sehingga mempermudah troubleshooting."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Informasi PC User dan Server",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Seberapa lengkap informasi mengenai PC user Maksud : Untuk mempercepat proses troubleshooting & informasi aset IT Evident : 1. Kelengkapan Informasi PC User meliputi : nama PC,lokasi,IP dan Mac Address,Nomor Port SMB dan Nomor Switch. Kelengkapan Informasi Server meliputi : Alamat Url Aplikasi, lokasi, IP dan MAC Address, Nomor Port SMB dan Nomor Switch 2. Foto labeling SMB (3 titik) 3. Foto labeling Switch (3 titik)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "tidak memiliki Informasi atau informasi tidak lengkap, mengenai PC user dan Server."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Memiliki Informasi PC User dan Server yang tercatat manual."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Informasi PC User dan Server tercatat pada database namun tidak terupdate."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Informasi PC User dan Server tercatat pada database dan update."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Informasi PC User dan Server tercatat pada database ,update dan dapat diakses secara online (URL,Login & Password)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Rack System",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Seberapa banyak server dan network hardware dimasukkan ke dalam rack system Maksud : Untuk memenuhi strandard datacenter,kemudahan koneksi,kerapihan & efisiensi tempat Evident : Foto seluruh Rak didalam ruang Server (2 Foto)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "tidak memiliki rack system"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "memiliki rack system tapi belum mencakup seluruh server dan network hardware (cakupan 30%)."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "memiliki rack system tapi belum mencakup seluruh server dan network hardware (cakupan 60%)."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "memiliki rack system tapi belum mencakup seluruh server dan network hardware (cakupan 90%)."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "memiliki rack system yang standar untuk seluruh server dan network hardware."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "UPS",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Sentralisasi dan Runtime Maksud : Untuk menjaga keamanan data & hardware dari gangguan power supply Evident : 1. Foto UPS 2. Dokumen kapasitas dan Runtime UPS 3. Dokumen Pemeliharaan UPS dan Testing UPS\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "memiliki UPS tapi belum tersentralisasi dengan runtime kurang dari 15 menit."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "memiliki UPS tapi belum tersentralisasi dengan runtime kurang dari 45 menit."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "memiliki UPS tapi belum tersentralisasi dengan runtime kurang dari 60 menit."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "memiliki UPS tersentralisasi dengan runtime minimal 60 menit dan memiliki dokumen testing UPS."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Level 4 terpenuhi dan memiliki dokumen pemeliharaan UPS."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cooling System",
+                        "weight": 0.06,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "memiliki pendingin hanya berupa fan pada rak server."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "memiliki sistem pendingin berupa AC yang belum dipantau sesuai dengan standar ruang server."
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "memiliki sistem pendingin berupa AC yang sudah dipantau sesuai dengan standar ruang server. Dibuktikan dengan kondisi: 1. AC 2. Dokumen pemantauan temperatur dan kelembaban ruang server selama 1 semester"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "memiliki sistem pendingin berupa precision cooling system yang sudah dipantau (dibuktikan dengan dokumen pengukuran selama 1 semester) sesuai dengan standar ruang server."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "memiliki Precision Cooling System yang standar dan sesuai kebutuhan data center serta memiliki dokumen pemeliharaan precision cooling system."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Access Control",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Pemenuhan standard access control, pemantauan dan dokumentasinya Maksud : Meningkatkan keamanan fisik ruang server Evident : 1. Foto perangkat access control, atau kunci (1 Foto) 2. Dokumen pemantauan aktivitas keluar masuk ruang server\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "tidak memiliki access control, aktivitas keluar masuk ruang server tidak dicatat."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "tidak memiliki access control, aktivitas keluar masuk ruang server dicatat manual"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "memiliki access control sederhana (kunci ruangan misalnya) namun belum dapat dipantau dan terdokumentasi aktivitas keluar masuk ruang server."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "memiliki access control sederhana (kunci ruangan misalnya) yang dapat dipantau dan terdokumentasi aktivitas keluar masuk ruang server. Dibuktikan dengan kondisi: 1. Access control sederhana 2. Dokumen aktifitas keluar masuk ruang server"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "memiliki access control modern (access card misalnya) yang dapat terpantau dan terdokumentasi aktivitas keluar masuk ruang server. Dibuktikan dengan: 1. Access control modern 2. Dokumen aktifitas keluar masuk ruang server"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pemadam Kebakaran",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Pemenuhan standard sistem pemadam kebakaran dan terintegrasi dengan sistem K3 Maksud : Meminimalkan resiko kerusakan data dan hardware akibat kebakaran Evident : 1. Foto perangkat pemadam kebakaran (1 Foto) 2. Foto sensor dan panel sistem (jika ada) (1 Foto) 3. Dokumen Pemeliharaan Sistem Pemadam\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "sudah memiliki pemadam kebakaran namun menggunakan pemadam kebakaran gedung (air). Dibuktikan dengan: Sprinkle pemadam Air"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "sudah memiliki pemadam kebakaran independent namun belum standar yang diperuntukkan untuk peralatan elektronik. Dibuktikan dengan: Pemadam kebakaran independent (misal Apar)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "sudah memiliki pemadam kebakaran independent yang sudah sesuai peruntukkan untuk peralatan elektronik."
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "sudah memiliki pemadam kebakaran independent yang tersistem (memiliki sensor dan panel sistem)."
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "sudah memiliki pemadam kebakaran independent yang tersistem (memiliki sensor dan panel sistem) dan sesuai peruntukkan untuk peralatan elektronik serta terintegrasi dengan sistem LK3, serta memiliki dokumen pemeliharaan sistem pemadam."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Security Monitoring",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Pemenuhan standard pemantauan ruang server,cakupannya dan integrasinya dengan sistem keamanan gedung Maksud : Meningkatkan keamanan fisik ruang server beserta gedung Evident : 1. Foto cakupan area CCTV (2 Foto) 2. Foto penempatan kamera (2 Foto)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "belum memiliki sistem monitoring"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "memiliki system monitoring ruang server namun secara manual (pendampingan dan access control)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "memiliki system monitoring ruang server menggunakan sistem CCTV yang meliputi <80% area ruang server"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "memiliki prosedur system monitoring ruang server menggunakan sistem CCTV yang meliputi seluruh area ruang server"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "memiliki system monitoring ruang server menggunakan sistem CCTV yang meliputi seluruh area ruang server serta terintegrasi dengan sistem keamanan gedung"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Raised Floor dan cable management",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Pemenuhan Standard Raised Floor dan Management Cable Maksud : Memenuhi standard datacenter, menjaga keamanan manusia dari bahaya sengatan listrik,kerapihan ruang server,menghindari interferensi data dari kabel power Evident : 1. Foto Permukaan dan ketinggian Raised Floor (TIA 942) (1 Foto) 2. Foto pemisahan kabel data dan kabel power (1 Foto)\n",
+                        "criteria": [
+                            {
+                                "score": "\u2264\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "belum menggunakan raised floor"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "sudah menggunakan raised floor namun belum standar (ketinggian, clearance dengan ceiling maupun ukuran)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "sudah menggunakan raised floor standar (ada informasi ketinggian) namun belum ada pemisahan antara kabel data maupun kabel power (interference issue)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "sudah menggunakan raised floor standar (ada informasi ketinggian) dan pemisahaan kabel data dengan kabel power"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "sudah menggunakan raised floor standar dan pemisahaan kabel data dengan kabel power serta siap untuk diintegrasikan dengan precision cooling systems. Dibuktikan dengan kondisi: adanya perforated panel\/panel berlubang"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Authentikasi User",
+                        "weight": 0.06,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "belum menerapkan authentikasi user"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "sudah menerapkan penggunaan windows login (dilengkapi penjelasan proses authentikasi)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "sudah menerapkan penggunaan domain controler (dilengkapi penjelasan proses authentikasi)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "sudah menerapkan port based authentikasi (dilengkapi penjelasan proses authentikasi)"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "sudah menerapkan Network Access Control (NAC) (dilengkapi penjelasan proses authentikasi)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pengamanan Akses Wifi",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Upaya pengamanan jaringan WIFI terhadap kegiatan atau aktivitas untuk mendapatkan informasi tentang suatu jaringan wifi dan mendapatkan akses terhadap jaringan wireless tersebut. Maksud : Meningkatkan keamanan dari penyadapan informasi Evident : Screenshot konfigurasi access point (1 File)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "belum menerapkan pengamanan akses Wifi"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "sudah menerapkan pembatasan jangkauan Wifi"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "sudah menerapkan penggunaan enkripsi WEP"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "sudah menerapkan penggunaan enkripsi WPA"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "sudah menerapkan penggunaan enkripsi WPA2-Enterprise"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Server Antivirus, Firewall dan IPS",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Upaya pengamanan Komputer dan LAN terhadap serangan virus,hacker,pelaku spionase,pencuri data,monitoring traffic jaringan dan mendeteksi aktivitas yang mencurigakan pada jaringan Maksud : Meningkatkan keamanan akses informasi dan mencegah kerusakan data Evident : 1. Screenshot konfigurasi antivirus dan firewall sisi user (1 File) 2. Screenshoot konfigurasi firewall server farm dan IPS(jika ada) (1 File)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "komputer dalam LAN belum dilindungi dengan antivirus"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "komputer dalam LAN hanya dilindungi dengan firewall lokal windows"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "komputer dalam LAN sudah dilindungi firewall lokal windows dan antivirus"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "komputer dalam LAN sudah dilindungi firewall lokal windows dan antivirus, serta server farm sudah dibatasi dengan firewall server farm"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "komputer dalam LAN sudah dilindungi firewall lokal windows dan antivirus, serta server farm sudah dibatasi dengan firewall server farm serta intrusion prevention system (IPS)"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tools Monitoring",
+                        "weight": 0.06,
+                        "description": "Deskripsi : tools untuk menganalisis, debugging, pemeliharaan dan pemantauan jaringan lokal dan koneksi internet Maksud : Memantau infastruktur agar dapat mengetahui dengan segera bila terjadi gangguan Evident : Alamat Aplikasi Monitoring (termasuk user dan password read only) dan Dokumen Laporan (report bulanan belum ada)\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Tersedia Tool Monitoring namun tidak digunakan"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Tersedia Tool Monitoring namun tidak optimal digunakan (Data yang dihasilkan dari tools tsb kurang dari 6 bulan terakhir)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tersedia Tool Monitoring dan sudah digunakan (Data yang dihasilkan dari tools tsb tersedia hingga 6 bulan terakhir)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 dipenuhi dan Report Tool Monitoring terdokumentasi dengan baik setiap bulan, selama 6 bulan terakhir"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Level 4 dipenuhi dan Kejadian gangguan pada LAN dan WAN terdokumentasi dengan baik beserta penyebabnya selama 6 bulan terakhir"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tools TroubleShooting",
+                        "weight": 0.06,
+                        "description": "Deskripsi : Tools untuk mengidentifikasi masalah jaringan\/user, mengumpulkan data tentang masalah jaringan\/user, menganalisis data untuk mencari solusi masalah dan mengimplementasi solusi untuk memperbaiki sistem Maksud : Menindaklanjuti dengan segera apabila terjadi gangguan pada infrastruktur Evident : Alamat Aplikasi Troubleshooting (termasuk user dan password read only) dan Dokumen Laporan\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Tersedia Tool Troubleshooting namun tidak digunakan atau Tidak Ada Tools Troubleshooting ,sehingga tidak ada data yang dihasilkan dari tools tsb."
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Tersedia Tool Troubleshooting namun tidak optimal digunakan (Data yang dihasilkan dari tools tsb kurang dari 6 bulan terakhir)"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Tersedia Tool Troubleshooting dan sudah digunakan (Data yang dihasilkan dari tools tsb tersedia hingga 6 bulan terakhir)"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 dipenuhi dan Report terdokumentasi dengan baik setiap bulan, selama 6 bulan terakhir"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Level 4 dipenuhi dan Kejadian gangguan pada LAN dan WAN terdokumentasi dengan baik beserta penyebabnya setiap bulan, selama 6 bulan terakhir. Dilengkapi dengan dokumen catatan penyelesaian kejadian gangguan pada LAN"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ketersediaan LAN dalam satu semester",
+                        "weight": 0.06,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Availability LAN 0% \u2264 X <85%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Availability LAN 85% \u2264 X <90%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Availability LAN 90% \u2264 X <95%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Availability LAN 95% \u2264 X <99%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Availability LAN X \u2265 99%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Training dan SK Key User",
+                        "weight": 0.06,
+                        "description": "",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Ada SK Key User"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Ada SK Key User Terupdate Ada usulan rencana refresh training dari masing-masing key user"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Level 2 terpenuhi dan Rekap Usulan dan Realisasi refresh training"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Level 3 terpenuhi, ada Daftar Presensi masing-masing realisasi refresh training, dan minimal 3 Rencana serta 3 realisasi Refresh training sesuai Rencana"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement )",
+                                "description": "Level 4 terpenuhi dan minimal 4 Rencana dan 4 Realisasi Refresh Training sesuai Rencananya. Dilengkapi daftar presensi masing-masing realisasi refresh training"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Key Performance Indicator",
+        "weight": 0.5,
+        "areas": [
+            {
+                "name": "INFORMATION CAPITAL READINESS (ICR)",
+                "sub_areas": [
+                    {
+                        "name": "Pencapaian SLA TTO",
+                        "weight": 0.33,
+                        "description": "Deskripsi : Mengukur TTO Maksud : Sebagai bahan evaluasi kualitas layanan admin helpdesk guna mempercepat penyelesaian gangguan Evident : Pencapaian SLA TTO dari Screen Capture Dashboard ITOP\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "SLATTO <= 40%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "SLA TTO 41% s\/d 60%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "SLA TTO 61% s\/d 80%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "SLA TTO 81% s\/d 90%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "SLA TTO 91% s\/d 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pencapaian SLA TTR",
+                        "weight": 0.33,
+                        "description": "Deskripsi : Mengukur TTR Maksud : Sebagai bahan evaluasi kualitas layanan agent helpdesk guna mempercepat penyelesaian gangguan Evident : Pencapaian SLA TTR dari Screen Capture Dashboard ITOP\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "SLATTR <= 40%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "SLA TTR 41% s\/d 60%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "SLA TTR 61% s\/d 80%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "SLA TTR 81% s\/d 90%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "SLA TTR 91% s\/d 100%"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Penyelesaian Permasalahan User sesuai Tiket Helpdesk User",
+                        "weight": 0.33,
+                        "description": "Deskripsi : Perbandingan jumlah tiket helpdesk yang terselesaikan dibandingkan dengan total jumlah tiket helpdesk yang dikirimkan user Maksud : Sebagai bahan evaluasi kuantitas dan kualitas penyelesaian gangguan Evident : Pencapaian RATIO Tiket Closed dari Screen Capture Dashboard ITOP\n",
+                        "criteria": [
+                            {
+                                "score": "\u22641",
+                                "level": "Fire Fighting (melakukan tindakan setelah ada kejadian)",
+                                "description": "Pencapaian ratio tiket closed <= 40%"
+                            },
+                            {
+                                "score": "1<x\u22642",
+                                "level": "Stabilizing (Bertindak sebatas merespon kejadian)",
+                                "description": "Pencapaian ratio tiket closed antara 41% s\/d 60%"
+                            },
+                            {
+                                "score": "2<x\u22643",
+                                "level": "Preventing (Ada usaha untuk melakukan pencegahan)",
+                                "description": "Pencapaian ratio tiket closed antara 61% s\/d 80%"
+                            },
+                            {
+                                "score": "3<x\u22644",
+                                "level": "Optimizing (Adanya usaha optimasi sumberdaya & improvement)",
+                                "description": "Pencapaian ratio tiket closed antara 81% s\/d 90%"
+                            },
+                            {
+                                "score": "4<x\u22645",
+                                "level": "Excellence (Mencapai keunggulan optimasi sumberdaya & continuous improvement)",
+                                "description": "Pencapaian ratio tiket closed antara 91% s\/d 100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
